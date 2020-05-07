@@ -8,45 +8,51 @@
 - Foil order: Glossy,Basic,Prismatic
 
 #### Primary Archetype:
-- Dragon or Kaiju boss monster
+- Dragon or Behemoth boss monster
 - No Limited cards
 - No Female cards
 
 #### Secondary Archetype:
-- Female or Kaiju boss monster
+- Dragon or Behemoth boss monster
 - No Limited cards
+- No Female cards
+- Experimental usage
 
 #### Tertiary Archetype:
-- Not Dragon, Female, or Kaiju boss monster
+- Female or Other boss monster
 - Limited cards only in archetype member
+- Experimental usage
 
 ------------------------------------
 
 #### Primary Character:
 - Kaiba DSOD [Blue-Eyes]
 - Joey DSOD [Red-Eyes]
+- Mokuba DSOD [Subterror]
 
 #### Primary Skill:
 - Alternative Evolution [Kaiba DSOD]
 - Reinforcements [Joey DSOD]
+- [Mokuba DSOD]
 
 ------------------------------------
 
 #### Primary Deck:
 - Blue-Eyes_Synchro [Kaiba DM]
 - Red-Eyes_Fusion [Joey DM]
-- Subterror_Flip [Yugi DM]
+- Subterror_Flip [Atem DM]
 
 #### Secondary Deck:
-- Thunder Dragons [Kaiba DM]
-- Lunalight[Mai DM]
-- Melodious [Mai DM]
-- Metaphys [Yugi DM]
-- Aromage [Tea DM]
+- Thunder-Dragons [Kaiba DM]
+- Metaphys [Joey DM]
 
 #### Tertiary Deck:
-- Quintet Magician-Girl [Tea DM]
-- Quintet Gravekeeper [Yugi DM]
+- Melodious [Mai DM]
+- Lunalight[Mai DM]
+- Aromage [Tea DM]
+- Quintet-Magician-Girl [Tea DM]
+- Quintet-Gravekeeper [Muto DM]
+- Invoked-Elemental [Atem DM]
 
 ------------------------------------
 
@@ -59,14 +65,15 @@
 ------------------------------------
 
 #### Duel Mat:
-- Primary : Next-Gen Duel Disk
-- Secondary : DM Girl [Sexy]
-- Tertiary : DM Girl [Sexy]
+- Primary: Next-Gen Duel Disk
+- Secondary:Next-Gen Duel Disk
+- Tertiary: DM Girl [Sexy]
 
 #### Card Sleeve:
-- Primary : Next-Gen Duel Disk
-- Secondary : DM Girl [Sexy]
-- Tertiary : DM Girl [DSOD]
+- Primary: Next-Gen Duel Disk
+- Secondary: Default Duel Monster
+- Tertiary Female: DM Girl [Sexy]
+- Tertiary Other: DM Girl [DSOD]
 
 #### Temporary Deck:
 - Duel Mat: Default Blank
@@ -75,23 +82,22 @@
 ------------------------------------
 
 #### Archetype Target:
-- Thunder Dragons
+- Malefic Dragons
 
 #### Card Target:
-- Thunder Dragon
-- Thunder DragonHawk
-- Thunder DragonDuo
+- Nekroz Kaleidoscope
+- Dark Magician Girl Dragon Knight
 
 #### Dream Ticket Target:
 - UR -> 
-- SR -> Soprano Songstress
-- Skill -> Red-Eyes Fusion
+- SR -> 
+- Skill ->
 
 #### Opened Box:
 | Number | Main | Mini |
 |:------:|:----:|:----:|
 | 26 | &check; | &check; |
-| 25 | | &check; |
+| 25 | &check; | &check; |
 | 23 | &check; | |
 | 21 | &check; | |
 | 20 | &check; | &check; |

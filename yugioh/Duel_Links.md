@@ -3,64 +3,55 @@
 #### Deck Guidelines:
 - Main deck contains 20 cards
 - No awful No-Cost Staple cards
+- Not a Ritual-Summon archetype
 - Use 2-3 card copies in Main-Deck
 - Use 1-2 card copies in Extra-Deck
 - Foil order: Glossy,Basic,Prismatic
 
 #### Primary Archetype:
-- Dragon or Behemoth boss monster
+- Dragon boss monster
 - No Limited cards
 - No Female cards
 
 #### Secondary Archetype:
-- Dragon or Behemoth boss monster
-- No Limited cards
+- Dragon or Titan boss monster
+- Limited cards only in archetype member
 - No Female cards
-- Experimental usage
 
 #### Tertiary Archetype:
-- Female or Other boss monster
+- Titan or Female boss monster
 - Limited cards only in archetype member
-- Experimental usage
+
+#### Modified Archetype:
+- Based on one of Primary Deck
+- Deck Name: (Base-Deck)_(Modification)
 
 ------------------------------------
 
 #### Primary Character:
 - Kaiba DSOD [Blue-Eyes]
 - Joey DSOD [Red-Eyes]
-- Mokuba DSOD [Subterror]
 
 #### Primary Skill:
-- Alternative Evolution [Kaiba DSOD]
+- Alternative Evolution [Seto DSOD]
 - Reinforcements [Joey DSOD]
-- [Mokuba DSOD]
 
 ------------------------------------
 
-#### Primary Deck:
-- Blue-Eyes_Synchro [Kaiba DM]
-- Red-Eyes_Fusion [Joey DM]
-- Subterror_Flip [Atem DM]
+#### Primary Deck Save:
+- Blue-Eyes_Synchro [Seto DSOD]
+- Red-Eyes_Fusion [Joey DSOD]
 
-#### Secondary Deck:
-- Thunder-Dragons [Kaiba DM]
-- Metaphys [Joey DM]
+#### Secondary Deck Save:
+- Dragon-Girl [Yugi DSOD]
+- Subterror [Seto DSOD]
+- Metaphys [Joey DSOD]
 
-#### Tertiary Deck:
-- Melodious [Mai DM]
-- Lunalight[Mai DM]
-- Aromage [Tea DM]
-- Quintet-Magician-Girl [Tea DM]
-- Quintet-Gravekeeper [Muto DM]
-- Invoked-Elemental [Atem DM]
-
-------------------------------------
-
-#### Modified Archetype:
-- Based on one of Primary Deck
-- Deck Name: (Base-Deck)_(Modification)
-
-#### Modified Deck:
+#### Tertiary Deck Save:
+- Aromage [Mai DM]
+- Lunalight[Mokuba DSOD]
+- Magician-Girl [Yugi DSOD]
+- Thunder-Dragons [Mokuba DSOD]
 
 ------------------------------------
 
@@ -71,25 +62,33 @@
 
 #### Card Sleeve:
 - Primary: Next-Gen Duel Disk
-- Secondary: Default Duel Monster
+- Secondary: DM Girl [DSOD]
+- Tertiary Titan: DM Girl [DSOD]
 - Tertiary Female: DM Girl [Sexy]
-- Tertiary Other: DM Girl [DSOD]
 
-#### Temporary Deck:
+#### Temporary/Modified Deck:
 - Duel Mat: Default Blank
 - Card Sleeve: Default Duel Monster
 
 ------------------------------------
 
+#### Character Target:
+- Yugi DSOD
+- Jesse GX
+- Zane GX
+
 #### Archetype Target:
-- Malefic Dragons
+- Cyber Dragon
+- Superheavy Samurai
+- Cystron
 
 #### Card Target:
-- Nekroz Kaleidoscope
+- Humid Winds
+- Red-Eyes Fang w Chain
 - Dark Magician Girl Dragon Knight
 
 #### Dream Ticket Target:
-- UR -> 
+- UR -> Maiden Eyes of Blue
 - SR -> 
 - Skill ->
 
@@ -108,8 +107,8 @@
 | 11 | &check; | |
 
 #### Deck Purchasing:
-- Dragon-type boss monster
-- 2nd for non-EX
+- Dragon-type based archetype
+- 2nd buying only for non-EX
 
 #### Unused Decks:
 - Red-Eyes 3rd -> Rp. 30.000

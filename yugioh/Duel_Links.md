@@ -1,103 +1,131 @@
-<p align=center><strong>Yugioh Duel Links</strong></p>
+<div align="center">Deck Guidelines</div>
 
-#### Deck Guidelines:
-- Main deck contains 20 cards
-- No awful No-Cost Staple cards
-- Not a Ritual-Summon archetype
+#### General Guides:
+- No awful staple Trap cards
+- Main deck contain 20 cards
+- Use 2 card copies in Extra-Deck
 - Use 2-3 card copies in Main-Deck
-- Use 1-2 card copies in Extra-Deck
-- Foil order: Glossy,Basic,Prismatic
+- Foil order: Glossy, Basic, Prismatic
+- Limited cards only in archetype member
+- Not an archetype used by main protagonist
 
-#### Primary Archetype:
+#### Primary Decks:
 - Dragon boss monster
-- No Limited cards
 - No Female cards
 
-#### Secondary Archetype:
-- Dragon or Titan boss monster
-- Limited cards only in archetype member
-- No Female cards
+#### Secondary Decks:
+- Female boss monster
 
-#### Tertiary Archetype:
-- Titan or Female boss monster
-- Limited cards only in archetype member
+#### Alternative Decks:
+- Based on a Primary archetype
+- Deck Name: (BaseDeck)_(Modification)
 
-#### Modified Archetype:
-- Based on one of Primary Deck
-- Deck Name: (Base-Deck)_(Modification)
+#### Collection Decks:
+- Not a Primary
+- For collection purpose
+- Can be an alternative Secondary
+- Deck Name: (BaseDeck)_(Modification)
 
 ------------------------------------
 
-#### Primary Character:
-- Kaiba DSOD [Blue-Eyes]
-- Joey DSOD [Red-Eyes]
+<div align="center">Favorites</div>
 
-#### Primary Skill:
+#### Favorite Characters:
+- Seto DSOD [BlueEyes]
+- Joey DSOD [RedEyes]
+
+#### Favorite Skills:
 - Alternative Evolution [Seto DSOD]
 - Reinforcements [Joey DSOD]
 
 ------------------------------------
 
-#### Primary Deck Save:
-- Blue-Eyes_Synchro [Seto DSOD]
-- Red-Eyes_Fusion [Joey DSOD]
+<div align="center">Deck Saves</div>
 
-#### Secondary Deck Save:
-- Dragon-Girl [Yugi DSOD]
-- Subterror [Seto DSOD]
-- Metaphys [Joey DSOD]
+#### Primary Deck Saves:
+- BlueEyes [Seto DM]
+- RedEyes [Joey DM]
+- ThunderDragon [Seto DM]
+- CyberDragon [Joey DM]
 
-#### Tertiary Deck Save:
-- Aromage [Mai DM]
-- Lunalight[Mokuba DSOD]
-- Magician-Girl [Yugi DSOD]
-- Thunder-Dragons [Mokuba DSOD]
+#### Secondary Deck Saves:
+- MagicianGirl [Tea DM]
+- Aromaseraphy [Tea DM]
+- FortuneLady [Mai DM]
+- Lunalight [Mai DM]
+
+#### Modified Deck Saves:
+- BlueEyes_Chaos [Seto DSOD]
+- BlueEyes_Ultimate [Seto DSOD]
+
+#### Collection Deck Saves:
+- Subterror [Muto DM]
+- Metaphys [Muto DM]
+- MagicianChaos [Atem DM]
+- MagicianGaia [Atem DSOD]
 
 ------------------------------------
 
+<div align="center">Customizations</div>
+
 #### Duel Mat:
-- Primary: Next-Gen Duel Disk
-- Secondary:Next-Gen Duel Disk
-- Tertiary: DM Girl [Sexy]
+- BlueEyes: NextGen Duel Disk
+- RedEyes: NextGen Duel Disk
+- ThunderDragon: NextGen Duel Disk
+- CyberDragon: NextGen Duel Disk
+- MagicianGirl: DM Girl [Sexy]
+- Aromaseraphy: DM Girl [Sexy]
+- FortuneLady: DM Girl [Sexy]
+- Lunalight: DM Girl [Sexy]
 
 #### Card Sleeve:
-- Primary: Next-Gen Duel Disk
-- Secondary: DM Girl [DSOD]
-- Tertiary Titan: DM Girl [DSOD]
-- Tertiary Female: DM Girl [Sexy]
+- BlueEyes: NextGen Duel Disk
+- RedEyes: NextGen Duel Disk
+- ThunderDragon: Blue [Digital]
+- CyberDragon: Blue [Digital]
+- MagicianGirl: DM Girl [Sexy]
+- Aromaseraphy: DM Girl [Sexy]
+- FortuneLady: DM Girl [DSOD]
+- AromageLady: DM Girl [DSOD]
 
-#### Temporary/Modified Deck:
+#### Alternative Deck:
+- Duel Mat: NextGen Duel Disk
+- Card Sleeve: Default Duel Monster
+
+#### Collection Deck:
+- Duel Mat: DM Girl [Others]
+- Card Sleeve: DM Girl [Others]
+
+#### Temporary Deck:
 - Duel Mat: Default Blank
 - Card Sleeve: Default Duel Monster
 
 ------------------------------------
 
-#### Character Target:
-- Yugi DSOD
-- Jesse GX
-- Zane GX
+<div align="center">Farming Targets</div>
 
-#### Archetype Target:
-- Cyber Dragon
-- Superheavy Samurai
-- Cystron
+#### Deck Targets:
+- Fortune Lady
+- Valkyrie [replace: Lunalight]
 
-#### Card Target:
-- Humid Winds
-- Red-Eyes Fang w Chain
-- Dark Magician Girl Dragon Knight
+#### Card Targets:
+- Amulet Dragon @1
+- Magician Navigation @1
+- Red-Eyes Fang w Chain @3
 
-#### Dream Ticket Target:
-- UR -> Maiden Eyes of Blue
+#### Dream Ticket Targets:
+- UR -> 
 - SR -> 
 - Skill ->
 
-#### Opened Box:
-| Number | Main | Mini |
+#### Opened Boxes:
+| Number | Main | Mini|
 |:------:|:----:|:----:|
+| 28 | &check; | |
 | 26 | &check; | &check; |
 | 25 | &check; | &check; |
 | 23 | &check; | |
+| 22 | &check; | |
 | 21 | &check; | |
 | 20 | &check; | &check; |
 | 19 | | &check; |
@@ -106,13 +134,8 @@
 | 15 | &check; | |
 | 11 | &check; | |
 
-#### Deck Purchasing:
-- Dragon-type based archetype
-- 2nd buying only for non-EX
-
 #### Unused Decks:
-- Red-Eyes 3rd -> Rp. 30.000
 - Dragunity -> 1000 gems
-- Master of Chaos -> 1000 gems
+- Red-Eyes 3rd -> Rp. 30.000
 - Synchro Connection -> 500 gems
 - Swordbound Silence -> 500 gems

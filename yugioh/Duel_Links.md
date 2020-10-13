@@ -1,30 +1,37 @@
 <div align="center">Deck Guidelines</div>
 
 #### General Guides:
-- No awful staple Trap cards
+- No any staple Trap cards
 - Main deck contain 20 cards
+- Has card searching mechanism
 - Use 2 card copies in Extra-Deck
 - Use 2-3 card copies in Main-Deck
-- Foil order: Glossy, Basic, Prismatic
+- Foil order: Basic, Glossy, Prismatic
 - Limited cards only in archetype member
+- Extra Deck Summon type: Fusion, Synchro
 - Not an archetype used by main protagonist
 
 #### Primary Decks:
 - Dragon boss monster
-- No Female cards
+- No Female monsters
+- Not a Ritual-deck
 
 #### Secondary Decks:
 - Female boss monster
+- All Female monsters
 
 #### Alternative Decks:
-- Based on a Primary archetype
+- Based on a Primary/Secondary deck
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Collection Decks:
-- Not a Primary
+#### Xyz Decks:
+- Xyz boss monster
+- Not a Primary deck
 - For collection purpose
-- Can be an alternative Secondary
-- Deck Name: (BaseDeck)_(Modification)
+
+#### Collection Decks:
+- Not a Primary deck
+- For collection purpose
 
 ------------------------------------
 
@@ -46,23 +53,33 @@
 - BlueEyes [Seto DM]
 - RedEyes [Joey DM]
 - ThunderDragon [Seto DM]
+- MaleficDragon [Seto DM]
 - CyberDragon [Joey DM]
 
 #### Secondary Deck Saves:
 - MagicianGirl [Tea DM]
 - Aromaseraphy [Tea DM]
 - FortuneLady [Mai DM]
-- Lunalight [Mai DM]
+- CyberAngel [Mai DM]
+- Valkyrie [Mai DM]
 
 #### Modified Deck Saves:
 - BlueEyes_Chaos [Seto DSOD]
+- BlueEyes_Fusion [Seto DSOD]
 - BlueEyes_Ultimate [Seto DSOD]
 
 #### Collection Deck Saves:
 - Subterror [Muto DM]
 - Metaphys [Muto DM]
 - MagicianChaos [Atem DM]
-- MagicianGaia [Atem DSOD]
+- Superheavy [Atem DM]
+- Melodious [Atem DM]
+- Lunalight [Atem DM]
+
+#### Xyz Deck Saves:
+- Zubaba_Utopia [Yuma Zexal]
+- Zubaba_Cheers [Tori Zexal]
+- Zubaba_Archduke [Bronks Zexal]
 
 ------------------------------------
 
@@ -76,7 +93,7 @@
 - MagicianGirl: DM Girl [Sexy]
 - Aromaseraphy: DM Girl [Sexy]
 - FortuneLady: DM Girl [Sexy]
-- Lunalight: DM Girl [Sexy]
+- Valkyrie: DM Girl [Sexy]
 
 #### Card Sleeve:
 - BlueEyes: NextGen Duel Disk
@@ -86,42 +103,47 @@
 - MagicianGirl: DM Girl [Sexy]
 - Aromaseraphy: DM Girl [Sexy]
 - FortuneLady: DM Girl [DSOD]
-- AromageLady: DM Girl [DSOD]
+- Valkyrie: DM Girl [DSOD]
 
 #### Alternative Deck:
-- Duel Mat: NextGen Duel Disk
-- Card Sleeve: Default Duel Monster
+- Duel Mat: Blue [Digital]
+- Card Sleeve: Blue [Digital]
 
 #### Collection Deck:
-- Duel Mat: DM Girl [Others]
-- Card Sleeve: DM Girl [Others]
+- Duel Mat: DM Girl [Purple]
+- Card Sleeve: DM Girl [Purple]
+
+#### Xyz Deck:
+- Duel Mat: DM Girl [Purple]
+- Card Sleeve: AR Vision
 
 #### Temporary Deck:
-- Duel Mat: Default Blank
-- Card Sleeve: Default Duel Monster
+- Duel Mat: DM Girl [Purple]
+- Card Sleeve: Blue [Digital]
 
 ------------------------------------
 
 <div align="center">Farming Targets</div>
 
 #### Deck Targets:
-- Fortune Lady
-- Valkyrie [replace: Lunalight]
+- MaleficDragon
 
 #### Card Targets:
-- Amulet Dragon @1
-- Magician Navigation @1
-- Red-Eyes Fang w Chain @3
+- Cyber Petit Angel @1
+- Magician's Valkyria @3
+- Red-Eyes Fang w Chain @2
 
 #### Dream Ticket Targets:
-- UR -> 
-- SR -> 
+- UR -> Valhalla Hall Fallen
+- SR -> White Stone Legend
 - Skill ->
 
 #### Opened Boxes:
 | Number | Main | Mini|
 |:------:|:----:|:----:|
+| 29 | | &check; |
 | 28 | &check; | |
+| 27 | &check; | |
 | 26 | &check; | &check; |
 | 25 | &check; | &check; |
 | 23 | &check; | |
@@ -136,6 +158,6 @@
 
 #### Unused Decks:
 - Dragunity -> 1000 gems
-- Red-Eyes 3rd -> Rp. 30.000
+- Hero Rising -> 500 gems
 - Synchro Connection -> 500 gems
 - Swordbound Silence -> 500 gems

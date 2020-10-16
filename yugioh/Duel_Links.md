@@ -24,11 +24,6 @@
 - Based on a Primary/Secondary deck
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Xyz Decks:
-- Xyz boss monster
-- Not a Primary deck
-- For collection purpose
-
 #### Collection Decks:
 - Not a Primary deck
 - For collection purpose
@@ -63,23 +58,19 @@
 - CyberAngel [Mai DM]
 - Valkyrie [Mai DM]
 
-#### Modified Deck Saves:
+#### Alternative Deck Saves:
 - BlueEyes_Chaos [Seto DSOD]
 - BlueEyes_Fusion [Seto DSOD]
-- BlueEyes_Ultimate [Seto DSOD]
 
 #### Collection Deck Saves:
 - Subterror [Muto DM]
+- Melodious [Atem DM]
 - Metaphys [Muto DM]
+- Cubic [Muto DM]
 - MagicianChaos [Atem DM]
 - Superheavy [Atem DM]
-- Melodious [Atem DM]
 - Lunalight [Atem DM]
-
-#### Xyz Deck Saves:
-- Zubaba_Utopia [Yuma Zexal]
-- Zubaba_Cheers [Tori Zexal]
-- Zubaba_Archduke [Bronks Zexal]
+- D/D/D [Atem DM]
 
 ------------------------------------
 
@@ -113,10 +104,6 @@
 - Duel Mat: DM Girl [Purple]
 - Card Sleeve: DM Girl [Purple]
 
-#### Xyz Deck:
-- Duel Mat: DM Girl [Purple]
-- Card Sleeve: AR Vision
-
 #### Temporary Deck:
 - Duel Mat: DM Girl [Purple]
 - Card Sleeve: Blue [Digital]
@@ -127,6 +114,8 @@
 
 #### Deck Targets:
 - MaleficDragon
+- Cubic
+- D/D/D
 
 #### Card Targets:
 - Cyber Petit Angel @1
@@ -156,8 +145,9 @@
 | 15 | &check; | |
 | 11 | &check; | |
 
-#### Unused Decks:
-- Dragunity -> 1000 gems
-- Hero Rising -> 500 gems
-- Synchro Connection -> 500 gems
-- Swordbound Silence -> 500 gems
+#### Wasted Gems:
+- Sleeve: AR-Vision -> 75 gems
+- Deck: Dragunity -> 1000 gems
+- Deck: Hero Rising -> 500 gems
+- Deck: Synchro Connection -> 500 gems
+- Deck: Swordbound Silence -> 500 gems

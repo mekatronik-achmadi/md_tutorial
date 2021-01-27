@@ -1,18 +1,21 @@
 <div align="center"><b>Deck Guidelines</b></div>
 
 #### General Guides:
-- No any staple Trap cards
-- No any staple Hand Traps
+- No any staple Trap card
+- No any staple hand trap
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
+- Use 2 or 3 card copies in deck
+- Not a Xyz or Ritual focus deck
 - Can search or summon from deck
-- Not a Ritual-Summon focus deck
-- Use 2-3 card copies in Main-Deck
-- Use 2-3 card copies in Extra-Deck
-- Foil order: Basic, Glossy, Prismatic
-- Limited cards must be archetype member
+- Can recycle cards from graveyard
+- Can be combination of 2 archetypes
+- Boss Monsters must be in archetype
+- Extra Deck cards may not in archetype
+- Limited or 1 copy must be in archetype
 - Extra Deck Summon type: Fusion, Synchro
-- Not an archetype used by main protagonist
+- Deck Consistency is the highest priority
+- Foil Order: Basic-Glossy-Legend-Prismatic
 
 #### Dragon Decks:
 - Dragon boss monsters
@@ -20,7 +23,7 @@
 
 #### Non-Human Decks
 - Non-Human boss monsters
-- Least Female monsters
+- No or few Female monsters
 
 #### Female Decks:
 - Female boss monsters
@@ -31,26 +34,10 @@
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
-- Can be Xyz or Ritual deck
-- Non-Dragon boss monsters
-- Collection purpose only
+- Xyz or Ritual focus deck
+- Or Reward only archetype
 - Not actively improved
-
-------------------------------------
-
-<div align="center"><b>Favorites</b></div>
-
-#### Favorite Characters:
-- Seto DSOD [BlueEyes]
-- Joey DSOD [RedEyes]
-- Paradox DM [Subterror]
-- Zane GX [CyberDragon]
-
-#### Favorite Skills:
-- Ultimate Dragons [Seto DSOD]
-- Reinforcements [Joey DSOD]
-- Labyrinth Builder [Paradox DM]
-- Cyber Style [Zane GX]
+- Not for PvP match
 
 ------------------------------------
 
@@ -70,7 +57,7 @@
 - D/D/D [Atem DM]
 - EvilEye [Muto DM]
 - Subterror [Muto DM]
-- Predaflower [Muto DM]
+- Predaplant [Muto DM]
 
 #### Female Deck Saves
 - MagicianGirl [Tea DM]
@@ -86,14 +73,33 @@
 
 #### Modified Deck Saves:
 - RedEyes_Gemini [Joey DSOD]
-- BlueEyes_Chaos [Seto DSOD]
+- RedEyes_Parshath [Joey DSOD]
+- RedEyes_Predaplant [Joey DSOD]
 - BlueEyes_Fusion [Seto DSOD]
-- BlueEyes_Dimension [Seto DSOD]
 
 #### Collection Deck Saves:
-- Zubaba [Yuma ZXL]
+- Cubic [Diva DSOD]
+- XyzZubaba [Yuma ZXL]
+- XyzShark [Shark ZXL]
 - CyberAngel [Alexis GX]
 - MagicianChaos [Yugi DSOD]
+
+------------------------------------
+
+<div align="center"><b>PvP Decks and Skills</b></div>
+
+#### Dragon Deck Saves:
+- RedEyes [Red-Eyes Fusion]
+- BlueEyes [Alternative Evolution]
+- CyberDragon [Cyber Style]
+- Metaphys [Heavy Starter]
+
+#### Non-Human Deck Saves:
+- Subterror [Labirynth Builder]
+
+#### Female Deck Saves:
+- Aromaseraphy [What Grow in Graveyard]
+- FortuneLady [Time Passage]
 
 ------------------------------------
 
@@ -119,7 +125,7 @@
 - Duel Mat: DM Girl [Purple]
 - Card Sleeve: DM Girl [Purple]
 
-#### Xyz Deck:
+#### Termporary Deck:
 - Duel Mat: Default
 - Card Sleeve: Default
 
@@ -128,22 +134,19 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- EvilEye
-- Dragunity
-- Predaflower
 
 #### Card Targets:
-- Levianeer @2
-- Red-Eyes Fang Chain @3
-- Fusion Recycling Plant @2
+
+#### Card Waiting:
+- Blue-Eyes Alternative @1
+- Melody Awakening Dragon @1
+- Return of Dragon Lord @2
+- Red-Eyes Fang Chain @2
 
 #### Dream Ticket Targets:
-- UR: 
-  - Valhalla Hall Fallen
-  - Evil Eye Selena
+- UR:
   - Fortune Vision
 - SR:
-  - Melodious Songstress
   - Dragunity Senatus
 - Skill:
 
@@ -161,9 +164,10 @@
 | 20 | &check; | &check; |
 | 19 | | &check; |
 | 18 | | &check; |
-| 16 | | &check; |
+| 16 | &check; | &check; |
 | 15 | &check; | |
 | 11 | &check; | |
+| 07 | &check; | |
 
 ##### Regretable Gems:
 - Sleeve: AR Vision -> 75
@@ -176,3 +180,6 @@
 ##### Other Platforms
 - https://www.pgyer.com/ygomobileen
 - https://duelingnexus.com/home
+- https://mega.nz/file/NOwhDYpK#SgR8h1YTo4NkcVNbi3zDdBHOZQXS9Dk0Ddc796uEtV8
+- https://ygopro.org/
+- http://www.mediafire.com/file/gs5lrlx2h9noklv/%255BUpdate%255D_YGOMobile_Ghost_3.6.3%255BEN%255D_by_Stardust_Fansub_2020.02.16.apk/file?fbclid=IwAR0D3blzM1VXMz6GOAFmzGhK8oVYCKc1c4-V2JuxnPC7dLD9KbiK9Fraijc

@@ -149,8 +149,13 @@
 #### Card Targets:
 - Necrovaley @1
 - Amazoness Heirloom @1
-- Amazoness Spirit @2
+- Amazoness Spirit @3
 - Sprite's Blessing @2
+
+#### Working Boxes:
+- 11th MainBox
+- 20th MiniBox
+- 3rd MainBox
 
 #### Card Waiting:
 - Red-Eyes Fang Chain @2

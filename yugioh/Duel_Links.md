@@ -35,7 +35,7 @@
 
 #### Modified Decks:
 - Based on one of deck category above
-- Deck Name: (BaseDeck)_(Modification)
+- Deck Name: (BaseDeck)-(Modification)
 
 #### Collection Decks:
 - Xyz or Ritual focus deck
@@ -57,12 +57,12 @@
 - RedEyes {Joey DM}
 
 #### Non-Human Deck Saves:
-- D/D/D {Yugi DM}
 - Triamid {Yugi DM}
 - Superheavy {Yugi DM}
+- MagnetWarrior {Yugi DM}
 - Subterror {Seto DM}
+- D/D/D {Joey DM}
 - Predaplant {Joey DM}
-- MagnetWarrior {Joey DM}
 
 #### Female Deck Saves:
 - MagicianGirl {Tea DM}
@@ -83,9 +83,9 @@
 <div align="center"><b>Other Deck Saves</b></div>
 
 #### Modified Deck Saves:
-- RedEyes_Predaplant {Joey DSOD}
-- RedEyes_Darkness {Joey DSOD}
-- BlueEyes_Chaos {Seto DSOD}
+- RedEyes-Predaplant {Joey DSOD}
+- RedEyes-Darkness {Joey DSOD}
+- BlueEyes-Chaos {Seto DSOD}
 
 #### Collection Deck Saves:
 - Cubic {Diva DSOD}

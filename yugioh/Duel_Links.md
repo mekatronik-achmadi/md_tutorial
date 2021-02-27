@@ -8,7 +8,7 @@
 - Use 2 or 3 card copies in deck
 - Not a Xyz or Ritual focus deck
 - Can search or summon from deck
-- Can recycle cards from graveyard
+- Can use cards in graveyard/banish
 - Can be combination of 2 archetypes
 - Boss Monsters must be in archetype
 - Extra Deck cards may not in archetype
@@ -29,8 +29,12 @@
 - Female boss monsters
 - Most Female monsters
 
+#### Wizard Decks:
+- Wizard boss monsters
+- Utilize Spell cards
+
 #### Modified Decks:
-- Based on a Dragon/Non-Human/Female deck
+- Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
@@ -44,86 +48,89 @@
 <div align="center"><b>Deck Saves</b></div>
 
 #### Dragon Deck Saves:
-- BlueEyes [Seto DM]
-- RedEyes [Joey DM]
-- ThunderDragon [Seto DM]
-- MaleficDragon [Seto DM]
-- CyberDragon [Joey DM]
-- Metaphys [Joey DM]
-- Dragunity [Atem DM]
+- ThunderDragon {Seto DM}
+- MaleficDragon {Seto DM}
+- Dragunity {Seto DM}
+- BlueEyes {Seto DM}
+- CyberDragon {Joey DM}
+- Metaphys {Joey DM}
+- RedEyes {Joey DM}
 
 #### Non-Human Deck Saves:
-- Superheavy [Atem DM]
-- D/D/D [Atem DM]
-- EvilEye [Muto DM]
-- Subterror [Muto DM]
-- Predaplant [Muto DM]
+- D/D/D {Yugi DM}
+- Triamid {Yugi DM}
+- Superheavy {Yugi DM}
+- Subterror {Seto DM}
+- Predaplant {Joey DM}
+- MagnetWarrior {Joey DM}
 
-#### Female Deck Saves
-- MagicianGirl [Tea DM]
-- Aromaseraphy [Tea DM]
-- Melodyous [Tea DM]
-- FortuneLady [Mai DM]
-- Lunalight [Mai DM]
-- Valkyrie [Mai DM]
+#### Female Deck Saves:
+- MagicianGirl {Tea DM}
+- Aromaseraphy {Tea DM}
+- Melodyous {Tea DM}
+- EvilEye {Tea DM}
+- FortuneLady {Mai DM}
+- Amazoness {Mai DM}
+- Lunalight {Mai DM}
+- Valkyrie {Mai DM}
+
+#### Wizard Deck Saves:
+- MagicianChaos {Yugi DM}
+- Gravekeeper {Yugi DM}
 
 ------------------------------------
 
 <div align="center"><b>Other Deck Saves</b></div>
 
 #### Modified Deck Saves:
-- RedEyes_Gemini [Joey DSOD]
-- RedEyes_Parshath [Joey DSOD]
-- RedEyes_Predaplant [Joey DSOD]
-- BlueEyes_Fusion [Seto DSOD]
+- RedEyes_Predaplant {Joey DSOD}
+- RedEyes_Darkness {Joey DSOD}
+- BlueEyes_Chaos {Seto DSOD}
 
 #### Collection Deck Saves:
-- Cubic [Diva DSOD]
-- XyzZubaba [Yuma ZXL]
-- XyzShark [Shark ZXL]
-- CyberAngel [Alexis GX]
-- MagicianChaos [Yugi DSOD]
+- Cubic {Diva DSOD}
+- XyzZubaba {Yuma ZXL}
+- XyzShark {Shark ZXL}
+- CyberAngel {Alexis GX}
 
 ------------------------------------
 
 <div align="center"><b>PvP Decks and Skills</b></div>
 
 #### Dragon Deck Saves:
-- RedEyes [Red-Eyes Fusion]
-- BlueEyes [Alternative Evolution]
-- CyberDragon [Cyber Style]
-- Metaphys [Heavy Starter]
+- RedEyes {Red-Eyes Fusion}
+- BlueEyes {Alternative Evolution}
+- CyberDragon {Cyber Style}
+- Metaphys {Heavy Starter}
 
 #### Non-Human Deck Saves:
-- Subterror [Labirynth Builder]
+- Subterror {Labirynth Builder}
 
 #### Female Deck Saves:
-- Aromaseraphy [What Grow in Graveyard]
-- FortuneLady [Time Passage]
+- Aromaseraphy {What Grow in Graveyard}
+- FortuneLady {Time Passage}
 
 ------------------------------------
 
 <div align="center"><b>Customizations</b></div>
 
 #### Duel Mat:
-- Atem DM: NextGen Duel Disk
+- Yugi DM: NextGen Duel Disk
 - Seto DM: NextGen Duel Disk
-- Joey DM: Blue [Digital]
-- Muto DM: Blue [Digital]
-- Mai DM: DM Girl [Sexy]
-- Tea DM: DM Girl [Sexy]
+- Joey DM: Blue {Digital}
+- Mai DM: DM Girl {Sexy}
+- Tea DM: DM Girl {Sexy}
 
 #### Card Sleeve:
-- Atem DM: Blue [Digital]
+- Yugi DM: Blue {Digital}
 - Seto DM: NextGen Duel Disk
-- Joey DM: Blue [Digital]
-- Muto DM: NextGen Duel Disk
-- May DM: DM Girl [DSOD]
-- Tea DM: DM Girl [Sexy]
+- Joey DM: Blue {Digital}
+- May DM: DM Girl {DSOD}
+- Tea DM: DM Girl {Sexy}
 
 #### Collection Deck:
-- Duel Mat: DM Girl [Purple]
-- Card Sleeve: DM Girl [Purple]
+- Duel Mat: DM Girl {Purple}
+- Card Sleeve: DM Girl {Purple}
 
 #### Termporary Deck:
 - Duel Mat: Default
@@ -134,20 +141,26 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
+- Triamid
+- MagnetWarrior
+- Gravekeeper
+- Amazoness
 
 #### Card Targets:
+- Necrovaley @1
+- Amazoness Heirloom @1
+- Amazoness Spirit @2
+- Sprite's Blessing @2
 
 #### Card Waiting:
-- Blue-Eyes Alternative @1
-- Melody Awakening Dragon @1
-- Return of Dragon Lord @2
 - Red-Eyes Fang Chain @2
 
 #### Dream Ticket Targets:
 - UR:
-  - Fortune Vision
+    - Gold Sarcophagus @1
+    - Dragunity Ascalon
 - SR:
-  - Dragunity Senatus
+    - Dragunity Senatus
 - Skill:
 
 #### Opened Boxes:
@@ -169,7 +182,7 @@
 | 11 | &check; | |
 | 07 | &check; | |
 
-##### Regretable Gems:
+#### Regretable Gems:
 - Sleeve: AR Vision -> 75
 - Deck: Hero Rising -> 500
 - Deck: Synchro Connection -> 500
@@ -177,7 +190,7 @@
 
 ------------------------------------
 
-##### Other Platforms
+#### Other Platforms
 - https://www.pgyer.com/ygomobileen
 - https://duelingnexus.com/home
 - https://mega.nz/file/NOwhDYpK#SgR8h1YTo4NkcVNbi3zDdBHOZQXS9Dk0Ddc796uEtV8

@@ -31,7 +31,7 @@
 
 #### Wizard Decks:
 - Wizard boss monsters
-- Utilize Spell cards
+- All monsters are Spellcaster
 
 #### Modified Decks:
 - Based on one of deck category above

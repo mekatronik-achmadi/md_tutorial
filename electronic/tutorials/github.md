@@ -1,7 +1,13 @@
 # Github
 
 ## Table of Contents
-- [Introduction]()
+- [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#introduction)
+- [New Account](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#open-new-account)
+- [New Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#create-new-repository)
+- [Add Git Local](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#add-github-repository-to-local-git)
+- [Push Commit](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#push-commit)
+- [Git Clone](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-clone)
+- [Git Pull](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-pull		)
 
 ## Introduction
 
@@ -11,7 +17,7 @@ Github stores Git repositories and connect programmer/developers around the worl
 
 ## Open New Account
 
-If you can Sign-Up on Facebook/Instagram, then you should able to signing up Github.
+If you can Sign-Up on Facebook/Instagram, then you should able to signing up on Github.
 Just choose free personal account and you can skip advance feature setup like Two-Ways Authentication or SSH Public Key.
 
 But if you still need some guides, you can look [here](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration) and [here](https://www.wikihow.com/Create-an-Account-on-GitHub)
@@ -57,14 +63,26 @@ then push it to Github using command:
 git push -u origin master
 ```
 
-You will need to input your Github username (not email) and password into OpenSSH dialog box.
+You will need to input your Github username (not email) and password into a pop-up dialog box.
 
 ![images](images/gitpush.JPG?raw=true)
 
-## Push Modification
+## Push Commit
 
 Next working cycle on Git and Github next will essentially like this:
 - Make modification or add new untracked files
+- Check modified or new file:
+
+```
+git status
+```
+
+If necessary, review code patch:
+
+```
+git diff file
+```
+
 - Stage modified or new file:
 
 ```
@@ -88,3 +106,39 @@ git commit -m "a descriptive message"
 ```
 git push -o origin master
 ```
+
+## Git Clone
+
+This part tutorial is reversed than previosly tutorials.
+We started with an existed Github repository, but no local Git resository.
+
+First, clone the existed Github repository.
+Make sure there is no folder with same name with repository name that about to clone.
+Then type command like this:
+
+```
+git clone https://github.com/mekatronik-achmadi/RepoTest.git
+```
+
+![images](images/gitclone.JPG?raw=true)
+
+Then you can change directory into cloned repository and work cycle stage-commit-push as previosly.
+
+## Git Pull
+
+After you clone a Github repository then that repository getting update, 
+you don't have to delete cloned directory and re-cloned.
+
+All you have to do is doing pull to get update patch from Github
+and merge it with existing local cloned repository.
+
+This also work if you working collaboratively when the Github repository updated by other contributor
+and you want to get their update.
+
+To pull from github, use command like this:
+
+```
+git pull origin master
+```
+
+![images](images/gitpull.JPG?raw=true)

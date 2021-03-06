@@ -36,7 +36,17 @@ To test installation, type command:
 git --version
 ```
 
-![images](images/gitbash.jpg?raw=true)
+![images](images/gitbash.JPG?raw=true)
+
+## Create your ID
+
+Before to proceed any work using git, you have input your name and email as identity.
+Issue command like this:
+
+```
+git config --global user.name "Achmadi"
+git config --global user.email "mekatronik.achmadi@gmail.com"
+```
 
 ## Create Git Directory
 
@@ -48,11 +58,7 @@ git init
 ``` 
 
 It will create a hidden _.git_ folder and initialize a new empty git repository in that folder.
-
-
-```
-$> Initialized empty Git repository in /home/achmaday/Desktop/TutorialTest/.git/
-```
+For whatever reason, dont touch the hidden _.git_ folder.
 
 ## Add Untracked Files
 
@@ -68,3 +74,44 @@ int main(void){
 	return 0;
 }
 ```
+
+Now, when you issus this command:
+
+```
+git status
+``` 
+
+![images](images/gitsttuntracked.JPG?raw=true)
+
+You will see information that there some untracked file (red colored).
+
+Now, to add that new file into _staged_ (chosen to commit), use command:
+
+```
+git add main.c
+```
+
+or if you has many file and one to stage them as one, use command:
+
+```
+git add *
+```
+
+then you can check using status command.
+
+
+![images](images/gitadduntracked.JPG?raw=true)
+
+As you can see, the main.c become green-colored as a new file.
+
+Next, you can _commit_ (freeze the new/changes) using command:
+
+```
+git commit -m "add main.c"
+```
+
+The word after -m is known as commit-message, work as a short description of commit.
+You free to choose any commit-message, but please keep short and clear.
+
+![images](images/gitcommitnew.JPG?raw=true)
+

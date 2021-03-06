@@ -3,6 +3,9 @@
 ## Table Of Content
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#introduction)
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#installation)
+- [Create ID](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-your-id)
+- [Create Git Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-git-directory)
+- [Add Untracked Files](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#add-untracked-files)
 
 ## Introduction
 
@@ -21,13 +24,13 @@ After installation, you can right-click on empty space at explorer, then click _
 For Debian/Ubuntu:
 
 ```
-sudo apt-get install git
+sudo apt-get install git tig
 ```
 
 For ArchLinux/Manjaro:
 
 ```
-sudo pacman -S git
+sudo pacman -S git tig
 ```
 
 To test installation, type command:
@@ -40,7 +43,7 @@ git --version
 
 ## Create your ID
 
-Before to proceed any work using git, you have input your name and email as identity.
+Before you proceed any work using git, you have input your name and email as identity.
 Issue command like this:
 
 ```
@@ -102,7 +105,7 @@ then you can check using status command.
 
 ![images](images/gitadduntracked.JPG?raw=true)
 
-As you can see, the main.c become green-colored as a new file.
+As you can see, the main.c become staged (green-colored) as a new file.
 
 Next, you can _commit_ (freeze the new/changes) using command:
 
@@ -115,3 +118,86 @@ You free to choose any commit-message, but please keep short and clear.
 
 ![images](images/gitcommitnew.JPG?raw=true)
 
+## Add Modified Files
+
+Next topic is how to add (commit) modification of tracked files.
+
+For example, now add some modification to previous main.c.
+
+```c
+#include <stdio.c>
+
+int main(void){
+	uint8 result;
+	
+	result = 10 + 20; 
+	
+	return result;
+}
+```
+
+Now, issue status command:
+
+```
+git status
+```
+
+![images](images/gitmod.JPG?raw=true)
+
+As you can see, main.c now become red colored as a modified file.
+
+To see modification or what changes on that file, type command:
+
+```
+git diff main.c
+```
+
+![images](images/gitmoddiff.JPG?raw=true)
+
+What you see is an example of code _patch_.
+Most important of a patch are:
+- the red and started by (-) are removed line
+- the green and started by (+) are added line
+- the others are unchanged line
+
+Now, to add stage the modified file, is same as before:
+
+```
+git add main.c
+```
+
+or if many files at once:
+
+```
+git add *
+```
+
+then you can check using status command.
+
+![images](images/gitaddmod.JPG?raw=true)
+
+As you can see, the main.c become staged (green-colored) as a modified file.
+
+Next, to commit the modification/changes, using command as before:
+
+```
+git commit -m "modify main.c"
+```
+
+![images](images/gitmodcommit.JPG?raw=true)
+
+## Commit History
+
+Checking and reviewing commit history is the only effective way to see how your code development progessing.
+
+Now to see commit history, use command:
+
+```
+tig
+```
+
+![images](images/tig.JPG?raw=true)
+
+To see code patch in a commit, select a commit entry and press enter:
+
+![images](images/tigpatch.JPG?raw=true)

@@ -2,6 +2,7 @@
 
 ## Table Of Content
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#introduction)
+- [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#installation)
 
 ## Introduction
 
@@ -37,5 +38,33 @@ git --version
 
 ![images](images/gitbash.jpg?raw=true)
 
+## Create Git Directory
+
+To create a new Git directory, create a new folder where all your project files reside.
+Then open Git Bash there and type command:
+
+```
+git init
+``` 
+
+It will create a hidden _.git_ folder and initialize a new empty git repository in that folder.
 
 
+```
+$> Initialized empty Git repository in /home/achmaday/Desktop/TutorialTest/.git/
+```
+
+## Add Untracked Files
+
+By default, when you create a new files, it is not automatically add to tracked files.
+Git will not track any changes or modification on untracked files.
+
+For example, you create a new file named _main.c_ with this content:
+
+```c
+#include <stdio.c>
+
+int main(void){
+	return 0;
+}
+```

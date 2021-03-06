@@ -6,6 +6,7 @@
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#uploader)
 - [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#libraries)
 - [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#editor)
+- [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-terminal)
 
 ## Compiler
 
@@ -179,3 +180,40 @@ sudo dpkg -i codium_1.53.2-1613089951_amd64.deb
 Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
 
 ![images](images/vscodium.JPG?raw=true)
+
+## Serial Terminal
+
+If you use some Serial Communication, you may need some Serial Terminal.
+You free to choose any Serial Terminal you like, I'm here just giving recommendation:
+
+### Hercules Terminal (Windows)
+
+You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
+It's a portable standalone program, no need to install it.
+
+![images](images/serterm.png?raw=true)
+
+### Serial Bluetooth (Android)
+
+This Serial Terminal using Android Bluetooth via bridge module like HC05.
+This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
+
+![images](images/btterm.png?raw=true)
+
+### MoSerial (GNU/Linux)
+
+This is Serial Terminal like Hercules above, but written in GTK so it can run in GNU/Linux.
+
+For Debian/Ubuntu:
+
+```
+sudo apt-get install moserial
+```
+
+For ArchLinux/Manjaro:
+
+```
+sudo pacman -S moserial
+```
+
+![images](images/moserial.png?raw=true)

@@ -90,6 +90,8 @@ sudo apt-get install stlink-tools stlink-gui
 sudo pacman -S stlink
 ```
 
+![images](images/stlinkgui.png?raw=true)
+
 ### UART Bootloader
 
 Using Bootloader, you need USB/TTL converter connected to STM32's RX, TX, and GND pin.

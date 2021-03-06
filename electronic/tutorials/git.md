@@ -6,6 +6,8 @@
 - [Create ID](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-your-id)
 - [Create Git Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-git-directory)
 - [Add Untracked Files](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#add-untracked-files)
+- [Add Modified Files](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#add-modified-files)
+- [Git History](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#commit-history)
 
 ## Introduction
 
@@ -201,3 +203,5 @@ tig
 To see code patch in a commit, select a commit entry and press enter:
 
 ![images](images/tigpatch.JPG?raw=true)
+
+To exit from tig page, press **q** or **CTRL+c**.

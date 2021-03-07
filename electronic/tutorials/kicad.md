@@ -60,3 +60,49 @@ Here some generated files:
 - ***.pro** - Main project file to keep track of the file structure.
 - ***.sch** - The schematic.
 - ***.kicad_pcb** - The PCB layout.
+
+## Draw a Schematic
+
+Double click ***.sch** file on KiCAD start page.
+
+### Add Components
+
+Click _Place_ -> _Symbol_.
+Then click empty space on schematic sheet.
+
+Here you can choose components to add.
+
+![images](images/kicad1.png?raw=true)
+
+### Add Wire
+
+Click _Place_ -> _Wire_.
+Then click an unconnected component pin,
+then you can start drag wire and connect component.
+
+![images](images/kicad2.png?raw=true)
+
+### Add Power
+
+Click _Place_ -> _Power Port_.
+Then click empty space on schematic sheet.
+
+Here you can choose power components to add.
+
+![images](images/kicad3.png?raw=true)
+
+### Compononents Annotation
+
+After some component placed and connected,
+
+![images](images/kicad4.png?raw=true)
+
+Now to give component index as identity, 
+click _Tools_ -> _Annotate Schematic_
+then click _Annotate_
+
+![images](images/kicad5.png?raw=true)
+
+It will give number index to all components
+
+![images](images/kicad6.png?raw=true)

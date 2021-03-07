@@ -49,5 +49,3 @@ You can start _gvim_ from start-menu.
 
 ![images](images/gvim.JPG?raw=true)
 
-
-

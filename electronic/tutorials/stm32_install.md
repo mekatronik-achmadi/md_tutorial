@@ -135,7 +135,7 @@ Some of reason are:
 I use ChibiOS version 3.0.x.
 You can download [here](https://osdn.net/projects/chibios/scm/svn/tree/head/branches/stable_3.0.x/).
 
-**Alternatively** you can get my package [here](https://drive.google.com/file/d/11ivvhc-s3gQD2uzF0HDYm6e5w_w103FT/view?usp=sharing).
+**Alternatively** you can get my package ChibiOS-STM32 [here](https://drive.google.com/file/d/11ivvhc-s3gQD2uzF0HDYm6e5w_w103FT/view?usp=sharing).
 It's basically same thing but all platforms other than STM32 already removed.
 
 ## Editor

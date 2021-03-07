@@ -17,3 +17,4 @@ But to make these tutorials conform in all platforms, we will focusing command l
 - [STM32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md)
 - [STM32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md)
 - [KiCAD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md)
+- [Assigment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/assignment.md)

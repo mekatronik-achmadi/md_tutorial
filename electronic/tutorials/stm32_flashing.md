@@ -1,8 +1,32 @@
 # Flashing
 
 ## Table of Contents
-- [SWD]()
-
+- [SWD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#swd)
+	- [Requirement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#requirements)
+	- [Pinout](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#pinout)
+	- [Connect](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#connect)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux)
+	- [Erasing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#erasing)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-1)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-1)
+	- [Writing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#writing)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-2)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-2)
+- [Bootloader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#bootloader)
+	- [Requirement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#requirements-1)
+	- [Pinout](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#pinout-1)
+	- [Chip Mode](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#chip-mode)
+	- [Connect](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#connect-1)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-3)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-3)
+	- [Erasing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#erasing-1)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-4)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-4)
+	- [Writing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#writing-1)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-5)
+		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-5)
+	
 ## SWD
 
 SWD (Serial Wire Debug) is a serial communication protocol used for program and debug STM32 chip.
@@ -216,6 +240,10 @@ sudo stm32flash /dev/ttyUSB0
 
 ### Erasing
 
+Erasing or especially Mass/Full Erasing is way to make sure STM32 chip will not leave any left-over value in it's flash memory.
+With this, you can expect STM32 will work as intended.
+Futhermore, if you use STM32 Flash as EEPROM, this will reset value of all it's address.
+
 #### Windows
 
 To perform Mass/Full Erase, choose _Erase_ and _All_,
@@ -275,4 +303,5 @@ sudo stm32flash -w ./build/*.bin -v /dev/ttyUSB0
 
 ![images](images/stuart2.png?raw=true)
 
-then you change the chip STM32 to boot into Running mode.
+Make sure writing and verification is success at 100%.
+Then you change the chip STM32 to boot into Running mode.

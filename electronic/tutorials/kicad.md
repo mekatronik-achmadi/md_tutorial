@@ -133,3 +133,89 @@ Check _Default Format_, then click _Generate Netlist_.
 
 It will open save dialog, leave path and name as is, then click _Save_.
 
+## Draw a PCB
+
+Double click ***.kicad_pcb** file on KiCAD start page.
+
+### Load Netlist
+
+First, load the Netlist.
+Click _Tools_ -> _Load Netlist_
+
+Click browse icon to open .net file.
+Then click _Update PCB_
+	
+![images](images/kicad10.png?raw=true)
+
+After you click _Close_, you will get all components footprints and it's connections.
+
+![images](images/kicad11.png?raw=true)
+
+### Arrange Components
+
+Next, arrange each component as you like.
+
+Some shortcut often use:
+- **m** to move components
+- **f** to flip components bottom-top
+- **r** to rotate
+
+![images](images/kicad12.png?raw=true)
+
+### Board Setup
+
+To setup some board drawing property, click _File_ -> _Board Setup_
+
+Here on _Tracks and Vias_, you can set some wire and vias size.
+
+![images](images/kicad13.png?raw=true)
+
+### Wire Route
+
+To convert virtual wire to actual wire, first choose a suitable wire and vias size.
+Then click _Route_ -> _Single Track_.
+
+Here you can drag and draw actual wire.
+
+![images](images/kicad14.png?raw=true)
+
+Then you can draw your PCB wire as good as possible
+
+![images](images/kicad15.png?raw=true)
+
+### Add Board Edge
+
+First, click _Place_ -> _Line_, then for layer choose _Edge Cuts_.
+
+![images](images/kicad16.png?raw=true)
+
+Then draw good connected line.
+
+![images](images/kicad17.png?raw=true)
+
+### Add Zones
+
+First, click _Place_ -> _Zone_, then for layer choose _F.Cu_ or _B.Cu_.
+
+![images](images/kicad18.png?raw=true)
+
+Then click previously edge, zone setting dialog will pop-up.
+
+![images](images/kicad19.png?raw=true)
+
+For now, leave all as is and just click _OK_.
+Then you can draw zone area (click to switch from line to area).
+
+![images](images/kicad20.png?raw=true)
+
+After all area covered, double click to finish
+
+![images](images/kicad21.png?raw=true)
+
+### View 3D
+
+At this point, the PCB design already usable.
+
+To check 3D preview, click _View_ -> _3D Viewer_.
+
+![images](images/kicad22.png?raw=true)

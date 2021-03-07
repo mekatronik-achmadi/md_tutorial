@@ -26,7 +26,7 @@
 	- [Writing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#writing-1)
 		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#windows-5)
 		- [GNU/Linux](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md#gnulinux-5)
-	
+
 ## SWD
 
 SWD (Serial Wire Debug) is a serial communication protocol used for program and debug STM32 chip.
@@ -176,6 +176,8 @@ Most of programming bootloader on STM32 use UART1 as default channel.
 | TX | PA10 | UART1 RX |
 | RX | PA9 | UART1 TX |
 | GND | GND | |
+| VDD/GND | BOOT0 | |
+| GND | PB2 | BOOT1 |
 
 ### Chip Mode
 

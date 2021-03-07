@@ -1,8 +1,8 @@
 # KiCAD
 
 ## Table of Contents
-- [Introduction]()
-- [Installation]()
+- [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#introduction)
+- [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#installation)
 
 ## Introduction
 
@@ -28,7 +28,9 @@ Note: Download size almost 1.2GB and Installation size almost 6GB.
 You can install with command:
 
 ```
-sudo apt-get install kicad kicad-symbols kicad-footprints kicad-libraries kicad-packages3d
+sudo apt-get install kicad kicad-symbols
+sudo apt-get install kicad-footprints kicad-libraries
+sudo apt-get install kicad-packages3d kicad-templates
 ```
 
 ### ArchLinux/Manjaro
@@ -46,3 +48,15 @@ Here some screenshoots:
 The circuit 3D viewer is one impressif feature of KiCAD
 
 ![images](images/kicad3d.png?raw=true)
+
+## New Project
+
+Open KiCAD from menu, then click _File_ -> _New_ -> Project.
+Choose where to put your project, then give a project name, then _Save_.
+
+![images](images/kicad0.png?raw=true)
+
+Here some generated files:
+- ***.pro** - Main project file to keep track of the file structure.
+- ***.sch** - The schematic.
+- ***.kicad_pcb** - The PCB layout.

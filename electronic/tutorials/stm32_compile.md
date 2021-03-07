@@ -32,7 +32,7 @@ Workspace
 +-- PCB
 |   +-- kicad.pro
 |   +-- kicad.sch
-|   +-- kicad.pcb
+|   +-- kicad.kicad_pcb
 |   +-- ...	
 ~~~
 

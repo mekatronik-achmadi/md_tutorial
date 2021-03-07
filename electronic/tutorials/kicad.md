@@ -106,3 +106,30 @@ then click _Annotate_
 It will give number index to all components
 
 ![images](images/kicad6.png?raw=true)
+
+### Assign Footprint
+
+After schematic drawing is done,
+
+![images](images/kicad7.png?raw=true)
+
+Next is assign schematic symbol to actual components footprints.
+Click _Tools_ -> _Assign Footprints_
+
+![images](images/kicad8.png?raw=true)
+
+When finished, click _Apply_ then _OK_
+
+### Generate Netlist
+
+Last thing to do in schematic is generate **Netlist**.
+
+Netlist (.net) file is the "bridge" between schematic and pcb files.
+
+Click _Tools_ -> _Generate Netlist File_.
+Check _Default Format_, then click _Generate Netlist_.
+
+![images](images/kicad9.png?raw=true)
+
+It will open save dialog, leave path and name as is, then click _Save_.
+

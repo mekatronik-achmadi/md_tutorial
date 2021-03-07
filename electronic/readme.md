@@ -15,3 +15,4 @@ But to make these tutorials conform in all platforms, we will focusing command l
 - [GitHub](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md)
 - [STM32: Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md)
 - [STM32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md)
+- [STM32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md)

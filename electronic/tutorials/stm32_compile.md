@@ -4,6 +4,8 @@
 - [Source Structure](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#source-structure)
 - [Opening Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#opening-source)
 - [Compiling Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#compiling-source)
+	- [Programming Notepad](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#programmer-notepad)
+	- [Command Line](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#command-line)
 - [Binary Result](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#binary-result)
 
 ## Source Structure

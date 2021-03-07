@@ -4,9 +4,16 @@
 - [Compiler](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#compiler)
 - [Windows Driver](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#windows-driver)
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#uploader)
+	- [SWD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#swd)
+	- [UART-Bootloader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#uart-bootloader)
 - [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#libraries)
 - [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#editor)
+	- [Programmer Notepad](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#programmers-notepad-windows)
+	- [VSCodium](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#vscodium)
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-terminal)
+	- [Hercules](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#hercules-terminal-windows)
+	- [Bluetooth-Android](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-bluetooth-android)
+	- [MoSerial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#moserial-gnulinux)
 
 ## Compiler
 
@@ -139,7 +146,7 @@ Technically you can use any text editor to write code, as long as it has:
 
 Here some of my recommendations:
 
-### Programmer's Notepad (Windows Only).
+### Programmer's Notepad (Windows).
 It's a simple source editor.
 Has good syntax highlighting.
 Only downside is this editor actually from winAVR project, so it still has winAVR brand on it.
@@ -216,4 +223,4 @@ For ArchLinux/Manjaro:
 sudo pacman -S moserial
 ```
 
-![images](images/moserial.png?raw=true)
+![images](images/moserial	.png?raw=true)

@@ -3,6 +3,22 @@
 ## Table of Contents
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#introduction)
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#installation)
+- [New Project](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#new-project)
+- [Draw a Schematic](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#draw-a-schematic)
+	- [Add Components](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#add-components)
+	- [Add Wire](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#add-wire)
+	- [Add Power](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#add-power)
+	- [Components Annotation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#compononents-annotation)
+	- [Assign Footprint](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#assign-footprint)
+	- [Generate Netlist](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#generate-netlist)
+- [Draw a PCB](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#draw-a-pcb)
+	- [Load Netlist](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#load-netlist)
+	- [Arrange Components](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#arrange-components)
+	- [Board Setup](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#board-setup)
+	- [Wire Route](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#wire-route)
+	- [Add Board Edge](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#add-board-edge)
+	- [Add Zones](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#add-zones)
+	- [View 3D](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md#view-3d)
 
 ## Introduction
 
@@ -167,6 +183,7 @@ Some shortcut often use:
 To setup some board drawing property, click _File_ -> _Board Setup_
 
 Here on _Tracks and Vias_, you can set some wire and vias size.
+Then click _OK_
 
 ![images](images/kicad13.png?raw=true)
 

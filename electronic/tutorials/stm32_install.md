@@ -188,6 +188,15 @@ Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscod
 
 ![images](images/vscodium.JPG?raw=true)
 
+### Vim
+
+Lets face it, this text editor is powerful, but not for beginner.
+I mention it here only because it is an awesome editor.
+
+If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
+
+![images](images/myvim.png?raw=true)
+
 ## Serial Terminal
 
 If you use some Serial Communication, you may need some Serial Terminal.

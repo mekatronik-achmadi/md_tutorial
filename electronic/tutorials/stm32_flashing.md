@@ -152,3 +152,127 @@ Most of programming bootloader on STM32 use UART1 as default channel.
 | TX | PA10 | UART1 RX |
 | RX | PA9 | UART1 TX |
 | GND | GND | |
+
+### Chip Mode
+
+Each after reset or re-power, STM32 will boot into different modes based on BOOT0 and BOOT1 state.
+
+| Modes | BOOT0 | BOOT1 |
+|:-----:|:-----:|:-----:|
+| Running | 0 | 0 |
+| Bootloader | 1 | 0 |
+
+The 0 value means 0v or GND and the 1 value means 3v3 or VDD.
+
+So, to change boot modes, just set STM32 BOOT pins according table above and then reset/re-power
+
+In BluePill board, it to boot pinout is like this:
+
+![images](images/bluepill.png?raw=true)
+
+### Connect
+
+**Warning**: As STM32 chip will be put under reset, check all other connected device which potentially behave uncontrolably.
+Devices like electric motors or it's drivers should turn it off first before put STM32 under reset.
+
+#### Windows
+
+First, Open Windows _Device Manager_ to check on which number COM Port registered.
+
+![images](images/stboot0.png?raw=true)
+
+Now, open _Demonstrator GUI_ from Windows menu, then make sure the _Port Name_ is match.
+
+![images](images/stboot1.png?raw=true)
+
+Before click _Next_, make sure the STM32 chip **already** booted into bootloader.
+Otherwise, it will make this program freeze.
+
+After click _Next_, you will see message that chip is readable
+
+![images](images/stboot2.png?raw=true)
+
+Then just click _Next_ a couple time, until you this main page:
+
+![images](images/stboot3.png?raw=true)
+
+#### GNU/Linux
+
+First, check USB/Serial port using command:
+
+```
+ls /dev/ttyUSB*
+```
+
+it will be like /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyUSB2, etc
+
+Now to test connection, you can test getting STM32 Chip using command:
+
+```
+sudo stm32flash /dev/ttyUSB0
+```
+
+![images](images/stuart0.png?raw=true)
+
+### Erasing
+
+#### Windows
+
+To perform Mass/Full Erase, choose _Erase_ and _All_,
+
+![images](images/stboot3b.png?raw=true)
+
+Then click _Next_ and wait until you see this page.
+
+![images](images/stboot4.png?raw=true)
+
+**Warning**: if your next action is to write program, dont click _Back_.
+But Click _Close_ and start the connecting process from start (including resetting STM32 chip).
+
+#### GNU/Linux
+
+To mass erase, use command:
+
+```
+sudo stm32flash -o /dev/ttyUSB0
+```
+
+![images](images/stuart1.png?raw=true)
+
+### Writing
+
+#### Windows
+
+To perform writing, choose _Download to Devices_
+
+The to open compilation result file, click three dotted button right on file name bar.
+On file selection dialog, use either _hex Files_ or _bin Files_ as file format.
+
+For erase option, I recommend _Global Erase_
+
+Lastly, dont forget to check _Verify after download_
+
+![images](images/stboot5.png?raw=true)
+
+Now, you can click _Next_ and chip programming will started.
+
+![images](images/stboot6.png?raw=true)
+
+Make sure verification is success in the end.
+
+![images](images/stboot7.png?raw=true)
+
+Now you can _Close_ and change the chip STM32 to boot into Running mode.
+
+#### GNU/Linux
+
+First, open terminal where .bin file reside.
+Then use command:
+
+```
+sudo stm32flash -w ./build/*.bin -v /dev/ttyUSB0
+```
+
+![images](images/stuart2.png?raw=true)
+
+then you change the chip STM32 to boot into Running mode.

@@ -6,7 +6,8 @@
 - [Exit Vim](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#exit-vim)
 	- [Short Version](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#short-version)
 	- [Detailed Version](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#detailed-version)
-	
+- [Vim Enhancement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#vim-enchancement)
+- [Vim Coc](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#vim-coc)	
 
 ## Introduction
 
@@ -49,7 +50,7 @@ vim
 
 You can download gvim (Vim with GUI) installer [here](https://github.com/vim/vim-win32-installer/releases/download/v8.2.2576/gvim_8.2.2576_x64.exe)
 
-You can start _gvim_ from start-menu.
+You can start _gVim_ from start-menu.
 
 ![images](images/gvim.JPG?raw=true)
 
@@ -81,7 +82,7 @@ Some example command to input (while in NORMAL mode):
 	- **:q** to quit from Vim
 	- **:w** to write Vim content to file
 	- **:wq** to write then quit
-	- **:q!** to quit and abandone everything
+	- **:q!** to force quit and abandone everything
 	- **:w main.c** to write Vim content to file main.c
 
 ## Vim Enchancement
@@ -92,17 +93,39 @@ Here we will show just some very good plugins to make Vim more enjoyable.
 ### Debian/Ubuntu
 
 ```
-sudo apt-get install vim-ctrlp vim-airline vim-airline-themes vim-ultisnips
+sudo apt-get install vim-airline vim-ultisnips
 ```
+
+![images](images/vimmore.png?raw=true)
 
 ### ArchLinux/Manjaro
 
 ```
-sudo pacman -S vim-nerdcommenter vim-ctrlp vim-nerdtree vim-airline vim-surround vim-tagbar vim-ultisnips
+sudo pacman -S vim-nerdtree vim-airline vim-ultisnips
 ```
 
 ![images](images/vimarch.png?raw=true)
 
 ### Windows
 
-Coming Soon
+Until right-now, Vim plugins doesn't work really well in Windows.
+So I don't really recommend it.
+If you need more than just text editor, you should go with VSCodium instead.
+
+## Vim CoC
+
+Vim CoC (Conquer of Completion) is a project to integrate many language server protocol into Vim.
+With this, Vim will be able to analyze code and provide code-completion or snippet, like VSCode.
+
+For now, I only give a list of some AUR packages for ArchLinux/Manjaro.
+For Debian/Ubuntu hopefully coming soon.
+For Windows, go with VSCodium instead.
+
+Here some tested AUR packages:
+- [CoC server](https://aur.archlinux.org/packages/vim-coc-git/)
+- [CoC pair](https://aur.archlinux.org/packages/vim-coc-pairs-git/)
+- [CoC snippets](https://aur.archlinux.org/packages/vim-coc-snippets-git/)
+- [CoC highlight](https://aur.archlinux.org/packages/vim-coc-highlight-git/)
+- [CoC clangd](https://aur.archlinux.org/packages/vim-coc-clangd-git/)
+
+![images](images/vimcoc.png?raw=true)

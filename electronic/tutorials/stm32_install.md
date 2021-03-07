@@ -47,7 +47,7 @@ sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib
 ```
 
 you can test this installation from CMD using:
-	
+
 ~~~
 arm-none-eabi-gcc --version
 ~~~
@@ -233,4 +233,4 @@ For ArchLinux/Manjaro:
 sudo pacman -S moserial
 ```
 
-![images](images/moserial	.png?raw=true)
+![images](images/moserial.png?raw=true)

@@ -1,8 +1,8 @@
 # Vim
 
 ## Table of Contents
-- [Introduction]()
-- [Installation]()
+- [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#introduction)
+- [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#installation)
 
 ## Introduction
 
@@ -33,9 +33,19 @@ sudo apt-get install vim
 sudo pacman -S vim
 ```
 
+To start vim from terminal, type command:
+
+```
+vim
+```
+
+![images](images/vimubuntu.png?raw=true)
+
 ### Windows
 
 You can download gvim (Vim with GUI) installer [here](https://github.com/vim/vim-win32-installer/releases/download/v8.2.2576/gvim_8.2.2576_x64.exe)
+
+You can start _gvim_ from start-menu.
 
 ![images](images/gvim.JPG?raw=true)
 

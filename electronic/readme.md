@@ -3,7 +3,7 @@
 ## Pre-requisites
 
 In this tutorials, we assume of some these things:
-- You have some useful level of C programming language.
+- You have some decent level of C programming language skill.
 - You understand how to access terminal emulator (GNU/Linux) or CMD (Windows) in a specified path.
 - You have decent internet connection to download tools/software.
 - You have a good system of computer/laptop on your own.

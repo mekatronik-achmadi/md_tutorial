@@ -5,6 +5,7 @@
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#installation)
 - [Doxygen Comments](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#doxygen-comments)
 - [Doxyconf](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#doxyconf)
+- [Generate Documentation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#generate-documentation)
 
 ## Introduction
 
@@ -36,6 +37,8 @@ You can dowload their installer here:
 - [Doxygen](https://doxygen.nl/files/doxygen-1.9.1-setup.exe)
 - [Graphviz](https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download).
 
+Note: You may need Visual C++ Redistributable 32bit (x86). You can get [here](https://aka.ms/vs/16/release/vc_redist.x86.exe).
+
 After install you may need to add their binary paths
 ( _C:\Program Files\doxygen\bin\_ and _C:\Program Files\Graphviz\bin\_ )
 to Window's system environment variables.
@@ -44,7 +47,7 @@ to Window's system environment variables.
 
 Doxygen generate centralized documentation by reading and parsing Doxygen formatted comments on every variables, functions, macros, and even files.
 
-Here some examples of doxygen comments in C sources:
+Here some examples of Doxygen comments in C sources:
 
 ### Files
 
@@ -95,8 +98,6 @@ uint16 coba(uint8 angka, uint8 pangkat){
 	return pow(angka, pangkat)
 }
 ```
-
-
 
 ## Doxyconf
 
@@ -171,13 +172,48 @@ SORT_MEMBER_DOCS       = NO
 REFERENCES_LINK_SOURCE = NO
 USE_MATHJAX            = NO
 
+GENERATE_DOCBOOK       = NO
+GENERATE_LATEX         = NO
+GENERATE_HTMLHELP      = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+GENERATE_AUTOGEN_DEF   = NO
+GENERATE_PERLMOD       = NO
+
 #CLANG_DISABLED_AT_COMPILE=
 #CLANG_DISABLED_AT_COMPILE=
 ```
 
-alternatively, if you use Bash shell, you can use this sed [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:
+alternatively, if you use Bash shell, you can use this _sed_ [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:
 
 ```
 chmod a+x ./doxygen_sed.sh
 ./doxygen_sed.sh coba_doxyconf
 ```
+
+## Generate Documentation
+
+Next, open terminal/CMD in source-tree path where doxyconf file reside.
+Then you can issue command like this:
+
+```
+doxygen coba_doxyconf
+```
+
+Then you can open html documentation in output directory.
+For example, you can open documentation using command:
+
+```
+firefox coba_doc/html/index.html
+```
+
+**Note**: Some old or bad browser like IE can't render Doxygen HTML properly.
+
+Here some preview of result:
+- on a file
+![images](images/doxy0.JPG?raw=true)
+- on function
+![images](images/doxy1.JPG?raw=true)
+- on variable
+![images](images/doxy2.JPG?raw=true)

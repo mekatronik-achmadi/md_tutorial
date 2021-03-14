@@ -1,7 +1,9 @@
 # Doxygen
 
 ## Table of Contents
--
+- [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#introduction)
+- [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#installation)
+- [Doxyconf](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#doxyconf)
 
 ## Introduction
 
@@ -34,8 +36,66 @@ You can dowload their installer here:
 - [Graphviz](https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download).
 
 After install you may need to add their binary paths
-(C:\Program Files\doxygen\bin\ and C:\Program Files\Graphviz\bin\)
+(_C:\Program Files\doxygen\bin\_ and _C:\Program Files\Graphviz\bin\_)
 to Window's system environment variables.
+
+## Doxygen Comments
+
+Doxygen works by reading and parsing Doxygen formatted comments on every variables, functions, macros, and even files.
+
+Here some examples in C sources:
+
+### Files
+
+```c
+/**
+ * @file    main.c
+ * @brief   Main code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+ 
+ int main(){
+ 	return 0
+ }
+ 
+ /** @} */
+```
+
+### Variables and Macros
+
+```c
+
+/**
+ * @brief Off State
+ */
+#define STT_OFF	0
+
+/**
+ * @brief status variables
+ * @details Status variable untuk di cek, kemungkinan nilai 0, 1, 2, atau 3	
+ */
+uint8 status = 0
+```
+
+### Functions
+
+```c
+
+/**
+ * @brief Fungsi coba pangkat
+ * @details Sekedar Fungsi untuk coba-coba bilangan pangkat
+ * @param[in] uint8 Angka yg dipangkat
+ * @param[in] uint8 Angka pangkat
+ * @return uint8 Bilangan hasil pangkat
+ */
+uint16 coba(uint8 angka, uint8 pangkat){
+	return pow(angka, pangkat)
+}
+```
+
+
 
 ## Doxyconf
 
@@ -62,7 +122,7 @@ OUTPUT_DIRECTORY	= coba_doc
 GENERATE_HTML	= YES
 ```
 
-then here some other settings parameters you can edit:
+then here some other optional settings parameters you can edit:
 
 ```make
 ALWAYS_DETAILED_SEC    = YES
@@ -114,8 +174,9 @@ USE_MATHJAX            = NO
 #CLANG_DISABLED_AT_COMPILE=
 ```
 
-alternatively, if you use Bash shell, you can use the sed script [here]() and issue:
+alternatively, if you use Bash shell, you can use this sed [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:
 
 ```
+chmod a+x ./doxygen_sed.sh
 ./doxygen_sed.sh coba_doxyconf
 ```

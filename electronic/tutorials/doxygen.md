@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#introduction)
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#installation)
+- [Doxygen Comments](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#doxygen-comments)
 - [Doxyconf](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md#doxyconf)
 
 ## Introduction
@@ -36,14 +37,14 @@ You can dowload their installer here:
 - [Graphviz](https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download).
 
 After install you may need to add their binary paths
-(_C:\Program Files\doxygen\bin\_ and _C:\Program Files\Graphviz\bin\_)
+( _C:\Program Files\doxygen\bin\_ and _C:\Program Files\Graphviz\bin\_ )
 to Window's system environment variables.
 
 ## Doxygen Comments
 
-Doxygen works by reading and parsing Doxygen formatted comments on every variables, functions, macros, and even files.
+Doxygen generate centralized documentation by reading and parsing Doxygen formatted comments on every variables, functions, macros, and even files.
 
-Here some examples in C sources:
+Here some examples of doxygen comments in C sources:
 
 ### Files
 

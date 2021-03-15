@@ -13,9 +13,9 @@ sed -i "s#EXTRACT_PACKAGE        = NO#EXTRACT_PACKAGE        = YES#g" $DOXYCONF
 sed -i "s#EXTRACT_PRIVATE        = NO#EXTRACT_PRIVATE        = YES#g" $DOXYCONF
 sed -i "s#EXTRACT_LOCAL_METHODS  = NO#EXTRACT_LOCAL_METHODS  = YES#g" $DOXYCONF
 sed -i "s#SKIP_FUNCTION_MACROS   = YES#SKIP_FUNCTION_MACROS   = NO#g" $DOXYCONF
-sed -i "s#FULL_PATH_NAMES        = YES#FULL_PATH_NAMES        = NO#g" $DOXYCONF
 sed -i "s#HIDE_UNDOC_MEMBERS     = YES#HIDE_UNDOC_MEMBERS     = NO#g" $DOXYCONF
 sed -i "s#HIDE_UNDOC_CLASSES     = YES#HIDE_UNDOC_CLASSES     = NO#g" $DOXYCONF
+sed -i "s#FULL_PATH_NAMES        = YES#FULL_PATH_NAMES        = NO#g" $DOXYCONF
 
 # graph and diagram related
 sed -i "s#HAVE_DOT               = NO#HAVE_DOT               = YES#g" $DOXYCONF

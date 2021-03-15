@@ -124,20 +124,37 @@ OUTPUT_DIRECTORY	= coba_doc
 GENERATE_HTML	= YES
 ```
 
-then here some other optional settings parameters you can edit:
+If you use Bash shell, you can use this _sed_ [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:
+
+```
+chmod a+x ./doxygen_sed.sh
+./doxygen_sed.sh coba_doxyconf
+```
+
+But if not, then below here some optional settings parameters you can edit manually:
 
 ```make
+QUIET                  = NO
+WARNINGS               = NO
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = NO
+WARN_NO_PARAMDOC       = NO
+WARN_AS_ERROR          = NO
+
 ALWAYS_DETAILED_SEC    = YES
-EXTRACT_STATIC         = YES
-EXTRACT_LOCAL_CLASSES  = YES
-HIDE_UNDOC_MEMBERS     = YES
-HIDE_UNDOC_CLASSES     = YES
 VERBATIM_HEADERS       = YES
 RECURSIVE              = YES
-EXTRACT_ALL            = NO
-EXTRACT_PRIVATE        = NO
-FULL_PATH_NAMES        = NO
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_PACKAGE        = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PRIV_VIRTUAL   = YES
+EXTRACT_LOCAL_METHODS  = YES
+EXTRACT_LOCAL_CLASSES  = YES
 SKIP_FUNCTION_MACROS   = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+FULL_PATH_NAMES        = NO
 
 HAVE_DOT               = YES
 UML_LOOK               = YES
@@ -150,9 +167,9 @@ INCLUDED_BY_GRAPH      = YES
 DIRECTORY_GRAPH        = YES
 DOT_TRANSPARENT        = YES
 GRAPHICAL_HIERARCHY    = YES
+HIDE_UNDOC_RELATIONS   = NO
 
 SOURCE_BROWSER         = YES
-GENERATE_TREEVIEW      = YES
 MARKDOWN_SUPPORT       = YES
 STRIP_CODE_COMMENTS    = YES
 CASE_SENSE_NAMES       = YES
@@ -163,14 +180,14 @@ ENABLE_PREPROCESSING   = YES
 MACRO_EXPANSION        = YES
 EXPAND_ONLY_PREDEF     = YES
 SEARCHENGINE           = YES
-GENERATE_TREEVIEW      = YES
-DISABLE_INDEX          = YES
 DOCBOOK_PROGRAMLISTING = YES
 ALPHABETICAL_INDEX     = NO
 INHERIT_DOCS           = NO
 SORT_MEMBER_DOCS       = NO
 REFERENCES_LINK_SOURCE = NO
 USE_MATHJAX            = NO
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = NO
 
 GENERATE_DOCBOOK       = NO
 GENERATE_LATEX         = NO
@@ -180,16 +197,6 @@ GENERATE_MAN           = NO
 GENERATE_XML           = NO
 GENERATE_AUTOGEN_DEF   = NO
 GENERATE_PERLMOD       = NO
-
-#CLANG_DISABLED_AT_COMPILE=
-#CLANG_DISABLED_AT_COMPILE=
-```
-
-alternatively, if you use Bash shell, you can use this _sed_ [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:
-
-```
-chmod a+x ./doxygen_sed.sh
-./doxygen_sed.sh coba_doxyconf
 ```
 
 ## Generate Documentation

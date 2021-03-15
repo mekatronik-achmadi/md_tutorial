@@ -40,7 +40,7 @@ You can dowload their installer here:
 Note: You may need Visual C++ Redistributable 32bit (x86). You can get [here](https://aka.ms/vs/16/release/vc_redist.x86.exe).
 
 After install you may need to add their binary paths
-( _C:\Program Files\doxygen\bin\_ and _C:\Program Files\Graphviz\bin\_ )
+( _C:\Program Files\doxygen\bin_ and _C:\Program Files\Graphviz\bin_ )
 to Window's system environment variables.
 
 ## Doxygen Comments

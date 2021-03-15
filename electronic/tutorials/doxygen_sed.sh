@@ -6,14 +6,16 @@ export DOXYCONF=${1}
 sed -i "s#ALWAYS_DETAILED_SEC    = NO#ALWAYS_DETAILED_SEC    = YES#g" $DOXYCONF
 sed -i "s#EXTRACT_STATIC         = NO#EXTRACT_STATIC         = YES#g" $DOXYCONF
 sed -i "s#EXTRACT_LOCAL_CLASSES  = NO#EXTRACT_LOCAL_CLASSES  = YES#g" $DOXYCONF
-sed -i "s#HIDE_UNDOC_MEMBERS     = NO#HIDE_UNDOC_MEMBERS     = YES#g" $DOXYCONF
-sed -i "s#HIDE_UNDOC_CLASSES     = NO#HIDE_UNDOC_CLASSES     = YES#g" $DOXYCONF
 sed -i "s#VERBATIM_HEADERS       = NO#VERBATIM_HEADERS       = YES#g" $DOXYCONF
 sed -i "s#RECURSIVE              = NO#RECURSIVE              = YES#g" $DOXYCONF
-sed -i "s#EXTRACT_ALL            = YES#EXTRACT_ALL            = NO#g" $DOXYCONF
-sed -i "s#EXTRACT_PRIVATE        = YES#EXTRACT_PRIVATE        = NO#g" $DOXYCONF
-sed -i "s#FULL_PATH_NAMES        = YES#FULL_PATH_NAMES        = NO#g" $DOXYCONF
+sed -i "s#EXTRACT_ALL            = NO#EXTRACT_ALL            = YES#g" $DOXYCONF
+sed -i "s#EXTRACT_PACKAGE        = NO#EXTRACT_PACKAGE        = YES#g" $DOXYCONF
+sed -i "s#EXTRACT_PRIVATE        = NO#EXTRACT_PRIVATE        = YES#g" $DOXYCONF
+sed -i "s#EXTRACT_LOCAL_METHODS  = NO#EXTRACT_LOCAL_METHODS  = YES#g" $DOXYCONF
 sed -i "s#SKIP_FUNCTION_MACROS   = YES#SKIP_FUNCTION_MACROS   = NO#g" $DOXYCONF
+sed -i "s#FULL_PATH_NAMES        = YES#FULL_PATH_NAMES        = NO#g" $DOXYCONF
+sed -i "s#HIDE_UNDOC_MEMBERS     = YES#HIDE_UNDOC_MEMBERS     = NO#g" $DOXYCONF
+sed -i "s#HIDE_UNDOC_CLASSES     = YES#HIDE_UNDOC_CLASSES     = NO#g" $DOXYCONF
 
 # graph and diagram related
 sed -i "s#HAVE_DOT               = NO#HAVE_DOT               = YES#g" $DOXYCONF

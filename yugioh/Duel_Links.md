@@ -2,18 +2,19 @@
 
 #### General Guides:
 - No any staple Trap card
-- No any staple hand trap
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
-- Use 2 or 3 card copies in deck
-- Not a Xyz or Ritual focus deck
+- Not use any Egyptian God cards
 - Can search or summon from deck
-- Can use cards in graveyard/banish
+- Preferably has backrow removal
+- Preferably has draw power support
+- Preferably can re-use cards in GY
+- One copy card must be in archetype
 - Can be combination of 2 archetypes
-- Boss Monsters must be in archetype
+- Not use Ritual or Xyz boss monsters
+- Boss monsters must part of archetype
 - Extra Deck cards may not in archetype
-- Limited or 1 copy must be in archetype
-- Extra Deck Summon type: Fusion, Synchro
+- Normal, Effect, Ritual, Fusion, Synchro
 - Deck Consistency is the highest priority
 - Foil Order: Basic-Glossy-Legend-Prismatic
 
@@ -23,25 +24,20 @@
 
 #### Non-Human Decks
 - Non-Human boss monsters
-- No or few Female monsters
+- No/Few Female monsters
 
 #### Female Decks:
 - Female boss monsters
 - Most Female monsters
 
-#### Wizard Decks:
-- Wizard boss monsters
-- All monsters are Spellcaster
-
 #### Modified Decks:
 - Based on one of deck category above
-- Deck Name: (BaseDeck)-(Modification)
+- Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
-- Xyz or Ritual focus deck
-- Or Reward only archetype
-- Not actively improved
-- Not for PvP match
+- Ritual/Xyz boss monsters
+- Or not actively improved
+- Not ready for PvP match
 
 ------------------------------------
 
@@ -57,41 +53,43 @@
 - RedEyes {Joey DM}
 
 #### Non-Human Deck Saves:
-- Triamid {Yugi DM}
-- Superheavy {Yugi DM}
-- MagnetWarrior {Yugi DM}
-- Subterror {Seto DM}
-- D/D/D {Joey DM}
+- Superheavy {Atem DM}
+- MagnetWarrior {Atem DM}
+- Subterror {Atem DM}
+- D/D/D {Atem DM}
 - Predaplant {Joey DM}
 
 #### Female Deck Saves:
 - MagicianGirl {Tea DM}
 - Aromaseraphy {Tea DM}
 - Melodyous {Tea DM}
-- EvilEye {Tea DM}
+- Valkyrie {Tea DM}
 - FortuneLady {Mai DM}
 - Amazoness {Mai DM}
 - Lunalight {Mai DM}
-- Valkyrie {Mai DM}
-
-#### Wizard Deck Saves:
-- MagicianChaos {Yugi DM}
-- Gravekeeper {Yugi DM}
+- EvilEye {Mai DM}
 
 ------------------------------------
 
 <div align="center"><b>Other Deck Saves</b></div>
 
 #### Modified Deck Saves:
-- RedEyes-Predaplant {Joey DSOD}
-- RedEyes-Darkness {Joey DSOD}
-- BlueEyes-Chaos {Seto DSOD}
+- RedEyes_Predaplant {Joey DSOD}
+- RedEyes_Amazoness {Joey DSOD}
+- RedEyes_Gemini {Joey DSOD}
+- BlueEyes_Chaos {Seto DSOD}
+- MagicianGirl_Predaplant {Tea DSOD}
+- Lunalight_Predaplant {Alexis GX}
 
 #### Collection Deck Saves:
-- Cubic {Diva DSOD}
-- XyzZubaba {Yuma ZXL}
-- XyzShark {Shark ZXL}
+- Gravekeeper {Yugi DM}
+- Triamid {Yugi DM}
+- MagicianChaos {Alexis GX}
 - CyberAngel {Alexis GX}
+- XyzShark {Shark ZXL}
+- XyzZubaba {Yuma ZXL}
+- GalaxyEyes {Kite ZXL}
+- CubicBeast {Diva DSOD}
 
 ------------------------------------
 
@@ -115,22 +113,22 @@
 <div align="center"><b>Customizations</b></div>
 
 #### Duel Mat:
-- Yugi DM: NextGen Duel Disk
+- Atem DM: DM Girl {Purple}
 - Seto DM: NextGen Duel Disk
 - Joey DM: Blue {Digital}
 - Mai DM: DM Girl {Sexy}
 - Tea DM: DM Girl {Sexy}
 
 #### Card Sleeve:
-- Yugi DM: Blue {Digital}
+- Atem DM: DM Girl {Purple}
 - Seto DM: NextGen Duel Disk
 - Joey DM: Blue {Digital}
 - May DM: DM Girl {DSOD}
 - Tea DM: DM Girl {Sexy}
 
 #### Collection Deck:
-- Duel Mat: DM Girl {Purple}
-- Card Sleeve: DM Girl {Purple}
+- Duel Mat: AR-Vision
+- Card Sleeve: AR-Vision
 
 #### Termporary Deck:
 - Duel Mat: Default
@@ -141,34 +139,31 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- Triamid
 - MagnetWarrior
-- Gravekeeper
-- Amazoness
 
 #### Card Targets:
-- Necrovaley @1
-- Amazoness Heirloom @1
-- Amazoness Spirit @3
-- Sprite's Blessing @2
+- Magnetic Field @2
+- Super Buddy Team Unite @2
+- Sprite's Blessing @1
 
 #### Working Boxes:
-- 11th MainBox
-- 20th MiniBox
-- 3rd MainBox
+- 23rd MiniBox
+- 02nd MainBox (HalfDiscount)
 
 #### Card Waiting:
 - Red-Eyes Fang Chain @2
 
 #### Dream Ticket Targets:
 - UR:
-    - Gold Sarcophagus @1
     - Dragunity Ascalon
+    - Gold Sarcophagus
 - SR:
     - Dragunity Senatus
 - Skill:
 
 #### Opened Boxes:
+- Maximum boxes is limited to 29th
+
 | Number | Main | Mini|
 |:------:|:----:|:----:|
 | 29 | | &check; |
@@ -176,7 +171,7 @@
 | 27 | &check; | |
 | 26 | &check; | &check; |
 | 25 | &check; | &check; |
-| 23 | &check; | |
+| 23 | &check; | &check; |
 | 22 | &check; | |
 | 21 | &check; | |
 | 20 | &check; | &check; |
@@ -186,12 +181,7 @@
 | 15 | &check; | |
 | 11 | &check; | |
 | 07 | &check; | |
-
-#### Regretable Gems:
-- Sleeve: AR Vision -> 75
-- Deck: Hero Rising -> 500
-- Deck: Synchro Connection -> 500
-- Deck: Swordbound Silence -> 500
+| 02 | &check; | |
 
 ------------------------------------
 

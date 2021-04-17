@@ -2,6 +2,7 @@
 
 #### General Guides:
 - No any staple Trap card
+- Not a toolbox archetypes
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
 - Not use any Egyptian God cards
@@ -39,9 +40,9 @@
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
-- Not for PvP match
-- Xyz focused archtypes
-- Or not actively improved
+- Can be Xyz focused decks
+- Can be a toolbox decks
+- Not opening any boxes
 
 ------------------------------------
 
@@ -93,10 +94,9 @@
 - Lunalight_Predaplant {Alexis GX}
 
 #### Collection Deck Saves:
-- XyzShark {Shark ZXL}
+- SynchroSproid {Yusei 5DS}
 - XyzZubaba {Yuma ZXL}
-- GalaxyEyes {Kite ZXL}
-- CubicBeast {Diva DSOD}
+- XyzShark {Shark ZXL}
 
 ------------------------------------
 

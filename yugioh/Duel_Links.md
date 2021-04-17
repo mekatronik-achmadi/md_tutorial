@@ -5,13 +5,13 @@
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
 - Not use any Egyptian God cards
+- Not use Xyz focused archetypes
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
 - Preferably can re-use cards in GY
 - One copy card must be in archetype
 - Can be combination of 2 archetypes
-- Not use Ritual or Xyz boss monsters
 - Boss monsters must part of archetype
 - Extra Deck cards may not in archetype
 - Normal, Effect, Ritual, Fusion, Synchro
@@ -26,6 +26,10 @@
 - Non-Human boss monsters
 - No/Few Female monsters
 
+#### Wizard Decks:
+- Male Wizard boss monsters
+- No/Few Female monsters
+
 #### Female Decks:
 - Female boss monsters
 - Most Female monsters
@@ -35,9 +39,9 @@
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
-- Ritual/Xyz boss monsters
+- Not for PvP match
+- Xyz focused archtypes
 - Or not actively improved
-- Not ready for PvP match
 
 ------------------------------------
 
@@ -53,18 +57,25 @@
 - RedEyes {Joey DM}
 
 #### Non-Human Deck Saves:
-- Superheavy {Atem DM}
 - MagnetWarrior {Atem DM}
-- Subterror {Atem DM}
+- Triamid {Atem DM}
 - D/D/D {Atem DM}
+- Subterror {Seto DM}
 - Predaplant {Joey DM}
+- Superheavy {Joey DM}
+
+#### Wizard Deck Saves:
+- Gravekeeper {Atem DM}
+- MagicianChaos {Atem DM}
 
 #### Female Deck Saves:
 - MagicianGirl {Tea DM}
 - Aromaseraphy {Tea DM}
+- Witchcrafter {Tea DM}
 - Melodyous {Tea DM}
 - Valkyrie {Tea DM}
 - FortuneLady {Mai DM}
+- CyberAngel {Mai DM}
 - Amazoness {Mai DM}
 - Lunalight {Mai DM}
 - EvilEye {Mai DM}
@@ -82,10 +93,6 @@
 - Lunalight_Predaplant {Alexis GX}
 
 #### Collection Deck Saves:
-- Gravekeeper {Yugi DM}
-- Triamid {Yugi DM}
-- MagicianChaos {Alexis GX}
-- CyberAngel {Alexis GX}
 - XyzShark {Shark ZXL}
 - XyzZubaba {Yuma ZXL}
 - GalaxyEyes {Kite ZXL}
@@ -156,7 +163,8 @@
 #### Dream Ticket Targets:
 - UR:
     - Dragunity Ascalon
-    - Gold Sarcophagus
+    - Witchcrafter Schmietta
+    - Magician's Circle
 - SR:
     - Dragunity Senatus
 - Skill:

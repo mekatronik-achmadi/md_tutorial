@@ -27,22 +27,22 @@
 - Non-Human boss monsters
 - No/Few Female monsters
 
-#### Wizard Decks:
-- Male Wizard boss monsters
-- No/Few Female monsters
-
 #### Female Decks:
 - Female boss monsters
 - Most Female monsters
+
+#### Ritual Decks:
+- Ritual summon boss monsters
+- Can be Ritual focused deck
 
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Collection Decks:
-- Can be Xyz focused decks
-- Can be a toolbox decks
-- Not opening any boxes
+#### Xyz Decks:
+- Xyz focused archetypes
+- Not opening Xyz boxes
+- For event match only
 
 ------------------------------------
 
@@ -54,32 +54,31 @@
 - Dragunity {Seto DM}
 - BlueEyes {Seto DM}
 - CyberDragon {Joey DM}
-- Metaphys {Joey DM}
 - RedEyes {Joey DM}
+- Metaphys {Yugi DM}
 
 #### Non-Human Deck Saves:
 - MagnetWarrior {Atem DM}
 - Triamid {Atem DM}
 - D/D/D {Atem DM}
-- Subterror {Seto DM}
+- Subterror {Joey DM}
 - Predaplant {Joey DM}
-- Superheavy {Joey DM}
-
-#### Wizard Deck Saves:
-- Gravekeeper {Atem DM}
-- MagicianChaos {Atem DM}
+- Superheavy {Yugi DM}
 
 #### Female Deck Saves:
 - MagicianGirl {Tea DM}
 - Aromaseraphy {Tea DM}
 - Witchcrafter {Tea DM}
 - Melodyous {Tea DM}
-- Valkyrie {Tea DM}
 - FortuneLady {Mai DM}
-- CyberAngel {Mai DM}
 - Amazoness {Mai DM}
 - Lunalight {Mai DM}
-- EvilEye {Mai DM}
+- Valkyrie {Mai DM}
+- EvilEye {Yugi DM}
+
+#### Ritual Deck Saves:
+- MagicianChaos {Atem DM}
+- CyberAngel {Yugi DM}
 
 ------------------------------------
 
@@ -93,10 +92,9 @@
 - MagicianGirl_Predaplant {Tea DSOD}
 - Lunalight_Predaplant {Alexis GX}
 
-#### Collection Deck Saves:
-- SynchroSproid {Yusei 5DS}
-- XyzZubaba {Yuma ZXL}
-- XyzShark {Shark ZXL}
+#### Xyz Deck Saves:
+- Xyz4_Zubaba {Yuma ZXL}
+- Xyz3_Shark {Shark ZXL}
 
 ------------------------------------
 
@@ -125,6 +123,7 @@
 - Joey DM: Blue {Digital}
 - Mai DM: DM Girl {Sexy}
 - Tea DM: DM Girl {Sexy}
+- Yugi DM: DM Girl {Pink}
 
 #### Card Sleeve:
 - Atem DM: DM Girl {Purple}
@@ -132,8 +131,9 @@
 - Joey DM: Blue {Digital}
 - May DM: DM Girl {DSOD}
 - Tea DM: DM Girl {Sexy}
+- Yugi DM: DM Girl {Pink}
 
-#### Collection Deck:
+#### Xyz Deck:
 - Duel Mat: AR-Vision
 - Card Sleeve: AR-Vision
 

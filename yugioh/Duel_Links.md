@@ -2,11 +2,10 @@
 
 #### General Guides:
 - No any staple Trap card
-- Not a toolbox archetypes
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
+- Not a Ritual/Xyz focused deck
 - Not use any Egyptian God cards
-- Not use Xyz focused archetypes
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
@@ -31,17 +30,13 @@
 - Female boss monsters
 - Most Female monsters
 
-#### Ritual Decks:
-- Ritual summon boss monsters
-- Can be Ritual focused deck
-
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Xyz Decks:
-- Xyz focused archetypes
-- Not opening Xyz boxes
+#### Collection Decks:
+- Xyz/Ritual focused deck
+- Not actively improved
 - For event match only
 
 ------------------------------------
@@ -55,7 +50,8 @@
 - BlueEyes {Seto DM}
 - CyberDragon {Joey DM}
 - RedEyes {Joey DM}
-- Metaphys {Yugi DM}
+- Metaphys {Atem DM}
+- Cyberdark {Yugi DM}
 
 #### Non-Human Deck Saves:
 - MagnetWarrior {Atem DM}
@@ -64,6 +60,7 @@
 - Subterror {Joey DM}
 - Predaplant {Joey DM}
 - Superheavy {Yugi DM}
+- Speedroid {Yugi DM}
 
 #### Female Deck Saves:
 - MagicianGirl {Tea DM}
@@ -75,10 +72,6 @@
 - Lunalight {Mai DM}
 - Valkyrie {Mai DM}
 - EvilEye {Yugi DM}
-
-#### Ritual Deck Saves:
-- MagicianChaos {Atem DM}
-- CyberAngel {Yugi DM}
 
 ------------------------------------
 
@@ -93,8 +86,11 @@
 - Lunalight_Predaplant {Alexis GX}
 
 #### Xyz Deck Saves:
+- MagicianChaos {Yugi DSOD}
+- CyberAngel {Alexis GX}
 - Xyz4_Zubaba {Yuma ZXL}
 - Xyz3_Shark {Shark ZXL}
+- GalaxyEyes {Kite ZXL}
 
 ------------------------------------
 
@@ -133,7 +129,7 @@
 - Tea DM: DM Girl {Sexy}
 - Yugi DM: DM Girl {Pink}
 
-#### Xyz Deck:
+#### Collection Deck:
 - Duel Mat: AR-Vision
 - Card Sleeve: AR-Vision
 
@@ -149,13 +145,10 @@
 - MagnetWarrior
 
 #### Card Targets:
-- Magnetic Field @2
-- Super Buddy Team Unite @2
-- Sprite's Blessing @1
+- Magnetic Field @1
 
 #### Working Boxes:
 - 23rd MiniBox
-- 02nd MainBox (HalfDiscount)
 
 #### Card Waiting:
 - Red-Eyes Fang Chain @2
@@ -164,7 +157,6 @@
 - UR:
     - Dragunity Ascalon
     - Witchcrafter Schmietta
-    - Magician's Circle
 - SR:
     - Dragunity Senatus
 - Skill:

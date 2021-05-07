@@ -4,7 +4,8 @@
 - No any staple Trap card
 - Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
-- Not a Ritual/Xyz focused deck
+- Not a Synchro toolbox deck
+- Not a Xyz focused archetype
 - Not use any Egyptian God cards
 - Can search or summon from deck
 - Preferably has backrow removal
@@ -30,12 +31,17 @@
 - Female boss monsters
 - Most Female monsters
 
+#### Ritual Decks:
+- Ritual boss monsters
+- Can be a Ritual focused
+
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Collection Decks:
-- Xyz/Ritual focused deck
+#### Xyz Decks:
+- Xyz focused archetype
+- Xyz toolbox archetype
 - Not actively improved
 - For event match only
 
@@ -50,8 +56,7 @@
 - BlueEyes {Seto DM}
 - CyberDragon {Joey DM}
 - RedEyes {Joey DM}
-- Metaphys {Atem DM}
-- Cyberdark {Yugi DM}
+- Metaphys {Yugi DM}
 
 #### Non-Human Deck Saves:
 - MagnetWarrior {Atem DM}
@@ -60,10 +65,9 @@
 - Subterror {Joey DM}
 - Predaplant {Joey DM}
 - Superheavy {Yugi DM}
-- Speedroid {Yugi DM}
 
 #### Female Deck Saves:
-- MagicianGirl {Tea DM}
+- GirlMagician {Tea DM}
 - Aromaseraphy {Tea DM}
 - Witchcrafter {Tea DM}
 - Melodyous {Tea DM}
@@ -73,6 +77,10 @@
 - Valkyrie {Mai DM}
 - EvilEye {Yugi DM}
 
+#### Ritual Deck Saves:
+- MagicianChaos {Atem DM}
+- CyberAngel {Yugi DM}
+
 ------------------------------------
 
 <div align="center"><b>Other Deck Saves</b></div>
@@ -81,16 +89,11 @@
 - RedEyes_Predaplant {Joey DSOD}
 - RedEyes_Amazoness {Joey DSOD}
 - RedEyes_Gemini {Joey DSOD}
-- BlueEyes_Chaos {Seto DSOD}
-- MagicianGirl_Predaplant {Tea DSOD}
-- Lunalight_Predaplant {Alexis GX}
+- GirlMagician_Predaplant {Tea DSOD}
 
 #### Xyz Deck Saves:
-- MagicianChaos {Yugi DSOD}
-- CyberAngel {Alexis GX}
 - Xyz4_Zubaba {Yuma ZXL}
 - Xyz3_Shark {Shark ZXL}
-- GalaxyEyes {Kite ZXL}
 
 ------------------------------------
 
@@ -129,11 +132,11 @@
 - Tea DM: DM Girl {Sexy}
 - Yugi DM: DM Girl {Pink}
 
-#### Collection Deck:
+#### Xyz Deck:
 - Duel Mat: AR-Vision
 - Card Sleeve: AR-Vision
 
-#### Termporary Deck:
+#### Temporary Deck:
 - Duel Mat: Default
 - Card Sleeve: Default
 
@@ -155,10 +158,13 @@
 
 #### Dream Ticket Targets:
 - UR:
-    - Dragunity Ascalon
-    - Witchcrafter Schmietta
+    - Witchcrafter Schmietta @1
+    - Magician Circle @1
+    - Dragunity Ascalon @1
 - SR:
-    - Dragunity Senatus
+    - Dragunity Senatus @1
+    - Wall of Thorn @1
+    - Super Buddy Unite @1
 - Skill:
 
 #### Opened Boxes:

@@ -1,11 +1,10 @@
 <div align="center"><b>Deck Guidelines</b></div>
 
 #### General Guides:
-- No any staple Trap card
-- Not Tier-0 or Tier-1 decks
 - Main deck contain 20 cards
-- Not a Synchro toolbox deck
+- Not a generic toolbox deck
 - Not a Xyz focused archetype
+- No any non-support Trap cards
 - Not use any Egyptian God cards
 - Can search or summon from deck
 - Preferably has backrow removal
@@ -49,103 +48,83 @@
 
 <div align="center"><b>Deck Saves</b></div>
 
-#### Dragon Deck Saves:
-- ThunderDragon {Seto DM}
-- MaleficDragon {Seto DM}
-- Dragunity {Seto DM}
-- BlueEyes {Seto DM}
-- CyberDragon {Joey DM}
-- RedEyes {Joey DM}
-- Metaphys {Yugi DM}
+##### Base Decks
 
-#### Non-Human Deck Saves:
-- MagnetWarrior {Atem DM}
-- Triamid {Atem DM}
-- D/D/D {Atem DM}
-- Subterror {Joey DM}
-- Predaplant {Joey DM}
-- Superheavy {Yugi DM}
+| Category | Deck | Saving | World |
+|:--------:|:----:|:------:|:-----:|
+| Dragon | ThunderDragon | Seto | DM |
+|        | MaleficDragon | Seto | DM |
+|        | Dragunity     | Seto | DM |
+|        | BlueEyes      | Seto | DM |
+|        | CyberDragon   | Joey | DM |
+|        | Metaphys      | Joey | DM |
+|        | RedEyes       | Joey | DM |
+| NonHuman | MagnetWarrior | Yugi | DM |
+|          | Triamid       | Yugi | DM |
+|          | D/D/D         | Yugi | DM |
+|          | Superheavy    | Seto | DM |
+|          | Subterror     | Joey | DM |
+|          | Predaplant    | Joey | DM |
+| Female | GirlMagician | Tea | DM |
+|        | Aromaseraphy | Tea | DM |
+|        | Witchcrafter | Tea | DM |
+|        | Melodyous    | Tea | DM |
+|        | FortuneLady  | Mai | DM |
+|        | Amazoness    | Mai | DM |
+|        | Lunalight    | Mai | DM |
+|        | Valkyrie     | Mai | DM |
+|        | EvilEye      | Mai | DM |
+| Ritual | CyberAngel    | Tea  | DM |
+|        | ChaosMagician | Yugi | DM |
+|        | Vendread      | Yugi | DM |
 
-#### Female Deck Saves:
-- GirlMagician {Tea DM}
-- Aromaseraphy {Tea DM}
-- Witchcrafter {Tea DM}
-- Melodyous {Tea DM}
-- FortuneLady {Mai DM}
-- Amazoness {Mai DM}
-- Lunalight {Mai DM}
-- Valkyrie {Mai DM}
-- EvilEye {Yugi DM}
+##### Modification Decks
 
-#### Ritual Deck Saves:
-- MagicianChaos {Atem DM}
-- CyberAngel {Yugi DM}
+| Category | Deck | Saving | World |
+|:--------:|:----:|:------:|:-----:|
+| Modified | GirlMagician_Predaplant | Tea  | DSOD |
+|          | RedEyes_Predaplant      | Joey | DSOD |
+|          | RedEyes_Amazoness       | Joey | DSOD |
+|          | RedEyes_Gemini          | Joey | DSOD |
 
-------------------------------------
+##### PvP Decks
 
-<div align="center"><b>Other Deck Saves</b></div>
+| Category | Deck | Skill |
+|:--------:|:----:|:-----:|
+| PvP | BlueEyes    | Alternative Evolution |
+|     | RedEyes     | Red-Eyes Fusion       |
+|     | CyberDragon | Cyber Style           |
+|     | CyberDragon | Cyber Style           |
+|     | Subterror   | Labirynth Builder     |
+|     | FortuneLady | Time Passage          |
 
-#### Modified Deck Saves:
-- RedEyes_Predaplant {Joey DSOD}
-- RedEyes_Amazoness {Joey DSOD}
-- RedEyes_Gemini {Joey DSOD}
-- GirlMagician_Predaplant {Tea DSOD}
+##### Xyz Decks
 
-#### Xyz Deck Saves:
-- Xyz4_Zubaba {Yuma ZXL}
-- Xyz3_Shark {Shark ZXL}
-
-------------------------------------
-
-<div align="center"><b>PvP Decks and Skills</b></div>
-
-#### Dragon Deck Saves:
-- RedEyes {Red-Eyes Fusion}
-- BlueEyes {Alternative Evolution}
-- CyberDragon {Cyber Style}
-- Metaphys {Heavy Starter}
-
-#### Non-Human Deck Saves:
-- Subterror {Labirynth Builder}
-
-#### Female Deck Saves:
-- Aromaseraphy {What Grow in Graveyard}
-- FortuneLady {Time Passage}
+| Category | Deck | Saving | World |
+|:--------:|:----:|:-----:|
+| Rank-4 | Zubaba | Yuma  | ZEXAL |
+| Rank-3 | Shark  | Shark | ZEXAL |
 
 ------------------------------------
 
 <div align="center"><b>Customizations</b></div>
 
-#### Duel Mat:
-- Atem DM: DM Girl {Purple}
-- Seto DM: NextGen Duel Disk
-- Joey DM: Blue {Digital}
-- Mai DM: DM Girl {Sexy}
-- Tea DM: DM Girl {Sexy}
-- Yugi DM: DM Girl {Pink}
-
-#### Card Sleeve:
-- Atem DM: DM Girl {Purple}
-- Seto DM: NextGen Duel Disk
-- Joey DM: Blue {Digital}
-- May DM: DM Girl {DSOD}
-- Tea DM: DM Girl {Sexy}
-- Yugi DM: DM Girl {Pink}
-
-#### Xyz Deck:
-- Duel Mat: AR-Vision
-- Card Sleeve: AR-Vision
-
-#### Temporary Deck:
-- Duel Mat: Default
-- Card Sleeve: Default
+| Saving | Duel-Mat | Card-Sleeve |
+|:------:|:--------:|:-----------:|
+| Seto DM   | NextGen DuelDisk | NextGen Duel Disk |
+| Joey DM   | BlueDigital      | BlueDigital       |
+| Mai DM    | DM Girl Sexy     | DM Girl DSOD      |
+| Tea DM    | DM Girl Sexy     | DM Girl Sexy      |
+| Yugi DM   | DM Girl Purple   | DM Girl Purple    |
+| Xyz       | AR-Vision        | AR-Vision         |
+| Temporary | Default          | Default           |
 
 ------------------------------------
 
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- MagnetWarrior
+- Vendread
 
 #### Card Targets:
 - Magnetic Field @1
@@ -159,41 +138,40 @@
 #### Dream Ticket Targets:
 - UR:
     - Witchcrafter Schmietta @1
-    - Magician Circle @1
+    - Magician's Circle @1
     - Dragunity Ascalon @1
+    - Gold Sarcophagus @1
 - SR:
-    - Dragunity Senatus @1
-    - Wall of Thorn @1
     - Super Buddy Unite @1
+    - Dragunity Senatus @1
 - Skill:
 
 #### Opened Boxes:
 - Maximum boxes is limited to 29th
 
-| Number | Main | Mini|
+| Number | Main | Mini |
 |:------:|:----:|:----:|
-| 29 | | &check; |
-| 28 | &check; | |
-| 27 | &check; | |
+| 29 |         | &check; |
+| 28 | &check; |         |
+| 27 | &check; |         |
 | 26 | &check; | &check; |
 | 25 | &check; | &check; |
 | 23 | &check; | &check; |
-| 22 | &check; | |
-| 21 | &check; | |
+| 22 | &check; |         |
+| 21 | &check; |         |
 | 20 | &check; | &check; |
-| 19 | | &check; |
-| 18 | | &check; |
+| 19 |         | &check; |
+| 18 |         | &check; |
 | 16 | &check; | &check; |
-| 15 | &check; | |
-| 11 | &check; | |
-| 07 | &check; | |
-| 02 | &check; | |
+| 15 | &check; |         |
+| 11 | &check; |         |
+| 07 | &check; |         |
+| 02 | &check; |         |
 
 ------------------------------------
 
 #### Other Platforms
 - https://www.pgyer.com/ygomobileen
 - https://duelingnexus.com/home
-- https://mega.nz/file/NOwhDYpK#SgR8h1YTo4NkcVNbi3zDdBHOZQXS9Dk0Ddc796uEtV8
 - https://ygopro.org/
-- http://www.mediafire.com/file/gs5lrlx2h9noklv/%255BUpdate%255D_YGOMobile_Ghost_3.6.3%255BEN%255D_by_Stardust_Fansub_2020.02.16.apk/file?fbclid=IwAR0D3blzM1VXMz6GOAFmzGhK8oVYCKc1c4-V2JuxnPC7dLD9KbiK9Fraijc
+

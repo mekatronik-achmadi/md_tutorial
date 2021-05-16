@@ -4,8 +4,9 @@
 - Main deck contain 20 cards
 - Not a generic toolbox deck
 - Not a Xyz focused archetype
+- No any Egyptian-God monsters
 - No any non-support Trap cards
-- Not use any Egyptian God cards
+- No any Pendulum-related cards
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
@@ -14,7 +15,7 @@
 - Can be combination of 2 archetypes
 - Boss monsters must part of archetype
 - Extra Deck cards may not in archetype
-- Normal, Effect, Ritual, Fusion, Synchro
+- Normal-Effect-Ritual-Fusion-Synchro-Link
 - Deck Consistency is the highest priority
 - Foil Order: Basic-Glossy-Legend-Prismatic
 
@@ -34,6 +35,10 @@
 - Ritual boss monsters
 - Can be a Ritual focused
 
+#### Link Decks:
+- Link boss monsters
+- Link focused decks
+
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
@@ -48,7 +53,7 @@
 
 <div align="center"><b>Deck Saves</b></div>
 
-##### Base Decks
+#### Base Decks
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
@@ -56,49 +61,49 @@
 |        | MaleficDragon | Seto | DM |
 |        | Dragunity     | Seto | DM |
 |        | BlueEyes      | Seto | DM |
+|        | Metaphys      | Atem | DM |
 |        | CyberDragon   | Joey | DM |
-|        | Metaphys      | Joey | DM |
 |        | RedEyes       | Joey | DM |
 | NonHuman | MagnetWarrior | Yugi | DM |
 |          | Triamid       | Yugi | DM |
 |          | D/D/D         | Yugi | DM |
-|          | Superheavy    | Seto | DM |
+|          | Superheavy    | Atem | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
+|          | EvilEye       | Yugi | DM |
 | Female | GirlMagician | Tea | DM |
 |        | Aromaseraphy | Tea | DM |
 |        | Witchcrafter | Tea | DM |
-|        | Melodyous    | Tea | DM |
+|        | Melodyous    | Mai | DM |
 |        | FortuneLady  | Mai | DM |
-|        | Amazoness    | Mai | DM |
 |        | Lunalight    | Mai | DM |
 |        | Valkyrie     | Mai | DM |
-|        | EvilEye      | Mai | DM |
 | Ritual | CyberAngel    | Tea  | DM |
-|        | ChaosMagician | Yugi | DM |
-|        | Vendread      | Yugi | DM |
+|        | ChaosMagician | Atem | DM |
+|        | Vendread      | Atem | DM |
 
-##### Modification Decks
+#### Modified Decks
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
 | Modified | GirlMagician_Predaplant | Tea  | DSOD |
+|          | BlueEyes_Chaos          | Seto | DSOD |
 |          | RedEyes_Predaplant      | Joey | DSOD |
-|          | RedEyes_Amazoness       | Joey | DSOD |
 |          | RedEyes_Gemini          | Joey | DSOD |
 
-##### PvP Decks
+#### PvP Decks
 
 | Category | Deck | Skill |
 |:--------:|:----:|:-----:|
-| PvP | BlueEyes    | Alternative Evolution |
-|     | RedEyes     | Red-Eyes Fusion       |
-|     | CyberDragon | Cyber Style           |
-|     | CyberDragon | Cyber Style           |
-|     | Subterror   | Labirynth Builder     |
-|     | FortuneLady | Time Passage          |
+| PvP | BlueEyes      | Alternative Evolution |
+|     | RedEyes       | Red-Eyes Fusion       |
+|     | CyberDragon   | Cyber Style           |
+|     | CyberDragon   | Cyber Style           |
+|     | Subterror     | Labirynth Builder     |
+|     | MagnetWarrior | LP Boost              |
+|     | FortuneLady   | Time Passage          |
 
-##### Xyz Decks
+#### Xyz Decks
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:-----:|
@@ -109,15 +114,19 @@
 
 <div align="center"><b>Customizations</b></div>
 
+#### Mat and Sleeve
+
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
-| Seto DM   | NextGen DuelDisk | NextGen Duel Disk |
-| Joey DM   | BlueDigital      | BlueDigital       |
-| Mai DM    | DM Girl Sexy     | DM Girl DSOD      |
-| Tea DM    | DM Girl Sexy     | DM Girl Sexy      |
-| Yugi DM   | DM Girl Purple   | DM Girl Purple    |
-| Xyz       | AR-Vision        | AR-Vision         |
-| Temporary | Default          | Default           |
+| Atem DM     | DM Girl Purple   | DM Girl Purple    |
+| Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
+| Joey DM     | BlueDigital      | BlueDigital       |
+| Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
+| Tea DM      | DM Girl Sexy     | DM Girl Sexy      |
+| Yugi DM     | DM Girl Pink     | DM Girl Pink      |
+| Other above | Default          | Follow above      |
+| Xyz         | AR-Vision        | AR-Vision         |
+| Temporary   | Default          | Default           |
 
 ------------------------------------
 

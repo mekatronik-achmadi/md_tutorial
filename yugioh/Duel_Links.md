@@ -2,7 +2,6 @@
 
 #### General Guides:
 - Main deck contain 20 cards
-- Not a generic toolbox deck
 - Not a Xyz focused archetype
 - No any Egyptian-God monsters
 - No any non-support Trap cards
@@ -13,8 +12,7 @@
 - Preferably can re-use cards in GY
 - One copy card must be in archetype
 - Can be combination of 2 archetypes
-- Boss monsters must part of archetype
-- Extra Deck cards may not in archetype
+- One boss monsters must part of archetype
 - Normal-Effect-Ritual-Fusion-Synchro-Link
 - Deck Consistency is the highest priority
 - Foil Order: Basic-Glossy-Legend-Prismatic
@@ -33,7 +31,7 @@
 
 #### Ritual Decks:
 - Ritual boss monsters
-- Can be a Ritual focused
+- Ritual focused archetype
 
 #### Link Decks:
 - Link boss monsters
@@ -46,8 +44,8 @@
 #### Xyz Decks:
 - Xyz focused archetype
 - Xyz toolbox archetype
-- Not actively improved
 - For event match only
+- Not opening any Box
 
 ------------------------------------
 
@@ -57,13 +55,14 @@
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
-| Dragon | ThunderDragon | Seto | DM |
-|        | MaleficDragon | Seto | DM |
-|        | Dragunity     | Seto | DM |
-|        | BlueEyes      | Seto | DM |
-|        | Metaphys      | Atem | DM |
-|        | CyberDragon   | Joey | DM |
-|        | RedEyes       | Joey | DM |
+| Dragon | ThunderDragon  | Seto | DM |
+|        | MaleficDragon  | Seto | DM |
+|        | Dragunity      | Seto | DM |
+|        | BlueEyes       | Seto | DM |
+|        | Stardust       | Atem | DM |
+|        | Metaphys       | Atem | DM |
+|        | CyberDragon    | Joey | DM |
+|        | RedEyes        | Joey | DM |
 | NonHuman | MagnetWarrior | Yugi | DM |
 |          | Triamid       | Yugi | DM |
 |          | D/D/D         | Yugi | DM |
@@ -79,7 +78,6 @@
 |        | Lunalight    | Mai | DM |
 |        | Valkyrie     | Mai | DM |
 | Ritual | CyberAngel    | Tea  | DM |
-|        | ChaosMagician | Atem | DM |
 |        | Vendread      | Atem | DM |
 
 #### Modified Decks
@@ -89,7 +87,8 @@
 | Modified | GirlMagician_Predaplant | Tea  | DSOD |
 |          | BlueEyes_Chaos          | Seto | DSOD |
 |          | RedEyes_Predaplant      | Joey | DSOD |
-|          | RedEyes_Gemini          | Joey | DSOD |
+|          | RedEyes_Gemini          | Rex  | DM   |
+|          | RedEyes_Vassal          | Rex  | DM   |
 
 #### PvP Decks
 
@@ -107,8 +106,8 @@
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:-----:|
-| Rank-4 | Zubaba | Yuma  | ZEXAL |
-| Rank-3 | Shark  | Shark | ZEXAL |
+| Xyz | Xyz_Shark  | Shark | ZEXAL |
+|     | Xyz_Photon | Kite  | ZEXAL |
 
 ------------------------------------
 
@@ -134,12 +133,18 @@
 
 #### Deck Targets:
 - Vendread
+- StardustDragon
 
 #### Card Targets:
-- Magnetic Field @1
+- Warrior Returning @3
+- Tuning @2
+
+#### Deck Purchase:
+- Silentwizard (Half until June 14th)
 
 #### Working Boxes:
-- 23rd MiniBox
+- 21st MiniBox
+- 05th MainBox (Half until June 14th)
 
 #### Card Waiting:
 - Red-Eyes Fang Chain @2
@@ -147,12 +152,11 @@
 #### Dream Ticket Targets:
 - UR:
     - Witchcrafter Schmietta @1
-    - Magician's Circle @1
-    - Dragunity Ascalon @1
     - Gold Sarcophagus @1
 - SR:
     - Super Buddy Unite @1
     - Dragunity Senatus @1
+    - Junk Converter
 - Skill:
 
 #### Opened Boxes:
@@ -167,7 +171,7 @@
 | 25 | &check; | &check; |
 | 23 | &check; | &check; |
 | 22 | &check; |         |
-| 21 | &check; |         |
+| 21 | &check; | &check; |
 | 20 | &check; | &check; |
 | 19 |         | &check; |
 | 18 |         | &check; |
@@ -175,6 +179,7 @@
 | 15 | &check; |         |
 | 11 | &check; |         |
 | 07 | &check; |         |
+| 05 | &check; |         |
 | 02 | &check; |         |
 
 ------------------------------------

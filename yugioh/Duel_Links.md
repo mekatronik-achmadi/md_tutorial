@@ -2,10 +2,10 @@
 
 #### General Guides:
 - Main deck contain 20 cards
-- Not a Xyz focused archetype
+- No any Xyz-summon monsters
 - No any Egyptian-God monsters
 - No any non-support Trap cards
-- No any Pendulum-related cards
+- No any Pendulum monster cards
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
@@ -31,11 +31,11 @@
 
 #### Ritual Decks:
 - Ritual boss monsters
-- Ritual focused archetype
+- Preferably Ritual decks
 
 #### Link Decks:
 - Link boss monsters
-- Link focused decks
+- Preferably Link decks
 
 #### Modified Decks:
 - Based on one of deck category above
@@ -59,17 +59,16 @@
 |        | MaleficDragon  | Seto | DM |
 |        | Dragunity      | Seto | DM |
 |        | BlueEyes       | Seto | DM |
-|        | Stardust       | Atem | DM |
-|        | Metaphys       | Atem | DM |
+|        | Stardust       | Seto | DM |
+|        | Metaphys       | Yugi | DM |
 |        | CyberDragon    | Joey | DM |
 |        | RedEyes        | Joey | DM |
 | NonHuman | MagnetWarrior | Yugi | DM |
 |          | Triamid       | Yugi | DM |
-|          | D/D/D         | Yugi | DM |
-|          | Superheavy    | Atem | DM |
+|          | Superheavy    | Yugi | DM |
+|          | D/D/D         | Joey | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
-|          | EvilEye       | Yugi | DM |
 | Female | GirlMagician | Tea | DM |
 |        | Aromaseraphy | Tea | DM |
 |        | Witchcrafter | Tea | DM |
@@ -77,7 +76,9 @@
 |        | FortuneLady  | Mai | DM |
 |        | Lunalight    | Mai | DM |
 |        | Valkyrie     | Mai | DM |
-| Ritual | CyberAngel    | Tea  | DM |
+|        | EvilEye      | Mai | DM |
+| Ritual | MagicianChaos | Tea  | DM |
+|        | CyberAngel    | Tea  | DM |
 |        | Vendread      | Atem | DM |
 
 #### Modified Decks
@@ -87,7 +88,6 @@
 | Modified | GirlMagician_Predaplant | Tea  | DSOD |
 |          | BlueEyes_Chaos          | Seto | DSOD |
 |          | RedEyes_Predaplant      | Joey | DSOD |
-|          | RedEyes_Gemini          | Rex  | DM   |
 |          | RedEyes_Vassal          | Rex  | DM   |
 
 #### PvP Decks
@@ -117,12 +117,11 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
-| Atem DM     | DM Girl Purple   | DM Girl Purple    |
 | Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
 | Joey DM     | BlueDigital      | BlueDigital       |
 | Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
 | Tea DM      | DM Girl Sexy     | DM Girl Sexy      |
-| Yugi DM     | DM Girl Pink     | DM Girl Pink      |
+| Yugi DM     | DM Girl Purple   | DM Girl Purple    |
 | Other above | Default          | Follow above      |
 | Xyz         | AR-Vision        | AR-Vision         |
 | Temporary   | Default          | Default           |
@@ -136,34 +135,32 @@
 - StardustDragon
 
 #### Card Targets:
-- Warrior Returning @3
 - Tuning @2
 
 #### Deck Purchase:
 - Silentwizard (Half until June 14th)
 
 #### Working Boxes:
+- 34rd MiniBox
 - 21st MiniBox
-- 05th MainBox (Half until June 14th)
-
-#### Card Waiting:
-- Red-Eyes Fang Chain @2
 
 #### Dream Ticket Targets:
 - UR:
     - Witchcrafter Schmietta @1
+    - Magician Circle @1
     - Gold Sarcophagus @1
 - SR:
     - Super Buddy Unite @1
     - Dragunity Senatus @1
-    - Junk Converter
+    - Junk Converter @1
 - Skill:
 
 #### Opened Boxes:
-- Maximum boxes is limited to 29th
+- No opening for MainBox/MiniBox contained Xyz monsters
 
 | Number | Main | Mini |
 |:------:|:----:|:----:|
+| 34 |         | &check; |
 | 29 |         | &check; |
 | 28 | &check; |         |
 | 27 | &check; |         |

@@ -18,34 +18,37 @@
 - Foil Order: Basic-Glossy-Legend-Prismatic
 
 #### Dragon Decks:
+- Can be Fusion/Synchro deck
 - Dragon boss monsters
 - No Female monsters
 
 #### Non-Human Decks
+- Can be Fusion/Synchro deck
 - Non-Human boss monsters
 - No/Few Female monsters
 
 #### Female Decks:
+- Can be Fusion/Synchro deck
 - Female boss monsters
 - Most Female monsters
 
 #### Ritual Decks:
+- Must be Ritual deck
 - Ritual boss monsters
-- Preferably Ritual decks
 
 #### Link Decks:
+- Must be Link deck
 - Link boss monsters
-- Preferably Link decks
 
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Xyz Decks:
-- Xyz focused archetype
-- Xyz toolbox archetype
+#### Collection Decks:
+- A hard to consistent decks
+- Or Xyz focused archetype
+- Not actively improved
 - For event match only
-- Not opening any Box
 
 ------------------------------------
 
@@ -55,7 +58,7 @@
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
-| Dragon | ThunderDragon  | Seto | DM |
+| Dragon | ThunderDragon  | Atem | DM |
 |        | MaleficDragon  | Seto | DM |
 |        | Dragunity      | Seto | DM |
 |        | BlueEyes       | Seto | DM |
@@ -66,7 +69,7 @@
 | NonHuman | MagnetWarrior | Yugi | DM |
 |          | Triamid       | Yugi | DM |
 |          | Superheavy    | Yugi | DM |
-|          | D/D/D         | Joey | DM |
+|          | D/D/D         | Atem | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
 | Female | GirlMagician | Tea | DM |
@@ -76,38 +79,41 @@
 |        | FortuneLady  | Mai | DM |
 |        | Lunalight    | Mai | DM |
 |        | Valkyrie     | Mai | DM |
-|        | EvilEye      | Mai | DM |
+|        | EvilEye      | Atem | DM |
 | Ritual | MagicianChaos | Tea  | DM |
-|        | CyberAngel    | Tea  | DM |
 |        | Vendread      | Atem | DM |
 
 #### Modified Decks
 
-| Category | Deck | Saving | World |
-|:--------:|:----:|:------:|:-----:|
-| Modified | GirlMagician_Predaplant | Tea  | DSOD |
-|          | BlueEyes_Chaos          | Seto | DSOD |
-|          | RedEyes_Predaplant      | Joey | DSOD |
-|          | RedEyes_Vassal          | Rex  | DM   |
+| Deck | Saving | World |
+|:----:|:------:|:-----:|
+| GirlMagician_Predaplant | Tea  | DSOD |
+| BlueEyes_Chaos          | Seto | DSOD |
+| RedEyes_Predaplant      | Joey | DSOD |
+| RedEyes_Vassal          | Rex  | DM   |
 
 #### PvP Decks
 
-| Category | Deck | Skill |
-|:--------:|:----:|:-----:|
-| PvP | BlueEyes      | Alternative Evolution |
-|     | RedEyes       | Red-Eyes Fusion       |
-|     | CyberDragon   | Cyber Style           |
-|     | CyberDragon   | Cyber Style           |
-|     | Subterror     | Labirynth Builder     |
-|     | MagnetWarrior | LP Boost              |
-|     | FortuneLady   | Time Passage          |
+| Deck | Skill |
+|:----:|:-----:|
+| BlueEyes      | Alternative Evolution |
+| RedEyes       | Red-Eyes Fusion       |
+| CyberDragon   | Cyber Style           |
+| Subterror     | Labirynth Builder     |
+| MagnetWarrior | LP Boost              |
+| FortuneLady   | Time Passage          |
 
-#### Xyz Decks
+#### Collection Decks
 
-| Category | Deck | Saving | World |
-|:--------:|:----:|:-----:|
-| Xyz | Xyz_Shark  | Shark | ZEXAL |
-|     | Xyz_Photon | Kite  | ZEXAL |
+| Deck | Saving | World |
+|:----:|:-----:|
+| Gravekeeper   | Ishizu | DM    |
+| MagicianChaos | Yugi   | DSOD  |
+| Cubic         | Aigami | DSOD  |
+| Amazoness     | Blair  | GX    |
+| CyberDark     | Zane   | GX    |
+| Xyz_Shark     | Shark  | ZEXAL |
+| Xyz_Photon    | Kite   | ZEXAL |
 
 ------------------------------------
 
@@ -117,13 +123,13 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
+| Atem DM     | AR Vision        | AR Vision         |
 | Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
 | Joey DM     | BlueDigital      | BlueDigital       |
 | Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
 | Tea DM      | DM Girl Sexy     | DM Girl Sexy      |
 | Yugi DM     | DM Girl Purple   | DM Girl Purple    |
-| Other above | Default          | Follow above      |
-| Xyz         | AR-Vision        | AR-Vision         |
+| Collection  | DM Girl Pink     | DM Girl Pink      |
 | Temporary   | Default          | Default           |
 
 ------------------------------------
@@ -138,7 +144,6 @@
 - Tuning @2
 
 #### Deck Purchase:
-- Silentwizard (Half until June 14th)
 
 #### Working Boxes:
 - 34rd MiniBox
@@ -147,11 +152,9 @@
 #### Dream Ticket Targets:
 - UR:
     - Witchcrafter Schmietta @1
-    - Magician Circle @1
-    - Gold Sarcophagus @1
+    - Dragunity Ascalon @1
 - SR:
     - Super Buddy Unite @1
-    - Dragunity Senatus @1
     - Junk Converter @1
 - Skill:
 

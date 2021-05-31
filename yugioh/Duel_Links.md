@@ -47,8 +47,8 @@
 #### Collection Decks:
 - A hard to consistent decks
 - Or Xyz focused archetype
+- Farm/Event match only
 - Not actively improved
-- For event match only
 
 ------------------------------------
 
@@ -80,8 +80,8 @@
 |        | Lunalight    | Mai | DM |
 |        | Valkyrie     | Mai | DM |
 |        | EvilEye      | Atem | DM |
-| Ritual | MagicianChaos | Tea  | DM |
-|        | Vendread      | Atem | DM |
+| Ritual | CyberAngel | Tea  | DM |
+|        | Vendread   | Atem | DM |
 
 #### Modified Decks
 

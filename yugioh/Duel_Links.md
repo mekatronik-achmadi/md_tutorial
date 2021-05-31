@@ -72,14 +72,14 @@
 |          | D/D/D         | Atem | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
-| Female | GirlMagician | Tea | DM |
-|        | Aromaseraphy | Tea | DM |
-|        | Witchcrafter | Tea | DM |
-|        | Melodyous    | Mai | DM |
-|        | FortuneLady  | Mai | DM |
-|        | Lunalight    | Mai | DM |
-|        | Valkyrie     | Mai | DM |
-|        | EvilEye      | Atem | DM |
+| Female | GirlMagician | Tea  | DM |
+|        | Aromaseraphy | Tea  | DM |
+|        | Witchcrafter | Tea  | DM |
+|        | Melodyous    | Mai  | DM |
+|        | FortuneLady  | Mai  | DM |
+|        | Lunalight    | Mai  | DM |
+|        | Valkyrie     | Mai  | DM |
+|        | EvilEye      | Yugi | DM |
 | Ritual | CyberAngel | Tea  | DM |
 |        | Vendread   | Atem | DM |
 

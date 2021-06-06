@@ -14,8 +14,8 @@
 - Can be combination of 2 archetypes
 - One boss monsters must part of archetype
 - Normal-Effect-Ritual-Fusion-Synchro-Link
-- Deck Consistency is the highest priority
 - Foil Order: Basic-Glossy-Legend-Prismatic
+- Prefer good deck concistency over OTK/FTK
 
 #### Dragon Decks:
 - Can be Fusion/Synchro deck
@@ -36,10 +36,6 @@
 - Must be Ritual deck
 - Ritual boss monsters
 
-#### Link Decks:
-- Must be Link deck
-- Link boss monsters
-
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
@@ -47,8 +43,8 @@
 #### Collection Decks:
 - A hard to consistent decks
 - Or Xyz focused archetype
-- Farm/Event match only
 - Not actively improved
+- Farm/Event match only
 
 ------------------------------------
 
@@ -59,11 +55,11 @@
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
 | Dragon | ThunderDragon  | Atem | DM |
+|        | Metaphys       | Atem | DM |
 |        | MaleficDragon  | Seto | DM |
 |        | Dragunity      | Seto | DM |
 |        | BlueEyes       | Seto | DM |
 |        | Stardust       | Seto | DM |
-|        | Metaphys       | Yugi | DM |
 |        | CyberDragon    | Joey | DM |
 |        | RedEyes        | Joey | DM |
 | NonHuman | MagnetWarrior | Yugi | DM |
@@ -112,8 +108,7 @@
 | Cubic         | Aigami | DSOD  |
 | Amazoness     | Blair  | GX    |
 | CyberDark     | Zane   | GX    |
-| Xyz_Shark     | Shark  | ZEXAL |
-| Xyz_Photon    | Kite   | ZEXAL |
+| XyzShark     | Shark  | ZEXAL |
 
 ------------------------------------
 
@@ -151,10 +146,8 @@
 
 #### Dream Ticket Targets:
 - UR:
-    - Witchcrafter Schmietta @1
     - Dragunity Ascalon @1
 - SR:
-    - Super Buddy Unite @1
     - Junk Converter @1
 - Skill:
 
@@ -181,6 +174,14 @@
 | 07 | &check; |         |
 | 05 | &check; |         |
 | 02 | &check; |         |
+
+#### SelectionBoxes:
+- Prioritize MainBox/MiniBox first
+- SelectionBox aren't really good
+
+| Number | Main | Mini |
+|:------:|:----:|:----:|
+| 01 | &check; | |
 
 ------------------------------------
 

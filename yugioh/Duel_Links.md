@@ -104,11 +104,9 @@
 | Deck | Saving | World |
 |:----:|:-----:|
 | Gravekeeper   | Ishizu | DM    |
-| MagicianChaos | Yugi   | DSOD  |
 | Cubic         | Aigami | DSOD  |
-| Amazoness     | Blair  | GX    |
 | CyberDark     | Zane   | GX    |
-| XyzShark     | Shark  | ZEXAL |
+| XyzShark      | Shark  | ZEXAL |
 
 ------------------------------------
 
@@ -182,6 +180,10 @@
 | Number | Main | Mini |
 |:------:|:----:|:----:|
 | 01 | &check; | |
+
+#### Wasted StrucureDecks gems
+- SwordboundSilence: 500
+- HeroRising: 500
 
 ------------------------------------
 

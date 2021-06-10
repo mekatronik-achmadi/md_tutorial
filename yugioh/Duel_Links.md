@@ -2,10 +2,10 @@
 
 #### General Guides:
 - Main deck contain 20 cards
-- No any Xyz-summon monsters
+- No any Xyz related monsters
 - No any Egyptian-God monsters
 - No any non-support Trap cards
-- No any Pendulum monster cards
+- No any Pendulum related cards
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
@@ -14,8 +14,8 @@
 - Can be combination of 2 archetypes
 - One boss monsters must part of archetype
 - Normal-Effect-Ritual-Fusion-Synchro-Link
+- Prioritize deck concistency over OTK/FTK
 - Foil Order: Basic-Glossy-Legend-Prismatic
-- Prefer good deck concistency over OTK/FTK
 
 #### Dragon Decks:
 - Can be Fusion/Synchro deck
@@ -68,7 +68,7 @@
 |          | D/D/D         | Atem | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
-| Female | GirlMagician | Tea  | DM |
+| Female | DMGirlKnight | Tea  | DM |
 |        | Aromaseraphy | Tea  | DM |
 |        | Witchcrafter | Tea  | DM |
 |        | Melodyous    | Mai  | DM |
@@ -131,7 +131,7 @@
 
 #### Deck Targets:
 - Vendread
-- StardustDragon
+- Stardust
 
 #### Card Targets:
 - Tuning @2
@@ -150,40 +150,66 @@
 - Skill:
 
 #### Opened Boxes:
-- No opening for MainBox/MiniBox contained Xyz monsters
+- No opening for MainBox/MiniBox contained Xyz/Pendulum monsters
 
-| Number | Main | Mini |
-|:------:|:----:|:----:|
-| 34 |         | &check; |
-| 29 |         | &check; |
-| 28 | &check; |         |
-| 27 | &check; |         |
-| 26 | &check; | &check; |
-| 25 | &check; | &check; |
-| 23 | &check; | &check; |
-| 22 | &check; |         |
-| 21 | &check; | &check; |
-| 20 | &check; | &check; |
-| 19 |         | &check; |
-| 18 |         | &check; |
-| 16 | &check; | &check; |
-| 15 | &check; |         |
-| 11 | &check; |         |
-| 07 | &check; |         |
-| 05 | &check; |         |
-| 02 | &check; |         |
+##### MainBoxes
 
-#### SelectionBoxes:
+| Number | Opened | Decks |
+|:------:|:------:|:----:|
+| 28 | &check; | DMGirlKnight,Witchcrafter,EvilEye,Predaplant |
+| 27 | &check; | D/D/D,MaleficDragon |
+| 26 | &check; | BlueEyes,Dragunity,Lunalight,Subterror |
+| 25 | &check; | CyberDragon,Superheavy,Stardust,ThunderDragon |
+| 23 | &check; | ThunderDragon,DMGirlKnight,ThunderDragon |
+| 22 | &check; | FortuneLady,Valkyrie |
+| 21 | &check; | CyberDragon,Subterror |
+| 20 | &check; | RedEyes,Metaphys,Subterror |
+| 16 | &check; | Dragunity,BlueEyes |
+| 15 | &check; | BlueEyes,Stardust |
+| 11 | &check; | RedEyes |
+| 07 | &check; | useless |
+| 05 | &check; | Stardust |
+| 02 | &check; | CyberAngel |
+
+##### MiniBoxes
+
+| Number | Opened | Decks |
+|:------:|:------:|:----:|
+| 34 | &check; | Stardust |
+| 29 | &check; | Valkyrie |
+| 26 | &check; | Aromaseraphy |
+| 25 | &check; | RedEyes,Melodyous |
+| 23 | &check; | MagnetWarrior |
+| 21 | &check; | Vendread |
+| 20 | &check; | MagnetWarrior,Triamid |
+| 19 | &check; | BlueEyes |
+| 18 | &check; | RedEyes,Aromaseraphy |
+| 16 | &check; | Stardust |
+
+##### SelectionBoxes:
 - Prioritize MainBox/MiniBox first
-- SelectionBox aren't really good
+- Not recommended for opening
+- Wasted Gems: 400
 
-| Number | Main | Mini |
-|:------:|:----:|:----:|
-| 01 | &check; | |
+| Number | Opened | Decks |
+|:------:|:------:|:----:|
+| Main-01 | &check; | useless |
 
-#### Wasted StrucureDecks gems
-- SwordboundSilence: 500
-- HeroRising: 500
+##### StrucureDecks
+- Wasted Gems: 1500
+
+| Name | EX | BuyTime | Decks |
+|:----:|:--:|:-------:|:-----:|
+| StardustNexus | &check; | 2 | Stardust |
+| BlueEyesEvolution | &check; | 2 | BlueEyes |
+| DragunityOverdrive | &check; | 2 | Dragunity |
+| MasterChaos | &check; | 2 | DMGirlKnight |
+| ReturnRedEyes | | 3 | RedEyes |
+| SwordboundSilence | | 1 | useless |
+| WhiteDragonLegend | &check; | 1 | BlueEyes |
+| SynchroConnection | | 1 | useless |
+| SpellboundSilence | &check; | 1 | Metaphys,ThunderDragon |
+| HeroRising | | 1 | useless |
 
 ------------------------------------
 

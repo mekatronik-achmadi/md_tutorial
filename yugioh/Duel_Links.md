@@ -41,8 +41,10 @@
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
+- Not part of any deck above
 - A hard to consistent decks
 - Or Xyz focused archetype
+- Only one in each world
 - Not actively improved
 - Farm/Event match only
 
@@ -54,39 +56,40 @@
 
 | Category | Deck | Saving | World |
 |:--------:|:----:|:------:|:-----:|
-| Dragon | ThunderDragon  | Atem | DM |
-|        | Metaphys       | Atem | DM |
+| Dragon | ThunderDragon  | Seto | DM |
 |        | MaleficDragon  | Seto | DM |
 |        | Dragunity      | Seto | DM |
 |        | BlueEyes       | Seto | DM |
 |        | Stardust       | Seto | DM |
 |        | CyberDragon    | Joey | DM |
+|        | Metaphys       | Joey | DM |
 |        | RedEyes        | Joey | DM |
 | NonHuman | MagnetWarrior | Yugi | DM |
 |          | Triamid       | Yugi | DM |
 |          | Superheavy    | Yugi | DM |
-|          | D/D/D         | Atem | DM |
+|          | D/D/D         | Yugi | DM |
 |          | Subterror     | Joey | DM |
 |          | Predaplant    | Joey | DM |
-| Female | DMGirlKnight | Tea  | DM |
-|        | Aromaseraphy | Tea  | DM |
-|        | Witchcrafter | Tea  | DM |
-|        | Melodyous    | Mai  | DM |
-|        | FortuneLady  | Mai  | DM |
-|        | Lunalight    | Mai  | DM |
-|        | Valkyrie     | Mai  | DM |
-|        | EvilEye      | Yugi | DM |
-| Ritual | CyberAngel | Tea  | DM |
-|        | Vendread   | Atem | DM |
+| Female | DMGirlKnight | Tea | DM |
+|        | Aromaseraphy | Tea | DM |
+|        | Witchcrafter | Tea | DM |
+|        | Melodyous    | Mai | DM |
+|        | FortuneLady  | Mai | DM |
+|        | Lunalight    | Mai | DM |
+|        | Valkyrie     | Mai | DM |
+|        | EvilEye      | Mai | DM |
+| Ritual | CyberAngel    | Tea  | DM |
+|        | ChaosMagician | Tea  | DM |
+|        | Vendread      | Yugi | DM |
 
 #### Modified Decks
 
 | Deck | Saving | World |
 |:----:|:------:|:-----:|
-| GirlMagician_Predaplant | Tea  | DSOD |
-| BlueEyes_Chaos          | Seto | DSOD |
-| RedEyes_Predaplant      | Joey | DSOD |
-| RedEyes_Vassal          | Rex  | DM   |
+| BlueEyes_Chaos       | Seto   | DSOD |
+| RedEyes_Predaplant   | Joey   | DSOD |
+| RedEyes_Vassal       | Rex    | DM   |
+| Predaplant_Lunalight | Alexis | GX   |
 
 #### PvP Decks
 
@@ -104,7 +107,7 @@
 | Deck | Saving | World |
 |:----:|:-----:|
 | Gravekeeper   | Ishizu | DM    |
-| Cubic         | Aigami | DSOD  |
+| Cubic         | Yugi   | DSOD  |
 | CyberDark     | Zane   | GX    |
 | XyzShark      | Shark  | ZEXAL |
 
@@ -116,13 +119,12 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
-| Atem DM     | AR Vision        | AR Vision         |
 | Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
 | Joey DM     | BlueDigital      | BlueDigital       |
 | Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
 | Tea DM      | DM Girl Sexy     | DM Girl Sexy      |
 | Yugi DM     | DM Girl Purple   | DM Girl Purple    |
-| Collection  | DM Girl Pink     | DM Girl Pink      |
+| Collection  | AR Vision        | AR Vision         |
 | Temporary   | Default          | Default           |
 
 ------------------------------------
@@ -130,6 +132,7 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
+- MagicianChaos
 - Vendread
 - Stardust
 
@@ -144,9 +147,11 @@
 
 #### Dream Ticket Targets:
 - UR:
-    - Dragunity Ascalon @1
+    - Dragunity Ascalon
+    - Magician's Circle
+    - Magician Chaos
 - SR:
-    - Junk Converter @1
+    - Junk Converter
 - Skill:
 
 #### Opened Boxes:

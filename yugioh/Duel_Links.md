@@ -6,6 +6,8 @@
 - No any Egyptian-God monsters
 - No any non-support Trap cards
 - No any Pendulum related cards
+- No any Coin/Dice based effects
+- No any skill-card in Main deck
 - Can search or summon from deck
 - Preferably has backrow removal
 - Preferably has draw power support
@@ -36,13 +38,19 @@
 - Must be Ritual deck
 - Ritual boss monsters
 
+#### Link Decks:
+- Must be Link deck
+- Link boss monsters
+
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
+- Not Female/Ritual/Link deck
 - Not part of any deck above
-- A hard to consistent decks
+- Lack of own archetype boss
+- Hard to consistent decks
 - Or Xyz focused archetype
 - Only one in each world
 - Not actively improved
@@ -54,42 +62,42 @@
 
 #### Base Decks
 
-| Category | Deck | Saving | World |
-|:--------:|:----:|:------:|:-----:|
-| Dragon | ThunderDragon  | Seto | DM |
-|        | MaleficDragon  | Seto | DM |
-|        | Dragunity      | Seto | DM |
-|        | BlueEyes       | Seto | DM |
-|        | Stardust       | Seto | DM |
-|        | CyberDragon    | Joey | DM |
-|        | Metaphys       | Joey | DM |
-|        | RedEyes        | Joey | DM |
-| NonHuman | MagnetWarrior | Yugi | DM |
-|          | Triamid       | Yugi | DM |
-|          | Superheavy    | Yugi | DM |
-|          | D/D/D         | Yugi | DM |
-|          | Subterror     | Joey | DM |
-|          | Predaplant    | Joey | DM |
-| Female | DMGirlKnight | Tea | DM |
-|        | Aromaseraphy | Tea | DM |
-|        | Witchcrafter | Tea | DM |
-|        | Melodyous    | Mai | DM |
-|        | FortuneLady  | Mai | DM |
-|        | Lunalight    | Mai | DM |
-|        | Valkyrie     | Mai | DM |
-|        | EvilEye      | Mai | DM |
-| Ritual | CyberAngel    | Tea  | DM |
-|        | ChaosMagician | Tea  | DM |
-|        | Vendread      | Yugi | DM |
+| Category | Deck | Saving | World | Type |
+|:--------:|:----:|:------:|:-----:|:----:|
+| Dragon | MaleficDragon  | Seto | DM | Synchro |
+|        | Dragunity      | Seto | DM | Synchro |
+|        | BlueEyes       | Seto | DM | Synchro+Fusion |
+|        | Stardust       | Seto | DM | Synchro |
+|        | CyberDragon    | Joey | DM | Fusion |
+|        | Metaphys       | Joey | DM | Effect |
+|        | RedEyes        | Joey | DM | Fusion |
+| NonHuman | Blackwing     | Seto | DM | Synchro |
+|          | MagnetWarrior | Yugi | DM | Effect |
+|          | Triamid       | Yugi | DM | Effect |
+|          | Superheavy    | Yugi | DM | Synchro |
+|          | D/D/D         | Yugi | DM | Fusion+Synchro |
+|          | Subterror     | Joey | DM | Effect |
+|          | Predaplant    | Joey | DM | Fusion |
+| Female | DMGirlKnight | Tea | DM | Fusion |
+|        | Aromaseraphy | Tea | DM | Synchro |
+|        | Witchcrafter | Tea | DM | Effect |
+|        | EvilEye      | Tea | DM | Effect |
+|        | Melodyous    | Mai | DM | Fusion |
+|        | FortuneLady  | Mai | DM | Synchro |
+|        | Lunalight    | Mai | DM | Fusion |
+|        | Valkyrie     | Mai | DM | Effect |
+|        | Amazoness    | Mai | DM | Effect |
+| Ritual | CyberAngel    | Tea  | DM | Ritual |
+|        | Vendread      | Yugi | DM | Ritual |
 
 #### Modified Decks
 
-| Deck | Saving | World |
-|:----:|:------:|:-----:|
-| BlueEyes_Chaos       | Seto   | DSOD |
-| RedEyes_Predaplant   | Joey   | DSOD |
-| RedEyes_Vassal       | Rex    | DM   |
-| Predaplant_Lunalight | Alexis | GX   |
+| Deck | Saving | World | Type |
+|:----:|:------:|:-----:|:----:|
+| BlueEyes_Chaos       | Seto   | DSOD | Synchro+Fusion |
+| RedEyes_Predaplant   | Joey   | DSOD | Fusion |
+| RedEyes_Vassal       | Rex    | DM   | Effect+Fusion |
+| Predaplant_Lunalight | Alexis | GX   | Fusion |
 
 #### PvP Decks
 
@@ -104,12 +112,13 @@
 
 #### Collection Decks
 
-| Deck | Saving | World |
-|:----:|:-----:|
-| Gravekeeper   | Ishizu | DM    |
-| Cubic         | Yugi   | DSOD  |
-| CyberDark     | Zane   | GX    |
-| XyzShark      | Shark  | ZEXAL |
+| Deck | Saving | World | Type |
+|:----:|:------:|:-----:|:----:|
+| Gravekeeper   | Ishizu | DM    | Fusion |
+| ThunderDragon | Mokuba | DSOD  | Effect |
+| CyberDark     | Zane   | GX    | Fusion |
+| Supidoroido   | Yusei  | 5DS   | Synchro |
+| XyzShark      | Shark  | ZEXAL | Xyz |
 
 ------------------------------------
 
@@ -132,9 +141,9 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- MagicianChaos
 - Vendread
 - Stardust
+- Blackwing
 
 #### Card Targets:
 - Tuning @2
@@ -148,8 +157,6 @@
 #### Dream Ticket Targets:
 - UR:
     - Dragunity Ascalon
-    - Magician's Circle
-    - Magician Chaos
 - SR:
     - Junk Converter
 - Skill:
@@ -164,14 +171,14 @@
 | 28 | &check; | DMGirlKnight,Witchcrafter,EvilEye,Predaplant |
 | 27 | &check; | D/D/D,MaleficDragon |
 | 26 | &check; | BlueEyes,Dragunity,Lunalight,Subterror |
-| 25 | &check; | CyberDragon,Superheavy,Stardust,ThunderDragon |
-| 23 | &check; | ThunderDragon,DMGirlKnight,ThunderDragon |
+| 25 | &check; | CyberDragon,Superheavy,Stardust |
+| 23 | &check; | DMGirlKnight |
 | 22 | &check; | FortuneLady,Valkyrie |
 | 21 | &check; | CyberDragon,Subterror |
 | 20 | &check; | RedEyes,Metaphys,Subterror |
 | 16 | &check; | Dragunity,BlueEyes |
 | 15 | &check; | BlueEyes,Stardust |
-| 11 | &check; | RedEyes |
+| 11 | &check; | RedEyes,Amazoness |
 | 07 | &check; | useless |
 | 05 | &check; | Stardust |
 | 02 | &check; | CyberAngel |

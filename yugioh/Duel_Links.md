@@ -14,42 +14,43 @@
 - Preferably can re-use cards in GY
 - One copy card must be in archetype
 - Can be combination of 2 archetypes
-- One boss monsters must part of archetype
+- One ace monster must part of archetype
 - Normal-Effect-Ritual-Fusion-Synchro-Link
 - Prioritize deck concistency over OTK/FTK
 - Foil Order: Basic-Glossy-Legend-Prismatic
 
 #### Dragon Decks:
 - Can be Fusion/Synchro deck
-- Dragon boss monsters
+- Dragon ace monsters
 - No Female monsters
 
 #### Non-Human Decks
 - Can be Fusion/Synchro deck
-- Non-Human boss monsters
 - No/Few Female monsters
+- Non-Male Warrior ace
+- Non-Male Wizard ace
 
 #### Female Decks:
 - Can be Fusion/Synchro deck
-- Female boss monsters
 - Most Female monsters
+- Female ace monsters
 
 #### Ritual Decks:
 - Must be Ritual deck
-- Ritual boss monsters
+- Ritual ace monsters
 
 #### Link Decks:
 - Must be Link deck
-- Link boss monsters
+- Link ace monsters
 
 #### Modified Decks:
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
 #### Collection Decks:
-- Not Female/Ritual/Link deck
+- Not Female/Ritual/Link decks
 - Not part of any deck above
-- Lack of own archetype boss
+- Lack of own archetype ace
 - Hard to consistent decks
 - Or Xyz focused archetype
 - Only one in each world
@@ -152,13 +153,16 @@
 
 #### Working Boxes:
 - 34rd MiniBox
+- 25th MainBox
 - 21st MiniBox
 
 #### Dream Ticket Targets:
 - UR:
+    - Black Whirlwind
     - Dragunity Ascalon
 - SR:
     - Junk Converter
+    - Magic Keeper Dragon
 - Skill:
 
 #### Opened Boxes:
@@ -166,62 +170,63 @@
 
 ##### MainBoxes
 
-| Number | Opened | Decks |
-|:------:|:------:|:----:|
-| 28 | &check; | DMGirlKnight,Witchcrafter,EvilEye,Predaplant |
-| 27 | &check; | D/D/D,MaleficDragon |
-| 26 | &check; | BlueEyes,Dragunity,Lunalight,Subterror |
-| 25 | &check; | CyberDragon,Superheavy,Stardust |
-| 23 | &check; | DMGirlKnight |
-| 22 | &check; | FortuneLady,Valkyrie |
-| 21 | &check; | CyberDragon,Subterror |
-| 20 | &check; | RedEyes,Metaphys,Subterror |
-| 16 | &check; | Dragunity,BlueEyes |
-| 15 | &check; | BlueEyes,Stardust |
-| 11 | &check; | RedEyes,Amazoness |
-| 07 | &check; | useless |
-| 05 | &check; | Stardust |
-| 02 | &check; | CyberAngel |
+| Number | Decks |
+|:------:|:-----:|
+| 28 | DMGirlKnight,Witchcrafter,EvilEye,Predaplant |
+| 27 | D/D/D,MaleficDragon |
+| 26 | BlueEyes,Dragunity,Lunalight,Subterror |
+| 25 | CyberDragon,Superheavy,Stardust |
+| 24 | Blackwing,Malefic |
+| 23 | DMGirlKnight |
+| 22 | FortuneLady,Valkyrie |
+| 21 | CyberDragon,Subterror |
+| 20 | RedEyes,Metaphys,Subterror |
+| 16 | Dragunity,BlueEyes |
+| 15 | BlueEyes,Stardust |
+| 11 | RedEyes,Amazoness |
+| 07 | useless |
+| 05 | Stardust |
+| 02 | CyberAngel |
 
 ##### MiniBoxes
 
-| Number | Opened | Decks |
-|:------:|:------:|:----:|
-| 34 | &check; | Stardust |
-| 29 | &check; | Valkyrie |
-| 26 | &check; | Aromaseraphy |
-| 25 | &check; | RedEyes,Melodyous |
-| 23 | &check; | MagnetWarrior |
-| 21 | &check; | Vendread |
-| 20 | &check; | MagnetWarrior,Triamid |
-| 19 | &check; | BlueEyes |
-| 18 | &check; | RedEyes,Aromaseraphy |
-| 16 | &check; | Stardust |
+| Number | Decks |
+|:------:|:-----:|
+| 34 | Stardust |
+| 29 | Valkyrie |
+| 26 | Aromaseraphy |
+| 25 | RedEyes,Melodyous |
+| 23 | MagnetWarrior |
+| 21 | Vendread |
+| 20 | MagnetWarrior,Triamid |
+| 19 | BlueEyes |
+| 18 | RedEyes,Aromaseraphy |
+| 16 | Stardust |
 
 ##### SelectionBoxes:
 - Prioritize MainBox/MiniBox first
 - Not recommended for opening
 - Wasted Gems: 400
 
-| Number | Opened | Decks |
-|:------:|:------:|:----:|
-| Main-01 | &check; | useless |
+| Number | Decks |
+|:------:|:-----:|
+| Main-01 | useless |
 
 ##### StrucureDecks
 - Wasted Gems: 1500
 
 | Name | EX | BuyTime | Decks |
 |:----:|:--:|:-------:|:-----:|
-| StardustNexus | &check; | 2 | Stardust |
-| BlueEyesEvolution | &check; | 2 | BlueEyes |
+| StardustNexus      | &check; | 2 | Stardust |
+| BlueEyesEvolution  | &check; | 2 | BlueEyes |
 | DragunityOverdrive | &check; | 2 | Dragunity |
-| MasterChaos | &check; | 2 | DMGirlKnight |
-| ReturnRedEyes | | 3 | RedEyes |
-| SwordboundSilence | | 1 | useless |
-| WhiteDragonLegend | &check; | 1 | BlueEyes |
-| SynchroConnection | | 1 | useless |
-| SpellboundSilence | &check; | 1 | Metaphys,ThunderDragon |
-| HeroRising | | 1 | useless |
+| MasterChaos        | &check; | 2 | DMGirlKnight |
+| ReturnRedEyes      |         | 3 | RedEyes |
+| SwordboundSilence  |         | 1 | useless |
+| WhiteDragonLegend  | &check; | 1 | BlueEyes |
+| SynchroConnection  |         | 1 | useless |
+| SpellboundSilence  | &check; | 1 | Metaphys,ThunderDragon |
+| HeroRising         |         | 1 | useless |
 
 ------------------------------------
 

@@ -72,12 +72,12 @@
 |        | CyberDragon    | Joey | DM | Fusion |
 |        | Metaphys       | Joey | DM | Effect |
 |        | RedEyes        | Joey | DM | Fusion |
-| NonHuman | Blackwing     | Seto | DM | Synchro |
+| NonHuman | Blackwing     | Atem | DM | Synchro |
+|          | Subterror     | Atem | DM | Effect |
 |          | MagnetWarrior | Yugi | DM | Effect |
 |          | Triamid       | Yugi | DM | Effect |
 |          | Superheavy    | Yugi | DM | Synchro |
 |          | D/D/D         | Yugi | DM | Fusion+Synchro |
-|          | Subterror     | Joey | DM | Effect |
 |          | Predaplant    | Joey | DM | Fusion |
 | Female | DMGirlKnight | Tea | DM | Fusion |
 |        | Aromaseraphy | Tea | DM | Synchro |
@@ -87,9 +87,8 @@
 |        | FortuneLady  | Mai | DM | Synchro |
 |        | Lunalight    | Mai | DM | Fusion |
 |        | Valkyrie     | Mai | DM | Effect |
-|        | Amazoness    | Mai | DM | Effect |
-| Ritual | CyberAngel    | Tea  | DM | Ritual |
-|        | Vendread      | Yugi | DM | Ritual |
+| Ritual | CyberAngel    | Atem | DM | Ritual |
+|        | Vendread      | Atem | DM | Ritual |
 
 #### Modified Decks
 
@@ -129,6 +128,7 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
+| Atem DM     | DM Girl Pink     | DM Girl Pink      |
 | Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
 | Joey DM     | BlueDigital      | BlueDigital       |
 | Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
@@ -142,12 +142,16 @@
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- Vendread
-- Stardust
 - Blackwing
+- Stardust
+- Harpie
 
 #### Card Targets:
-- Tuning @2
+- Revendread Slayer @1
+- Vendread Revenants @1
+- Tuning @3
+- Stardust Wish @3
+- Blackwing Armor @2
 
 #### Deck Purchase:
 
@@ -183,8 +187,8 @@
 | 20 | RedEyes,Metaphys,Subterror |
 | 16 | Dragunity,BlueEyes |
 | 15 | BlueEyes,Stardust |
-| 11 | RedEyes,Amazoness |
-| 07 | useless |
+| 11 | RedEyes |
+| 07 | ----- |
 | 05 | Stardust |
 | 02 | CyberAngel |
 
@@ -222,11 +226,11 @@
 | DragunityOverdrive | &check; | 2 | Dragunity |
 | MasterChaos        | &check; | 2 | DMGirlKnight |
 | ReturnRedEyes      |         | 3 | RedEyes |
-| SwordboundSilence  |         | 1 | useless |
+| SwordboundSilence  |         | 1 | ----- |
 | WhiteDragonLegend  | &check; | 1 | BlueEyes |
-| SynchroConnection  |         | 1 | useless |
+| SynchroConnection  |         | 1 | ----- |
 | SpellboundSilence  | &check; | 1 | Metaphys,ThunderDragon |
-| HeroRising         |         | 1 | useless |
+| HeroRising         |         | 1 | ----- |
 
 ------------------------------------
 

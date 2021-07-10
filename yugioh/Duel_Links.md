@@ -47,13 +47,10 @@
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Collection Decks:
+#### Xyz Decks:
 - Not Female/Ritual/Link decks
 - Not part of any deck above
-- Lack of own archetype ace
-- Hard to consistent decks
-- Or Xyz focused archetype
-- Only one in each world
+- Xyz focused archetype
 - Not actively improved
 - Farm/Event match only
 
@@ -110,15 +107,12 @@
 | MagnetWarrior | LP Boost              |
 | FortuneLady   | Time Passage          |
 
-#### Collection Decks
+#### Xyz Decks
 
-| Deck | Saving | World | Type |
-|:----:|:------:|:-----:|:----:|
-| Gravekeeper   | Ishizu | DM    | Fusion |
-| ThunderDragon | Mokuba | DSOD  | Effect |
-| CyberDark     | Zane   | GX    | Fusion |
-| Supidoroido   | Yusei  | 5DS   | Synchro |
-| XyzShark      | Shark  | ZEXAL | Xyz |
+| Deck | Saving | World |
+|:----:|:------:|:-----:|
+| XyzShark | Shark  | ZEXAL |
+| XyzPuppet | Quatro | ZEXAL |
 
 ------------------------------------
 
@@ -128,14 +122,14 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
-| Atem DM     | DM Girl Pink     | DM Girl Pink      |
-| Seto DM     | NextGen DuelDisk | NextGen Duel Disk |
-| Joey DM     | BlueDigital      | BlueDigital       |
-| Mai DM      | DM Girl Sexy     | DM Girl DSOD      |
-| Tea DM      | DM Girl Sexy     | DM Girl Sexy      |
-| Yugi DM     | DM Girl Purple   | DM Girl Purple    |
-| Collection  | AR Vision        | AR Vision         |
-| Temporary   | Default          | Default           |
+| Atem DM   | DM Girl Pink     | DM Girl Pink      |
+| Seto DM   | NextGen DuelDisk | NextGen Duel Disk |
+| Joey DM   | BlueDigital      | BlueDigital       |
+| Mai DM    | DM Girl Sexy     | DM Girl DSOD      |
+| Tea DM    | DM Girl Sexy     | DM Girl Sexy      |
+| Yugi DM   | DM Girl Purple   | DM Girl Purple    |
+| Xyz       | AR Vision        | AR Vision         |
+| Temporary | Default          | Default           |
 
 ------------------------------------
 
@@ -147,18 +141,17 @@
 - Harpie
 
 #### Card Targets:
-- Revendread Slayer @1
-- Vendread Revenants @1
-- Tuning @3
-- Stardust Wish @3
-- Blackwing Armor @2
+- Vendread Revenants @1 (HalfDiscount)
+- Tuning @2
+- Fire Tenki @2
 
 #### Deck Purchase:
 
 #### Working Boxes:
-- 34rd MiniBox
-- 25th MainBox
-- 21st MiniBox
+- 34th MiniBox
+- 24th MainBox
+- 33rd Minibox
+- 21st MiniBox (HalfDiscount)
 
 #### Dream Ticket Targets:
 - UR:
@@ -170,7 +163,6 @@
 - Skill:
 
 #### Opened Boxes:
-- No opening for MainBox/MiniBox contained Xyz/Pendulum monsters
 
 ##### MainBoxes
 
@@ -188,7 +180,7 @@
 | 16 | Dragunity,BlueEyes |
 | 15 | BlueEyes,Stardust |
 | 11 | RedEyes |
-| 07 | ----- |
+| 07 | Lunalight |
 | 05 | Stardust |
 | 02 | CyberAngel |
 
@@ -200,7 +192,7 @@
 | 29 | Valkyrie |
 | 26 | Aromaseraphy |
 | 25 | RedEyes,Melodyous |
-| 23 | MagnetWarrior |
+| 23 | MagnetWarrior, Predaplant |
 | 21 | Vendread |
 | 20 | MagnetWarrior,Triamid |
 | 19 | BlueEyes |

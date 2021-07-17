@@ -5,6 +5,7 @@
 - No any Xyz related monsters
 - No any Egyptian-God monsters
 - No any non-support Trap cards
+- No any staple hand-trap cards
 - No any Pendulum related cards
 - No any Coin/Dice based effects
 - No any skill-card in Main deck
@@ -47,10 +48,10 @@
 - Based on one of deck category above
 - Deck Name: (BaseDeck)_(Modification)
 
-#### Xyz Decks:
+#### Xyz/Pendulum Decks:
+- Xyz/Pendulum focused archetype
 - Not Female/Ritual/Link decks
 - Not part of any deck above
-- Xyz focused archetype
 - Not actively improved
 - Farm/Event match only
 
@@ -62,19 +63,19 @@
 
 | Category | Deck | Saving | World | Type |
 |:--------:|:----:|:------:|:-----:|:----:|
-| Dragon | MaleficDragon  | Seto | DM | Synchro |
-|        | Dragunity      | Seto | DM | Synchro |
-|        | BlueEyes       | Seto | DM | Synchro+Fusion |
-|        | Stardust       | Seto | DM | Synchro |
-|        | CyberDragon    | Joey | DM | Fusion |
-|        | Metaphys       | Joey | DM | Effect |
-|        | RedEyes        | Joey | DM | Fusion |
+| Dragon | MaleficDragon | Seto | DM | Synchro |
+|        | Dragunity     | Seto | DM | Synchro |
+|        | BlueEyes      | Seto | DM | Synchro/Fusion |
+|        | JunkStardust  | Seto | DM | Synchro |
+|        | CyberDragon   | Joey | DM | Fusion |
+|        | Metaphys      | Joey | DM | Effect |
+|        | RedEyes       | Joey | DM | Fusion |
 | NonHuman | Blackwing     | Atem | DM | Synchro |
 |          | Subterror     | Atem | DM | Effect |
 |          | MagnetWarrior | Yugi | DM | Effect |
 |          | Triamid       | Yugi | DM | Effect |
 |          | Superheavy    | Yugi | DM | Synchro |
-|          | D/D/D         | Yugi | DM | Fusion+Synchro |
+|          | D/D/D         | Yugi | DM | Fusion/Synchro |
 |          | Predaplant    | Joey | DM | Fusion |
 | Female | DMGirlKnight | Tea | DM | Fusion |
 |        | Aromaseraphy | Tea | DM | Synchro |
@@ -91,10 +92,11 @@
 
 | Deck | Saving | World | Type |
 |:----:|:------:|:-----:|:----:|
-| BlueEyes_Chaos       | Seto   | DSOD | Synchro+Fusion |
+| BlueEyes_Chaos       | Seto   | DSOD | Synchro/Fusion |
 | RedEyes_Predaplant   | Joey   | DSOD | Fusion |
-| RedEyes_Vassal       | Rex    | DM   | Effect+Fusion |
+| RedEyes_Vassal       | Rex    | DM   | Effect/Fusion |
 | Predaplant_Lunalight | Alexis | GX   | Fusion |
+| JunkStardust_Generic | Bruno  | 5DS  | Synchro |
 
 #### PvP Decks
 
@@ -107,12 +109,11 @@
 | MagnetWarrior | LP Boost              |
 | FortuneLady   | Time Passage          |
 
-#### Xyz Decks
+#### Xyz/Pendulum Decks
 
 | Deck | Saving | World |
 |:----:|:------:|:-----:|
-| XyzShark | Shark  | ZEXAL |
-| XyzPuppet | Quatro | ZEXAL |
+| Xyz3Shark | Shark  | ZEXAL |
 
 ------------------------------------
 
@@ -122,44 +123,43 @@
 
 | Saving | Duel-Mat | Card-Sleeve |
 |:------:|:--------:|:-----------:|
-| Atem DM   | DM Girl Pink     | DM Girl Pink      |
-| Seto DM   | NextGen DuelDisk | NextGen Duel Disk |
-| Joey DM   | BlueDigital      | BlueDigital       |
-| Mai DM    | DM Girl Sexy     | DM Girl DSOD      |
-| Tea DM    | DM Girl Sexy     | DM Girl Sexy      |
-| Yugi DM   | DM Girl Purple   | DM Girl Purple    |
-| Xyz       | AR Vision        | AR Vision         |
-| Temporary | Default          | Default           |
+| Atem DM      | DM Girl Pink     | DM Girl Pink      |
+| Seto DM      | NextGen DuelDisk | NextGen Duel Disk |
+| Joey DM      | BlueDigital      | BlueDigital       |
+| Mai DM       | DM Girl Sexy     | DM Girl DSOD      |
+| Tea DM       | DM Girl Sexy     | DM Girl Sexy      |
+| Yugi DM      | DM Girl Purple   | DM Girl Purple    |
+| Xyz/Pendulum | AR Vision        | AR Vision         |
+| Temporary    | Default          | Default           |
 
 ------------------------------------
 
 <div align="center"><b>Farming Targets</b></div>
 
 #### Deck Targets:
-- Blackwing
-- Stardust
 - Harpie
+- Blackwing
 
 #### Card Targets:
 - Vendread Revenants @1 (HalfDiscount)
-- Tuning @2
+- Black Whirlwind @1 (Half Discount)
+- Blackwing Bora @1 (Half Discount)
 - Fire Tenki @2
+- Tuning @1
 
 #### Deck Purchase:
 
 #### Working Boxes:
-- 34th MiniBox
+- 33rd MiniBox
 - 24th MainBox
-- 33rd Minibox
 - 21st MiniBox (HalfDiscount)
+- 16th MainBox (HalfDiscount)
 
 #### Dream Ticket Targets:
 - UR:
-    - Black Whirlwind
     - Dragunity Ascalon
+    - Junk Destroyer
 - SR:
-    - Junk Converter
-    - Magic Keeper Dragon
 - Skill:
 
 #### Opened Boxes:
@@ -171,17 +171,17 @@
 | 28 | DMGirlKnight,Witchcrafter,EvilEye,Predaplant |
 | 27 | D/D/D,MaleficDragon |
 | 26 | BlueEyes,Dragunity,Lunalight,Subterror |
-| 25 | CyberDragon,Superheavy,Stardust |
+| 25 | CyberDragon,Superheavy,JunkStardust |
 | 24 | Blackwing,Malefic |
 | 23 | DMGirlKnight |
 | 22 | FortuneLady,Valkyrie |
 | 21 | CyberDragon,Subterror |
 | 20 | RedEyes,Metaphys,Subterror |
 | 16 | Dragunity,BlueEyes |
-| 15 | BlueEyes,Stardust |
+| 15 | BlueEyes |
 | 11 | RedEyes |
 | 07 | Lunalight |
-| 05 | Stardust |
+| 05 | JunkStardust |
 | 02 | CyberAngel |
 
 ##### MiniBoxes
@@ -189,31 +189,23 @@
 | Number | Decks |
 |:------:|:-----:|
 | 34 | Stardust |
+| 33 | Harpie |
 | 29 | Valkyrie |
 | 26 | Aromaseraphy |
 | 25 | RedEyes,Melodyous |
-| 23 | MagnetWarrior, Predaplant |
+| 23 | MagnetWarrior |
 | 21 | Vendread |
 | 20 | MagnetWarrior,Triamid |
 | 19 | BlueEyes |
 | 18 | RedEyes,Aromaseraphy |
-| 16 | Stardust |
-
-##### SelectionBoxes:
-- Prioritize MainBox/MiniBox first
-- Not recommended for opening
-- Wasted Gems: 400
-
-| Number | Decks |
-|:------:|:-----:|
-| Main-01 | useless |
+| 16 | Dragunity,Blackwing |
 
 ##### StrucureDecks
 - Wasted Gems: 1500
 
 | Name | EX | BuyTime | Decks |
 |:----:|:--:|:-------:|:-----:|
-| StardustNexus      | &check; | 2 | Stardust |
+| StardustNexus      | &check; | 3 | JunkStardust |
 | BlueEyesEvolution  | &check; | 2 | BlueEyes |
 | DragunityOverdrive | &check; | 2 | Dragunity |
 | MasterChaos        | &check; | 2 | DMGirlKnight |

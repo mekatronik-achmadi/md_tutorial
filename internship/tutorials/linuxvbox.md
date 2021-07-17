@@ -23,11 +23,11 @@ Choose Windows Hosts, let the download finish, and install it as usual.
 
 ## OS Deployment
 
-Here an example of installing Ubuntu-Mate or Manjaro-Mate (you choose one) in VirtualBox
+Here an example of installing Ubuntu-Mate in VirtualBox
 
 ### Ubuntu Mate
 
-#### Prepare VBox
+##### Prepare VBox
 
 First download latest ISO [here](https://ubuntu-mate.org/download/amd64/hirsute/)
 
@@ -59,7 +59,7 @@ Lastly, click menu Machine -> Start -> Normal Start
 
 ![images](images/vboxubu5.png?raw=true)
 
-#### Install on VBox
+##### Install on VBox
 
 On Live Session, select Install Ubuntu Mate.
 
@@ -91,13 +91,17 @@ Ubuntu-Mate ready to use
 
 ![images](images/vboxubuins5.png?raw=true)
 
-### Manjaro-Mate
+##### Update Packages
 
-#### Prepare VBox
+If VBox connected to internet, update package databases using command
 
-First download latest Minimal ISO [here](https://download.manjaro.org/mate/21.0.7/manjaro-mate-21.0.7-minimal-210623-linux510.iso)
+```
+sudo apt-get update
+```
 
-#### Install on VBox
+Note: using sudo command will asking user password
+
+![images](images/vboxubuins6.png?raw=true)
 
 
 

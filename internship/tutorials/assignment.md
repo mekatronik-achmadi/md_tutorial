@@ -24,6 +24,8 @@ Second assignment is setup Git repository (both locally and on Github) to host p
 
 Follow these guide for [Git](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md) and [Github](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md)
 
+**Note**: Preferably to setup this part inside previous VirtualBox Ubuntu-Mate or any Linux distros on your laptop.
+
 ## Third
 
 Third assigment is create GUI wrapper to a CLI program, for example here for **free** program to check memory usage

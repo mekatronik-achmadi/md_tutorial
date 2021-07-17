@@ -59,11 +59,11 @@ Here some examples of Doxygen comments in C sources:
  * @addtogroup Main
  * @{
  */
- 
+
  int main(){
  	return 0
  }
- 
+
  /** @} */
 ```
 
@@ -78,7 +78,7 @@ Here some examples of Doxygen comments in C sources:
 
 /**
  * @brief status variables
- * @details Status variable untuk di cek, kemungkinan nilai 0, 1, 2, atau 3	
+ * @details Status variable untuk di cek, kemungkinan nilai 0, 1, 2, atau 3
  */
 uint8 status = 0
 ```
@@ -121,7 +121,14 @@ First, you need to edit project name and output directory:
 ```make
 PROJECT_NAME		= coba
 OUTPUT_DIRECTORY	= coba_doc
-GENERATE_HTML	= YES
+GENERATE_HTML       = YES
+```
+
+then optimize for spesific language, find these lines, and edit accordingly (for C or Java/Python):
+
+```make
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
 ```
 
 If you use Bash shell, you can use this _sed_ [script](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen_sed.sh) and issue:

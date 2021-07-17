@@ -6,7 +6,7 @@
 - [Ubuntu-Mate](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#ubuntu-mate)
 	- [Prepare VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#prepare-vbox)
 	- [Install on VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#install-on-vbox)
-	- [Update Packages](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#update-packages)
+	- [Install Packages](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#install-packages)
 
 
 ## Introduction
@@ -90,9 +90,9 @@ Ubuntu-Mate ready to use
 
 ![images](images/vboxubuins5.png?raw=true)
 
-#### Update Packages
+#### Install Packages
 
-If VBox connected to internet, update package databases using command
+If VBox connected to internet, you can update package databases using command
 
 ```
 sudo apt-get update
@@ -102,12 +102,16 @@ Note: using sudo command will asking user password
 
 ![images](images/vboxubuins6.png?raw=true)
 
+After that you can install program packages, for example here is **neofetch**.
 
+Here you can install using command:
 
+```
+sudo apt-get install neofetch
+```
 
+![images](images/neofetch.png?raw=true)
 
- 
- 
- 
- 
- 
+Neofetch is a small Python program to show system information with distro logos.
+
+![images](images/myubuntu.png?raw=true)

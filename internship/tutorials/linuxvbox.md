@@ -3,10 +3,11 @@
 ## Table of Contents
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#introduction)
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#installation)
-- [OS Deployment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#os-deployment)
-	- [Ubuntu-Mate](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#ubuntu-mate)
-		- [Prepare VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#prepare-vbox)
-		- [Install on VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#install-on-vbox)
+- [Ubuntu-Mate](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#ubuntu-mate)
+	- [Prepare VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#prepare-vbox)
+	- [Install on VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#install-on-vbox)
+	- [Update Packages](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#update-packages)
+
 
 ## Introduction
 VirtualBox is a software package that let you install and run other operating system.
@@ -21,13 +22,11 @@ Get Windows Installer on here: https://www.virtualbox.org/wiki/Downloads/
 
 Choose Windows Hosts, let the download finish, and install it as usual.
 
-## OS Deployment
+## Ubuntu-Mate
 
 Here an example of installing Ubuntu-Mate in VirtualBox
 
-### Ubuntu Mate
-
-##### Prepare VBox
+#### Prepare VBox
 
 First download latest ISO [here](https://ubuntu-mate.org/download/amd64/hirsute/)
 
@@ -59,7 +58,7 @@ Lastly, click menu Machine -> Start -> Normal Start
 
 ![images](images/vboxubu5.png?raw=true)
 
-##### Install on VBox
+#### Install on VBox
 
 On Live Session, select Install Ubuntu Mate.
 
@@ -91,7 +90,7 @@ Ubuntu-Mate ready to use
 
 ![images](images/vboxubuins5.png?raw=true)
 
-##### Update Packages
+#### Update Packages
 
 If VBox connected to internet, update package databases using command
 

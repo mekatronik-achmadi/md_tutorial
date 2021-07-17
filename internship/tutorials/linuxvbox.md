@@ -2,6 +2,11 @@
 
 ## Table of Contents
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#introduction)
+- [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#installation)
+- [OS Deployment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#os-deployment)
+	- [Ubuntu-Mate](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#ubuntu-mate)
+		- [Prepare VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#prepare-vbox)
+		- [Install on VBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md#install-on-vbox)
 
 ## Introduction
 VirtualBox is a software package that let you install and run other operating system.
@@ -18,7 +23,7 @@ Choose Windows Hosts, let the download finish, and install it as usual.
 
 ## OS Deployment
 
-Here an example of installing Ubuntu-Mate or Manjaro-Mate (your choice) in VirtualBox
+Here an example of installing Ubuntu-Mate or Manjaro-Mate (you choose one) in VirtualBox
 
 ### Ubuntu Mate
 
@@ -78,10 +83,26 @@ Then click Continue until you see Account dialog like this
 
 Enter username and password as you like, but keep it short and simple using only alphanumeric and no space
 
-Then wait installation finish
-  
-  
- 
+Then wait installation finish. Click Restart
+
+![images](images/vboxubuins4.png?raw=true)
+
+Ubuntu-Mate ready to use
+
+![images](images/vboxubuins5.png?raw=true)
+
+### Manjaro-Mate
+
+#### Prepare VBox
+
+First download latest Minimal ISO [here](https://download.manjaro.org/mate/21.0.7/manjaro-mate-21.0.7-minimal-210623-linux510.iso)
+
+#### Install on VBox
+
+
+
+
+
  
  
  

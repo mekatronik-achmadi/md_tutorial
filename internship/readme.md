@@ -3,7 +3,7 @@
 ## Pre-requisites
 
 In this tutorials, we assume of some these things:
-- You have some decent level of Python/C programming language skill.
+- You have some decent level of C/C++/Python programming language skill.
 - You understand how to access terminal emulator (GNU/Linux) or CMD (Windows) in a specified path.
 - You have decent internet connection to download tools/software.
 - You have a good system of computer/laptop on your own.
@@ -21,4 +21,5 @@ But to make these tutorials conform in all platforms, we will focusing command l
 - [Git](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md)
 - [GitHub](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md)
 - [Doxygen](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md)
-- [Assigment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/assignment.md)
+- [LinuxVBox](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/linuxvbox.md)
+- [Assigment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/assignment.md)

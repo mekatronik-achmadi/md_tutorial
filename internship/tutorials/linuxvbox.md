@@ -114,4 +114,10 @@ sudo apt-get install neofetch
 
 Neofetch is a small Python program to show system information with distro logos.
 
+You can call it using command:
+
+```
+neofetch
+```
+
 ![images](images/myubuntu.png?raw=true)

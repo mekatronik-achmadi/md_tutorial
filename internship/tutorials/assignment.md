@@ -46,6 +46,8 @@ or like this in RaspberryPi:
 
 ![images](images/rpigui.png?raw=true)
 
+**Hints**: The example program above using GTK3 in Python. You can use same toolkit or other toolkit like Qt5 and wxWidget. Please use either C, C++, or Python language.
+
 **Note**: Upload/Commit your work in every changes or development steps, not just final program!
 
 ## Fourth

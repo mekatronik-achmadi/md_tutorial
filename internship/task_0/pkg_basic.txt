@@ -1,0 +1,55 @@
+base base-devel terminus-font
+bash-completion htop tmux
+nano-syntax-highlighting
+
+networkmanager modemmanager
+mobile-broadband-provider-info iftop
+bind-tools netctl ppp wpa_supplicant
+tcpdump fping gnu-netcat inetutils
+net-tools bridge-utils iwd ethtool
+crda wireless_tools usb_modeswitch
+traceroute wavemon bmon nethogs
+mtr iw dhcp dhclient dnsmasq
+
+ranger lynx
+moc atool most
+dtc rsync wget
+python lua perl
+fdupes w3m imlib2
+poppler highlight
+mediainfo libcaca
+sysstat lm_sensors
+
+vim vim-ctrlp vim-nerdtree
+vim-ultisnips vim-nerdcommenter
+vim-tagbar vim-airline vim-surround
+
+xorg xorg-apps xorg-drivers
+xorg-xinit xorg-fonts xterm
+xf86-video-fbturbo-git
+xinput_calibrator
+
+ttf-dejavu
+ttf-liberation
+ttf-inconsolata
+
+python-docutils
+python-pexpect
+python-psutil
+
+python-wxpython
+python-gobject
+wxgtk2 wxgtk3
+tk gtk2 gtk3
+webkit2gtk
+
+openssh git
+
+mocp sox twolame
+
+blueman bluez bluez-utils
+
+pulseaudio-alsa
+pulseaudio-bluetooth
+alsa-lib alsa-plugins
+alsa-utils alsa-firmware

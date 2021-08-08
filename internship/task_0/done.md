@@ -7,15 +7,15 @@
 		* [What Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-worked)
 		* [What Not Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked)
 		* [What Not Tried](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked)
-	+ [Cough Analyzer]()
-		* [Current Design]()
-		* [What Worked]()
-		* [What Not Worked]()
-		* [What Not Tried]()
+	+ [Cough Analyzer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
+		* [Current Design](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#current-design-choice-1)
+		* [What Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-worked-1)
+		* [What Not Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked-1)
+		* [What Not Tried](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-tried-1)
 - [Audiometri](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
-	+ Circuit Board
-	+ Firmware
-	+ Android Interface
+	+ [Circuit Board]()
+	+ [Firmware]()
+	+ [Android Interface]()
 	
 ### Flagship
 
@@ -72,3 +72,21 @@ Audio Input either using PCM I2S nor Audio USB. Will tried soon
 - RaspberryPi-4 need 2A or more current
 
 ### Audiometri
+
+#### Circuit Board
+
+Current PCB design can be found [here](https://github.com/VibrasticLab/pikoakustik/tree/stm32f401re_3pin/circuit/test_3rev1).
+
+Written in KiCAD 5x in SMD Layout.
+
+#### Firmware
+
+Written for STM32F401RE using ChibiOS/RT compiled using arm-gcc-none-eabi.
+
+Source tree can be found [here](https://github.com/VibrasticLab/pikoakustik/tree/stm32f401re_3pin/firmware)
+
+#### Android Interface
+
+Written using Flutter and USB_Serial module for Android API Level at least 28.
+
+Source tree can be found [here](https://github.com/VibrasticLab/pikoakustik/tree/stm32f401re_3pin/interface/serialInterface/serIface)

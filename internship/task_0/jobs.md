@@ -1,11 +1,11 @@
 # Job Assignment
 
 ## Contents
-- Basic Standarization
-	+ Github workflow
-	+ Identifier naming
-	+ Python language
-	+ C/C++ language
+- [Basic Standarization](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#basic-standarization)
+	+ [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#github-workflow)
+	+ [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#identifier-naming)
+	+ [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#python-language)
+	+ [C/C++ language]()
 	
 ## Basic Standarization
 
@@ -78,3 +78,16 @@ class contohExample():
 if __name__ == "__main__":
     coba = contohExample()
 ~~~
+
+### C/C++ Language
+
+Some basic rules if write source in C/C++:
+- Good amount documentation either using language's comments or Doxygen formatted.
+- Good C/C++ header file using brief function declaration and macros usages.
+- Good static and extern variable scope.
+- Good pointer/array variable management
+- Good amount shell argument input handler.
+- Provide build system like Makefile, CMake, AutoMake, QMake, or at least Bash script compilation
+- Provide Python wrapper to final binary using subprocess or pexpect module.
+
+Example

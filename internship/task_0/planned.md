@@ -1,15 +1,15 @@
 # What in Planned
 
 ## Contents
-- Flagship
-	+ Stetoscope
-		* Advantage
-		* Disadvantage
-	+ Cough Analyzer
-- Audiometri
-	+ Additional LCD
-	+ Microphone Input
-	+ Android Interface
+- [Flagship](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#flagship)
+	+ [Stetoscope](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
+		* [Advantage](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#advantage)
+		* [Disadvantage](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#disadvantage)
+	+ [Cough Analyzer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
+- [Audiometri](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#audiometri)
+	+ [Additional LCD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#additional-lcd)
+	+ [Microphone Input](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#microphone-input)
+	+ [Android Interface](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#android-interface)
 	
 ## Flagship
 
@@ -69,6 +69,6 @@ One other SPI port also planned to used as I2S port for INMP441 or SHP0645 micro
 
 Improve android interface to be able use Tone Level and Audiogram plots interchangably.
 
-Example of Audiogram:
+Example of Audiogram plot:
 
 ![images](images/audiogram.png?raw=true)

@@ -2,10 +2,11 @@
 
 ### Contents
 - [Flagship](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#flagship)
+	+ [Current Design]()
 	+ [Stetoscope](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#stetoscope)
-		* What Worked
-		* What Not Worked
-		* What Not Tried
+		* [What Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-worked)
+		* [What Not Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked)
+		* [What Not Tried](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked)
 	+ Cough Analyzer
 	+ IoT Analyzer
 - [Audiometri](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
@@ -17,9 +18,13 @@
 
 #### Stetoscope
 
-Current Design Choice
+##### Current Design Choice
 
 ![images](images/stetoscope.png?raw=true)
+
+Actual picture of interface
+
+![images](images/lcdbtgui.jpg?raw=true)
 
 ##### What Worked
 - Arch Linux ARM (armv6h) setup for RaspberryPi ZeroW. [Markdown Note](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/pizerow.md) and [Package List](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/pkg_basic.txt)
@@ -36,5 +41,8 @@ Current Design Choice
 
 ##### What Not Tried
 - PCM I2S protocol to SPH0645 or INMP441
+
+#### Cough Analyzer
+- 
 
 ### Audiometri

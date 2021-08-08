@@ -13,9 +13,9 @@
 		* [What Not Worked](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-worked-1)
 		* [What Not Tried](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#what-not-tried-1)
 - [Audiometri](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
-	+ [Circuit Board]()
-	+ [Firmware]()
-	+ [Android Interface]()
+	+ [Circuit Board](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#circuit-board)
+	+ [Firmware](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#firmware)
+	+ [Android Interface](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#android-interface)
 	
 ### Flagship
 

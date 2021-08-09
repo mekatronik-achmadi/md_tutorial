@@ -5,8 +5,9 @@
 	+ [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#github-workflow)
 	+ [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#identifier-naming)
 	+ [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#python-language)
-		* [Example]()
-	+ [C/C++ language]()
+		* [Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example)
+	+ [C/C++ language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#cc-language)
+		* [Example in C](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c)
 	
 ## Basic Standarization
 

@@ -15,7 +15,6 @@ class contohExample():
     def __init__(self):
         """Minimum init function example
         """
-
         super(contohExample, self).__init__()
 
         hasil = self.konstanta * self.fungsiTambah(10,15)

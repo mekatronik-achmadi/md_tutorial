@@ -16,7 +16,7 @@
 int main(int argc, char *argv[]){
     uint16_t hasil;
     hasil = KONSTANTA * fungsiTambah(10, 15);
-    printf("contoh hitung: %i\r\n", hasil);
+    printf("contoh hitung: %i", hasil);
 
     return 0;
 }

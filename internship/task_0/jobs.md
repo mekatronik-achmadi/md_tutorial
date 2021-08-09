@@ -3,6 +3,11 @@
 ## Contents
 - [Requirement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#requirement)
 - [Main Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#main-repository)
+- [Stetoscope]()
+	+ Audio Output A2DP
+	+ Audio Input PCM/I2S
+	+ SPI TFT-LCD
+- [Code Summary]()
 
 ## Requirement
 
@@ -28,4 +33,54 @@ Job description:
 Code: MAIN00
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
+
+## Stetoscope
+
+### Audio Output A2DP
+
+Job description:
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with C language and ESP-IDF framework
+- Able to install GCC compiler relevant to ESP-IDF
+- Implement Send audio array to Bluetooth Headphone via A2DP protocol 
+	
+Code: STETO00
+
+Person:
+
+### Audio Input PCM/I2S
+
+Job description:
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with C language and ESP-IDF framework
+- Able to install GCC compiler relevant to ESP-IDF
+- Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array
+	
+Code: STETO01
+
+Person:
+
+### SPI TFT-LCD
+
+Job description:
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with C language and ESP-IDF framework
+- Able to install GCC compiler relevant to ESP-IDF
+- Implement TFT-LCD SPI ILI9341 Interface (either direct-draw or frame-buffer)
+	
+Code: STETO02
+
+Person:
+
+## Code Summary
+
+
+
+
 

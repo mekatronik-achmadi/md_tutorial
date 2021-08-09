@@ -97,7 +97,7 @@ Some basic rules if write source in C/C++:
 
 ### Example using C
 
-hitung.h, for declaration header
+**hitung.h**, for declaration header
 
 ~~~c
 /**
@@ -133,7 +133,7 @@ uint16_t fungsiTambah(uint16_t varA, uint16_t varB);
 /** @} */
 ~~~
 
-hitung.c, for implementation of what declared in header
+**hitung.c**, for implementation of what declared in header
 
 ~~~c
 /**
@@ -154,7 +154,7 @@ uint16_t fungsiTambah(uint16_t varA, uint16_t varB){
 /** @} */
 ~~~
 
-main.c, for first function to run
+**main.c**, for first function to run
 
 ~~~c
 /**
@@ -183,7 +183,7 @@ int main(int argc, char *argv[]){
 /** @} */
 ~~~
 
-Makefile, to compile all above into single binary program
+**Makefile**, to compile all above into single binary program
 
 ~~~makefile
 EXECUTABLE=contohExample
@@ -209,7 +209,7 @@ clean:
 	rm -f $(EXECUTABLE) $(OBJECTS)
 ~~~
 
-wrapper.py, to integrate binary into main language (Python)
+**wrapper.py**, to integrate binary into main language (Python)
 
 ~~~python
 #!/usr/bin/env python
@@ -239,7 +239,7 @@ if __name__ == "__main__":
 
 ### Example using C++
 
-hitung.h, for declaration header
+**hitung.h**, for declaration header
 
 ~~~cpp
 /**
@@ -282,7 +282,7 @@ class Hitung{
 /** @} */
 ~~~
 
-hitung.cpp, for implementation of what declared in header
+**hitung.cpp**, for implementation of what declared in header
 
 ~~~cpp
 /**
@@ -310,7 +310,7 @@ uint16_t Hitung::fungsiTambah(uint16_t varA, uint16_t varB){
  /** @} */
 ~~~
 
-main.cpp, for first function to run
+**main.cpp**, for first function to run
 
 ~~~cpp
 /**
@@ -338,7 +338,7 @@ int main(int argc, char *argv[]){
 /** @} */
 ~~~
 
-Makefile, to compile all above into single binary program
+**Makefile**, to compile all above into single binary program
 
 ~~~makefile
 EXECUTABLE=contohExample
@@ -364,7 +364,7 @@ clean:
 	rm -f $(EXECUTABLE) $(OBJECTS)
 ~~~
 
-wrapper.py, to integrate binary into main language (Python)
+**wrapper.py**, to integrate binary into main language (Python)
 
 Same above wrappe.py actually, but re-paste source hurt no one.
 

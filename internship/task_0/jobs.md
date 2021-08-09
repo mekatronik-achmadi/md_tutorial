@@ -3,11 +3,11 @@
 ## Contents
 - [Requirement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#requirement)
 - [Main Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#main-repository)
-- [Stetoscope]()
-	+ Audio Output A2DP
-	+ Audio Input PCM/I2S
-	+ SPI TFT-LCD
-- [Code Summary]()
+- [Stetoscope](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#stetoscope)
+	+ [Audio Output A2DP](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-output-a2dp)
+	+ [Audio Input PCM/I2S](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-input-pcmi2s)
+	+ [SPI TFT-LCD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#spi-tft-lcd)
+- [Code Summary](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#code-summary)
 
 ## Requirement
 
@@ -19,6 +19,7 @@ Some basic requirement:
 - Read [What Already Done](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md) and [What Planned](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md)
 - Read and Agree with standarization [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md)
 - See some standarized source code examples [here](https://github.com/mekatronik-achmadi/md_tutorial/tree/master/internship/task_0/examples)
+- Have decent internet connection and programming capable computer/laptop
 - Have Bank Account to get funded if any necessary
 
 ## Main Repository
@@ -30,7 +31,7 @@ Job description:
 - Provide hardware requirement if anything required
 - Provide relevant basic technical support
 
-Code: MAIN00
+Code: MAIN-00
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
@@ -39,6 +40,7 @@ Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 ### Audio Output A2DP
 
 Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#stetoscope)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
@@ -46,13 +48,14 @@ Job description:
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement Send audio array to Bluetooth Headphone via A2DP protocol 
 	
-Code: STETO00
+Code: STETO-00
 
 Person:
 
 ### Audio Input PCM/I2S
 
 Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#stetoscope)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
@@ -60,13 +63,14 @@ Job description:
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array
 	
-Code: STETO01
+Code: STETO-01
 
 Person:
 
 ### SPI TFT-LCD
 
 Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#stetoscope)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
@@ -74,11 +78,65 @@ Job description:
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement TFT-LCD SPI ILI9341 Interface (either direct-draw or frame-buffer)
 	
-Code: STETO02
+Code: STETO-02
 
 Person:
 
+## Cough Analyzer
+
+### Audio Input PCM/I2S Audio-USB
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with GNU/Linux and Bash including compiling and installation
+- Familiar with either Python, C, or C++
+- Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array 
+	
+Code: COUGH-00
+
+Person:
+
+### Cough Analyzer
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
+- Familiar with either Python, C, or C++
+- Task to do:
+	+ Collect any C, C++, Python, or Matlab available relevant to topic
+	+ Collect example audio record files relevant to topic
+	+ Push all collected sources/scripts in organized manner
+	+ Push some collected example audio record files (keep in low overall size)
+	+ Convert and Matlab scripts to either C, C++, or Python projects
+	+ Test C/C++ source or Python scripts in cough audio analyzer
+	
+Code: COUGH-01
+
+Person:
+
+### GUI Interface
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with GNU/Linux and Bash including compiling and installation
+- Familiar with either Python, C, or C++
+- Implement GUI Interface in Python as main program for all previous job.
+	
+Code: COUGH-02
+
+Person: [Achmadi](https://github.com/mekatronik-achmadi/)
+
 ## Code Summary
+- MAIN-00: Main Repository Maintainer
+- STETO-00: Stetoscope Audio Output A2DP
+- STETO-01: Stetoscope Audio Input PCM/I2S
+- STETO-02: Stetoscope SPI TFT-LCD
 
 
 

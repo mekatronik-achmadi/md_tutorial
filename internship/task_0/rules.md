@@ -18,7 +18,7 @@ Here some basic rules in working with Github:
 	+ Manually apply patch
 	+ Pull-Request git patch
 - All name for repositories, folder-name, and filename must be:
-	+ **NO SPACE !!!**
+	+ **DO NOT USE SPACE !!!**
 	+ First letter must be lower-case character in **a-z**
 	+ Use underscore if need to separate between words
 	+ Names more than one word must be camel-case, like firstClass, secondFile, thirdFolder, etc
@@ -235,3 +235,7 @@ class contohWrapper():
 if __name__ == "__main__":
     coba = contohWrapper()
 ~~~
+
+### Example using C++
+
+hitung.h, for declaration header

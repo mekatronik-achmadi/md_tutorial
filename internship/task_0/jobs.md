@@ -8,14 +8,14 @@
 	+ [Audio Input PCM/I2S](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-input-pcmi2s)
 	+ [SPI TFT-LCD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#spi-tft-lcd)
 - [Cough Analyzer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#cough-analyzer)
-	+ [Audio Input]()
-	+ [Audio Analyzer]()
-	+ [GUI Main Program]()
+	+ [Audio Input](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-input-pcmi2s-or-audio-usb)
+	+ [Audio Analyzer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-analyzer)
+	+ [GUI Main Program](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#gui-main-program)
 - [Code Summary](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#code-summary)
 
 ## Requirement
 
-Some basic requirement:
+Some basic general requirement:
 - Familiar with Git Source Code Manager
 - Familiar with Github and registered in Github
 - Familiar with either Python, C, or C++ language
@@ -48,6 +48,7 @@ Job description:
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
+- Familiar with microcontroller (spesifically ESP32 family)
 - Familiar with C language and ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement Send audio array to Bluetooth Headphone via A2DP protocol 
@@ -63,6 +64,7 @@ Job description:
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
+- Familiar with microcontroller (spesifically ESP32 family)
 - Familiar with C language and ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array
@@ -78,6 +80,7 @@ Job description:
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#stetoscope)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
+- Familiar with microcontroller (spesifically ESP32 family)
 - Familiar with C language and ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement TFT-LCD SPI ILI9341 Interface (either direct-draw or frame-buffer)
@@ -135,6 +138,57 @@ Job description:
 Code: COUGH-02
 
 Person:
+
+## Audiometri
+
+### Additional LCD
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#audiometri)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with microcontroller (spesifically STM32F401RE)
+- Familiar with C language and ChibiOS/RT framework
+- Able to install ARM-GCC compiler relevant to ChibiOS/RT
+- Implement SPI LCD-TFT ILI9341 or compatible as GUI Interface on unused SPI port
+
+Code: AUDIO-00
+
+Person:
+
+### Audio Input PCM/I2S
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#audiometri)
+- Able to buy minimum required hardware (will get funded)
+- Familiar with basic electronic including wiring and voltage-current level
+- Familiar with microcontroller (spesifically STM32F401RE)
+- Familiar with C language and ChibiOS/RT framework
+- Able to install ARM-GCC compiler relevant to ChibiOS/RT
+- Implement SPI LCD-TFT ILI9341 or compatible as GUI Interface on unused SPI port
+
+Code: AUDIO-01
+
+Person:
+
+### Android Interface
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#audiometri)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#audiometri)
+- Familiar with general Serial Communication process
+- Familiar in Flutter and able to install all required framework/toolchain
+- Understand both Tone Level plot and Audiogram plot
+- Task to do:
+	+ Get/Fork this already done [project](https://github.com/VibrasticLab/pikoakustik/tree/stm32f401re_3pin/interface/serialInterface/serIface)
+	+ Add flutter plot that can show Audiogram plot
+	+ Add widget to choose show Tone Level or Audiogram plot.
+	
+Code: AUDIO-02
+
+Person:  
 
 ## Code Summary
 - MAIN-00: Main Repository Maintainer

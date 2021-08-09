@@ -366,7 +366,7 @@ clean:
 
 **wrapper.py**, to integrate binary into main language (Python)
 
-Same above wrappe.py actually, but re-paste source hurt no one.
+Same above wrapper.py actually, but re-paste source hurt no one.
 
 ~~~python
 #!/usr/bin/env python

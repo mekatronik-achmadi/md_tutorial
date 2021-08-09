@@ -254,7 +254,6 @@ hitung.h, for declaration header
 #define _HITUNG_H_
 
 #include <cstdint>
-#include <iostream>
 
 class Hitung{
     private:
@@ -281,4 +280,116 @@ class Hitung{
 
 #endif // _HITUNG_H_
 /** @} */
+~~~
+
+hitung.cpp, for implementation of what declared in header
+
+~~~cpp
+/**
+ * @file    hitung.cpp
+ * @brief   hitung module code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+#include "hitung.h"
+#include <cstdint>
+#include <iostream>
+
+Hitung::Hitung(){
+    uint16_t hasil;
+    hasil = Hitung::konstanta * Hitung::fungsiTambah(10,15);
+    std::cout << "contoh hitung: " << hasil;
+}
+
+uint16_t Hitung::fungsiTambah(uint16_t varA, uint16_t varB){
+    return varA + varB;
+}
+
+ /** @} */
+~~~
+
+main.cpp, for first function to run
+
+~~~cpp
+/**
+ * @file    main.cpp
+ * @brief   Main module code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+ #include "hitung.h"
+
+/**
+ * @brief Main function
+ * @return Execution result
+ */
+int main(int argc, char *argv[]){
+    Hitung *itung;
+    
+    itung = new Hitung();
+
+    return 0;
+}
+
+/** @} */
+~~~
+
+Makefile, to compile all above into single binary program
+
+~~~makefile
+EXECUTABLE=contohExample
+
+CC=g++
+INCDIR=-I./
+CFLAGS=-Wall
+LDFLAGS=
+LIBFLAGS=
+
+SOURCES=$(wildcard *.cpp)
+OBJECTS=$(SOURCES:.c=.o)
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $(EXECUTABLE) $(LIBFLAGS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCDIR) -c -o $@ $<
+
+clean:
+	rm -f $(EXECUTABLE) $(OBJECTS)
+~~~
+
+wrapper.py, to integrate binary into main language (Python)
+
+Same above wrappe.py actually, but re-paste source hurt no one.
+
+~~~python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""@package example
+Python wrapper example
+"""
+
+import subprocess
+
+class contohWrapper():
+    """Minimum Wrapper class example
+    """
+
+    def __init__(self):
+        """Minimum init function example
+        """
+        super(contohWrapper, self).__init__()
+
+        out = subprocess.run(["./contohExample"],stdout=subprocess.PIPE, stderr=None)
+        print(out.stdout.decode('utf-8'))
+
+if __name__ == "__main__":
+    coba = contohWrapper()
 ~~~

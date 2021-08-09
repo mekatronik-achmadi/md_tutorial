@@ -10,7 +10,6 @@
 #define _HITUNG_H_
 
 #include <cstdint>
-#include <iostream>
 
 class Hitung{
     private:

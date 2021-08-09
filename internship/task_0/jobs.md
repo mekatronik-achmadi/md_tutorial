@@ -11,6 +11,10 @@
 	+ [Audio Input](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-input-pcmi2s-or-audio-usb)
 	+ [Audio Analyzer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-analyzer)
 	+ [GUI Main Program](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#gui-main-program)
+- [Audiometri](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audiometri)
+	+ [Additional LCD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#additional-lcd)
+	+ [Audio Input](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#audio-input-pcmi2s-1)
+	+ [Android Interface](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#android-interface)
 - [Code Summary](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#code-summary)
 
 ## Requirement
@@ -49,7 +53,7 @@ Job description:
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
 - Familiar with microcontroller (spesifically ESP32 family)
-- Familiar with C language and ESP-IDF framework
+- Familiar with C language in ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement Send audio array to Bluetooth Headphone via A2DP protocol 
 	
@@ -65,7 +69,7 @@ Job description:
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
 - Familiar with microcontroller (spesifically ESP32 family)
-- Familiar with C language and ESP-IDF framework
+- Familiar with C language in ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array
 	
@@ -81,7 +85,7 @@ Job description:
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
 - Familiar with microcontroller (spesifically ESP32 family)
-- Familiar with C language and ESP-IDF framework
+- Familiar with C language in ESP-IDF framework
 - Able to install GCC compiler relevant to ESP-IDF
 - Implement TFT-LCD SPI ILI9341 Interface (either direct-draw or frame-buffer)
 	
@@ -98,8 +102,7 @@ Job description:
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
-- Familiar with GNU/Linux and Bash including compiling and installation
-- Familiar with either Python, C, or C++
+- Familiar with GNU/Linux including compiling and installation in RaspberryPi
 - Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array 
 	
 Code: COUGH-00
@@ -111,7 +114,6 @@ Person:
 Job description:
 - Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
-- Familiar with either Python, C, or C++
 - Task to do:
 	+ Collect any C, C++, Python, or Matlab available relevant to topic
 	+ Collect example audio record files relevant to topic
@@ -131,8 +133,7 @@ Job description:
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
-- Familiar with GNU/Linux and Bash including compiling and installation
-- Familiar with either Python, C, or C++
+- Familiar with GNU/Linux including compiling and installation in RaspberryPi
 - Implement GUI Interface in Python as main program for all previous job.
 	
 Code: COUGH-02
@@ -149,7 +150,7 @@ Job description:
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
 - Familiar with microcontroller (spesifically STM32F401RE)
-- Familiar with C language and ChibiOS/RT framework
+- Familiar with C language in ChibiOS/RT framework
 - Able to install ARM-GCC compiler relevant to ChibiOS/RT
 - Implement SPI LCD-TFT ILI9341 or compatible as GUI Interface on unused SPI port
 
@@ -165,7 +166,7 @@ Job description:
 - Able to buy minimum required hardware (will get funded)
 - Familiar with basic electronic including wiring and voltage-current level
 - Familiar with microcontroller (spesifically STM32F401RE)
-- Familiar with C language and ChibiOS/RT framework
+- Familiar with C language in ChibiOS/RT framework
 - Able to install ARM-GCC compiler relevant to ChibiOS/RT
 - Implement SPI LCD-TFT ILI9341 or compatible as GUI Interface on unused SPI port
 
@@ -198,8 +199,6 @@ Person:
 - COUGH-00: Cough Analyzer Audio Input PCM/I2S or Audio-USB
 - COUGH-01: Cough Analyzer Audio Analyzer
 - COUGH-02: Cough Analyzer GUI Main Program
-
-
-
-
-
+- AUDIO-00: Audiometri Additional LCD
+- AUDIO-01: Audiometri Audio Input PCM/I2S
+- AUDIO-02: Audiometri Android Interface

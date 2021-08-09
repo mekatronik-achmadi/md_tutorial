@@ -7,6 +7,7 @@
 	+ [Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example)
 - [C/C++ language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#cc-language)
 	+ [Example in C](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c)
+	+ [Example on C++](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c-1)
 
 ## Github workflow
 
@@ -88,7 +89,7 @@ Some basic rules if write source in C/C++:
 - Good C/C++ header file using brief function declaration and macros usages.
 - Good static and extern variable scope.
 - Good pointer/array variable management
-- Good amount shell argument input handler.
+- Preferably has good amount shell argument input handlers.
 - Compilable using recent GCC or LLVM toolchain againts open-source libraries.
 - Provide build system like Makefile, CMake, AutoMake, QMake, or at least Bash script compilation
 - Provide Python wrapper to final binary using subprocess or pexpect module.
@@ -239,3 +240,45 @@ if __name__ == "__main__":
 ### Example using C++
 
 hitung.h, for declaration header
+
+~~~cpp
+/**
+ * @file    hitung.h
+ * @brief   hitung module header.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+#ifndef _HITUNG_H_
+#define _HITUNG_H_
+
+#include <cstdint>
+#include <iostream>
+
+class Hitung{
+    private:
+        /**
+         * @brief Timer Constant
+         */
+        uint16_t konstanta = 10;
+
+        /**
+         * @brief Minimum function example
+         * @details Just simple calculation example
+         * @param[in] Uint16 first variable
+         * @param[in] Uint16 second variable
+         * @return Uint16 result of calculation
+         */
+        uint16_t fungsiTambah(uint16_t varA, uint16_t varB);
+
+    public:
+        /**
+        * @brief Class Construtor Function
+        */
+        Hitung();
+};
+
+#endif // _HITUNG_H_
+/** @} */
+~~~

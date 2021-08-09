@@ -1,9 +1,9 @@
 # Basic Rules
 
 ## Contents
-- [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#github-workflow)
-- [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#identifier-naming)
-- [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#python-language)
+- [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#github-workflow)
+- [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#identifier-naming)
+- [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#python-language)
 	+ [Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example)
 - [C/C++ language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#cc-language)
 	+ [Example in C](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c)
@@ -98,7 +98,7 @@ Some basic rules if write source in C/C++:
 
 hitung.h, for declaration header
 
-~~~c_cpp
+~~~c
 /**
  * @file    hitung.h
  * @brief   hitung module header.
@@ -134,7 +134,7 @@ uint16_t fungsiTambah(uint16_t varA, uint16_t varB);
 
 hitung.c, for implementation of what declared in header
 
-~~~c_cpp
+~~~c
 /**
  * @file    hitung.c
  * @brief   hitung module code.
@@ -155,7 +155,7 @@ uint16_t fungsiTambah(uint16_t varA, uint16_t varB){
 
 main.c, for first function to run
 
-~~~c_cpp
+~~~c
 /**
  * @file    main.c
  * @brief   Main module code.

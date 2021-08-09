@@ -9,10 +9,12 @@
 Some basic requirement:
 - Familiar with Git Source Code Manager
 - Familiar with Github and registered in Github
-- Familiar with either Python, C, or C++
+- Familiar with either Python, C, or C++ language
 - Familiar with Bash Shell Interface
+- Read [What Already Done](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md) and [What Planned](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md)
 - Read and Agree with standarization [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md)
 - See some standarized source code examples [here](https://github.com/mekatronik-achmadi/md_tutorial/tree/master/internship/task_0/examples)
+- Have Bank Account to get funded if any necessary
 
 ## Main Repository
 
@@ -22,6 +24,8 @@ Job description:
 - Watch development progress in team's respective Github repositories
 - Provide hardware requirement if anything required
 - Provide relevant basic technical support
+
+Code: MAIN00
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 

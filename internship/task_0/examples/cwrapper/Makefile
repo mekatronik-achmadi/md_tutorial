@@ -1,5 +1,3 @@
-# Minimal Makefile
-
 EXECUTABLE=contohExample
 
 CC=gcc

@@ -96,3 +96,142 @@ Some basic rules if write source in C/C++:
 
 ### Example using C
 
+hitung.h, for declaration header
+
+~~~c_cpp
+/**
+ * @file    hitung.h
+ * @brief   hitung module header.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+#ifndef _HITUNG_H_
+#define _HITUNG_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+
+/**
+ * @brief Times constant
+ */
+#define KONSTANTA 10
+
+/**
+ * @brief Minimum function example
+ * @details Just simple calculation example
+ * @param[in] Uint16 first variable
+ * @param[in] Uint16 second variable
+ * @return Uint16 result of calculation
+ */
+uint16_t fungsiTambah(uint16_t varA, uint16_t varB);
+
+#endif // _HITUNG_H_
+/** @} */
+~~~
+
+hitung.c, for implementation of what declared in header
+
+~~~c_cpp
+/**
+ * @file    hitung.c
+ * @brief   hitung module code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+#include "hitung.h"
+#include <stdint.h>
+
+uint16_t fungsiTambah(uint16_t varA, uint16_t varB){
+    return varA + varB;
+}
+
+/** @} */
+~~~
+
+main.c, for first function to run
+
+~~~c_cpp
+/**
+ * @file    main.c
+ * @brief   Main module code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
+#include <stdint.h>
+#include "hitung.h"
+
+/**
+ * @brief Main function
+ * @return Execution result
+ */
+int main(int argc, char *argv[]){
+    uint16_t hasil;
+    hasil = KONSTANTA * fungsiTambah(10, 15);
+    printf("contoh hitung: %i", hasil);
+
+    return 0;
+}
+
+/** @} */
+~~~
+
+Makefile, to compile all above into single binary program
+
+~~~makefile
+EXECUTABLE=contohExample
+
+CC=gcc
+INCDIR=-I./
+CFLAGS=-Wall
+LDFLAGS=
+LIBFLAGS=
+
+SOURCES=$(wildcard *.c )
+OBJECTS=$(SOURCES:.c=.o)
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $(EXECUTABLE) $(LIBFLAGS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCDIR) -c -o $@ $<
+
+clean:
+	rm -f $(EXECUTABLE) $(OBJECTS)
+~~~
+
+wrapper.py, to integrate binary into main language (Python)
+
+~~~python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""@package example
+Python wrapper example
+"""
+
+import subprocess
+
+class contohWrapper():
+    """Minimum Wrapper class example
+    """
+
+    def __init__(self):
+        """Minimum init function example
+        """
+        super(contohWrapper, self).__init__()
+
+        out = subprocess.run(["./contohExample"],stdout=subprocess.PIPE, stderr=None)
+        print(out.stdout.decode('utf-8'))
+
+if __name__ == "__main__":
+    coba = contohWrapper()
+~~~

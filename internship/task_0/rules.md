@@ -1,17 +1,14 @@
-# Job Assignment
+# Basic Rules
 
 ## Contents
-- [Basic Standarization](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#basic-standarization)
-	+ [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#github-workflow)
-	+ [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#identifier-naming)
-	+ [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#python-language)
-		* [Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example)
-	+ [C/C++ language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#cc-language)
-		* [Example in C](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c)
-	
-## Basic Standarization
+- [Github workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#github-workflow)
+- [Identifier naming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#identifier-naming)
+- [Python language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#python-language)
+	+ [Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example)
+- [C/C++ language](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#cc-language)
+	+ [Example in C](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/rules.md#example-using-c)
 
-### Github workflow
+## Github workflow
 
 Here some basic rules in working with Github:
 - Everyone work in respective Github account.
@@ -39,7 +36,7 @@ repository
 |   +-- ...	
 ~~~
 
-### Identifier naming
+## Identifier naming
 
 Here some basic rules in identifier naming:
 - Identifier including names for variables, functions, class, or macros.
@@ -48,7 +45,7 @@ Here some basic rules in identifier naming:
 - Names more than one word must be camel-case, like firstClass, secondFile, thirdFolder, etc
 - Must briefly indicate what the identifier about, like btStart(), audioStop(), wifiScan(), etc
 
-### Python Language
+## Python Language
 
 Some basic rules if write source in Python:
 - Good amount documentation either using language's comments or Doxygen formatted.
@@ -60,7 +57,7 @@ Some basic rules if write source in Python:
 - Not using any shell argument as class module will be imported programmatically
 - Code Writing using text-editor capable to syntax-highlight and code-completion, like VSCode/VSCodium with Python extension
 
-#### Example
+### Example
 
 contohExample.py
 
@@ -84,7 +81,7 @@ if __name__ == "__main__":
     coba = contohExample()
 ~~~
 
-### C/C++ Language
+## C/C++ Language
 
 Some basic rules if write source in C/C++:
 - Good amount documentation either using language's comments or Doxygen formatted.
@@ -97,5 +94,5 @@ Some basic rules if write source in C/C++:
 - Provide Python wrapper to final binary using subprocess or pexpect module.
 - Code Writing using text-editor capable to syntax-highlight and code-completion, like VSCode/VSCodium with clangd extension.
 
-#### Example using C
+### Example using C
 

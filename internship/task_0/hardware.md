@@ -18,6 +18,8 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | COUGH-00 | RASPBERRYPI-3   | 1 |
 |          | WAVESHARE35A    | 1 |
 |          | F2F-WIRE        | 8 |
+|          | USB KEYBOARD    | 1 |
+|          | MICROSD 16GB    | 1 |
 | COUGH-01 | -               | - |
 | COUGH-02 | RASPBERRYPI-4   | 1 |
 |          | WAVESHARE35A    | 1 |
@@ -35,10 +37,12 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 
 ## Item to Buy
 
+### Primary
+
 | Item | Qty | Price | Status | Location | Shop |
 |:----:|:---:|:-----:|:------:|:--------:|:----:|
-| F2F-WIRE        | 8 | Rp.4000   | Buying | Keputih  | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
-| ESP32-WROOM     | 3 | Rp.80000  | Buying | Keputih  | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
+| F2F-WIRE        | 8 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
+| ESP32-WROOM     | 3 | Rp.80000  | Bought | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
 | SPK Bluetooth   | 2 | Rp.24000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/rakayacc/speaker-bluetooth-pocket-mini-portable)
 | MIC INMP441     | 8 | Rp.60000  | Buying | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
 | LCD-TFT ILI9341 | 2 | Rp.165000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/ganesmart/modul-display-lcd-tft-2-2-inch-ili9341-spi-240x320-untuk-arduino-51)
@@ -47,6 +51,15 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | WAVESHARE35A    | 2 | Rp.240000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-35-inchi-lcd-touchscreen)
 | NUCLEO-F4       | 1 | Rp.275000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/stm32f401-nucleo)
 | USB-TTL PL2303  | 2 | RP.20000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/usb-to-ttl-rs232-cable-module-pl2303ta)
+| USB KEYBOARD    | 1 | Rp.30000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/nagajayacomputer/keyboard-usb-mini-r-one-1)
+| MICROSD 16GB    | 2 | Rp.70000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sumbermakmurkom/micro-sd-16gb-sandisk-class-10)
+
+### Secondary
+
+| Item | Price |
+|:----:|:-----:|
+| Pengiriman | Rp.500000 |
+| Lain-Lain  | Rp.200000 |
 
 ## Item Considered to Buy
 

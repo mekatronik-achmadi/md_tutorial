@@ -59,7 +59,7 @@ Job description:
 	
 Code: STETO-00
 
-Person:
+Person: [Alvin](https://github.com/Alvinarodad)
 
 ### Audio Input PCM/I2S
 
@@ -75,7 +75,7 @@ Job description:
 	
 Code: STETO-01
 
-Person:
+Person: [Haris](https://github.com/runnisha477)
 
 ### SPI TFT-LCD
 
@@ -91,7 +91,7 @@ Job description:
 	
 Code: STETO-02
 
-Person:
+Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
 ## Cough Analyzer
 
@@ -107,7 +107,7 @@ Job description:
 	
 Code: COUGH-00
 
-Person:
+Person: [Abil](https://github.com/zanjabil2502)
 
 ### Audio Analyzer
 
@@ -124,7 +124,7 @@ Job description:
 	
 Code: COUGH-01
 
-Person:
+Person: [Arifianto](https://github.com/fiantonumber1)
 
 ### GUI Main Program
 
@@ -138,7 +138,7 @@ Job description:
 	
 Code: COUGH-02
 
-Person:
+Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
 ## Audiometri
 
@@ -156,7 +156,7 @@ Job description:
 
 Code: AUDIO-00
 
-Person:
+Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
 ### Audio Input PCM/I2S
 
@@ -172,7 +172,7 @@ Job description:
 
 Code: AUDIO-01
 
-Person:
+Person: [Ramday](https://github.com/ramd24)
 
 ### Android Interface
 
@@ -189,7 +189,7 @@ Job description:
 	
 Code: AUDIO-02
 
-Person:  
+Person: [Naufal](https://github.com/naufalrif)
 
 ## Code Summary
 - MAIN-00: Main Repository Maintainer

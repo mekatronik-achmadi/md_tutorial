@@ -52,6 +52,7 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | MICROSD 16GB    | 2 | Rp.70000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sumbermakmurkom/micro-sd-16gb-sandisk-class-10)
 | ELEC-MIC        | 5 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
 | AUDIO-USB       | 2 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
+| JACK 35MM       | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sinarterang21/jack-mini-stereo-35-mm-buntut-besi-stenlis-jek-35mm-sound-audio)
 
 ### Secondary
 

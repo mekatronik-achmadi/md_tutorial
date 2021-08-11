@@ -32,9 +32,6 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 |          | USB-TTL PL2303  | 1 |
 |          | F2F-WIRE        | 8 |
 
-
-
-
 ## Item to Buy
 
 ### Primary
@@ -53,6 +50,8 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | USB-TTL PL2303  | 2 | RP.20000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/usb-to-ttl-rs232-cable-module-pl2303ta)
 | USB KEYBOARD    | 1 | Rp.30000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/nagajayacomputer/keyboard-usb-mini-r-one-1)
 | MICROSD 16GB    | 2 | Rp.70000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sumbermakmurkom/micro-sd-16gb-sandisk-class-10)
+| ELEC-MIC        | 5 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
+| AUDIO-USB       | 2 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
 
 ### Secondary
 
@@ -65,8 +64,6 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 
 | Item | Qty | Price | Location | Shop |
 |:----:|:---:|:-----:|:--------:|:----:|
-| Prusa I3 | 1 | Rp.4606000 | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/new-creality-ender-3-max-large-size-3d-printer-prusa-i3-v-slot)
-| PLA Roll | 2 | Rp.165000  | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/3d-printer-filament-pla-berkualitas-white)
-
-
-
+| Prusa I3   | 1 | Rp.4606000 | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/new-creality-ender-3-max-large-size-3d-printer-prusa-i3-v-slot)
+| PLA Roll   | 2 | Rp.165000  | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/3d-printer-filament-pla-berkualitas-white)
+| MIC MODULE | 3 | Rp.8000    | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/microphone-sensor-module)

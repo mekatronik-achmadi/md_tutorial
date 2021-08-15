@@ -39,7 +39,7 @@ To reset Bootloader Mode, press EN button while hold down BOOT button.
 
 ## Flashing
 
-Before flashing program to ESP32 board, you need to put ESP32 into Bootloader Mode.
+**Note:** We need to hold down BOOT/IO0 button to allow flashing process started
 
 Command to flashing:
 
@@ -52,8 +52,6 @@ python $IDF_PATH/components/esptool_py/esptool/esptool.py \
 ```
 
 The last line is the final binary file name and it's path.
-
-**Note:** Sometimes we need to hold down BOOT/IO0 button to allow flashing process started
 
 ![images](images/esp32flash.png?raw=true)
 

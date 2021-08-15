@@ -53,6 +53,6 @@ When compiling finish, we get finally binary name (*.bin) ready to upload
 
 Optionally, we can deactivate Python environment (as only needed when compiling) using command:
 
-```
+```sh
 deactivate
 ```

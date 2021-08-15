@@ -125,7 +125,7 @@ I mention it here only because it is an awesome editor.
 
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
-![images](images/myvim.png?raw=true)
+![images](images/esp32code.png?raw=true)
 
 ## Serial Terminal
 

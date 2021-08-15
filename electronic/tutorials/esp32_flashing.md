@@ -3,6 +3,8 @@
 ## Content
 - [Development Board](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#development-board)
 - [Changing Mode](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#changing-mode)
+	+ [Running](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#running-mode)
+	+ [Bootloader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#bootloader-mode)
 - [Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#flashing)
 
 ## Development Board
@@ -11,7 +13,9 @@ For this tutorial, we use NodeMCU ESP32 or similar ESP32-DevKit boards.
 
 ![images](images/esp32devkit.png?raw=true)
 
-It's cheap and packed with many features, good for project starter.
+It's cheap but packed with many features, good for project starter.
+
+![images](images/esp32pinout.png?raw=true)
 
 ## Changing Mode
 

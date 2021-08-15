@@ -2,6 +2,8 @@
 
 ## Contents
 - [Source Structure](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#source-structure)
+- [Opening Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#opening-source)
+- [Compiling Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#compiling-source)
 
 ## Source Structure
 
@@ -45,6 +47,12 @@ Now command sequence to compile in a Python environment:
 make -j4 app
 ```
 
-When compiling finish, we get finally binary name ready to upload
+When compiling finish, we get finally binary name (*.bin) ready to upload
 
 ![images](images/esp32build.png?raw=true)
+
+Optionally, we can deactivate Python environment (as only needed when compiling) using command:
+
+```
+deactivate
+```

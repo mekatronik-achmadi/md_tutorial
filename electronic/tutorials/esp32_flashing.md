@@ -1,9 +1,9 @@
 # ESP32 Flashing
 
 ## Content
-- [Development Board]()
-- [Changing Mode]()
-- [Flashing]()
+- [Development Board](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#development-board)
+- [Changing Mode](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#changing-mode)
+- [Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#flashing)
 
 ## Development Board
 
@@ -29,7 +29,7 @@ To reset into Running Mode, press only EN button
 
 Bootloader Mode is used to flash program.
 
-To enter Bootloader Mode, press EN button while hold down BOOT button.
+To reset Bootloader Mode, press EN button while hold down BOOT button.
 
 **Notes:** In some version, BOOT button labelled as IO0.
 
@@ -53,4 +53,4 @@ The last line is the final binary file name and it's path.
 
 ![images](images/esp32flash.png?raw=true)
 
-If the process ended successfull, ESP32 will reset and boot into Running Mode
+If the process ended successfully, ESP32 will reset and boot into Running Mode automatically

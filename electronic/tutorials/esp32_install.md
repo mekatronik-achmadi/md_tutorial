@@ -6,8 +6,11 @@
 - [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#libraries)
 	+ [ESP-IDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#esp-idf)
 	+ [PyParsing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python-pyparsing)
-- [Uploader]
-- [Editor]
+- [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#uploader)
+- [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#editor)
+	+ [VSCodium](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vscodium)
+	+ [Vim](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vim)
+- [Serial Terminal]
 
 ## Compiler
 
@@ -122,4 +125,18 @@ I mention it here only because it is an awesome editor.
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
 ![images](images/myvim.png?raw=true)
+
+## Serial Terminal
+
+### Moserial 
+
+A Serial Terminal using GTK+ Toolkit.
+
+To install in ArchLinux/Manjaro:
+
+```sh
+sudo pacman -S moserial
+```
+
+![images](images/moserial.png?raw=true)
 

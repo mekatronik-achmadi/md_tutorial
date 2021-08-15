@@ -15,7 +15,7 @@ For this tutorial, we use NodeMCU ESP32 or similar ESP32-DevKit boards.
 
 It's cheap but packed with many features, good for project starter.
 
-![images](images/esp32pinout.png?raw=true)
+![images](images/esp32pinout.jpg?raw=true)
 
 ## Changing Mode
 

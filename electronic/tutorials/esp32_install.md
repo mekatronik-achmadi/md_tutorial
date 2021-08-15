@@ -2,10 +2,12 @@
 
 ## Contents
 - [Compiler](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#compiler)
-- [USB-TTL Driver]()
-- [Libraries]()
-	+ [ESP-IDF]()
-	+ [PyParsing]()
+- [USB-TTL Driver](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#usb-ttl-driver)
+- [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#libraries)
+	+ [ESP-IDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#esp-idf)
+	+ [PyParsing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python-pyparsing)
+- [Uploader]
+- [Editor]
 
 ## Compiler
 
@@ -61,14 +63,63 @@ For that requirement, we need PyParsing in a bit older version since latest vers
 Follow these commands to install PyParsing 2.2.0 in a virtual enviroment:
 
 ```sh
-cd $HOME;
+cd $HOME
 virtualenv esp32 --system-site-packages
+
+source $HOME/esp32/bin/activate
+pip install pyparsing==2.2.0
+deactivate
 ```
 
 to test installation
 
 ```sh
 source ~/esp32/bin/activate
-pip install pyparsing==2.2.0
+python -c "import pyparsing;print(pyparsing.__version__)"
 deactivate
 ```
+
+## Uploader
+
+For uploader program, we can use ESPTool installed as part of ESP-IDF.
+
+You can check the version using command:
+
+```sh
+source $HOME/esp32/bin/activate
+python $IDF_PATH/components/esptool_py/esptool/esptool.py version
+deactivate
+```
+
+## Editor
+
+Technically you can use any text editor to write code, as long as it has:
+- Recognize Unix line ending or even using it by default.
+- Syntax Highlighting. Write code without highlighting only for psycho.
+- Code Completion. It usefull if you dont want to memorize all keywords
+
+Here some of my recommendations:
+
+### VSCodium
+
+VSCodium is a community-driven version of Visual Studio Code (VSCode).
+It's build from same source but with all Microsoft touch disabled.
+
+It's a complete source editor.
+Has good syntax highlighting.
+The downside is since written in electron, it would probably take a lot of memory.
+Especially in Windows with a lot extension.
+
+For ArchLinux/Manjaro, to install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
+
+![images](images/vscodium.JPG?raw=true)
+
+### Vim
+
+Lets face it, this text editor is powerful, but not for beginner.
+I mention it here only because it is an awesome editor.
+
+If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
+
+![images](images/myvim.png?raw=true)
+

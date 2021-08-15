@@ -116,7 +116,7 @@ Especially in Windows with a lot extension.
 
 For ArchLinux/Manjaro, to install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
 
-![images](images/esp32codium.JPG?raw=true)
+![images](images/esp32codium.png?raw=true)
 
 ### Vim
 

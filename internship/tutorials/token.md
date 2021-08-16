@@ -29,6 +29,6 @@ Step to create personal token
 
 2. Choose **Personal Access Token**
 
-![images](images/ghp1.png?raw=true)
+![images](images/ghp2.png?raw=true)
 
 

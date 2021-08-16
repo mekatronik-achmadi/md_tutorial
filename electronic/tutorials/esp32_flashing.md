@@ -55,4 +55,4 @@ The last line is the final binary file name and it's path.
 
 ![images](images/esp32flash.png?raw=true)
 
-If the process ended successfully, ESP32 will reset and boot into Running Mode automatically
+If the process ended successfully, ESP32 will reset into Running Mode automatically

@@ -33,7 +33,7 @@ To reset into Running Mode, press only EN button
 
 Bootloader Mode is used to flash program.
 
-To reset Bootloader Mode, press EN button while hold down BOOT button.
+To reset into Bootloader Mode, press EN button while hold down BOOT button.
 
 **Notes:** In some version, BOOT button labelled as IO0.
 

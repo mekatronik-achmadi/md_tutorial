@@ -45,26 +45,26 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | LCD-TFT ILI9341 | 1 | Rp.165000 | Order  | Sidoarjo | [Tokped](https://www.tokopedia.com/partnerrobotic/lcd-oled-tft-ili9341-2-4-touchscreen)
 | LCD NOKIA 5110  | 1 | Rp.48000  | Order  | Bekasi   | [Tokped](https://www.tokopedia.com/daelectronics/lcd-nokia-5110-module-compatible-arduino)
 | RASPBERRYPI-4   | 1 | Rp.950000 | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-4-computer-model-b-4gb-made-in-uk)
-| ELEC-MIC        | 5 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
-| AUDIO-USB       | 2 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
+| ELEC-MIC        | 4 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
+| AUDIO-USB       | 1 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
 | JACK 35MM       | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sinarterang21/jack-mini-stereo-35-mm-buntut-besi-stenlis-jek-35mm-sound-audio)
 
 ### Separated
 
-| Job | Item | Qty | Price | Status | Location | Shop |
-|:---:|:----:|:---:|:-----:|:------:|:--------:|:----:|
-| STETO-00 | ESP32-WROOM      | 1 | Rp.80000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
-|          | SPK/HP Bluetooth | 1 | Rp.24000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/rakayacc/speaker-bluetooth-pocket-mini-portable)
-| COUGH-00 | RASPBERRYPI-3    | 1 | Rp.605000 | Buying | Surabaya | [Digiware](https://digiwarestore.com/id/raspberry-board/raspberry-pi-3-model-b-made-in-uk-442316.html)
-|          | WAVESHARE35A     | 1 | Rp.240000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-35-inchi-lcd-touchscreen)
-|          | USB KEYBOARD     | 1 | Rp.30000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/nagajayacomputer/keyboard-usb-mini-r-one-1)
-|          | MICROSD 16GB     | 1 | Rp.70000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sumbermakmurkom/micro-sd-16gb-sandisk-class-10)
-|          | F2F-WIRE         | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
-|          | MIC INMP441      | 2 | Rp.60000  | Buying | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
-| AUDIO-01 | NUCLEO-F4        | 1 | Rp.275000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/stm32f401-nucleo)
-|          | F2F-WIRE         | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
-|          | MIC INMP441      | 2 | Rp.60000  | Buying | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
-|          | USB-TTL PL2303   | 2 | RP.20000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/usb-to-ttl-rs232-cable-module-pl2303ta)
+| Job | Item | Qty | Price | Status | Shop |
+|:---:|:----:|:---:|:-----:|:------:|:----:|
+| STETO-00 | ESP32-WROOM      | 1 | Rp.80000  | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
+|          | SPK/HP Bluetooth | 1 | Rp.24000  | Surabaya | [Tokped](https://www.tokopedia.com/rakayacc/speaker-bluetooth-pocket-mini-portable)
+| COUGH-00 | RASPBERRYPI-3    | 1 | Rp.605000 | Surabaya | [Digiware](https://digiwarestore.com/id/raspberry-board/raspberry-pi-3-model-b-made-in-uk-442316.html)
+|          | WAVESHARE35A     | 1 | Rp.240000 | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-35-inchi-lcd-touchscreen)
+|          | USB KEYBOARD     | 1 | Rp.30000  | Surabaya | [Tokped](https://www.tokopedia.com/nagajayacomputer/keyboard-usb-mini-r-one-1)
+|          | MICROSD 16GB     | 1 | Rp.70000  | Surabaya | [Tokped](https://www.tokopedia.com/sumbermakmurkom/micro-sd-16gb-sandisk-class-10)
+|          | F2F-WIRE         | 2 | Rp.4000   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
+|          | MIC INMP441      | 2 | Rp.60000  | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
+| AUDIO-01 | NUCLEO-F4        | 1 | Rp.275000 | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/stm32f401-nucleo)
+|          | F2F-WIRE         | 2 | Rp.4000   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
+|          | MIC INMP441      | 2 | Rp.60000  | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
+|          | USB-TTL PL2303   | 2 | RP.20000  | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/usb-to-ttl-rs232-cable-module-pl2303ta)
 
 ### Secondary
 

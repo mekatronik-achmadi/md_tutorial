@@ -1,9 +1,9 @@
 # Personal Access Token
 
 ## Contents
-- [Reason]()
-- [Create]()
-- [Recreate]()
+- [Reason](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/token.md#reason)
+- [Create](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/token.md#create)
+- [Recreate](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/token.md#recreate)
 
 ## Reason
 
@@ -16,23 +16,33 @@ You can read yourself at Github's Blog [here](https://github.blog/2021-04-05-beh
 Before creating Personal Access Tokens, make sure you already your email address for your Github Account.
 See [here](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address)
 
+---
+
 Click your account icon, the click **Settings**.
 
 ![images](images/ghp0.png?raw=true)
+
+---
 
 Click **Developer settings**
 
 ![images](images/ghp1.png?raw=true)
 
+---
+
 Choose **Personal Access Token**
 
 ![images](images/ghp2.png?raw=true)
+
+---
 
 Choose **Generate new token**
 
 ![images](images/ghp3.png?raw=true)
 
 You may asked your Github Account password to continue
+
+---
 
 Now fill it
 
@@ -43,9 +53,13 @@ Essential contents:
 
 ![images](images/ghpgen.png?raw=true)
 
+---
+
 Click Generate token
 
 ![images](images/ghpsave.png?raw=true)
+
+---
 
 You will get your personal access token
 
@@ -53,7 +67,9 @@ You will get your personal access token
 
 **Notes:** Copy the token (ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) and paste it on somewhere else save.
 
-After you leave that page, you **won't able** see that token characters
+After you leave or refresh that page, you **won't able** see that token characters again
+
+---
 
 **Tips:** You can also save it as Bash environment
 

@@ -19,5 +19,7 @@ Step to create personal token
 
 ---
 
-1. 
+1. Click your account icon, the click **Settings**.
+
+![images](images/ghp0.png?raw=true)
 

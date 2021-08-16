@@ -1,4 +1,4 @@
-# Access Token
+# Personal Access Token
 
 ## Contents
 - [Reason]()
@@ -22,4 +22,13 @@ Step to create personal token
 1. Click your account icon, the click **Settings**.
 
 ![images](images/ghp0.png?raw=true)
+
+2. Click **Developer settings**
+
+![images](images/ghp1.png?raw=true)
+
+2. Choose **Personal Access Token**
+
+![images](images/ghp1.png?raw=true)
+
 

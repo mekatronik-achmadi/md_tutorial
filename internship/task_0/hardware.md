@@ -13,7 +13,7 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 |          | MIC INMP441     | 1 |
 |          | F2F-WIRE        | 8 |
 | STETO-02 | ESP32-WROOM     | 1 |
-|          | LCD-TFT ILI9341 | 1 | 
+|          | LCD-TFT ILI9341 | 1 |
 |          | F2F-WIRE        | 8 |
 | COUGH-00 | RASPBERRYPI-3   | 1 |
 |          | MIC INMP441     | 1 |
@@ -41,8 +41,8 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 |:----:|:---:|:-----:|:------:|:--------:|:----:|
 | F2F-WIRE        | 6 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
 | ESP32-WROOM     | 3 | Rp.80000  | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
-| MIC INMP441     | 6 | Rp.60000  | Buying | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
-| LCD-TFT ILI9341 | 2 | Rp.165000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/ganesmart/modul-display-lcd-tft-2-2-inch-ili9341-spi-240x320-untuk-arduino-51)
+| MIC INMP441     | 6 | Rp.60000  | Order  | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
+| LCD-TFT ILI9341 | 1 | Rp.165000 | Buying | Surabaya | [Tokped](https://www.tokopedia.com/partnerrobotic/lcd-oled-tft-ili9341-2-4-touchscreen)
 | RASPBERRYPI-4   | 1 | Rp.950000 | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-4-computer-model-b-4gb-made-in-uk)
 | ELEC-MIC        | 5 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
 | AUDIO-USB       | 2 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)

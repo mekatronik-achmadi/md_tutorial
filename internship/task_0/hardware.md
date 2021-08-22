@@ -4,31 +4,31 @@
 
 You can check job code description [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md)
 
-| Code | Item | Qty |
-|:----:|:----:|:---:|
-| MAIN-00  | -               | - |
-| STETO-00 | ESP32-WROOM     | 1 |
+| Code | Item | Qty | Packed |
+|:----:|:----:|:---:|:------:|
+| MAIN-00  | -               | - | -
+| STETO-00 | ESP32-WROOM     | 1 | Separated
 |          | SPK Bluetooth   | 1 |
-| STETO-01 | ESP32-WROOM     | 1 |
+| STETO-01 | ESP32-WROOM     | 1 | Waiting
 |          | MIC INMP441     | 1 |
 |          | F2F-WIRE        | 8 |
-| STETO-02 | ESP32-WROOM     | 1 |
+| STETO-02 | ESP32-WROOM     | 1 | Done
 |          | LCD-TFT ILI9341 | 1 |
 |          | F2F-WIRE        | 8 |
-| COUGH-00 | RASPBERRYPI-3   | 1 |
+| COUGH-00 | RASPBERRYPI-3   | 1 | Separated
 |          | MIC INMP441     | 1 |
 |          | WAVESHARE35A    | 1 |
 |          | F2F-WIRE        | 8 |
 |          | USB KEYBOARD    | 1 |
 |          | MICROSD 16GB    | 1 |
-| COUGH-01 | -               | - |
+| COUGH-01 | -               | - | - 
 | COUGH-02 | RASPBERRYPI-4   | 1 |
 |          | WAVESHARE35A    | 1 |
-| AUDIO-00 | NUCLEO-F4       | 1 |
+| AUDIO-00 | NUCLEO-F4       | 1 | Done
 |          | LCD-TFT ILI9341 | 1 |
 |          | USB-TTL PL2303  | 1 |
 |          | F2F-WIRE        | 8 |
-| AUDIO-01 | NUCLEO-F4       | 1 |
+| AUDIO-01 | NUCLEO-F4       | 1 | Separated
 |          | MIC INMP411     | 1 |
 |          | USB-TTL PL2303  | 1 |
 |          | F2F-WIRE        | 8 |
@@ -39,15 +39,12 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 
 | Item | Qty | Price | Status | Location | Shop |
 |:----:|:---:|:-----:|:------:|:--------:|:----:|
-| F2F-WIRE        | 6 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
+| F2F-WIRE        | 6 | Rp.4000   | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/kabel-jumper-female-to-female-20cm-10pcs)
 | ESP32-WROOM     | 3 | Rp.80000  | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/esp32-s-module-esp-wroom-wifi-bt-ble-development-board)
 | MIC INMP441     | 6 | Rp.60000  | Done   | Bandung  | [Tokped](https://www.tokopedia.com/easyware-id/inmp441-omnidirectional-microphone-module-mems-i2s-interface)
-| LCD-TFT ILI9341 | 1 | Rp.165000 | Ship   | Sidoarjo | [Tokped](https://www.tokopedia.com/partnerrobotic/lcd-oled-tft-ili9341-2-4-touchscreen)
+| LCD-TFT ILI9341 | 1 | Rp.165000 | Done   | Sidoarjo | [Tokped](https://www.tokopedia.com/partnerrobotic/lcd-oled-tft-ili9341-2-4-touchscreen)
 | LCD NOKIA 5110  | 1 | Rp.48000  | Done   | Bekasi   | [Tokped](https://www.tokopedia.com/daelectronics/lcd-nokia-5110-module-compatible-arduino)
 | RASPBERRYPI-4   | 1 | Rp.950000 | Done   | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/raspberry-pi-4-computer-model-b-4gb-made-in-uk)
-| ELEC-MIC        | 4 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
-| AUDIO-USB       | 1 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
-| JACK 35MM       | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sinarterang21/jack-mini-stereo-35-mm-buntut-besi-stenlis-jek-35mm-sound-audio)
 
 ### Separated
 
@@ -80,3 +77,7 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 | Prusa I3   | 1 | Rp.4606000 | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/new-creality-ender-3-max-large-size-3d-printer-prusa-i3-v-slot)
 | PLA Roll   | 2 | Rp.165000  | Surabaya | [Tokped](https://www.tokopedia.com/3dzaikusby/3d-printer-filament-pla-berkualitas-white)
 | MIC MODULE | 3 | Rp.8000    | Surabaya | [Tokped](https://www.tokopedia.com/akhishop/microphone-sensor-module)
+| ELEC-MIC   | 4 | Rp.2000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/karnan/electret-microphone-mic-mikrofon-1-cm-diameter-dengan-2-kaki-terminal)
+| AUDIO-USB  | 1 | Rp.25000  | Buying | Surabaya | [Tokped](https://www.tokopedia.com/pusatdivx/usb-sound-card-eksternal-virtual-channel-3d-7-1-audio-adapter-external)
+| JACK 35MM  | 2 | Rp.4000   | Buying | Surabaya | [Tokped](https://www.tokopedia.com/sinarterang21/jack-mini-stereo-35-mm-buntut-besi-stenlis-jek-35mm-sound-audio)
+

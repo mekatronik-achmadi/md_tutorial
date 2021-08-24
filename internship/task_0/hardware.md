@@ -21,8 +21,8 @@ You can check job code description [here](https://github.com/mekatronik-achmadi/
 |          | F2F-WIRE        | 8 |
 |          | USB KEYBOARD    | 1 |
 |          | MICROSD 16GB    | 1 |
-| COUGH-01 | -               | - | - 
-| COUGH-02 | RASPBERRYPI-4   | 1 |
+| COUGH-01 | -               | - | -
+| COUGH-02 | RASPBERRYPI-4   | 1 | Done
 |          | WAVESHARE35A    | 1 |
 | AUDIO-00 | NUCLEO-F4       | 1 | Done
 |          | LCD-TFT ILI9341 | 1 |

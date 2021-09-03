@@ -6,6 +6,12 @@
 	+ [Achmadi]()
 	+ [Pras]()
 	+ [Alvin]()
+	+ [Miko]()
+	+ [Naufal]()
+	+ [Ramday]()
+	+ [Abil]()
+	+ [Arifianto]()
+	+ [Haris]()
 
 ## Value Aspects
 
@@ -18,9 +24,13 @@ The value aspects for evaluation listed:
 | C | Documentation Sources/Scripts | 0-2 |
 | D | Usable Sources/Scripts | 0-3 |
 
+All this evaluation checked in respective Github account.
+
 ---
 
 ## Account Evaluations
+
+**NOTE:** This evaluation update made in September 3rd, 2021
 
 ### Achmadi
 
@@ -56,4 +66,81 @@ Evaluation: A=1, B=3, C=1, D=3
 Account: https://github.com/Alvinarodad
 
 Highlighted Repository:
+- https://github.com/Alvinarodad/magang_flaghsip_real_assigment
 
+Evaluation: A=1, B=1, C=0, D=1
+
+**Verdict: 3/10**
+
+---
+
+### Miko
+
+Account: https://github.com/komiwamiko
+
+Highlighted Repository:
+
+Evaluation: A=0, B=0, C=0, D=0
+
+**Verdict: 0/10**
+
+---
+
+### Naufal
+
+Account: https://github.com/naufalrif
+
+Highlighted Repository:
+
+Evaluation: A=0, B=0, C=0, D=0
+
+**Verdict: 0/10**
+
+---
+
+### Ramday
+
+Account: https://github.com/ramd24
+
+Highlighted Repository:
+
+Evaluation: A=0, B=0, C=0, D=0
+
+**Verdict: 0/10**
+
+---
+
+### Abil
+
+Account: https://github.com/zanjabil2502
+
+Highlighted Repository:
+
+Evaluation: A=0, B=0, C=0, D=0
+
+**Verdict: 0/10**
+
+---
+
+### Arifianto
+
+Account: https://github.com/fiantonumber1
+
+Highlighted Repository:
+- https://github.com/fiantonumber1/belajarpython
+
+Evaluation: A=1, B=0, C=0, D=0
+
+**Verdict: 1/10**
+
+---
+
+### Haris
+
+Account: https://github.com/runnisha477
+
+Highlighted Repository:
+
+Evaluation: A=0, B=0, C=0, D=0
+
+**Verdict: 0/10**

@@ -1,17 +1,17 @@
 # Internship Evaluation
 
 ## Contents
-- [Value Aspects]()
-- [Account Evaluations]()
-	+ [Achmadi]()
-	+ [Pras]()
-	+ [Alvin]()
-	+ [Miko]()
-	+ [Naufal]()
-	+ [Ramday]()
-	+ [Abil]()
-	+ [Arifianto]()
-	+ [Haris]()
+- [Value Aspects](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#value-aspects)
+- [Account Evaluations](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#account-evaluations)
+	+ [Achmadi](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#achmadi)
+	+ [Pras](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#pras)
+	+ [Alvin](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#alvin)
+	+ [Miko](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#miko)
+	+ [Naufal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#naufal)
+	+ [Ramday](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#ramday)
+	+ [Abil](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#abil)
+	+ [Arifianto](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#arifianto)
+	+ [Haris](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/evaluation.md#haris)
 
 ## Value Aspects
 
@@ -32,6 +32,8 @@ All this evaluation checked in respective Github account.
 
 **NOTE:** This evaluation update made in September 3rd, 2021
 
+---
+
 ### Achmadi
 
 Account: https://github.com/mekatronik-achmadi
@@ -44,7 +46,7 @@ Evaluation: A=2, B=3, C=1, D=3
 
 Bonus: Technical-Leader=3
 
-**Verdict: 12/10**
+**Verdict: 12 / 10**
 
 ---
 
@@ -57,7 +59,7 @@ Highlighted Repository:
 
 Evaluation: A=1, B=3, C=1, D=3
 
-**Verdict: 8/10**
+**Verdict: 8 / 10**
 
 ---
 
@@ -70,7 +72,7 @@ Highlighted Repository:
 
 Evaluation: A=1, B=1, C=0, D=1
 
-**Verdict: 3/10**
+**Verdict: 3 / 10**
 
 ---
 
@@ -82,7 +84,7 @@ Highlighted Repository:
 
 Evaluation: A=0, B=0, C=0, D=0
 
-**Verdict: 0/10**
+**Verdict: 0 / 10**
 
 ---
 
@@ -94,7 +96,7 @@ Highlighted Repository:
 
 Evaluation: A=0, B=0, C=0, D=0
 
-**Verdict: 0/10**
+**Verdict: 0 / 10**
 
 ---
 
@@ -106,7 +108,7 @@ Highlighted Repository:
 
 Evaluation: A=0, B=0, C=0, D=0
 
-**Verdict: 0/10**
+**Verdict: 0 / 10**
 
 ---
 
@@ -118,7 +120,7 @@ Highlighted Repository:
 
 Evaluation: A=0, B=0, C=0, D=0
 
-**Verdict: 0/10**
+**Verdict: 0 / 10**
 
 ---
 
@@ -131,7 +133,7 @@ Highlighted Repository:
 
 Evaluation: A=1, B=0, C=0, D=0
 
-**Verdict: 1/10**
+**Verdict: 1 / 10**
 
 ---
 
@@ -143,4 +145,4 @@ Highlighted Repository:
 
 Evaluation: A=0, B=0, C=0, D=0
 
-**Verdict: 0/10**
+**Verdict: 0 / 10**

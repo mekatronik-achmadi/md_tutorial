@@ -39,8 +39,17 @@ Then run program *C:\esp32-gcc\mysys32\mingw32.exe*
 Depends on kind of development boards used as starting development,
 you may need some USB-TTL driver like CH34x, PL230x, CP210x, or FT232x.
 
-**Fortunately**, recent kernel already included all of those drivers by default.
-Just use latest Arch Linux default kernel and those drivers will just run.
+### ArchLinux/Manjaro
+
+No need any extra installation since recent kernel already included all of those drivers by default.
+
+### Windows
+
+You can download those drivers here:
+- CP210x (try this): [Download](https://drive.google.com/file/d/1EOIDu4Z4NJiLk6UU6dLL4edRn--rqkNG/view?usp=sharing)
+- CH34x: [Download](https://drive.google.com/file/d/1-Q9LCqPtK7MlNTnRsnao-CeUexVp9CP1/view?usp=sharing)
+- PL230x: [Download](https://drive.google.com/file/d/1TPoFGtD0ngCYNH1h21dQrXWijMSp_XpZ/view?usp=sharing)
+- FT232x: [Download](https://www.usb-drivers.org/wp-content/uploads/2014/12/CDM-2.08.28-WHQL-Certified1.zip)
 
 ## Libraries
 
@@ -49,7 +58,9 @@ Just use latest Arch Linux default kernel and those drivers will just run.
 Best library to use is Espressif's ESP-IDF (IoT Development Framework).
 It included all essential IoT protocol implementations with multithreading provided by FreeRTOS.
 
-To install in Arch Linux, you can use this [AUR Package](https://aur.archlinux.org/packages/esp-idf/)
+#### ArchLinux/Manjaro
+
+You can use this [AUR Package](https://aur.archlinux.org/packages/esp-idf/)
 
 You need to modify it's PKGBUILD using following details:
 - replace all **python2-** with **python-** at same module dependencies

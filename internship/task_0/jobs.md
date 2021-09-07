@@ -17,6 +17,8 @@
 	+ [Android Interface](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#android-interface)
 - [Code Summary](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/jobs.md#code-summary)
 
+---
+
 ## Requirement
 
 Some basic general requirement:
@@ -30,6 +32,8 @@ Some basic general requirement:
 - Have decent internet connection and programming capable computer/laptop
 - Have Bank Account to get funded if any necessary
 
+---
+
 ## Main Repository
 
 Job description:
@@ -42,6 +46,8 @@ Job description:
 Code: MAIN-00
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
+
+---
 
 ## Stetoscope
 
@@ -61,6 +67,8 @@ Code: STETO-00
 
 Person: [Alvin](https://github.com/Alvinarodad)
 
+---
+
 ### Audio Input PCM/I2S
 
 Job description:
@@ -76,6 +84,8 @@ Job description:
 Code: STETO-01
 
 Person: [Haris](https://github.com/runnisha477)
+
+---
 
 ### SPI TFT-LCD
 
@@ -93,6 +103,8 @@ Code: STETO-02
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
+---
+
 ## Cough Analyzer
 
 ### Audio Input PCM/I2S or Audio-USB
@@ -100,31 +112,51 @@ Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 Job description:
 - Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
-- Able to buy minimum required hardware (will get funded)
-- Familiar with basic electronic including wiring and voltage-current level
-- Familiar with GNU/Linux including compiling and installation in RaspberryPi
-- Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array 
-	
-Code: COUGH-00
+- ~~Able to buy minimum required hardware (will get funded)~~
+- ~~Familiar with basic electronic including wiring and voltage-current level~~
+- ~~Familiar with GNU/Linux including compiling and installation in RaspberryPi~~
+- ~~Implement capture audio from PCM I2S to uint8 or uint16 one dimensional array~~
+- It's already done. See this [report](https://github.com/VibrasticLab/ehealth-iot/blob/master/reports/flagship_reports.md)
 
-Person: [Abil](https://github.com/zanjabil2502)
+---
 
-### Audio Analyzer
+### Audio Analyzer (Neural Network)
 
 Job description:
 - Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
 - Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
 - Task to do:
-	+ Collect any C, C++, Python, or Matlab available relevant to topic
-	+ Collect example audio record files relevant to topic
-	+ Push all collected sources/scripts in organized manner
-	+ Push some collected example audio record files (keep in low overall size)
-	+ Convert and Matlab scripts to either C, C++, or Python projects
+	+ Collect any C, C++, Python, Fortran, or Matlab available relevant to:
+		* Cough detection
+		* Cough feature extraction
+		* Using neural network approach (Tensorflow, Keras, or Theano)
+	+ Collect example audio record files relevant to above topics
+	+ Test C/C++ source or Python scripts in cough audio analyzing process
+	
+Code: COUGH-00
+
+Person: [Abil](https://github.com/zanjabil2502)
+
+---
+
+### Audio Analyzer (Signal Processing)
+
+Job description:
+- Read what already done [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/done.md#cough-analyzer)
+- Read what planned [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/task_0/planned.md#cough-analyzer)
+- Task to do:
+	+ Collect any C, C++, Python, Fortran, or Matlab available relevant to:
+		* Cough detection
+		* Cough feature extraction
+		* Using signal processing approach without neural network
+	+ Collect example audio record files relevant to above topics
 	+ Test C/C++ source or Python scripts in cough audio analyzing process
 	
 Code: COUGH-01
 
 Person: [Arifianto](https://github.com/fiantonumber1)
+
+---
 
 ### GUI Main Program
 
@@ -139,6 +171,8 @@ Job description:
 Code: COUGH-02
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
+
+---
 
 ## Audiometri
 
@@ -158,6 +192,8 @@ Code: AUDIO-00
 
 Person: [Achmadi](https://github.com/mekatronik-achmadi/)
 
+---
+
 ### Audio Input PCM/I2S
 
 Job description:
@@ -173,6 +209,8 @@ Job description:
 Code: AUDIO-01
 
 Person: [Ramday](https://github.com/ramd24)
+
+---
 
 ### Android Interface
 
@@ -191,13 +229,16 @@ Code: AUDIO-02
 
 Person: [Naufal](https://github.com/naufalrif)
 
+---
+
 ## Code Summary
 - MAIN-00: Main Repository Maintainer
 - STETO-00: Stetoscope Audio Output A2DP
 - STETO-01: Stetoscope Audio Input PCM/I2S
 - STETO-02: Stetoscope SPI TFT-LCD
-- COUGH-00: Cough Analyzer Audio Input PCM/I2S or Audio-USB
-- COUGH-01: Cough Analyzer Audio Analyzer
+- ~~COUGH-00: Cough Analyzer Audio Input PCM/I2S or Audio-USB~~
+- COUGH-00: Cough Analyzer Audio Analyzer (Neural Network)
+- COUGH-01: Cough Analyzer Audio Analyzer (Signal Processing)
 - COUGH-02: Cough Analyzer GUI Main Program
 - AUDIO-00: Audiometri Additional LCD
 - AUDIO-01: Audiometri Audio Input PCM/I2S

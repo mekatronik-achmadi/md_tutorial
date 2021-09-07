@@ -33,12 +33,14 @@ You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-e
 
 Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20171123.zip)
 
-Unzip the zip file to *C:\esp32-gcc*  and it will create an msys32 directory with a pre-prepared environment.
-The result should a folder named *C:\esp32-gcc\mysys32*
+Unzip the zip file to *C:*  and it will create an msys32 directory with a pre-prepared environment.
+The result should a folder named *C:\msys32*
 
-Then run program *C:\esp32-gcc\mysys32\mingw32.exe*
+**Notes:** Avoid any spaces in folders and files from here and on!!!
 
-The default user home folder will be in *C:\esp32-gcc\mysys32\home*
+Then run program *C:\msys32\mingw32.exe*
+
+The default user home folder will be in *C:\msys32\home*
 
 ![images](images/esp32win0.PNG?raw=true)
 
@@ -92,7 +94,7 @@ echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
 
 #### Windows
 
-First, run program *C:\esp32-gcc\mysys32\mingw32.exe*
+First, run program *C:\msys32\mingw32.exe*
 
 Create a folder *esp/* and clone ESP-IDF into it
 
@@ -122,7 +124,7 @@ export IDF_PATH='$HOME\esp\esp-idf'
 " > /etc/profile.d/idf_path.sh
 ```
 
-Exit and re-open terminal like previous
+then exit and re-open terminal like previous.
 
 ---
 
@@ -130,6 +132,8 @@ Exit and re-open terminal like previous
 
 In the linking (ld) process, ESP-IDF employ some python module to parse.
 For that requirement, we need PyParsing in a bit older version since latest version break the ESP-IDF API.
+
+#### ArchLinux/Manjaro
 
 Follow these commands to install PyParsing 2.2.0 in a virtual enviroment:
 
@@ -149,6 +153,19 @@ source ~/esp32/bin/activate
 python -c "import pyparsing;print(pyparsing.__version__)"
 deactivate
 ```
+
+#### Windows
+
+For Windows, you dont need Python virtual environments since Python in Windows are already has own environments.
+
+All you have to do just install required all Python modules using command:
+
+```sh
+cd ~/esp/esp-idf
+pip install -r ~/esp/esp-idf/requirements.txt
+```
+
+
 
 ## Uploader
 

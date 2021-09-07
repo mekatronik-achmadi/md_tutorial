@@ -1,4 +1,4 @@
-# Beginner Tutorial for Electronic Hobbyst/Developers
+# Beginner Tutorial for STM32 Hobbyst/Developers
 
 ## Pre-requisites
 
@@ -18,14 +18,6 @@ To make new user feel easier, we will still include Windows-7 based tutorial her
 But to make these tutorials conform in all platforms, we will focusing command line interface as much as possible and use icon-click as less as possible
 
 ## Table of Contents
-- [Git](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md)
-- [GitHub](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md)
 - [STM32: Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md)
 - [STM32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md)
 - [STM32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md)
-- [ESP32: Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md)
-- [ESP32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md)
-- [ESP32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md)
-- [KiCAD](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/kicad.md)
-- [Doxygen](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md)
-- [Assigment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/assignment.md)

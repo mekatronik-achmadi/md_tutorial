@@ -1,5 +1,11 @@
 # ESP32 Example Project
 
+## Getting Examples
+
+You can find some official examples brought by ESP-IDF package in directory *esp-idf/examples/*.
+
+Below we will provide a minimal example of Blink LED example. 
+
 ## Source Structure
 
 ```

@@ -1,12 +1,17 @@
 # Compiling
 
 ## Table of Contents
+- [Example Project](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#example-project)
 - [Source Structure](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#source-structure)
 - [Opening Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#opening-source)
 - [Compiling Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#compiling-source)
 	- [Programming Notepad](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#programmer-notepad)
 	- [Command Line](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#command-line)
 - [Binary Result](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md#binary-result)
+
+## Example Project
+
+We will use example provided [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_example.md)
 
 ## Source Structure
 
@@ -33,7 +38,7 @@ Workspace
 |   +-- kicad.pro
 |   +-- kicad.sch
 |   +-- kicad.kicad_pcb
-|   +-- ...	
+|   +-- ...
 ~~~
 
 Now, you need to adjust ChibiOS_STM32 folder Unix-path in Makefile.

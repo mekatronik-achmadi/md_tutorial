@@ -3,7 +3,7 @@
 ## Pre-Requisities
 
 This example explanation use ChibiOS/RT package prepared by us.
-You can download the package here](https://drive.google.com/file/d/11ivvhc-s3gQD2uzF0HDYm6e5w_w103FT/view?usp=sharing).
+You can download the package [here](https://drive.google.com/file/d/11ivvhc-s3gQD2uzF0HDYm6e5w_w103FT/view?usp=sharing).
 
 ## Getting Examples
 

@@ -82,6 +82,8 @@ Lastly, execute this command once to add ESP-IDF to shell path:
 echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
 ```
 
+---
+
 #### Windows
 
 First, run program *C:\esp32-gcc\mysys32\mingw32.exe*
@@ -93,6 +95,8 @@ mkdir -p ~/esp/;cd ~/esp/
 git clone https://github.com/espressif/esp-idf.git
 ```
 
+![images](images/esp32win1.PNG?raw=true)
+
 then update it's submodule using command:
 
 ```sh
@@ -101,6 +105,8 @@ git submodule update --init
 ```
 
 Wait for a while until all components downloaded
+
+![images](images/esp32win2.PNG?raw=true)
 
 ---
 

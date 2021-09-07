@@ -2,15 +2,15 @@
 
 ## Contents
 - [Compiler](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#compiler)
-	+ [Arch]()
-	+ [Windows]()
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows)
 - [USB-TTL Driver](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#usb-ttl-driver)
-	+ [Arch]()
-	+ [Windows]()
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-1)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-1)
 - [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#libraries)
 	+ [ESP-IDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#esp-idf)
-		- [Arch]()
-		- [Windows]()
+		- [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-2)
+		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-2)
 	+ [PyParsing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python-pyparsing)
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#uploader)
 - [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#editor)
@@ -113,6 +113,16 @@ git submodule update --init
 Wait for a while until all components downloaded
 
 ![images](images/esp32win2.PNG?raw=true)
+
+lastly, run this command to add IDF_PATH in mysys profile
+
+```sh
+echo "
+export IDF_PATH='$HOME\esp\esp-idf'
+" > /etc/profile.d/idf_path.sh
+```
+
+Exit and re-open terminal like previous
 
 ---
 

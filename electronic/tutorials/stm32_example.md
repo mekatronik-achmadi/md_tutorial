@@ -25,13 +25,13 @@ For this examples, your source tree should looks like this:
 Workspace
 +-- ChibiOS_STM32
 |   +-- demos
-|	|	+-- STM32
-|	|	|	+-- RT-STM32F401RE-NUCLEO
-|   |	|	|	+-- chconf.h
-|   |	|	|	+-- halconf.h
-|   |	|	|	+-- main.c
-|   |	|	|	+-- Makefile
-|   |	|	|	+-- mcuconf.h
+|   |   +-- STM32
+|   |	|   +-- RT-STM32F401RE-NUCLEO
+|   |   |   |   +-- chconf.h
+|   |   |   |   +-- halconf.h
+|   |   |   |   +-- main.c
+|   |   |   |   +-- Makefile
+|   |   |   |   +-- mcuconf.h
 |   +-- ext
 |   +-- os
 |   +-- test

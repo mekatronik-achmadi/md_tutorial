@@ -15,21 +15,29 @@
 
 ## Compiler
 
-For now, this entire tutorial intended for Arch Linux and it's derivatives.
-For other GNU/Linux distros like Ubuntu will written soon.
-For Windows like will need more time.
+For ESP32 compiler we can use XTensa-ESP32-Elf-GCC.
 
-For ESP32 we can use XTensa-ESP32-Elf-GCC.
+### ArchLinux/Manjaro
 
-To install in Arch Linux, you can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-elf-gcc-bin/)
+You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-elf-gcc-bin/).
 
 **Notes:** You need to replace all **python2-** with **python-** at same module dependencies in PKGBUILD.
 
+### Windows
+
+Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20171123.zip)
+
+Unzip the zip file to *C:\esp32-gcc\*  and it will create an msys32 directory with a pre-prepared environment.
+The result should a folder named *C:\esp32-gcc\mysys32\*
+
+Then run program *C:\esp32-gcc\mysys32\mingw32.exe*
+
+![images](images/esp32win0.PNG?raw=true)
+
 ## USB-TTL Driver
 
-Depends on kind of development boards used as starting development.
-
-You may need some USB-TTL driver for GNU/Linux like CH34x, PL230x, CP210x, or FT232x.
+Depends on kind of development boards used as starting development,
+you may need some USB-TTL driver like CH34x, PL230x, CP210x, or FT232x.
 
 **Fortunately**, recent kernel already included all of those drivers by default.
 Just use latest Arch Linux default kernel and those drivers will just run.

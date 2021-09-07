@@ -32,7 +32,11 @@ The result should a folder named *C:\esp32-gcc\mysys32*
 
 Then run program *C:\esp32-gcc\mysys32\mingw32.exe*
 
+The default user home folder will be in *C:\esp32-gcc\mysys32\home*
+
 ![images](images/esp32win0.PNG?raw=true)
+
+**Notes**: All shell activity will be done in this terminal window.
 
 ## USB-TTL Driver
 
@@ -72,11 +76,33 @@ You need to modify it's PKGBUILD using following details:
 ESP-IDF implement Kernel Config interface to customize compilation macros.
 For that requirement you may need to install [Python KConfig](https://aur.archlinux.org/packages/python-kconfiglib/)
 
-Lastly,, execute this command once to add ESP-IDF to shell path:
+Lastly, execute this command once to add ESP-IDF to shell path:
 
 ```sh
 echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
 ```
+
+#### Windows
+
+First, run program *C:\esp32-gcc\mysys32\mingw32.exe*
+
+Create a folder *esp/* and clone ESP-IDF into it
+
+```sh
+mkdir -p ~/esp/;cd ~/esp/
+git clone https://github.com/espressif/esp-idf.git
+```
+
+then update it's submodule using command:
+
+```sh
+cd ~/esp/esp-idf
+git submodule update --init
+```
+
+Wait for a while until all components downloaded
+
+---
 
 ### Python PyParsing
 

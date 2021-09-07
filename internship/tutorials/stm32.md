@@ -18,6 +18,7 @@ To make new user feel easier, we will still include Windows-7 based tutorial her
 But to make these tutorials conform in all platforms, we will focusing command line interface as much as possible and use icon-click as less as possible
 
 ## Table of Contents
-- [STM32: Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md)
-- [STM32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md)
-- [STM32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md)
+- [Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md)
+- [Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_compile.md)
+- [Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_flashing.md)
+- [Example]()

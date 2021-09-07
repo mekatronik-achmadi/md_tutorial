@@ -27,8 +27,8 @@ You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-e
 
 Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20171123.zip)
 
-Unzip the zip file to *C:\esp32-gcc\*  and it will create an msys32 directory with a pre-prepared environment.
-The result should a folder named *C:\esp32-gcc\mysys32\*
+Unzip the zip file to *C:\esp32-gcc*  and it will create an msys32 directory with a pre-prepared environment.
+The result should a folder named *C:\esp32-gcc\mysys32*
 
 Then run program *C:\esp32-gcc\mysys32\mingw32.exe*
 

@@ -131,8 +131,8 @@ Install stm32flash from this [AUR](https://aur.archlinux.org/packages/stm32flash
 In this project, we prefer to use ChibiOS/RT over ST's FWLib.
 Some of reason are:
 - Has RTOS kernel integrated on it
-- APwerelatively same across STM32 chip family, also even across other ARM Cortex-M like LPC, NXP, etc.
-- wealready use it since 2015
+- API relatively same across STM32 chip family, also even across other ARM Cortex-M like LPC, NXP, etc.
+- We already use it since 2015
 
 We use ChibiOS version 3.0.x.
 You can download [here](https://osdn.net/projects/chibios/scm/svn/tree/head/branches/stable_3.0.x/).
@@ -194,11 +194,11 @@ Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscod
 ### Vim
 
 Lets face it, this text editor is powerful, but not for beginner.
-wemention it here only because it is an awesome editor.
+We mention it here only because it is an awesome editor.
 
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
-![images](images/ourvim.png?raw=true)
+![images](images/myvim.png?raw=true)
 
 ## Serial Terminal
 

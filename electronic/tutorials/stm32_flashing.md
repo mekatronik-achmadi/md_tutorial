@@ -163,7 +163,7 @@ This guide will explain how to use bootloader to program via UART.
 
 Using bootloader, you need these things:
 - USB/TTL-UART converter. You can use converter based on FT232RL, PL2303, or CH34x chip.
-For testing this guide, I use PL2303 like [this](https://www.aliexpress.com/item/32850863681.html) as it cheap.
+For testing this guide, we use PL2303 like [this](https://www.aliexpress.com/item/32850863681.html) as it cheap.
 - STM32 Bootloader program. See installation guide
 
 ### Pinout
@@ -278,7 +278,7 @@ To perform writing, choose _Download to Devices_
 The to open compilation result file, click three dotted button right on file name bar.
 On file selection dialog, use either _hex Files_ or _bin Files_ as file format.
 
-For erase option, I recommend _Global Erase_
+For erase option, werecommend _Global Erase_
 
 Lastly, dont forget to check _Verify after download_
 

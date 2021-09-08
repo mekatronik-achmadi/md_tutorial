@@ -22,8 +22,8 @@
 	+ [Vim](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vim)
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-terminal)
 	+ [Hercules](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#hercules-terminal-windows)
-	+ [Android](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-bluetooth-android)
 	+ [Moserial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#moserial-gnulinux)
+	+ [Android](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-bluetooth-android)
 
 ## Compiler
 
@@ -249,14 +249,7 @@ If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/
 You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
 It's a portable standalone program, no need to install it.
 
-![images](images/serterm.png?raw=true)
-
-### Serial Bluetooth (Android)
-
-This Serial Terminal using Android Bluetooth via bridge module like HC05.
-This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
-
-![images](images/btterm.png?raw=true)
+![images](images/esp32winhercules.PNG?raw=true)
 
 ### MoSerial (GNU/Linux)
 
@@ -268,5 +261,12 @@ To install in ArchLinux/Manjaro:
 sudo pacman -S moserial
 ```
 
-![images](images/moserial.png?raw=true)
+![images](images/esp32moserial.png?raw=true)
+
+### Serial Bluetooth (Android)
+
+This Serial Terminal using Android Bluetooth via bridge module like HC05.
+This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
+
+![images](images/btterm.png?raw=true)
 

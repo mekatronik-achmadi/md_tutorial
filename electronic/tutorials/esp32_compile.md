@@ -104,3 +104,5 @@ make -j2 app
 **Notes**: the option **-j2** means using 4 threads CPU available.
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
+
+**Warning:** There's a chance compile will fail since its toolchain mentioned here still 8.2.0 version for Windows, while for GNU/Linux already in 8.4.0

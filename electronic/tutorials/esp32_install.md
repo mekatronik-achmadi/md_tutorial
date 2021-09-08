@@ -36,6 +36,9 @@ You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-e
 Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_esp2020r2_toolchain-20200601.zip)
 
 Unzip the zip file to *C:*  and it will create an msys32 directory with a pre-prepared environment.
+
+![images](images/esp32win.PNG?raw=true)
+
 The result should a folder named *C:\msys32*
 
 **Notes:** Avoid any spaces in folders and files name from here and on!!!

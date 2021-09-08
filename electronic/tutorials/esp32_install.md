@@ -11,7 +11,7 @@
 	+ [ESP-IDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#esp-idf)
 		* [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-2)
 		* [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-2)
-	+ [PyParsing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python-pyparsing)
+	+ [Python](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python)
 		* [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-3)
 		* [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-3)  
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#uploader)
@@ -44,8 +44,6 @@ The result should a folder named *C:\msys32*
 **Notes:** Avoid any spaces in folders and files name from here and on!!!
 
 Then run program *C:\msys32\mingw32.exe*
-
-The default user home folder will be in *C:\msys32\home*
 
 ![images](images/esp32win0.PNG?raw=true)
 
@@ -99,7 +97,7 @@ echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
 
 #### Windows
 
-First, run program *C:\msys32\mingw32.exe*
+First, run program *C:\msys32\mingw32.exe* again
 
 Create a folder *esp/* and clone ESP-IDF into it
 
@@ -134,9 +132,9 @@ then exit and re-open terminal like previous.
 
 ---
 
-### Python PyParsing
+### Python
 
-In the linking (ld) process, ESP-IDF employ some python module to parse.
+In the binary compiling process, ESP-IDF employ some Python modules to parse and linking.
 
 #### ArchLinux/Manjaro
 
@@ -168,7 +166,7 @@ For Windows, you dont need Python virtual environments since Python in Windows a
 All you have to do just install required all Python modules.
 
 ```sh
-python -m pip install --user -r $IDF_PATH/requirements.txt
+pip3 install --user -r $IDF_PATH/requirements.txt
 ```
 
 ## Uploader
@@ -178,9 +176,7 @@ For uploader program, we can use ESPTool installed as part of ESP-IDF.
 You can check the version using command:
 
 ```sh
-source $HOME/esp32/bin/activate
-python $IDF_PATH/components/esptool_py/esptool/esptool.py version
-deactivate
+python3 $IDF_PATH/components/esptool_py/esptool/esptool.py version
 ```
 
 ## Editor

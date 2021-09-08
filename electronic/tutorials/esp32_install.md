@@ -17,6 +17,8 @@
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#uploader)
 - [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#editor)
 	+ [VSCodium](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vscodium)
+		* [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-4)
+		* [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-4)  
 	+ [Vim](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vim)
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-terminal)
 	+ [Moserial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#moserial)
@@ -30,6 +32,8 @@ For ESP32 compiler we can use XTensa-ESP32-Elf-GCC.
 You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-elf-gcc-bin/).
 
 **Notes:** You need to replace all **python2-** with **python-** at same module dependencies in PKGBUILD.
+
+---
 
 ### Windows
 
@@ -160,6 +164,8 @@ python -c "import pyparsing;print(pyparsing.__version__)"
 deactivate
 ```
 
+---
+
 #### Windows
 
 For Windows, you dont need Python virtual environments since Python in Windows are already has own environments.
@@ -206,9 +212,16 @@ Has good syntax highlighting.
 The downside is since written in electron, it would probably take a lot of memory.
 Especially in Windows with a lot extension.
 
-For ArchLinux/Manjaro, to install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
-
 ![images](images/esp32codium.png?raw=true)
+
+#### ArchLinux/Manjaro
+Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
+
+#### Windows
+
+You can download for Windows 64-bit [here](https://github.com/VSCodium/vscodium/releases/download/1.53.2/VSCodiumSetup-x64-1.53.2.exe).
+
+---
 
 ### Vim
 
@@ -221,7 +234,21 @@ If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/
 
 ## Serial Terminal
 
-### Moserial 
+### Hercules Terminal (Windows)
+
+You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
+It's a portable standalone program, no need to install it.
+
+![images](images/serterm.png?raw=true)
+
+### Serial Bluetooth (Android)
+
+This Serial Terminal using Android Bluetooth via bridge module like HC05.
+This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
+
+![images](images/btterm.png?raw=true)
+
+### MoSerial (GNU/Linux)
 
 A Serial Terminal using GTK+ Toolkit.
 

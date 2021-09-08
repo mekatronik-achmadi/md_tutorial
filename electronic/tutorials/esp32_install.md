@@ -163,10 +163,18 @@ deactivate
 #### Windows
 
 For Windows, you dont need Python virtual environments since Python in Windows are already has own environments.
-All you have to do just install required all Python modules.
+
+**Notes:** Python drop support for old Windows-7 build.
+Before continuing, if you use old build of Windows-7, some update need to install:
+- For [64bit](https://www.microsoft.com/en-us/download/details.aspx?id=47442)
+- For [32bit](https://www.microsoft.com/en-us/download/details.aspx?id=47409)
+
+Install that update and restart the Windows.
+
+Then, all you have to do is install required all Python modules:
 
 ```sh
-pip3 install --user -r $IDF_PATH/requirements.txt
+python3 -m pip install --user -r $IDF_PATH/requirements.txt
 ```
 
 ## Uploader

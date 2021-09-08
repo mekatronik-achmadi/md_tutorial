@@ -105,11 +105,20 @@ echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
 
 First, run program *C:\msys32\mingw32.exe* again
 
-Create a folder *esp/* and clone ESP-IDF into it
+Create a folder *esp/* and change directory into it:
 
 ```sh
 mkdir -p ~/esp/;cd ~/esp/
-git clone https://github.com/espressif/esp-idf.git
+```
+
+Download ESP-IDF version 4.3 [here](https://github.com/espressif/esp-idf/releases/download/v4.3/esp-idf-v4.3.zip).
+
+Extract downloaded package in *~/esp/* as *esp-idf/* directory (so end result will *~/esp/esp-idf/*).
+
+You can check using command:
+
+```sh
+ls ~/esp/esp-idf/
 ```
 
 ![images](images/esp32win1.PNG?raw=true)
@@ -121,17 +130,14 @@ cd ~/esp/esp-idf
 git submodule update --init
 ```
 
-Wait for a while until all components downloaded
+Wait for a while until finished
 
-![images](images/esp32win2.PNG?raw=true)
-
-lastly, run this command to add IDF_PATH in mysys profile
+Lastly, run this command to add IDF_PATH in mysys profile
 
 ```sh
 echo "
 export IDF_PATH='$HOME/esp/esp-idf'
 " > /etc/profile.d/idf_path.sh
-chmod a+x /etc/profile.d/idf_path.sh
 ```
 
 then exit and re-open terminal like previous.
@@ -184,6 +190,8 @@ Then, all you have to do is install required all Python modules:
 ```sh
 python3 -m pip install --user -r $IDF_PATH/requirements.txt
 ```
+
+![images](images/esp32win2.PNG?raw=true)
 
 ## Uploader
 

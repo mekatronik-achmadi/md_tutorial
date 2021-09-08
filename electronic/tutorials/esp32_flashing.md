@@ -41,7 +41,7 @@ To reset into Bootloader Mode, press EN button while hold down BOOT button.
 
 **Note:** We need to hold down BOOT/IO0 button to allow flashing process started
 
-Command to flashing:
+Example command to flashing (for both ArchLinux/Manjaro and Windows):
 
 ```sh
 python3 $IDF_PATH/components/esptool_py/esptool/esptool.py \
@@ -52,8 +52,6 @@ python3 $IDF_PATH/components/esptool_py/esptool/esptool.py \
 ```
 
 The last line is the final binary file name and it's path.
-
-**Notes:** This command is for both ArchLinux/Manjaro and Windows
 
 ![images](images/esp32flash.png?raw=true)
 

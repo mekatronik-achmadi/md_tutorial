@@ -26,13 +26,6 @@ You can edit Makefile to change project name (also automatically final binary na
 
 ## Opening Source
 
-First, make sure **esp-idf** path is exist using command:
-
-```sh
-echo $IDF_PATH
-```
-
-
 To edit/modify source, just open files in your source directory.
 Most of the time, you just need open the **Makefile** and you considered opening the project.
 
@@ -44,7 +37,7 @@ Generally, compiling source process work by **make** program calling **xtensa-es
 
 ### ArchLinux/Manjaro
 
-First setup (for once) KConfig for project.
+First setup KConfig for once each project.
 
 ```sh
 source $HOME/esp32/bin/activate
@@ -84,13 +77,13 @@ deactivate
 
 ### Windows
 
-First setup (for once) KConfig for project.
+First setup KConfig for once each project.
 
 ```sh
 make menuconfig
 ```
 
-![images](images/esp32win4.PNG?raw=true)
+![images](images/esp32win3.PNG?raw=true)
 
 If you just want default setting, press **S** to save the config.
 Then press **E** to exit config menu.
@@ -105,4 +98,4 @@ make -j2 app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-**Warning:** There's a chance compile will fail since its toolchain mentioned here still 8.2.0 version for Windows, while for GNU/Linux already in 8.4.0
+![images](images/esp32win4.PNG?raw=true)

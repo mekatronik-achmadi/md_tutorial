@@ -31,12 +31,12 @@ You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-e
 
 ### Windows
 
-Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20171123.zip)
+Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_esp2020r2_toolchain-20200601.zip)
 
 Unzip the zip file to *C:*  and it will create an msys32 directory with a pre-prepared environment.
 The result should a folder named *C:\msys32*
 
-**Notes:** Avoid any spaces in folders and files from here and on!!!
+**Notes:** Avoid any spaces in folders and files name from here and on!!!
 
 Then run program *C:\msys32\mingw32.exe*
 
@@ -120,8 +120,9 @@ lastly, run this command to add IDF_PATH in mysys profile
 
 ```sh
 echo "
-export IDF_PATH='$HOME\esp\esp-idf'
+export IDF_PATH='$HOME/esp/esp-idf'
 " > /etc/profile.d/idf_path.sh
+chmod a+x /etc/profile.d/idf_path.sh
 ```
 
 then exit and re-open terminal like previous.
@@ -157,12 +158,10 @@ deactivate
 #### Windows
 
 For Windows, you dont need Python virtual environments since Python in Windows are already has own environments.
-
-All you have to do just install required all Python modules using command:
+All you have to do just install required all Python modules.
 
 ```sh
-cd ~/esp/esp-idf
-pip install -r ~/esp/esp-idf/requirements.txt
+python -m pip install --user -r $IDF_PATH/requirements.txt
 ```
 
 

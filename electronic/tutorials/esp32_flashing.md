@@ -44,7 +44,7 @@ To reset into Bootloader Mode, press EN button while hold down BOOT button.
 Command to flashing:
 
 ```sh
-python $IDF_PATH/components/esptool_py/esptool/esptool.py \
+python3 $IDF_PATH/components/esptool_py/esptool/esptool.py \
 --chip esp32 --port /dev/ttyUSB0 --baud 115200 \
 --before default_reset --after hard_reset write_flash -z \
 --flash_mode dio --flash_freq 40m --flash_size detect 0x10000 \
@@ -52,6 +52,8 @@ python $IDF_PATH/components/esptool_py/esptool/esptool.py \
 ```
 
 The last line is the final binary file name and it's path.
+
+**Notes:** This command is for both ArchLinux/Manjaro and Windows
 
 ![images](images/esp32flash.png?raw=true)
 

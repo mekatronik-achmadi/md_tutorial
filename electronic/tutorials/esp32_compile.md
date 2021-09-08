@@ -104,5 +104,3 @@ make -j2 app
 **Notes**: the option **-j2** means using 4 threads CPU available.
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
-
-![images](images/esp32win5.PNG?raw=true)

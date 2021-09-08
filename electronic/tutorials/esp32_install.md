@@ -9,9 +9,11 @@
 	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-1)
 - [Libraries](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#libraries)
 	+ [ESP-IDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#esp-idf)
-		- [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-2)
-		- [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-2)
+		* [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-2)
+		* [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-2)
 	+ [PyParsing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#python-pyparsing)
+		* [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#archlinuxmanjaro-3)
+		* [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#windows-3)  
 - [Uploader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#uploader)
 - [Editor](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#editor)
 	+ [VSCodium](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#vscodium)
@@ -132,9 +134,11 @@ then exit and re-open terminal like previous.
 ### Python PyParsing
 
 In the linking (ld) process, ESP-IDF employ some python module to parse.
-For that requirement, we need PyParsing in a bit older version since latest version break the ESP-IDF API.
 
 #### ArchLinux/Manjaro
+
+GNU/Linux generally already had good installation of Python environment.
+However, we need PyParsing in a bit older version since latest version break the ESP-IDF API.
 
 Follow these commands to install PyParsing 2.2.0 in a virtual enviroment:
 
@@ -163,8 +167,6 @@ All you have to do just install required all Python modules.
 ```sh
 python -m pip install --user -r $IDF_PATH/requirements.txt
 ```
-
-
 
 ## Uploader
 

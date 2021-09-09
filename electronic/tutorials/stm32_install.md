@@ -14,7 +14,6 @@
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-terminal)
 	- [Hercules](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#hercules-terminal-windows)
 	- [MoSerial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#moserial-gnulinux)
-	- [Bluetooth-Android](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-bluetooth-android)
 
 ## Compiler
 
@@ -189,7 +188,7 @@ sudo dpkg -i codium_1.53.2-1613089951_amd64.deb
 
 Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
 
-![images](images/vscodium.JPG?raw=true)
+![images](images/stm32codium.png?raw=true)
 
 ### Vim
 
@@ -229,10 +228,3 @@ sudo pacman -S moserial
 ```
 
 ![images](images/moserial.png?raw=true)
-
-### Serial Bluetooth (Android)
-
-This Serial Terminal using Android Bluetooth via bridge module like HC05.
-This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
-
-![images](images/btterm.png?raw=true)

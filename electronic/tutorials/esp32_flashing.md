@@ -63,6 +63,8 @@ The last line is the final binary file name and it's path.
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 
+---
+
 ### Windows
 
 Example command to flashing:

@@ -102,7 +102,7 @@ Now command to compile:
 make -j2 app
 ```
 
-**Notes**: the option **-j2** means using 4 threads CPU available.
+**Notes**: the option **-j2** means using 2 threads CPU available.
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 

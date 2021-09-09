@@ -23,7 +23,6 @@
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-terminal)
 	+ [Hercules](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#hercules-terminal-windows)
 	+ [Moserial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#moserial-gnulinux)
-	+ [Android](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_install.md#serial-bluetooth-android)
 
 ## Compiler
 
@@ -146,7 +145,7 @@ then exit and re-open terminal like previous.
 
 ### Python
 
-In the binary compiling process, ESP-IDF employ some Python modules to parse and linking.
+In the binary compiling process, ESP-IDF utilize some Python modules to parse and linking.
 
 #### ArchLinux/Manjaro
 
@@ -262,11 +261,3 @@ sudo pacman -S moserial
 ```
 
 ![images](images/esp32moserial.png?raw=true)
-
-### Serial Bluetooth (Android)
-
-This Serial Terminal using Android Bluetooth via bridge module like HC05.
-This is avaiable at Play Store under name "Kai Morich Bluetooth Terminal"
-
-![images](images/btterm.png?raw=true)
-

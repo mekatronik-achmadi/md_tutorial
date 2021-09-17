@@ -33,12 +33,6 @@ Click _OK_ in the end.
 
 ![images](images/gccenvar.png?raw=true)
 
-#### For Debian/Ubuntu
-
-```
-sudo apt-get install gcc-arm-none-eabi libnewlib-arm-none-eabi
-```
-
 #### For ArchLinux/Manjaro
 
 ```
@@ -88,12 +82,6 @@ Install STSW to use ST-Link, you can download from ST's Official Web or get our 
 
 ![images](images/stlink.png?raw=true)
 
-#### For Debian/Ubuntu
-
-```
-sudo apt-get install stlink-tools stlink-gui
-```
-
 #### For ArchLinux/Manjaro
 
 ```
@@ -114,12 +102,6 @@ Install USB/TTL driver and Flashloader to use this methode.
 You can download Flashloader from web or get our package [here](https://drive.google.com/file/d/16X2A41JwBmAY4dVMn1nfmbGJTxy3zclD/view?usp=sharing).
 
 ![images](images/stflash.png?raw=true)
-
-#### For Debian/Ubuntu
-
-```
-sudo apt-get install stm32flash
-```
 
 #### For ArchLinux/Manjaro
 
@@ -174,16 +156,6 @@ Especially in Windows with a lot extension.
 
 You can download for Windows 64-bit [here](https://github.com/VSCodium/vscodium/releases/download/1.53.2/VSCodiumSetup-x64-1.53.2.exe).
 
-#### For Debian/Ubuntu
-
-Download deb package [here](https://github.com/VSCodium/vscodium/releases/download/1.53.2/codium_1.53.2-1613089951_amd64.deb).
-
-Then you can install with command:
-
-```
-sudo dpkg -i codium_1.53.2-1613089951_amd64.deb
-```
-
 #### For ArchLinux/Manjaro
 
 Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
@@ -214,12 +186,6 @@ It's a portable standalone program, no need to install it.
 ### MoSerial (GNU/Linux)
 
 This is Serial Terminal like Hercules above, but written in GTK so it can run in GNU/Linux.
-
-For Debian/Ubuntu:
-
-```
-sudo apt-get install moserial
-```
 
 For ArchLinux/Manjaro:
 

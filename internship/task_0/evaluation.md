@@ -30,7 +30,7 @@ All this evaluation checked in respective Github account.
 
 ## Account Evaluations
 
-**NOTE:** This evaluation update made in September 3rd, 2021
+**NOTE:** This evaluation update made in September 17th, 2021
 
 ---
 
@@ -42,7 +42,7 @@ Highlighted Repository:
 - https://github.com/VibrasticLab/ehealth-iot
 - https://github.com/VibrasticLab/ehealth-web
 
-Evaluation: A=2, B=3, C=1, D=3
+Evaluation: A=2, B=2, C=2, D=3
 
 Bonus: Technical-Leader=3
 
@@ -57,9 +57,9 @@ Account: https://github.com/arkiven4
 Highlighted Repository:
 - https://github.com/VibrasticLab/ehealth-web
 
-Evaluation: A=2, B=3, C=2, D=3
+Evaluation: A=2, B=2, C=2, D=3
 
-**Verdict: 10 / 10**
+**Verdict: 9 / 10**
 
 ---
 
@@ -70,9 +70,9 @@ Account: https://github.com/Alvinarodad
 Highlighted Repository:
 - https://github.com/Alvinarodad/magang_flaghsip_real_assigment
 
-Evaluation: A=2, B=3, C=1, D=2
+Evaluation: A=2, B=2, C=1, D=2
 
-**Verdict: 8 / 10**
+**Verdict: 7 / 10**
 
 ---
 
@@ -96,7 +96,7 @@ Highlighted Repository:
 - https://github.com/naufalrif/pikoakustik
 - https://github.com/naufalrif/audiogram
 
-Evaluation: A=2, B=3, C=1, D=1
+Evaluation: A=2, B=2, C=1, D=1
 
 **Verdict: 7 / 10**
 
@@ -107,10 +107,11 @@ Evaluation: A=2, B=3, C=1, D=1
 Account: https://github.com/ramd24
 
 Highlighted Repository:
+- https://github.com/ramd24/magang-flagship
 
-Evaluation: A=2, B=3, C=1, D=1
+Evaluation: A=2, B=2, C=1, D=1
 
-**Verdict: 0 / 10**
+**Verdict: 6 / 10**
 
 ---
 
@@ -119,10 +120,12 @@ Evaluation: A=2, B=3, C=1, D=1
 Account: https://github.com/zanjabil2502
 
 Highlighted Repository:
+- https://github.com/zanjabil2502/PKM
+- https://github.com/zanjabil2502/cough_01
 
-Evaluation: A=0, B=0, C=0, D=0
+Evaluation: A=2, B=2, C=1, D=2
 
-**Verdict: 0 / 10**
+**Verdict: 7 / 10**
 
 ---
 
@@ -131,11 +134,11 @@ Evaluation: A=0, B=0, C=0, D=0
 Account: https://github.com/fiantonumber1
 
 Highlighted Repository:
-- https://github.com/fiantonumber1/belajarpython
+- https://github.com/fiantonumber1/Magang_Tugas_Real
 
-Evaluation: A=1, B=0, C=0, D=0
+Evaluation: A=2, B=2, C=1, D=2
 
-**Verdict: 1 / 10**
+**Verdict: 7 / 10**
 
 ---
 
@@ -144,7 +147,8 @@ Evaluation: A=1, B=0, C=0, D=0
 Account: https://github.com/runnisha477
 
 Highlighted Repository:
+- https://github.com/runnisha477/Audio-Input-PCMI2S
 
-Evaluation: A=0, B=0, C=0, D=0
+Evaluation: A=2, B=2, C=1, D=2
 
-**Verdict: 0 / 10**
+**Verdict: 7 / 10**

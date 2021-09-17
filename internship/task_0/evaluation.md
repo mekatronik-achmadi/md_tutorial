@@ -20,8 +20,8 @@ The value aspects for evaluation listed:
 | Code | Short Descriptions | Value Range |
 |:----:|:-----------------:|:-----------:|
 | A | Github Activity | 0-2 |
-| B | Relevance to Flagship | 0-3 |
-| C | Documentation Sources/Scripts | 0-2 |
+| B | Relevance to Flagship | 0-2 |
+| C | Documentation Sources/Scripts | 0-3 |
 | D | Usable Sources/Scripts | 0-3 |
 
 All this evaluation checked in respective Github account.
@@ -57,9 +57,9 @@ Account: https://github.com/arkiven4
 Highlighted Repository:
 - https://github.com/VibrasticLab/ehealth-web
 
-Evaluation: A=1, B=3, C=1, D=3
+Evaluation: A=2, B=3, C=2, D=3
 
-**Verdict: 8 / 10**
+**Verdict: 10 / 10**
 
 ---
 
@@ -70,9 +70,9 @@ Account: https://github.com/Alvinarodad
 Highlighted Repository:
 - https://github.com/Alvinarodad/magang_flaghsip_real_assigment
 
-Evaluation: A=1, B=1, C=0, D=1
+Evaluation: A=2, B=3, C=1, D=2
 
-**Verdict: 3 / 10**
+**Verdict: 8 / 10**
 
 ---
 
@@ -93,10 +93,12 @@ Evaluation: A=0, B=0, C=0, D=0
 Account: https://github.com/naufalrif
 
 Highlighted Repository:
+- https://github.com/naufalrif/pikoakustik
+- https://github.com/naufalrif/audiogram
 
-Evaluation: A=0, B=0, C=0, D=0
+Evaluation: A=2, B=3, C=1, D=1
 
-**Verdict: 0 / 10**
+**Verdict: 7 / 10**
 
 ---
 
@@ -106,7 +108,7 @@ Account: https://github.com/ramd24
 
 Highlighted Repository:
 
-Evaluation: A=0, B=0, C=0, D=0
+Evaluation: A=2, B=3, C=1, D=1
 
 **Verdict: 0 / 10**
 

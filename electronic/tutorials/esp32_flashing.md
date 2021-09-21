@@ -6,9 +6,9 @@
 	+ [Running](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#running-mode)
 	+ [Bootloader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#bootloader-mode)
 - [Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#flashing)
-	+ [Arch]()
-	+ [Windows]()
-- [Bootloader]()
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#archlinuxmanjaro)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#windows)
+- [Bootloader](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#bootloader)
 
 ## Development Board
 
@@ -90,7 +90,9 @@ If the process ended successfully, ESP32 will reset into Running Mode automatica
 
 ## Bootloader
 
-In case you want to replace or restore bootloader included in ESP-IDF, first you may need to erase entire flash memory:
+This is the when case you want to replace or restore bootloader included in ESP-IDF (example: after using Arduino app).
+
+First you may need to erase entire flash memory:
 
 ```sh
 make erase_flash
@@ -100,9 +102,15 @@ Next make sure target is appropriate in *sdkconfig* file:
 
 ```
 CONFIG_IDF_TARGET="esp32"
+```
+
+Also check bootloader options in *sdkconfig* file:
+
+```
+CONFIG_APP_BUILD_BOOTLOADER=y
 ``` 
 
-then, write ESP-IDF's bootloader using command:
+Then, write ESP-IDF's bootloader at address 0x1000 using command:
 
 ```
 make bootloader-flash
@@ -112,10 +120,9 @@ Next, if you use only single app partition table, make sure it in *sdkconfig* fi
 
 ```
 CONFIG_PARTITION_TABLE_SINGLE_APP=y
-CONFIG_PARTITION_TABLE_OFFSET=0x8000
 ```
 
-then, write partition table using command:
+Then, write partition table at address 0x8000 using command:
 
 ```sh
 make partition_table-flash

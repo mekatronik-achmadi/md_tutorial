@@ -11,6 +11,7 @@
 	- [Programmer Notepad](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#programmers-notepad-windows)
 	- [VSCodium](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#vscodium)
 	- [Vim](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#vim)
+- [Chip Explorer](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#chip-explorer)
 - [Serial Terminal](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#serial-terminal)
 	- [Hercules](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#hercules-terminal-windows)
 	- [MoSerial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#moserial-gnulinux)
@@ -47,6 +48,8 @@ arm-none-eabi-gcc --version
 
 ![images](images/gccver.JPG?raw=true)
 
+---
+
 ## Windows Driver
 
 By default, ST Driver is not included in Windows Installation.
@@ -64,6 +67,8 @@ You can search download URL by yourself, but here we provide some (this is teste
   - FT232x: [Download](https://www.usb-drivers.org/wp-content/uploads/2014/12/CDM-2.08.28-WHQL-Certified1.zip)
 
 - VCP. If you plan to use USB-CDC as Virtual Com Port in STM32, you need to install the ST's VCP driver. You can get our package [here](https://www.usb-drivers.org/wp-content/uploads/2014/12/CDM-2.08.28-WHQL-Certified1.zip).
+
+---
 
 ## Uploader
 
@@ -107,6 +112,8 @@ You can download Flashloader from web or get our package [here](https://drive.go
 
 Install stm32flash from this [AUR](https://aur.archlinux.org/packages/stm32flash/).
 
+---
+
 ## Libraries
 
 In this project, we prefer to use ChibiOS/RT over ST's FWLib.
@@ -120,6 +127,8 @@ You can download [here](https://osdn.net/projects/chibios/scm/svn/tree/head/bran
 
 **Alternatively** you can get our package ChibiOS-STM32 [here](https://drive.google.com/file/d/11ivvhc-s3gQD2uzF0HDYm6e5w_w103FT/view?usp=sharing).
 It's basically same thing but all platforms other than STM32 already removed.
+
+---
 
 ## Editor
 
@@ -170,6 +179,30 @@ We mention it here only because it is an awesome editor.
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
 ![images](images/myvim.png?raw=true)
+
+---
+
+## Chip Explorer
+
+STMicroelectronic provide a helper tool called STM32CubeMX to be used as chip explorer and code-generator (we don't use it here).
+
+For chip explorer, we can use this program to explorer in-chip features (GPIOs, Peripherals, Clocks, etc).
+The MX stands for Microchip eXplorer.
+
+It's Java program, so it requires a JRE program with version 8 is recommended, but it can run in both GNU/Linux and Windows.
+
+For ArchLinux/Manjaro, there's [AUR Package](https://aur.archlinux.org/packages/stm32cubemx) available.
+
+For general installation, you can download it's installer [here](https://www.st.com/en/development-tools/stm32cubemx.html#overview&secondary=st-get-software) (a free registration required).
+
+Alternatively, if you dont like to register yourself, you can download an older installer [here](https://drive.google.com/file/d/16XVudPN4LTub3fV_zqC9RBCbw3eY6EWL/view?usp=sharing).
+
+Lastly, if you using Windows and dont have a working JRE installed,
+you can download offline JRE installer for Windows [here](https://www.java.com/en/download/manual.jsp).
+
+![images](images/stm32cubemx.PNG?raw=true)
+
+---
 
 ## Serial Terminal
 

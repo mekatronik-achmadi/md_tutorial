@@ -8,6 +8,7 @@
 - [Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md#flashing)
 	+ [Arch]()
 	+ [Windows]()
+- [Bootloader]()
 
 ## Development Board
 
@@ -84,3 +85,40 @@ The last line is the final binary file name and it's path.
 ![images](images/esp32win5.PNG?raw=true)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
+
+---
+
+## Bootloader
+
+In case you want to replace or restore bootloader included in ESP-IDF, first you may need to erase entire flash memory:
+
+```sh
+make erase_flash
+```
+
+Next make sure target is appropriate in *sdkconfig* file:
+
+```
+CONFIG_IDF_TARGET="esp32"
+``` 
+
+then, write ESP-IDF's bootloader using command:
+
+```
+make bootloader-flash
+```
+
+Next, if you use only single app partition table, make sure it in *sdkconfig* file:
+
+```
+CONFIG_PARTITION_TABLE_SINGLE_APP=y
+CONFIG_PARTITION_TABLE_OFFSET=0x8000
+```
+
+then, write partition table using command:
+
+```sh
+make partition_table-flash
+```
+
+Done. Now you can flash app program like previous.

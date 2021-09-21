@@ -184,7 +184,7 @@ If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/
 
 ## Chip Explorer
 
-STMicroelectronic provide a helper tool called STM32CubeMX to be used as chip explorer and code-generator (we don't use it here).
+STMicroelectronic provide a helper tool called STM32CubeMX to be used as chip explorer and code-generator (we don't use this part here).
 
 For chip explorer, we can use this program to explorer in-chip features (GPIOs, Peripherals, Clocks, etc).
 The MX stands for Microchip eXplorer.

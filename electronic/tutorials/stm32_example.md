@@ -21,7 +21,7 @@ Below we will provide a minimal example of Blink LED example for NUCLEO-F401 boa
 
 For this examples, your source tree should looks like this:
 
- ~~~
+```
 Workspace
 +-- ChibiOS_STM32
 |   +-- demos
@@ -36,7 +36,7 @@ Workspace
 |   +-- os
 |   +-- test
 |   +-- testhal
-~~~
+```
 
 **Notes:** This different then the other example since this is spesificly only for NUCLEO-F401 board,
 while the other is for general purpose.
@@ -93,6 +93,48 @@ to
 ```c
 #define STM32_SPI_USE_SPI1                  FALSE
 #define STM32_SPI_USE_SPI2                  FALSE
+```
+
+---
+
+### Makefile
+
+This file control compilation process.
+
+Make sure the CHIBIOS variable point to valid ChibiOS/RT source-tree
+
+```
+CHIBIOS = ../../..
+```
+
+or if in separate folder
+
+```
+CHIBIOS = /opt/stm32chlib/chibios30
+```
+
+Also if you want speed up building by disabling test function, you can comment
+
+```
+include $(CHIBIOS)/test/rt/test.mk
+```
+
+to
+
+```
+#include $(CHIBIOS)/test/rt/test.mk
+```
+
+**Tips**: You may want to disable Link Time Optimization (LTO) as not GCC version support it by changing
+
+```
+USE_LTO = yes
+```
+
+to
+
+```
+USE_LTO = no
 ```
 
 ---

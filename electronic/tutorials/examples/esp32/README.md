@@ -32,7 +32,7 @@ After flashing program, run your favorite serial terminal (115200,8N1) and type:
 help
 ```
 
-It will registered command.
+It will show registered command.
 
 or try:
 

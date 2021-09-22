@@ -34,7 +34,7 @@ After flashing program, connect USB-TTL then run your favorite serial terminal (
 help
 ```
 
-It will registered command.
+It will show registered command.
 
 or try:
 

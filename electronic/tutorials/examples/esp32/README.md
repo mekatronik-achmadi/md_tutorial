@@ -26,7 +26,7 @@ esp32
 
 Read instructions [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/internship/tutorials/esp32.md)
 
-After flashing program, run your favorite serial terminal and type:
+After flashing program, run your favorite serial terminal (115200,8N1) and type:
 
 ```sh
 help

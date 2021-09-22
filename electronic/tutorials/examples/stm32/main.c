@@ -1,8 +1,10 @@
 #include "ch.h"
 #include "hal.h"
 
-static THD_WORKING_AREA(waThread1, 128);
-static THD_FUNCTION(Thread1, arg) {
+#include "console.h"
+
+static THD_WORKING_AREA(waThdLed, 128);
+static THD_FUNCTION(ThdLed, arg) {
   (void)arg;
   chRegSetThreadName("blinker");
 
@@ -18,9 +20,13 @@ static THD_FUNCTION(Thread1, arg) {
 int main(void) {
   halInit();
   chSysInit();
-  chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
+
+  consoleInit();
+
+  chThdCreateStatic(waThdLed, sizeof(waThdLed), NORMALPRIO, ThdLed, NULL);
 
   while(true){
+    consoleShell();
     chThdSleepMicroseconds(500);
   }
 }

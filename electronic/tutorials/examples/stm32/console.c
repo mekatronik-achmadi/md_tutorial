@@ -1,3 +1,11 @@
+/**
+ * @file    console.c
+ * @brief   Console code.
+ *
+ * @addtogroup Console
+ * @{
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,8 +17,15 @@
 
 #include "console.h"
 
+/**
+ * @brief Shell Console pointer
+ */
 static thread_t *shelltp = NULL;
 
+/**
+ * @brief Test command callback
+ * @details Enumerated and not called directly by any normal thread
+ */
 static void cmd_coba(BaseSequentialStream *chp, int argc, char *argv[]){
     (void)argc;
     (void)argv;
@@ -22,11 +37,19 @@ static void cmd_coba(BaseSequentialStream *chp, int argc, char *argv[]){
     chprintf(chp,"Serial Console at %d & buffer size %d bit\r\n",SERIAL_DEFAULT_BITRATE,SERIAL_BUFFERS_SIZE);
 }
 
+/**
+ * @brief Shell command and it's callback enumeration
+ * @details Extending from internal shell's callback
+ */
 static const ShellCommand commands[] = {
     {"coba",cmd_coba},
     {NULL, NULL}
 };
 
+/**
+ * @brief Shell Driver Config
+ * @details Serial Interface using UART1 (SD1)
+ */
 static const ShellConfig shell_cfg = {
   (BaseSequentialStream *)&SD1,
   commands
@@ -38,8 +61,6 @@ void consoleInit(void){
     
     sdStart(&SD1,NULL);
     shellInit();
-
-    chprintf((BaseSequentialStream *)&SD1,"Serial Shell Initiated\n\r");
 }
 
 void consoleShell(void){
@@ -53,3 +74,5 @@ void consoleShell(void){
         }
     }
 }
+
+/** @} */

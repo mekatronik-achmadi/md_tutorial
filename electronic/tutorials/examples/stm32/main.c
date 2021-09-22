@@ -1,8 +1,17 @@
+/**
+ * @file    main.c
+ * @brief   Main code.
+ *
+ * @addtogroup Main
+ * @{
+ */
+
 #include "ch.h"
 #include "hal.h"
 
 #include "console.h"
 
+/* LED Task */
 static THD_WORKING_AREA(waThdLed, 128);
 static THD_FUNCTION(ThdLed, arg) {
   (void)arg;
@@ -17,6 +26,10 @@ static THD_FUNCTION(ThdLed, arg) {
   }
 }
 
+/**
+ * @brief Main Function as start entry
+ * @return Nothing
+ */
 int main(void) {
   halInit();
   chSysInit();
@@ -30,3 +43,5 @@ int main(void) {
     chThdSleepMicroseconds(500);
   }
 }
+
+/** @} */

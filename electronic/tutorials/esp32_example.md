@@ -4,7 +4,9 @@
 
 You can find some official examples brought by ESP-IDF package in directory *esp-idf/examples/*.
 
-Below we will provide a minimal example of Blink LED example. 
+Below we will provide a minimal example of Blink LED example.
+
+Other example that combined with Serial Shell can be found [here](https://github.com/mekatronik-achmadi/md_tutorial/tree/master/electronic/tutorials/examples/esp32).
 
 ## Source Structure
 

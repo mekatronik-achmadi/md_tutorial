@@ -17,6 +17,8 @@ If you use board STM32-BluePill, we provides some example spesific for this boar
 
 Below we will provide a minimal example of Blink LED example for NUCLEO-F401 board included in package.
 
+Other example that combined with Serial Shell can be found [here](https://github.com/mekatronik-achmadi/md_tutorial/tree/master/electronic/tutorials/examples/stm32).
+
 ## Source Structure
 
 For this examples, your source tree should looks like this:

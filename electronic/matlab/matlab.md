@@ -40,11 +40,14 @@
 	+ Multiplots
 	+ Subplots
 	+ 3D
+- CSV 
+	+ Read
+	+ Write
 	
 ## Advance Course
 - Numerical Methods
 - ODE Solving
-- Real-Case
+- Real-Case Modeling
 
 ## Additional Course
 - Source Code Management (Git-SCM)

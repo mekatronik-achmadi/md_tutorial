@@ -45,7 +45,7 @@ Choose one of platform listed here.
 
 - Familiar with ESP32 chipset or ESP32 development boards
 - Familiar with flashing ESP32 chipset using Serial UART
-- Familiar with ESP-IDF with GCC varian compiler
+- Familiar with ESP-IDF=FreeRTOS with GCC varian compiler
 	+ Arduino is NOT an option
 - Familiar with one or more IoT Protocol like:
 	+ MQTT

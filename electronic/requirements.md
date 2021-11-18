@@ -15,7 +15,7 @@
 	+ Preferably Manjaro or Ubuntu OS families
 	+ Preferably Good at GUI Programming like Qt5 or PyQt5
 - Familiar with PCB Design Software
-	+ KiCAD (preferably)
+	+ KiCAD (preferable)
 	+ EagleCAD
 - Familiar with Git workflow
 	+ Already have GitHub or GitLab account

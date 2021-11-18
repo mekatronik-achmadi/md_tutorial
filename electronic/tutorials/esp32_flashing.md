@@ -48,7 +48,13 @@ Once **Connecting...** complete and **Chip is** message shown, you can release B
 
 ### ArchLinux/Manjaro
 
-Example command to flashing:
+Simple command to flashing:
+
+```sh
+make app-flash
+```
+
+Alternatively, you can use esptool directly using command:
 
 ```sh
 python $IDF_PATH/components/esptool_py/esptool/esptool.py \
@@ -68,7 +74,13 @@ If the process ended successfully, ESP32 will reset into Running Mode automatica
 
 ### Windows
 
-Example command to flashing:
+Simple command to flashing:
+
+```sh
+make app-flash
+```
+
+Alternatively, you can use esptool directly using command:
 
 ```sh
 python3 $IDF_PATH/components/esptool_py/esptool/esptool.py \

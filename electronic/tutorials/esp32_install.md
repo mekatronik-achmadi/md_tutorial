@@ -82,9 +82,6 @@ It included all essential IoT protocol implementations with multithreading provi
 
 You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp32-idf/PKGBUILD)
 
-ESP-IDF implement Kernel Config interface to customize compilation macros.
-For that requirement you may need to install [Python KConfig](https://aur.archlinux.org/packages/python-kconfiglib/)
-
 Lastly, execute this command once to add ESP-IDF to shell path:
 
 ```sh

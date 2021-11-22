@@ -76,12 +76,6 @@ When compiling finish, we get finally binary name (*.bin) ready to upload
 
 ![images](images/esp32build.png?raw=true)
 
-Optionally, we can deactivate Python environment (as only needed when compiling) using command:
-
-```sh
-deactivate
-```
-
 ---
 
 ### Windows

@@ -80,14 +80,7 @@ It included all essential IoT protocol implementations with multithreading provi
 
 #### ArchLinux/Manjaro
 
-You can use this [AUR Package](https://aur.archlinux.org/packages/esp-idf/)
-
-You need to modify it's PKGBUILD using following details:
-- replace all **python2-** with **python-** at same module dependencies
-- add "options=(!strip)" for esp-idf
-- add "'ccache' 'dfu-util'" as depends
-- add "rm -r .git/" before last command line on package()
-- add "echo '' | tee requirements.txt" before last command line on package()
+You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp32-idf/PKGBUILD)
 
 ESP-IDF implement Kernel Config interface to customize compilation macros.
 For that requirement you may need to install [Python KConfig](https://aur.archlinux.org/packages/python-kconfiglib/)
@@ -110,7 +103,7 @@ Create a folder *esp/* and change directory into it:
 mkdir -p ~/esp/;cd ~/esp/
 ```
 
-Download ESP-IDF version 4.3 [here](https://github.com/espressif/esp-idf/releases/download/v4.3/esp-idf-v4.3.zip).
+Download ESP-IDF version 4.3 [here](https://dl.espressif.com/dl/esp-idf/releases/esp-idf-v4.3.zip).
 
 Extract downloaded package in *~/esp/* as *esp-idf/* directory (so end result will *~/esp/esp-idf/*).
 

@@ -94,11 +94,11 @@ The last line is the final binary file name and it's path.
 
 **Tips:** The difference between GNU/Linux and Windows command actually just **--port** option, where **/dev/ttyUSBx** for GNU/Linux while **COMx** for Windows.
 
-![images](images/esp32win5.PNG?raw=true)
+![images](images/esp32win4.PNG?raw=true)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 
----
+--
 
 ## Bootloader
 

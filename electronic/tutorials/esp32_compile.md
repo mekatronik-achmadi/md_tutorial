@@ -45,17 +45,18 @@ Generally, compiling source process work by **make** program calling **xtensa-es
 
 ### ArchLinux/Manjaro
 
-First setup KConfig for once each project.
+First create default config to disable some certificate bundles
+
+```sh
+echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
+```
+
+Then setup default KConfig for once each project.
 
 ```sh
 source $HOME/esp32/bin/activate
-make menuconfig
+make defconfig
 ```
-
-![images](images/esp32config.png?raw=true)
-
-If you just want default setting, press **S** to save the config.
-Then press **Q** to exit config menu.
 
 Before compiling, don't forget to activate Python environment (if not yet activated):
 
@@ -85,16 +86,17 @@ deactivate
 
 ### Windows
 
-First setup KConfig for once each project.
+First create default config to disable some certificate bundles
 
 ```sh
-make menuconfig
+echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
 ```
 
-![images](images/esp32win3.PNG?raw=true)
+Then setup default KConfig for once each project.
 
-If you just want default setting, press **S** to save the config.
-Then press **E** to exit config menu.
+```sh
+make defconfig
+```
 
 Now command to compile:
 
@@ -106,4 +108,4 @@ make -j2 app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-![images](images/esp32win4.PNG?raw=true)
+![images](images/esp32win3.PNG?raw=true)

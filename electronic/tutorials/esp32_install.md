@@ -140,15 +140,16 @@ In the binary compiling process, ESP-IDF utilize some Python modules to parse an
 #### ArchLinux/Manjaro
 
 GNU/Linux generally already had good installation of Python environment.
-However, we need PyParsing in a bit older version since latest version break the ESP-IDF API.
+However, we need KConfigLib and PyParsing in a bit older version since latest version break the ESP-IDF API.
 
-Follow these commands to install PyParsing 2.2.0 in a virtual enviroment:
+Follow these commands to install KConfigLib and PyParsing 2.2.0 in a virtual enviroment:
 
 ```sh
 cd $HOME
 virtualenv esp32 --system-site-packages
 
 source $HOME/esp32/bin/activate
+pip install kconfiglib
 pip install pyparsing==2.2.0
 deactivate
 ```
@@ -165,7 +166,7 @@ deactivate
 
 #### Windows
 
-For Windows, you dont need Python virtual environments since Python in Windows are already has own environments.
+For Windows, you dont need Python virtual environments since Python in Windows are already has it's own environments.
 
 **Notes:** Python drop support for old Windows-7 build.
 Before continuing, if you use old build of Windows-7, some update need to install:

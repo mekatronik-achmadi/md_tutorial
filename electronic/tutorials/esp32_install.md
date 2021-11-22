@@ -149,8 +149,8 @@ cd $HOME
 virtualenv esp32 --system-site-packages
 
 source $HOME/esp32/bin/activate
-pip install kconfiglib
-pip install pyparsing==2.2.0
+pip install --no-deps kconfiglib
+pip install --no-deps pyparsing==2.2.0
 deactivate
 ```
 

@@ -10,7 +10,7 @@
 
 ## Example Project
 
-We will use example provided [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_example.md)
+We will use example provided [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_example.md)
 
 ## Source Structure
 

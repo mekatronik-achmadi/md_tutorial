@@ -1,6 +1,12 @@
 # ESP8266 Programming
 
 ## Contents
+- [Compiler](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#compiler)
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#archlinuxmanjaro)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#windows)
+- [USB-TTL Driver](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#usb-ttl-driver)
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#archlinuxmanjaro-1)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md#windows-1)
 
 ## Compiler
 
@@ -70,3 +76,170 @@ You can download those drivers here:
 - CH34x: [Download](https://drive.google.com/file/d/1-Q9LCqPtK7MlNTnRsnao-CeUexVp9CP1/view?usp=sharing)
 - PL230x: [Download](https://drive.google.com/file/d/1TPoFGtD0ngCYNH1h21dQrXWijMSp_XpZ/view?usp=sharing)
 - FT232x: [Download](https://www.usb-drivers.org/wp-content/uploads/2014/12/CDM-2.08.28-WHQL-Certified1.zip)
+
+## Libraries
+
+### ESP-IDF
+
+#### ArchLinux/Manjaro
+
+Best library to use is Espressif's ESP-RTOS that compatible API with ESP-IDF.
+It included all essential IoT protocol implementations with multithreading provided by FreeRTOS.
+
+You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp8266-rtos/PKGBUILD)
+
+---
+
+#### Windows
+
+First, run program *C:\msys32\mingw32.exe* again
+
+Create a folder *esp/* and change directory into it:
+
+```sh
+mkdir -p ~/esp/;cd ~/esp/
+```
+
+Then clone ESP-RTOS library and check out to version 3.4:
+
+```sh
+git clone https://github.com/espressif/ESP8266_RTOS_SDK.git
+cd ESP8266_RTOS_SDK/
+git checkout release/v3.4
+```
+
+Then update it's submodules:
+
+```sh
+git submodule update --init
+```
+
+Wait for a while until finished.
+
+---
+
+### Python
+
+In the binary compiling process, ESP-IDF/RTOS utilize some Python modules to parse and linking.
+
+#### ArchLinux/Manjaro
+
+GNU/Linux generally already had good installation of Python environment.
+However, we need KConfigLib and PyParsing in a bit older version since latest version break the ESP-IDF API.
+
+Follow these commands to install KConfigLib and PyParsing 2.2.0 in a virtual enviroment:
+
+```sh
+cd $HOME
+virtualenv esp8266 --system-site-packages
+
+source $HOME/esp8266/bin/activate
+pip install --no-deps kconfiglib
+pip install --no-deps pyparsing==2.2.0
+deactivate
+```
+
+to test installation
+
+```sh
+source ~/esp8266/bin/activate
+python -c "import pyparsing;print(pyparsing.__version__)"
+deactivate
+```
+
+---
+
+#### Windows
+
+For Windows, you dont need Python virtual environments since Python in Windows are already has it's own environments.
+
+**Notes:** Python drop support for old (before SP1) Windows-7 build.
+Before continuing, if you use old build of Windows-7, update KB3063858 need to install:
+- For [64bit](https://www.microsoft.com/en-us/download/details.aspx?id=47442)
+- For [32bit](https://www.microsoft.com/en-us/download/details.aspx?id=47409)
+
+Install that update package and restart the Windows.
+
+Next, set IDF path to environment using command:
+
+```sh
+export IDF_PATH='$HOME/esp/ESP8266_RTOS_SDK'
+```
+
+Then, all you have to do is install required all Python modules:
+
+```sh
+python3 -m pip install --user -r $IDF_PATH/requirements.txt
+```
+
+![images](images/esp32win2.PNG?raw=true)
+
+## Uploader
+
+For uploader program, we can use ESPTool installed as part of ESP-RTOS.
+
+You can check the version using command:
+
+```sh
+python3 $IDF_PATH/components/esptool_py/esptool/esptool.py version
+```
+
+## Editor
+
+Technically you can use any text editor to write code, as long as it has:
+- Recognize Unix line ending or even using it by default.
+- Syntax Highlighting. Write code without highlighting only for psycho.
+- Code Completion. It usefull if you dont want to memorize all keywords
+
+Here some of my recommendations:
+
+### VSCodium
+
+VSCodium is a community-driven version of Visual Studio Code (VSCode).
+It's build from same source but with all Microsoft touch disabled.
+
+It's a complete source editor.
+Has good syntax highlighting.
+The downside is since written in electron, it would probably take a lot of memory.
+Especially in Windows with a lot extension.
+
+![images](images/esp32codium.png?raw=true)
+
+#### ArchLinux/Manjaro
+Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
+
+#### Windows
+
+You can download for Windows 64-bit [here](https://github.com/VSCodium/vscodium/releases/download/1.53.2/VSCodiumSetup-x64-1.53.2.exe).
+
+---
+
+### Vim
+
+Lets face it, this text editor is powerful, but not for beginner.
+I mention it here only because it is an awesome editor.
+
+If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
+
+![images](images/esp32code.png?raw=true)
+
+## Serial Terminal
+
+### Hercules Terminal (Windows)
+
+You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
+It's a portable standalone program, no need to install it.
+
+![images](images/esp32winhercules.PNG?raw=true)
+
+### MoSerial (GNU/Linux)
+
+A Serial Terminal using GTK+ Toolkit.
+
+To install in ArchLinux/Manjaro:
+
+```sh
+sudo pacman -S moserial
+```
+
+![images](images/esp32moserial.png?raw=true)

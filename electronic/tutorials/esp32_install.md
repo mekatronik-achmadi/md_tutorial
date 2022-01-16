@@ -90,12 +90,6 @@ It included all essential IoT protocol implementations with multithreading provi
 
 You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp32-idf/PKGBUILD)
 
-Lastly, execute this command once to add ESP-IDF to shell path:
-
-```sh
-echo 'export IDF_PATH=/opt/esp-idf' >> ~/.bashrc
-```
-
 ---
 
 #### Windows
@@ -127,17 +121,7 @@ cd ~/esp/esp-idf
 git submodule update --init
 ```
 
-Wait for a while until finished
-
-Lastly, run this command to add IDF_PATH in mysys profile
-
-```sh
-echo "
-export IDF_PATH='$HOME/esp/esp-idf'
-" > /etc/profile.d/idf_path.sh
-```
-
-then exit and re-open terminal like previous.
+Wait for a while until finished.
 
 ---
 
@@ -176,12 +160,18 @@ deactivate
 
 For Windows, you dont need Python virtual environments since Python in Windows are already has it's own environments.
 
-**Notes:** Python drop support for old Windows-7 build.
-Before continuing, if you use old build of Windows-7, some update need to install:
+**Notes:** Python drop support for old (before SP1) Windows-7 build.
+Before continuing, if you use old build of Windows-7, update KB3063858 need to install:
 - For [64bit](https://www.microsoft.com/en-us/download/details.aspx?id=47442)
 - For [32bit](https://www.microsoft.com/en-us/download/details.aspx?id=47409)
 
-Install that update and restart the Windows.
+Install that update package and restart the Windows.
+
+Next, set IDF path to environment using command:
+
+```sh
+export IDF_PATH='$HOME/esp/esp-idf'
+```
 
 Then, all you have to do is install required all Python modules:
 

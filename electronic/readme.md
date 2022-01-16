@@ -29,6 +29,6 @@ But to make these tutorials conform in all platforms, we will focusing command l
 - [ESP32: Compile](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md)
 - [ESP32: Flashing](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_flashing.md)
 - [ESP32: Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_example.md)
-- [ESP8266: Install]()
+- [ESP8266: Install](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_install.md)
 - [Doxygen](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/doxygen.md)
 - [Assigment](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/assignment.md)

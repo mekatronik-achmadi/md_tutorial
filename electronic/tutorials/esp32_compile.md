@@ -58,7 +58,7 @@ export IDF_PATH=/opt/esp-idf
 source $HOME/esp32/bin/activate
 ```
 
-Then setup default KConfig (once each project).
+Then create default KConfig once for each project to generate *sdkconfig* file.
 
 ```sh
 make defconfig
@@ -90,7 +90,7 @@ echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
 export IDF_PATH=$HOME/esp/esp-idf
 ```
 
-Then setup default KConfig for once each project.
+Then create default KConfig once for each project to generate *sdkconfig* file.
 
 ```sh
 make defconfig

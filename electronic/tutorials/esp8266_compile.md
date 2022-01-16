@@ -52,7 +52,7 @@ export IDF_PATH=/opt/esp8266-rtos
 source $HOME/esp8266/bin/activate
 ```
 
-Then setup default KConfig (once each project).
+Then create default KConfig once for each project to generate *sdkconfig* file.
 
 ```sh
 make defconfig
@@ -78,7 +78,7 @@ When compiling finish, we get finally binary name (*.bin) ready to upload
 export IDF_PATH=$HOME/esp/ESP8266_RTOS_SDK
 ```
 
-Then setup default KConfig for once each project.
+Then create default KConfig once for each project to generate *sdkconfig* file.
 
 ```sh
 make defconfig

@@ -54,18 +54,6 @@ Simple command to flashing:
 make app-flash
 ```
 
-Alternatively, you can use esptool directly using command:
-
-```sh
-python $IDF_PATH/components/esptool_py/esptool/esptool.py \
---chip esp32 --port /dev/ttyUSB0 --baud 115200 \
---before default_reset --after hard_reset write_flash -z \
---flash_mode dio --flash_freq 40m --flash_size detect 0x10000 \
-./build/blinkled.bin
-```
-
-The last line is the final binary file name and it's path.
-
 ![images](images/esp32flash.png?raw=true)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
@@ -74,25 +62,23 @@ If the process ended successfully, ESP32 will reset into Running Mode automatica
 
 ### Windows
 
-Simple command to flashing:
+Before flashing, check the *sdkconfig* file, then change
+
+```
+CONFIG_ESPTOOLPY_PORT="/dev/ttyUSB0"
+```
+
+to suitable COM port number
+
+```
+CONFIG_ESPTOOLPY_PORT="COM1"
+```
+
+Then simple command to flashing:
 
 ```sh
 make app-flash
 ```
-
-Alternatively, you can use esptool directly using command:
-
-```sh
-python3 $IDF_PATH/components/esptool_py/esptool/esptool.py \
---chip esp32 --port COM3 --baud 115200 \
---before default_reset --after hard_reset write_flash -z \
---flash_mode dio --flash_freq 40m --flash_size detect 0x10000 \
-./build/blinkled.bin
-```
-
-The last line is the final binary file name and it's path.
-
-**Tips:** The difference between GNU/Linux and Windows command actually just **--port** option, where **/dev/ttyUSBx** for GNU/Linux while **COMx** for Windows.
 
 ![images](images/esp32win4.PNG?raw=true)
 
@@ -114,15 +100,9 @@ Next make sure target is appropriate in *sdkconfig* file:
 
 ```
 CONFIG_IDF_TARGET="esp32"
-```
+`````` 
 
-Also check bootloader options in *sdkconfig* file:
-
-```
-CONFIG_APP_BUILD_BOOTLOADER=y
-``` 
-
-Then, write ESP-IDF's bootloader at address 0x1000 using command:
+Then, write ESP-IDF's bootloader (address 0x1000) using command:
 
 ```
 make bootloader-flash
@@ -134,7 +114,7 @@ Next, if you use only single app partition table, make sure it in *sdkconfig* fi
 CONFIG_PARTITION_TABLE_SINGLE_APP=y
 ```
 
-Then, write partition table at address 0x8000 using command:
+Then, write partition table (address 0x8000) using command:
 
 ```sh
 make partition_table-flash

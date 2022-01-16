@@ -1,6 +1,12 @@
-# ESP32 Compiling
+# ESP8266 Compiling
 
 ## Contents
+- [Example Project](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#example-project)
+- [Source Structure](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#source-structure)
+- [Opening Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#opening-source)
+- [Compiling Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#compiling-source)
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#archlinuxmanjaro)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp8266_compile.md#windows)
 
 ## Example Project
 
@@ -27,27 +33,30 @@ Most of the time, you just need open the **Makefile** or any file you need to ed
 
 Example opening Makefile in VSCodium:
 
-![images](images/esp32codemk.png?raw=true)
+![images](images/esp8266codemk.png?raw=true)
 
 Example opening Makefile in Vim:
 
-![images](images/esp32vim.png?raw=true)
+![images](images/esp8266vim.png?raw=true)
 
 ## Compiling Source
 
 Generally, compiling source process work by **make** program calling **xtensa-esp32-elf-gcc** by following rules defined in **Makefile** in Python environment where correct PyParsing installed.
 
-First create default config to disable some certificate bundles
+### ArchLinux/Manjaro
+
+First create default config to use 115200 UART Baudrate
 
 ```sh
-echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
+echo 'CONFIG_CONSOLE_UART_BAUDRATE=115200
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200' > sdkconfig.defaults
 ```
 
-**Notes:** Before compiling, don't forget to activate Python environment (if not yet activated):
+**Notes:** Before compiling, don't forget to set IDF_PATH and activate Python environment:
 
 ```sh
-export IDF_PATH='$HOME/esp/esp-idf'
-source $HOME/esp32/bin/activate
+export IDF_PATH=/opt/esp8266-rtos
+source $HOME/esp8266/bin/activate
 ```
 
 Then setup default KConfig (once each project).
@@ -64,10 +73,37 @@ make -j$(nproc) app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-Example on ArchLinux/Manjaro
+![images](images/esp8266build.png?raw=true)
 
-![images](images/esp32build.png?raw=true)
+---
 
-Example on Windows
+### Windows
 
-![images](images/esp32win3.PNG?raw=true)
+First create default config to disable some certificate bundles
+
+```sh
+echo 'CONFIG_CONSOLE_UART_BAUDRATE=115200
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200' > sdkconfig.defaults
+```
+
+**Notes:** Before compiling, don't forget to set IDF_PATH:
+
+```sh
+export IDF_PATH=$HOME/esp/ESP8266_RTOS_SDK
+```
+
+Then setup default KConfig for once each project.
+
+```sh
+make defconfig
+```
+
+Now command to compile:
+
+```sh
+make -j$(nproc) app
+```
+
+When compiling finish, we get finally binary name (*.bin) ready to upload
+
+![images](images/esp8266winbuild.PNG?raw=true)

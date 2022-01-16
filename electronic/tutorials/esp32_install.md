@@ -170,7 +170,7 @@ Install that update package and restart the Windows.
 Next, set IDF path to environment using command:
 
 ```sh
-export IDF_PATH='$HOME/esp/esp-idf'
+export IDF_PATH=$HOME/esp/esp-idf
 ```
 
 Then, all you have to do is install required all Python modules:

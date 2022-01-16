@@ -179,7 +179,7 @@ Install that update package and restart the Windows.
 Next, set IDF path to environment using command:
 
 ```sh
-export IDF_PATH='$HOME/esp/ESP8266_RTOS_SDK'
+export IDF_PATH=$HOME/esp/ESP8266_RTOS_SDK
 ```
 
 Then, all you have to do is install required all Python modules:

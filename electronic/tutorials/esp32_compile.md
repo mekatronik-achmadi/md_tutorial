@@ -5,6 +5,8 @@
 - [Source Structure](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#source-structure)
 - [Opening Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#opening-source)
 - [Compiling Source](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#compiling-source)
+	+ [Arch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#archlinuxmanjaro)
+	+ [Windows](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/esp32_compile.md#windows)
 
 ## Example Project
 
@@ -41,16 +43,18 @@ Example opening Makefile in Vim:
 
 Generally, compiling source process work by **make** program calling **xtensa-esp32-elf-gcc** by following rules defined in **Makefile** in Python environment where correct PyParsing installed.
 
+### ArchLinux/Manjaro
+
 First create default config to disable some certificate bundles
 
 ```sh
 echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
 ```
 
-**Notes:** Before compiling, don't forget to activate Python environment (if not yet activated):
+**Notes:** Before compiling, don't forget to set IDF_PATH and activate Python environment:
 
 ```sh
-export IDF_PATH='$HOME/esp/esp-idf'
+export IDF_PATH=/opt/esp-idf
 source $HOME/esp32/bin/activate
 ```
 
@@ -68,10 +72,36 @@ make -j$(nproc) app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-Example on ArchLinux/Manjaro
-
 ![images](images/esp32build.png?raw=true)
 
-Example on Windows
+---
+
+### Windows
+
+First create default config to disable some certificate bundles
+
+```sh
+echo 'CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y' > sdkconfig.defaults
+```
+
+**Notes:** Before compiling, don't forget to set IDF_PATH:
+
+```sh
+export IDF_PATH=$HOME/esp/esp-idf
+```
+
+Then setup default KConfig for once each project.
+
+```sh
+make defconfig
+```
+
+Now command to compile:
+
+```sh
+make -j$(nproc) app
+```
+
+When compiling finish, we get finally binary name (*.bin) ready to upload
 
 ![images](images/esp32win3.PNG?raw=true)

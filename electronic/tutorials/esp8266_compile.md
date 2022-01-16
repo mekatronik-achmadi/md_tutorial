@@ -45,13 +45,6 @@ Generally, compiling source process work by **make** program calling **xtensa-es
 
 ### ArchLinux/Manjaro
 
-First create default config to use 115200 UART Baudrate
-
-```sh
-echo 'CONFIG_CONSOLE_UART_BAUDRATE=115200
-CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200' > sdkconfig.defaults
-```
-
 **Notes:** Before compiling, don't forget to set IDF_PATH and activate Python environment:
 
 ```sh
@@ -78,13 +71,6 @@ When compiling finish, we get finally binary name (*.bin) ready to upload
 ---
 
 ### Windows
-
-First create default config to disable some certificate bundles
-
-```sh
-echo 'CONFIG_CONSOLE_UART_BAUDRATE=115200
-CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200' > sdkconfig.defaults
-```
 
 **Notes:** Before compiling, don't forget to set IDF_PATH:
 

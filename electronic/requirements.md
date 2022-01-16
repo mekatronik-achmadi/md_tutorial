@@ -53,4 +53,13 @@ Choose one of platform listed here.
 	+ BT/BLE
 	+ WiFi AP/Station
  
+### ESP8266
 
+- Familiar with ESP8266 chipset or ESP8266 development boards
+- Familiar with flashing ESP8266 chipset using Serial UART
+- Familiar with ESP-IDF=FreeRTOS with GCC varian compiler
+	+ Arduino is NOT an option
+- Familiar with one or more IoT Protocol like:
+	+ MQTT
+	+ HTTP/HTTPS
+	+ WiFi AP/Station

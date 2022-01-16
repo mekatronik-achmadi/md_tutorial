@@ -38,7 +38,7 @@ You can use this [AUR Package](https://aur.archlinux.org/packages/xtensa-esp32-e
 
 ### Windows
 
-Download the compiler and it's MYSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_esp2020r2_toolchain-20200601.zip)
+Download the compiler and it's MSYS2 components package [here](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_esp2020r2_toolchain-20200601.zip)
 
 Unzip the zip file to *C:*  and it will create an msys32 directory with a pre-prepared environment.
 
@@ -53,6 +53,14 @@ Then run program *C:\msys32\mingw32.exe*
 ![images](images/esp32win0.PNG?raw=true)
 
 **Notes**: All shell activity will be done in this terminal window.
+
+Check compiler version using command:
+
+```sh
+xtensa-esp32-elf.gcc -v
+```
+
+![images](images/esp32winchk.PNG?raw=true)
 
 ## USB-TTL Driver
 

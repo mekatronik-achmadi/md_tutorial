@@ -25,13 +25,10 @@ blinkled
 ### blinkled.c
 
 ```c
-#include <stdio.h>
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/portmacro.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
-#include "sdkconfig.h"
 
 #define BLINK_GPIO  2
 #define BLINK_DELAY 200
@@ -73,5 +70,12 @@ void app_main(void){
 PROJECT_NAME := blinkled
 
 include $(IDF_PATH)/make/project.mk
+```
+
+### sdkconfig.defaults
+
+```
+# disable outdated sertificate bundle
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_CMN=y
 ```
 

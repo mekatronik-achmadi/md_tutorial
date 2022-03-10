@@ -1,15 +1,17 @@
 # RClone Tutorial
 
 ## Contents
+- [Requirements](#requirement)
 - [Install](#install)
     + [ArchLinux](#archlinux)
     + [Debian/Ubuntu](#debianubuntu)
     + [Non GNU/Linux OS](#non-gnulinux-os)
-- [Usage]
-    + [Authenication]
-    + [Testing]
-    + [Mounting]
-    + [Unmount]
+- [Usage](#usage)
+    + [Authenication](#authentication)
+    + [Mounting](#mount)
+    + [Unmounting](#unmount)
+- [Startup Service]
+    + [Systemd Unit]
 
 ## Install
 
@@ -170,7 +172,7 @@ Finallly, input **q** to quit the RClone interactive config shell
 
 ### Mount
 
-First, create folder to be used as mount point
+First, create folder to be used as mount point (owned by non-root users):
 
 ```sh
 $ sudo mkdir -p /mnt/gdrive
@@ -184,8 +186,111 @@ Then try to mount using simple command:
 $ rclone mount google-drive:/ /mnt/gdrive
 ```
 
-It will run rclone and mount the Google Drive content until it stopped
+It will run rclone and mount the Google Drive contents.
+
+For much more complete command, you can use this instead (please adjust your user home directory):
+
+```sh
+$ rclone mount --config=/home/achmaday/.config/rclone/rclone.conf \
+--stats=0 --checkers=8 --no-modtime --drive-use-trash --allow-non-empty  \
+--cache-tmp-upload-path=/tmp/rclone/upload --cache-chunk-path=/tmp/rclone/chunks \
+--cache-workers=4 --cache-writes --dir-cache-time=60m --cache-info-age=60m \
+--cache-dir=/tmp/rclone/vfs --cache-db-path=/tmp/rclone/db \
+google-drive:/ /mnt/gdrive
+```
 
 ### Unmount
 
-Simply stopping rclone program will unmount the mount point directory.
+To unmount RClone mount point directory, simply use regular unmount command:
+
+```sh
+$ umount /mnt/gdrive
+```
+
+The running RClone will automatically stopped
+
+## Startup Services
+
+Now we can run some Systemd service at boot to mount Google Drive using RClone.
+
+Some advantages auto start using system unit:
+- [x] Systemd widely adopted as init system
+- [x] Can be controlled and monitored by Systemd
+- [x] Systemd unit can run as non-root user from same init system
+- [x] Can wait for network online (in this example using NetworkManager service)
+- [ ] Everyone like Systemd (except some fools)
+
+### Systemd Unit
+
+Save these text as **rclone.service**.
+Adjust user home folder, mount point folder, and user/group name.
+
+```
+[Unit]
+Description=RClone for Google Drive
+Wants=network-online.target
+After=network-online.target
+AssertPathIsDirectory=/mnt/gdrive
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount \
+    --config=/home/achmaday/.config/rclone/rclone.conf \
+    --stats=0 --checkers=8 --no-modtime --drive-use-trash --allow-non-empty  \
+    --cache-tmp-upload-path=/tmp/rclone/upload --cache-chunk-path=/tmp/rclone/chunks \
+    --cache-workers=4 --cache-writes --dir-cache-time=60m --cache-info-age=60m \
+    --cache-dir=/tmp/rclone/vfs --cache-db-path=/tmp/rclone/db \
+    google-drive:/ /mnt/gdrive
+ExecStop=/usr/bin/umount /mnt/gdrive
+Restart=always
+RestartSec=10
+TimeoutSec=45
+User=achmaday
+Group=users
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Copy this file using command:
+
+```sh
+$ sudo cp -f rclone.service /usr/lib/systemd/system/
+```
+
+Then reload systemd using command:
+
+```sh
+$ sudo systemctl daemon-reload
+```
+
+### Service Control
+
+To run test the service, issue command:
+
+```sh
+$ sudo systemctl start rclone.service
+```
+
+Check mount point contents:
+
+```sh
+$ ls -l /mnt/gdrive
+```
+
+To stop and mount:
+
+```sh
+$ sudo systemctl stop rclone.service
+```
+
+### Service Autostart
+
+For autostart at boot, enable the service unit (along with NetworkManager and it's online wait service)
+
+```sh
+$ sudo systemctl enable NetworkManager.service
+$ sudo systemctl enable rclone.service
+```
+
+Now you can reboot and RClone will automatically mount the Google Drive if the system online.

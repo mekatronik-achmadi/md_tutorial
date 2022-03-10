@@ -10,8 +10,19 @@
     + [Authenication](#authentication)
     + [Mounting](#mount)
     + [Unmounting](#unmount)
-- [Startup Service]
-    + [Systemd Unit]
+- [Startup Service](#startup-services)
+    + [Systemd Unit](#systemd-unit)
+    + [Service Control](#service-control)
+    + [Service Autostart](#service-control)
+
+## Requirements
+
+Some requirement to follow this tutorial:
+- Decent GNU/Linux operating system
+- Good internet connection
+- Can lift user privillage using sudo command
+- Familiar with Bash/Zsh as CLI interface
+- Please dont be too lazy
 
 ## Install
 
@@ -218,7 +229,7 @@ Some advantages auto start using system unit:
 - [x] Can be controlled and monitored by Systemd
 - [x] Systemd unit can run as non-root user from same init system
 - [x] Can wait for network online (in this example using NetworkManager service)
-- [ ] Everyone like Systemd (except some fools)
+- [ ] ~~Everyone love Systemd~~ Some people are just idiot
 
 ### Systemd Unit
 
@@ -294,3 +305,4 @@ $ sudo systemctl enable rclone.service
 ```
 
 Now you can reboot and RClone will automatically mount the Google Drive if the system online.
+

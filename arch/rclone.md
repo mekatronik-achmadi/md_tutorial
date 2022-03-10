@@ -1,10 +1,10 @@
 # RClone Tutorial
 
 ## Contents
-- [Install]
-    + [ArchLinux]
-    + [Debian/Ubuntu]
-    + [Non GNU/Linux OS]
+- [Install](#install)
+    + [ArchLinux](#archlinux)
+    + [Debian/Ubuntu](#debianubuntu)
+    + [Non GNU/Linux OS](#non-gnulinux-os)
 - [Usage]
     + [Authenication]
     + [Testing]

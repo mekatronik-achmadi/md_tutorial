@@ -7,6 +7,7 @@
     + [Non GNU/Linux OS]
 - [Usage]
     + [Authenication]
+    + [Testing]
     + [Mounting]
     + [Unmount]
 
@@ -19,16 +20,16 @@ Here how installation process on major OS
 For Arch Linux user and its derivative (Manjaro/EndeavorOS), use this command to download and install
 
 ```sh
-$ sudo pacman -S rclone
+$ sudo pacman -S rclone fuse2
 ```
 
 If you version already outdate but you too lazy to upgrade, install [downgrade](https://github.com/pbrisbin/downgrade) from this [AUR](https://aur.archlinux.org/packages/downgrade), then issue command
 
 ```sh
-$ sudo downgrade rclone
+$ sudo downgrade rclone fuse2
 ```
 
-Choose your required version to install
+Choose your required version to install.
 
 **Tips**: If you need some GUI manager, consider to install [RClone Browser](https://github.com/kapitainsky/RcloneBrowser) from this [AUR](https://aur.archlinux.org/packages/rclone-browser)
 
@@ -166,3 +167,25 @@ y/e/d> y
 ```
 
 Finallly, input **q** to quit the RClone interactive config shell
+
+### Mount
+
+First, create folder to be used as mount point
+
+```sh
+$ sudo mkdir -p /mnt/gdrive
+$ sudo chmod -Rf 755 /mnt/gdrive
+$ sudo chown -Rf $USER:users /mnt/gdrive
+```
+
+Then try to mount using simple command:
+
+```sh
+$ rclone mount google-drive:/ /mnt/gdrive
+```
+
+It will run rclone and mount the Google Drive content until it stopped
+
+### Unmount
+
+Simply stopping rclone program will unmount the mount point directory.

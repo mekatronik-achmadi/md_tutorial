@@ -185,12 +185,12 @@ Finallly, input **q** to quit the RClone interactive config shell
 
 ### Mount
 
-First, create folder to be used as mount point (owned by non-root users):
+First, create folder to be used as mount point (for non-root user):
 
 ```sh
 $ sudo mkdir -p /mnt/gdrive
 $ sudo chmod -Rf 755 /mnt/gdrive
-$ sudo chown -Rf $USER:users /mnt/gdrive
+$ sudo chown -Rf $USER /mnt/gdrive
 ```
 
 Then try to mount using simple command:
@@ -291,7 +291,7 @@ Check mount point contents:
 $ ls -l /mnt/gdrive
 ```
 
-To stop and mount:
+To stop and unmount:
 
 ```sh
 $ sudo systemctl stop rclone.service
@@ -307,4 +307,3 @@ $ sudo systemctl enable rclone.service
 ```
 
 Now you can reboot and RClone will automatically mount the Google Drive if the system online.
-

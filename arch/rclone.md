@@ -1,7 +1,7 @@
 # RClone Tutorial
 
 ## Contents
-- [Requirements](#requirement)
+- [Requirements](#requirements)
 - [Install](#install)
     + [ArchLinux](#archlinux)
     + [Debian/Ubuntu](#debianubuntu)

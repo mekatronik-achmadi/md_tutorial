@@ -156,6 +156,8 @@ Then press **y** for **Use auto config?**.
 After pressing Enter, it will open Google Drive Permission on your default webrowser.
 Allow it and will give **Success** response on webrowser.
 
+![images](images/rclone.png?raw=true)
+
 Next, input **n** for **Configure this as a Shared Drive (Team Drive)?**
 
 ```sh

@@ -22,9 +22,18 @@ Just choose free personal account and you can skip advance feature setup like Tw
 
 But if you still need some guides, you can look [here](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration) and [here](https://www.wikihow.com/Create-an-Account-on-GitHub)
 
+## Creating Personal Access Token
+
+As per August 2021, Github no longer accept passwords as authentication for all desktop Git client.
+Instead of password, personal access token is used.
+
+Read tutorial on how create Personal Access Token for your Github account [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github_token.md)
+
+**NOTE:** As Personal Access Token used as password in place replacement, you must treat these tokens like passwords.
+
 ## Create New Repository
 
-Now assume you already sign-up you new Github account, next topic is create new Github repository.
+Now assume you already sign-up your new Github account and it's Personal Access Token, next topic is create new Github repository.
 This tutorial taken from this Github official [page](https://docs.github.com/en/github/getting-started-with-github/create-a-repo).
 
 First, in the upper-right corner of any page, use the drop-down menu, and select New repository.
@@ -63,7 +72,7 @@ then push it to Github using command:
 git push -u origin master
 ```
 
-You will need to input your Github username (not email) and password into a pop-up dialog box.
+You will need to input your Github username (not email) and ~password~ token into terminal or a pop-up dialog box when asked.
 
 ![images](images/gitpush.JPG?raw=true)
 
@@ -101,7 +110,7 @@ git add *
 git commit -m "a descriptive message"
 ```
 
-- Push it to Github
+- Push it to Github (username and ~password~ token maybe asked here)
 
 ```
 git push -o origin master

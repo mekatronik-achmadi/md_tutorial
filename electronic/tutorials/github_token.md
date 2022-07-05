@@ -13,8 +13,9 @@ You can read yourself at Github's Blog [here](https://github.blog/2021-04-05-beh
 
 ## Create
 
-Before creating Personal Access Tokens, make sure you already your email address for your Github Account.
-See [here](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address)
+Before creating Personal Access Tokens, make sure you already verify your email address for your Github Account.
+
+If not yet verified, see [here](https://docs.github.com/en/github/getting-started-with-github/verifying-your-email-address).
 
 ---
 
@@ -49,7 +50,7 @@ Now fill it
 Essential contents:
 - Note: As short descriptive name
 - Expiration: How long token will available
-- Select scopes: For simple usage, check **repo**
+- Select scopes: For simple usage, just check **repo**
 
 ![images](images/ghpgen.png?raw=true)
 
@@ -73,17 +74,20 @@ After you leave or refresh that page, you **won't able** see that token characte
 
 **Tips:** You can also save it as Bash environment
 
-add like this at the last line of **~/.bashrc**
+Run this command like this once (either in ArchLinux's terminal or Git Bash in Windows)
 
 ```sh
-export GITHUBTOKEN=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
+echo "export GITHUBTOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" >> ~/.bashrc
+source ~/.bashrc
 ```
 
-so whenever you need, you can use:
+Next, whenever you need your token, you can use command:
 
 ```sh
 echo $GITHUBTOKEN
 ```
+
+then copy it into your clipboard and paste it whenever you need it.
 
 ![images](images/ghpshtoken.png?raw=true)
 

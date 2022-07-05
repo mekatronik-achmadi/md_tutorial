@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#introduction)
 - [New Account](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#open-new-account)
+- [Personal Access Token](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#creating-personal-access-token)
 - [New Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#create-new-repository)
 - [Add Git Local](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#add-github-repository-to-local-git)
 - [Push Commit](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#push-commit)

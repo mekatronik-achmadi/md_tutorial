@@ -128,7 +128,33 @@ Then select a commit entry and type entry to see patch details or use CTRL+C to 
 
 ## Git GUI
 
+If you start getting tired using Git in command line form, there a bunch GUI client available to help you manage your Git repositories.
+
+Here we will give some brief look on two popular GUI program for Git
+
 ### GUI Tk
+
+This program mostly installed by default when you install Git program.
+The interface maybe a bit outdated (its Tk interface, what you expect?), but it can do things that you usually do in command line.
+
+To access this program in a Windows computer, you can right-click on empty space at explorer in a Git folder, then click *Git GUI Here*.
+
+![images](images/gitguiwin.PNG?raw=true)
+
+In Linux, you can open terminal in a Git directory path, then if Tk or Tcl library installed, you can use command:
+
+```sh
+git gui
+```
+
+![images](images/gitguilinux.png?raw=true)
+
+The interface between Windows and Linux are mostly same.
+
+For regular Git workflow (Stage->Commit->Push), you can mostly in these button group:
+
+![images](images/gitguibutton.PNG?raw=true)
+
 
 ### Cola PyQt5
 

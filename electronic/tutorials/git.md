@@ -63,6 +63,9 @@ git init
 ``` 
 
 It will create a hidden _.git_ folder and initialize a new empty git repository in that folder.
+
+![images](images/gitinit.png?raw=true)
+
 For whatever reason, dont touch the hidden _.git_ folder.
 
 ## Add Untracked Files

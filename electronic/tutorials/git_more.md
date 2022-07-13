@@ -9,13 +9,9 @@
 A **patch** file is a text file contain difference between two line-oriented text files.
 These two files intended as source-code files.
 A patch file describe how first file change into second file.
+Then a patch file can be used to modify files according to its content
 
-The term **patch** and **diff** are often interchangeable, altough there some slight differences.
-A diff only contain the differences content between two files, 
-while a patch is a diff file with additional content like filenames and line position numbers.
-For the sake of this tutorial, we treat patch and diff as same thing.
-
-### Example Creating Patch
+### Creating Patch Example
 
 Lets learn patch file using example.
 First create a file named *main.c* with contents like this:
@@ -65,11 +61,70 @@ it will produce output like this:
 ```
 
 Here the general explanations:
-- First line with triple minus sign (---), contain information about old filename with its timestamp and timezone
-- Second line with triple plus sign (+++), contain information about new filename with its timestamp and timezone
-- Each lines started with minus sign (-), meaning this line has been **removed** in new file compared to old file
-- Each lines started with minus sign (+), meaning this line has been **added** in new file compared to old file
+- First line with triple minus sign (**---**), contain information about old filename with its timestamp and timezone
+- Second line with triple plus sign (**+++**), contain information about new filename with its timestamp and timezone
+- Each lines started and ended with double at (**@@**), contain information about line number that indicate file change section (its called a "hunk")
+- Each lines started with minus sign (**-**), meaning this line has been **removed** in new file compared to old file
+- Each lines started with minus sign (**+**), meaning this line has been **added** in new file compared to old file
 - Other lines with neither plus no minus sign, meaning same line in both old and new files
+
+Lastly, if you want to save the patch content in a file, you can use redirect operator.
+For example, to save in a file named *main_patch*:
+
+```sh
+diff -Naur main.c main_new.c > main_c.patch
+```
+
+### Applying Patch Example
+
+From previous example, we got a patch file named *main_c.patch*.
+We will use this patch (its called "applying patch").
+
+Now, use this command to apply patch into *main.c*.
+
+```sh
+patch < main_c.patch
+```
+
+At this step, the contain between *main.c* and *main_new.c* will be same
+
+**Tips**: You can also revert the changes using command:
+
+```sh
+patch -R < main_c.patch
+```
+
+### Diff/Patch in Git
+
+After you understand the concept of patch, you dont need worry about using diff and patch command,
+because Git program will handle it automatically.
+
+But its recommended to review patches so you know how you programming progress going. 
+To see files that changes, use command:
+
+```sh
+git status
+```
+
+To see patch on entire repository, use command
+
+```sh
+git diff
+```
+
+To see patch on individual file, use command
+
+```sh
+git diff main.c
+```
+
+Last, to see patch on each commit, you can use command
+
+```sh
+tig
+```
+
+Then select a commit entry and type entry to see patch details or use CTRL+C to exit.
 
 ## Git GUI
 
@@ -85,7 +140,13 @@ Here the general explanations:
 
 ## Github Pages
 
-### Github Jekyll
+Coming soon
 
 ### Carpentries Style
+
+Coming soon
+
+### Ruby Jekyll Preview
+
+Coming soon
 

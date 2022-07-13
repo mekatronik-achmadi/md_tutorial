@@ -155,8 +155,42 @@ For regular Git workflow (Stage->Commit->Push), you can mostly in these button g
 
 ![images](images/gitguibutton.PNG?raw=true)
 
-
 ### Cola PyQt5
+
+Cola is an alternative to Git GUI.
+Unlike previous interface that written in Tk, Cola written in PyQt5 toolkit.
+
+For Windows, you can download [here](https://git-cola.github.io/downloads.html).
+Download the installer Windows section, then install it (use default setting).
+You can skip the installation notes advice.
+
+After installation, you can right-click on empty space at explorer in a Git folder, then click *Git Bash Here*.
+
+Then use command:
+
+```sh
+git cola
+```
+
+It will open Cola interface like this
+
+![images](images/gitcolawin.PNG?raw=true)
+
+For Debian/Ubuntu:
+
+```sh
+sudo apt-get install git-cola
+```
+
+For ArchLinux/Manjaro, its available at [AUR](https://aur.archlinux.org/packages/git-cola)
+
+Then you can open terminal in a Git directory path and use same command:
+
+```sh
+git cola
+```
+
+![images](images/gitcolalinux.png?raw=true)
 
 ## Collaborative Git and Github
 

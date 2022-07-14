@@ -228,7 +228,7 @@ For regular Git workflow (Stage->Commit->Push), its done mostly in these menu:
 Most Source-Code Manager (SCM) are created to be content tracker program that record changes in files and folders.
 Git is no exception.
 
-Now by sharing and contributing patch each other between programmers, Git help a team programmer to doing programming collaboratively.
+Now by sharing and contributing patch each other between programmers, Git help a team programmer to do programming collaboratively.
 Today Github extent that Git capability futher using the technology we called internet.
 
 In this section we will give a brief explanation how do programming collaboratively using Git and Github.
@@ -259,6 +259,33 @@ If they accept your invitation, they will able to push directly into your reposi
 before doing modification to avoid conflicts with other people changes.
 
 ### Pull-Request Method
+
+This method is a bit more complex, but it much more flexible and secure.
+This method is more recommended, especially if you have trust issue or taking precaution (or both).
+
+The difference between previous method, is you dont give push access to anyone.
+Instead, other people offer you a patch (we call it **pull-request**),
+then you decide whether you approve and merge their patch,
+or reject it all together.
+
+To simplify explanation, we will use term **contributor** as other people who contribute and doing pull-request.
+While **maintainer** as repository owner who decide to accept the patch or not.
+
+In a nutshell, the workflow will look like this
+
+![images](images/github-workflow.avif?raw=true)
+
+#### Contributor Forking
+
+First, to contribute, do **fork** the repository you want to contribute.
+A Fork basically a copy of a repository in your own Github account.
+
+To fork a repository, click the Fork button
+
+![images](images/githubpr_0.png?raw=true)
+
+
+### Other Contribution Method
 
 ## Github Pages
 

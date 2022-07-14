@@ -8,6 +8,11 @@
 - [Git GUI](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#git-gui)
     + [GUI Tk](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#gui-tk)
     + [Cola PyQt5](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#cola-pyqt5)
+- [Collaborative Programming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#collaborative-git-and-github)
+    + [Permission Method](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#permission-method)
+    + [Pull-Request Method](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#pull-request-method)
+    + [Other Contribution Method]()
+- [Github Pages]()
 
 ## Git Patch
 
@@ -220,7 +225,38 @@ For regular Git workflow (Stage->Commit->Push), its done mostly in these menu:
 
 ## Collaborative Git and Github
 
+Most Source-Code Manager (SCM) are created to be content tracker program that record changes in files and folders.
+Git is no exception.
+
+Now by sharing and contributing patch each other between programmers, Git help a team programmer to doing programming collaboratively.
+Today Github extent that Git capability futher using the technology we called internet.
+
+In this section we will give a brief explanation how do programming collaboratively using Git and Github.
+
 ### Permission Method
+
+This first method is rather easier.
+You give permission to other Github Account to push into your repository.
+
+**WARNING:** Choose this method only if you really trust the person you give access both on technicality and attitude aspect.
+
+To invite some as contributor in one of your repository, go to **Settings** in a repository
+
+![images](images/githubcollab_0.png?raw=true)
+
+Then go to tab **Collaborators and Teams**
+
+![images](images/githubcollab_1.png?raw=true)
+
+Here you can see a manager page to help you manage collaborators.
+You can invite people using button **Add People** and give them **Role** at least **Write**.
+
+![images](images/githubcollab_2.png?raw=true)
+
+If they accept your invitation, they will able to push directly into your repository.
+
+**CAUTION:** If you are invited and has access to someone else repository, make sure you doing **git pull** 
+before doing modification to avoid conflicts with other people changes.
 
 ### Pull-Request Method
 
@@ -228,7 +264,11 @@ For regular Git workflow (Stage->Commit->Push), its done mostly in these menu:
 
 Coming soon
 
-### Carpentries Style
+### Minimal Example
+
+Coming soon
+
+### Carpentry Style
 
 Coming soon
 

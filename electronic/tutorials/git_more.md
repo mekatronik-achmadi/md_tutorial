@@ -1,6 +1,13 @@
 # Additional Git Tutorial
 
 ## Table Of Contents
+- [Git Patch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#git-patch)
+    + [Creating Patch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#creating-patch-example)
+    + [Applying Patch](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#applying-patch-example)
+    + [Git Implementation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#diffpatch-in-git)
+- [Git GUI](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#git-gui)
+    + [GUI Tk](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#gui-tk)
+    + [Cola PyQt5](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#cola-pyqt5)
 
 ## Git Patch
 

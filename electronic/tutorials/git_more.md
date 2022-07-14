@@ -11,8 +11,11 @@
 - [Collaborative Programming](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#collaborative-git-and-github)
     + [Permission Method](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#permission-method)
     + [Pull-Request Method](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#pull-request-method)
-    + [Other Contribution Method]()
-- [Github Pages]()
+    + [Other Contribution Method](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#other-contribution-method)
+- [Github Pages](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#github-pages)
+    + [Minimal Example](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#minimal-example)
+    + [Carpentry Style](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#carpentry-style)
+    + [Jekyll Preview](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md#ruby-jekyll-preview)
 
 ## Git Patch
 
@@ -319,7 +322,18 @@ Merged pull request will recorded as new commit into repository.
 
 ### Other Contribution Method
 
-If you dont really 
+If you dont really fancy do programming, you still can contribute by reporting problems and bugs.
+
+Use **Issues** tab to open new thread and report your found problems and bugs
+
+![images](images/githubpr_4.png?raw=true)
+
+Also you can suggest or ask new features or improvements using **Discussions** tab
+
+![images](images/githubpr_5.png?raw=true)
+
+At this point, you use Github just like other social media platform to improves a project repository.
+This absolutely still counted as contribution.
 
 ## Github Pages
 

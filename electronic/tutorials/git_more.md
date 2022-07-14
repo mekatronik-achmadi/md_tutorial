@@ -141,7 +141,20 @@ To access this program in a Windows computer, you can right-click on empty space
 
 ![images](images/gitguiwin.PNG?raw=true)
 
-In Linux, you can open terminal in a Git directory path, then if Tk or Tcl library installed, you can use command:
+In Linux, you may install Tk library first.
+For Debian/Ubuntu:
+
+```sh
+sudo apt-get install tk
+```
+
+For ArchLinux/Manjaro:
+
+```sh
+sudo pacman -S tk
+```
+
+Then, you can use same command:
 
 ```sh
 git gui
@@ -151,7 +164,7 @@ git gui
 
 The interface between Windows and Linux are mostly same.
 
-For regular Git workflow (Stage->Commit->Push), you can mostly in these button group:
+For regular Git workflow (Stage->Commit->Push), its done mostly in these button group:
 
 ![images](images/gitguibutton.PNG?raw=true)
 
@@ -191,6 +204,12 @@ git cola
 ```
 
 ![images](images/gitcolalinux.png?raw=true)
+
+For regular Git workflow (Stage->Commit->Push), its done mostly in these menu:
+
+![images](images/gitcolacommit.png?raw=true)
+
+![images](images/gitcolapush.png?raw=true)
 
 ## Collaborative Git and Github
 

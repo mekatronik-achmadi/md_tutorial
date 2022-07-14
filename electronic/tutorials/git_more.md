@@ -284,8 +284,42 @@ To fork a repository, click the Fork button
 
 ![images](images/githubpr_0.png?raw=true)
 
+After forking done, you will have your own copy of that repository in your own Github account,
+with the repository's name indicate its a forked repository from someone else
+
+![images](images/githubpr_1.png?raw=true)
+
+#### Contributor Working
+
+After forking, you can modify your own fork repository like your own.
+Do stuff like:
+- Do **git clone** the repository to your local computer.
+Remember to clone your own fork instead the original repository
+- Do your modifications.
+- Do regular **Stage** and **Commit** on your local
+- Do **git push** from your local to your own fork.
+Remember to not push into original repository (you wont able anyway)
+
+#### Contributor Pull-Request
+
+After push to your fork done, you can ask the maintainer to merge your modification into original repository.
+
+Click **Contibute** menu and click **Open Pull Request**
+
+![images](images/githubpr_2.png?raw=true)
+
+#### Maintainer Review and Merge Pull-Request
+
+If you happen the maintainer, you can see pull requests in the tab **Pull requests**
+
+![images](images/githubpr_3.png?raw=true)
+
+Here you can review and merge patch from contrbutors.
+Merged pull request will recorded as new commit into repository.
 
 ### Other Contribution Method
+
+If you dont really 
 
 ## Github Pages
 

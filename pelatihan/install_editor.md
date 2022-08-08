@@ -1,4 +1,4 @@
-# Editor Installation
+# Text Editor Installation
 
 ## Contents
 - [Introduction]()
@@ -21,6 +21,9 @@ Basically you can use any text editor available as long as:
 You can choose one recommended text editor below as you like.
 
 **NOTES:** Simple Notepad program on Windows should be excluded because can not meet one or two criteria above.
+
+**NOTES:** For beginner-friendly reason, only graphical editor mentioned here.
+Therefore most powerful CLI editor such as VIm and EMACS are omitted.
 
 ## Notepad++
 
@@ -65,7 +68,7 @@ Choose x64 EXE installer or you can click this [version 1.70](https://github.com
 
 For ArchLinux/Manjaro, you can install binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin).
 
-For Ubuntu, you can install amd64 DEB packge from same Github release [here](https://github.com/VSCodium/vscodium/releases), or download [version 1.70](https://github.com/VSCodium/vscodium/releases/download/1.70.0/codium_1.70.0-1659698816_amd64.deb)
+For Ubuntu, you can install amd64 DEB package from same Github release [here](https://github.com/VSCodium/vscodium/releases), or download [version 1.70](https://github.com/VSCodium/vscodium/releases/download/1.70.0/codium_1.70.0-1659698816_amd64.deb)
 
 Then install using command:
 
@@ -73,7 +76,20 @@ Then install using command:
 sudo dpkg --install codium_*.deb
 ```
 
+## GNU/Linux
 
+Most desktop environments on GNU/Linux distribution already had text editor that meet criteria above.
+For example, here some text editor on GNU/Linux major desktop environments:
+- Cinnamon: GEdit or Xed
+- KDE: Kate or KWrite
+- MATE: Pluma
+- Deepin: Deepin-Editor
+- LXQt: Featherpad
+- Pantheon: Pantheon-Code
+
+Here example of Pluma on MATE desktop
+
+![images](images/pluma.png?raw=true)
 
 
 

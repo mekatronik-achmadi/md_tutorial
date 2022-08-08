@@ -5,6 +5,7 @@
 - [Installation](#installation)
     + [Ubuntu/Manjaro](#ubuntumanjaro)
     + [Windows](#windows)
+    + [Python on Git Bash](#python-on-git-bash)
     
 ## Introduction
 
@@ -58,3 +59,27 @@ bash --version
 ```
 
 ![images](images/bash_windows.png?raw=true)
+
+### Python on Git Bash
+
+If you want to run Python interactive shell inside Git Bash, you cannot just run **python** command since it will only return blank lines while the Python program run.
+
+To solve this, either you run Python inside Windows port of pseudoterminal:
+
+```sh
+winpty python
+```
+
+Or explicitly ask Python to run interactively using flag "-i" (recommended using this way):
+
+```sh
+python -i
+```
+
+![images](images/bash_windows_python0.png?raw=true)
+
+To exit from Python shell, type **exit()** command.
+
+For non-interactive interpreter (e.g running a Python script), you can run Python program as usual:
+
+![images](images/bash_windows_python1.png?raw=true)

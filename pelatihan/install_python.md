@@ -124,7 +124,7 @@ import numpy
 
 If no error message like above, meaning NumPy installation was successful.
 
-To exit from Python shell, type CTRL+D
+To exit from Python shell, type **exit()** command or press CTRL+D
 
 ### PIP
 
@@ -152,4 +152,4 @@ import numpy
 
 If no error message like above, meaning NumPy installation was successful.
 
-To exit from Python shell, type CTRL+Z and Enter.
+To exit from Python shell, type **exit()** command or press CTRL+Z and Enter.

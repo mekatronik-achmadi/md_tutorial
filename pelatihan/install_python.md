@@ -60,3 +60,15 @@ Next, you need download Python installer from [here](https://www.python.org/down
 Choose **Windows installer (64-bit)** for 64 version of Windows and vice-versa.
 
 ![images](images/python_win_installer.png?raw=true)
+
+**NOTES:** Most recent Python for Windows cannot be installed on Windows 7 or ealier version of Windows.
+At the time this tutorial written, the last version available for Windows 7 is Python version 3.8.10.
+You can visit [here](https://www.python.org/downloads/release/python-3810/).
+
+Check **Add Python to PATH**, then click **Install Now**
+
+![images](images/python_win_install.png?raw=true)
+
+Wait until success
+
+![images](images/python_win_install_success.png?raw=true)

@@ -7,9 +7,9 @@
     + [Windows](#windows)
         * [Windows 7 Important](#windows-7-important)
         * [Python Installer](#python-installer)
-- [Module Installation]()
-    + [System Package Manager]()
-    + [PIP]()
+- [Module Installation](#module-installation)
+    + [System Package Manager](#system-package-manager)
+    + [PIP](#pip)
 
 ## Introduction
 
@@ -17,7 +17,6 @@ Python is a high-level, interpreted, general-purpose programming language.
 Its design philosophy emphasizes code readability with the use of significant indentation.
 
 Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
-It is often described as a "batteries included" language due to its comprehensive standard library.
 
 **NOTES:** Many install process here done in terminal interface requires stable internet connection to check and download required package files.
 
@@ -140,7 +139,7 @@ pip install numpy
 
 ![images](images/python_numpy_win0.png?raw=true)
 
-To test NumPy installation, close previous cmd window and open new window.
+To test NumPy installation, close previous cmd window and open new cmd window.
 Then type command:
 
 ```py

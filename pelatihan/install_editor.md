@@ -1,11 +1,11 @@
 # Text Editor Installation
 
 ## Contents
-- [Introduction]()
-- [Notepad++]()
-- [Geany]()
-- [VSCodium]()
-- [GNU/Linux]()
+- [Introduction](#introduction)
+- [Notepad++](#notepad)
+- [Geany](#geany)
+- [VSCodium](#vscodium)
+- [GNU/Linux](#gnulinux)
 
 ## Introduction
 
@@ -32,7 +32,7 @@ You can download latest version installer (not the portable one) from [here](htt
 
 ![images](images/npp.png?raw=true)
 
-## Geany 
+## Geany
 
 Geany is another lightweight yet powerful text editor written in Gtk and available for Windows and Linux.
 

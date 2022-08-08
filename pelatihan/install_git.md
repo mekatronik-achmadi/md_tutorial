@@ -1,7 +1,9 @@
 # Install Git
 
 ## Table of Content
-
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Create ID](#create-your-id)
 
 ## Introduction
 

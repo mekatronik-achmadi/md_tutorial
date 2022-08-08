@@ -4,13 +4,12 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
     + [Ubuntu/Manjaro](#ubuntumanjaro)
-    + [Windows]()
-        * [Windows 7 Update]()
-        * [Bare Python]()
-        * [Anaconda Package]()
-    + [Required Modules]()
-        * [Package Manager]()
-        * [Pip]()
+    + [Windows](#windows)
+        * [Windows 7 Important]()
+        * [Python Installer]()
+- [Required Modules]()
+    + [Ubuntu/Manjaro]()
+    + [Pip]()
 
 ## Introduction
 
@@ -35,6 +34,7 @@ $ sudo pacman -S python python-pip python-setuptools python-wheel
 And for Debian/Ubuntu
 
 ```sh
+$ sudo apt-get update
 $ sudo apt-get install python3 python3-pip python3-setuptools python3-wheel
 ```
 
@@ -42,3 +42,13 @@ $ sudo apt-get install python3 python3-pip python3-setuptools python3-wheel
 But for Debian, Ubuntu, and its derivate, its still stuck as version 2 and for version 3 has to specificly call **python3** program. For convinient accross operating system, its advised to use **python3** everytime call Python interpreters
 
 ### Windows
+
+#### Windows 7 Important
+
+If you use earlier Windows 7 (before SP1), you may install KB3063858 update patch:
+
+Here you can download:
+- For [64bit](https://www.microsoft.com/en-us/download/details.aspx?id=47442)
+- For [32bit](https://www.microsoft.com/en-us/download/details.aspx?id=47409)
+
+If you Windows 7 SP1 onward, or even Windows 8 after, you can ignore this step.

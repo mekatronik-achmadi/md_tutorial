@@ -26,7 +26,7 @@ non-linear workflows (thousands of parallel branches running on different system
 For Windows, you can download [here](https://git-scm.com/download/win).
 Download the **Windows setup** (not the portable package) then install it (use default setting).
 
-After installation, you can right-click on empty space at explorer, then click _Git Bash Here_.
+After installation, you can right-click on empty space at Windows Explorer, then click _Git Bash Here_.
 
 For Debian/Ubuntu:
 

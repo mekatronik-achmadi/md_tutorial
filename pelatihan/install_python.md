@@ -124,6 +124,8 @@ import numpy
 
 If no error message like above, meaning NumPy installation was successful.
 
+To exit from Python shell, type CTRL+D
+
 ### PIP
 
 PIP (short for Package Installer for Python) is Python's internal package management system.
@@ -149,3 +151,5 @@ import numpy
 ![images](images/python_numpy_win1.png?raw=true)
 
 If no error message like above, meaning NumPy installation was successful.
+
+To exit from Python shell, type CTRL+Z and Enter.

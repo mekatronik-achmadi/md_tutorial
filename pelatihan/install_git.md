@@ -12,6 +12,8 @@ usually used for coordinating work among programmers collaboratively developing 
 Its goals include speed, data integrity, and support for distributed,
 non-linear workflows (thousands of parallel branches running on different systems).
 
+**NOTES:** Many install process here done in terminal interface requires stable internet connection to check and download required package files.
+
 ## Introduction
 
 Git is software for tracking changes in any set of files,

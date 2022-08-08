@@ -6,4 +6,4 @@
 - [Github Token](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github_token.md)
 - [Python Installation]()
 - [Bash Installation]()
-- [Editor Installation]()
+- [Text Editor Installation]()

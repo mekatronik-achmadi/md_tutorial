@@ -5,7 +5,7 @@
 - [Installation](#installation)
     + [Ubuntu/Manjaro](#ubuntumanjaro)
     + [Windows](#windows)
-        * [Windows 7 Important]()
+        * [Windows 7 Important](#windows-7-important)
         * [Python Installer]()
 - [Required Modules]()
     + [Ubuntu/Manjaro]()
@@ -52,3 +52,11 @@ Here you can download:
 - For [32bit](https://www.microsoft.com/en-us/download/details.aspx?id=47409)
 
 If you Windows 7 SP1 onward, or even Windows 8 after, you can ignore this step.
+
+#### Python Installer
+
+Next, you need download Python installer from [here](https://www.python.org/downloads/release/python-3106/).
+
+Choose **Windows installer (64-bit)** for 64 version of Windows and vice-versa.
+
+![images](images/python_win_installer.png?raw=true)

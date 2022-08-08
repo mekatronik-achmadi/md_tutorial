@@ -1,0 +1,18 @@
+# Python Installation
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+    + [Ubuntu/Manjaro]()
+    + [Windows]()
+        * [Windows 7 Update]()
+        * [Bare Python]()
+        * [Anaconda Package]()
+
+## Introduction
+
+Python is a high-level, interpreted, general-purpose programming language.
+Its design philosophy emphasizes code readability with the use of significant indentation.
+
+Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
+It is often described as a "batteries included" language due to its comprehensive standard library.

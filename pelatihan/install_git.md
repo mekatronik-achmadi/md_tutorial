@@ -24,21 +24,31 @@ non-linear workflows (thousands of parallel branches running on different system
 ## Installation
 
 For Windows, you can download [here](https://git-scm.com/download/win).
-Download the **Windows setup** (not the portable package) then install it (use default setting).
+Download the **Windows setup** (not the portable package).
 
-After installation, you can right-click on empty space at Windows Explorer, then click _Git Bash Here_.
+Run the installer program
 
-For Debian/Ubuntu:
+![images](images/gitwin0.PNG?raw=true)
 
-```
-sudo apt-get install git tig
-```
+Make sure you check both **Git Bash** and **Git GUI**.
 
-For ArchLinux/Manjaro:
+![images](images/gitwin1.PNG?raw=true)
 
-```
-sudo pacman -S git tig
-```
+For default text editor, you can choose **Notepad++**.
+
+![images](images/gitwin2.PNG?raw=true)
+
+For Bash to used even in Windows PowerShell, choose to write complete PATH.
+
+![images](images/gitwin3.PNG?raw=true)
+
+The rest option you can just leave it default
+
+![images](images/gitwin4.PNG?raw=true)
+
+After installation, you can right-click on empty space at explorer, then click _Git Bash Here_.
+
+![images](images/gitwin5.PNG?raw=true)
 
 To test installation, type command:
 
@@ -47,6 +57,18 @@ git --version
 ```
 
 ![images](images/gitbash.JPG?raw=true)
+
+For Debian/Ubuntu installation:
+
+```
+sudo apt-get install git tig
+```
+
+For ArchLinux/Manjaro installation:
+
+```
+sudo pacman -S git tig
+```
 
 ## Create your ID
 

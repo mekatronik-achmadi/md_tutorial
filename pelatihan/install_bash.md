@@ -60,11 +60,17 @@ bash --version
 
 ![images](images/bash_windows.png?raw=true)
 
+Also, if you choose to write complete Git Bash PATH into Windows system PATH, you can also run Bash from CMD or PowerShell window by entering command **bash**.
+
+![images](images/bash_cmd.PNG?raw=true)
+
+![images](images/bash_powershell.PNG?raw=true)
+
 ### Python on Git Bash
 
 If you want to run Python interactive shell inside Git Bash, you cannot just run **python** command since it will only return blank lines while the Python program run.
 
-To solve this, either you run Python inside Windows port of pseudoterminal:
+If that the case, either you run Python inside Windows port of pseudoterminal:
 
 ```sh
 winpty python
@@ -83,3 +89,7 @@ To exit from Python shell, type **exit()** command.
 For non-interactive interpreter (e.g running a Python script), you can run Python program as usual:
 
 ![images](images/bash_windows_python1.png?raw=true)
+
+Other recommended option is run **bash** first on CMD or PowerShell window, then you can run **python** shell.
+
+![images](images/bash_windows_python2.png?raw=true)

@@ -7,3 +7,4 @@
 - [Python Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_python.md)
 - [Bash Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_bash.md)
 - [Text Editor Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_editor.md)
+- [WSL Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_wsl.md)

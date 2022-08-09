@@ -76,7 +76,7 @@ If that the case, either you run Python inside Windows port of pseudoterminal:
 winpty python
 ```
 
-Or explicitly ask Python to run interactively using flag "-i" (recommended using this way):
+Or explicitly ask Python to run interactively using flag "-i":
 
 ```sh
 python -i

@@ -164,5 +164,6 @@ Here list of minimum required modules:
 - matplotlib
 - scikit-learn
 - ipython
-- jupyter
+- notebook
+- jupyterlab
 

@@ -34,10 +34,6 @@ Make sure you check both **Git Bash** and **Git GUI**.
 
 ![images](images/gitwin1.PNG?raw=true)
 
-For default text editor, you can choose **Notepad++**.
-
-![images](images/gitwin2.PNG?raw=true)
-
 For Bash to used even in Windows PowerShell, choose to write complete PATH.
 
 ![images](images/gitwin3.PNG?raw=true)

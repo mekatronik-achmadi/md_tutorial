@@ -157,13 +157,19 @@ To exit from Python shell, type **exit()** command or press CTRL+Z and Enter.
 
 ### Minimum Required Modules
 
-Here list of minimum required modules:
+Some common scientific modules:
 - numpy
 - scipy
 - pandas
 - matplotlib
 - scikit-learn
+
+Some advance Python interfaces:
 - ipython
 - notebook
 - jupyterlab
+
+In case you need GUI toolkits:
+- pyqt5 or pyqt6
+- wxpython
 

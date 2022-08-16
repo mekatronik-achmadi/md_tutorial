@@ -10,6 +10,7 @@
 - [Module Installation](#module-installation)
     + [System Package Manager](#system-package-manager)
     + [PIP](#pip)
+    + [Minimum Required Modules](#minimum-required-modules)
 
 ## Introduction
 
@@ -153,3 +154,15 @@ import numpy
 If no error message like above, meaning NumPy installation was successful.
 
 To exit from Python shell, type **exit()** command or press CTRL+Z and Enter.
+
+### Minimum Required Modules
+
+Here list of minimum required modules:
+- numpy
+- scipy
+- pandas
+- matplotlib
+- scikit-learn
+- ipython
+- jupyter
+

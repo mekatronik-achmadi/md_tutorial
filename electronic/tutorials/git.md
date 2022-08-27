@@ -5,6 +5,7 @@
 - [Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#installation)
 - [Create ID](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-your-id)
 - [Create Git Repository](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#create-git-directory)
+- [General Workflow](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#general-workflow)
 - [Add Untracked Files](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#add-untracked-files)
 - [Add Modified Files](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#add-modified-files)
 - [Git History](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md#commit-history)
@@ -89,6 +90,12 @@ It will create a hidden _.git_ folder and initialize a new empty git repository 
 ![images](images/gitinit.png?raw=true)
 
 For whatever reason, dont touch the hidden _.git_ folder.
+
+## General Workflow
+
+After initiating a Git directory, general your Git workflow will be look like this
+
+![images](images/githubworkflow.jpg?raw=true)
 
 ## Add Untracked Files
 

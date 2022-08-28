@@ -8,7 +8,8 @@
 - [Add Git Local](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#add-github-repository-to-local-git)
 - [Push Commit](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#push-commit)
 - [Git Clone](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-clone)
-- [Git Pull](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-pull		)
+- [Git Pull](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-pull)
+- [Git Fork](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md#git-fork)
 
 ## Introduction
 
@@ -136,7 +137,7 @@ Then you can change directory into cloned repository and work cycle stage-commit
 
 ## Git Pull
 
-After you clone a Github repository then that repository getting update, 
+After you clone a Github repository then that repository getting update,
 you don't have to delete cloned directory and re-cloned.
 
 All you have to do is doing pull to get update patch from Github
@@ -152,3 +153,16 @@ git pull origin master
 ```
 
 ![images](images/gitpull.JPG?raw=true)
+
+## Git Fork
+
+A Fork basically a copy of a repository in your own Github account.
+
+To fork a repository, click the Fork button
+
+![images](images/githubpr_0.png?raw=true)
+
+After forking done, you will have your own copy of that repository in your own Github account,
+with the repository's name indicate its a forked repository from someone else
+
+![images](images/githubpr_1.png?raw=true)

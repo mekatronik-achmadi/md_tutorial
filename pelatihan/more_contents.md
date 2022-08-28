@@ -11,13 +11,18 @@ https://github.com/bagustris/WhirlwindTourOfPython
 
 https://bagustris.github.io/python-tutorial/
 
+- Important Python modules:
+    - NumPy: [PDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/additionals/introduction_to_numerical_computing_with_numpy_manual.pdf)
+    - Matplotlib [PDF](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/additionals/Matplotlib_slides.pdf)
+
 - More Linux/Unix Shell lesson that also packaged in very nice Software Carpentry Page:
 
-https://bagustris.github.io/tutorial-shell/  
+https://bagustris.github.io/tutorial-shell/
 
 - Some more Git and Github tutorial you may wanna see:
     + [Git](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git.md) and [More](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/git_more.md)
     + [Github](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github.md)
+- Assignment: [Link](https://github.com/mekatronik-achmadi/tugas_pelatihan/)
 
 
 

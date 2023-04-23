@@ -21,25 +21,25 @@ If not yet verified, see [here](https://docs.github.com/en/github/getting-starte
 
 Click your account icon, the click **Settings**.
 
-![images](images/ghp0.png?raw=true)
+![images](images/ghp0.png)
 
 ---
 
 Click **Developer settings**
 
-![images](images/ghp1.png?raw=true)
+![images](images/ghp1.png)
 
 ---
 
 Choose **Personal Access Token**
 
-![images](images/ghp2.png?raw=true)
+![images](images/ghp2.png)
 
 ---
 
 Choose **Generate new token**
 
-![images](images/ghp3.png?raw=true)
+![images](images/ghp3.png)
 
 You may asked your Github Account password to continue
 
@@ -52,19 +52,19 @@ Essential contents:
 - Expiration: How long token will available
 - Select scopes: For simple usage, just check **repo**
 
-![images](images/ghpgen.png?raw=true)
+![images](images/ghpgen.png)
 
 ---
 
 Click Generate token
 
-![images](images/ghpsave.png?raw=true)
+![images](images/ghpsave.png)
 
 ---
 
 You will get your personal access token
 
-![images](images/ghpresult.png?raw=true)
+![images](images/ghpresult.png)
 
 **Notes:** Copy the token (ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) and paste it on somewhere else save.
 
@@ -89,7 +89,7 @@ echo $GITHUBTOKEN
 
 then copy it into your clipboard and paste it whenever you need it.
 
-![images](images/ghpshtoken.png?raw=true)
+![images](images/ghpshtoken.png)
 
 ## Recreate
 

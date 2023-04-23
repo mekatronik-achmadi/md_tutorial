@@ -23,7 +23,7 @@
 ## Introduction
 
 KiCad (pronounced "Key-CAD") is a free software suite for electronic design automation (EDA).
-It facilitates the design of schematics for electronic circuits and their conversion to PCB designs. 
+It facilitates the design of schematics for electronic circuits and their conversion to PCB designs.
 It features an integrated environment for schematic capture and PCB layout design.
 Tools exist within the package to create a bill of materials, artwork, Gerber files,
 and 3D views of the PCB and its components.
@@ -59,18 +59,18 @@ sudo pacman -S kicad kicad-library kicad-library-3d
 
 Here some screenshoots:
 
-![images](images/kicad.png?raw=true)
+![images](images/kicad.png)
 
 The circuit 3D viewer is one impressif feature of KiCAD
 
-![images](images/kicad3d.png?raw=true)
+![images](images/kicad3d.png)
 
 ## New Project
 
 Open KiCAD from menu, then click _File_ -> _New_ -> Project.
 Choose where to put your project, then give a project name, then _Save_.
 
-![images](images/kicad0.png?raw=true)
+![images](images/kicad0.png)
 
 Here some generated files:
 - ***.pro** - Main project file to keep track of the file structure.
@@ -88,7 +88,7 @@ Then click empty space on schematic sheet.
 
 Here you can choose components to add.
 
-![images](images/kicad1.png?raw=true)
+![images](images/kicad1.png)
 
 ### Add Wire
 
@@ -96,7 +96,7 @@ Click _Place_ -> _Wire_.
 Then click an unconnected component pin,
 then you can start drag wire and connect component.
 
-![images](images/kicad2.png?raw=true)
+![images](images/kicad2.png)
 
 ### Add Power
 
@@ -105,34 +105,34 @@ Then click empty space on schematic sheet.
 
 Here you can choose power components to add.
 
-![images](images/kicad3.png?raw=true)
+![images](images/kicad3.png)
 
 ### Compononents Annotation
 
 After some component placed and connected,
 
-![images](images/kicad4.png?raw=true)
+![images](images/kicad4.png)
 
-Now to give component index as identity, 
+Now to give component index as identity,
 click _Tools_ -> _Annotate Schematic_
 then click _Annotate_
 
-![images](images/kicad5.png?raw=true)
+![images](images/kicad5.png)
 
 It will give number index to all components
 
-![images](images/kicad6.png?raw=true)
+![images](images/kicad6.png)
 
 ### Assign Footprint
 
 After schematic drawing is done,
 
-![images](images/kicad7.png?raw=true)
+![images](images/kicad7.png)
 
 Next is assign schematic symbol to actual components footprints.
 Click _Tools_ -> _Assign Footprints_
 
-![images](images/kicad8.png?raw=true)
+![images](images/kicad8.png)
 
 When finished, click _Apply_ then _OK_
 
@@ -145,7 +145,7 @@ Netlist (.net) file is the "bridge" between schematic and pcb files.
 Click _Tools_ -> _Generate Netlist File_.
 Check _Default Format_, then click _Generate Netlist_.
 
-![images](images/kicad9.png?raw=true)
+![images](images/kicad9.png)
 
 It will open save dialog, leave path and name as is, then click _Save_.
 
@@ -160,12 +160,12 @@ Click _Tools_ -> _Load Netlist_
 
 Click browse icon to open .net file.
 Then click _Update PCB_
-	
-![images](images/kicad10.png?raw=true)
+
+![images](images/kicad10.png)
 
 After you click _Close_, you will get all components footprints and it's connections.
 
-![images](images/kicad11.png?raw=true)
+![images](images/kicad11.png)
 
 ### Arrange Components
 
@@ -176,7 +176,7 @@ Some shortcut often use:
 - **f** to flip components bottom-top
 - **r** to rotate
 
-![images](images/kicad12.png?raw=true)
+![images](images/kicad12.png)
 
 ### Board Setup
 
@@ -185,7 +185,7 @@ To setup some board drawing property, click _File_ -> _Board Setup_
 Here on _Tracks and Vias_, you can set some wire and vias size.
 Then click _OK_
 
-![images](images/kicad13.png?raw=true)
+![images](images/kicad13.png)
 
 ### Wire Route
 
@@ -194,40 +194,40 @@ Then click _Route_ -> _Single Track_.
 
 Here you can drag and draw actual wire.
 
-![images](images/kicad14.png?raw=true)
+![images](images/kicad14.png)
 
 Then you can draw your PCB wire as good as possible
 
-![images](images/kicad15.png?raw=true)
+![images](images/kicad15.png)
 
 ### Add Board Edge
 
 First, click _Place_ -> _Line_, then for layer choose _Edge Cuts_.
 
-![images](images/kicad16.png?raw=true)
+![images](images/kicad16.png)
 
 Then draw good connected line.
 
-![images](images/kicad17.png?raw=true)
+![images](images/kicad17.png)
 
 ### Add Zones
 
 First, click _Place_ -> _Zone_, then for layer choose _F.Cu_ or _B.Cu_.
 
-![images](images/kicad18.png?raw=true)
+![images](images/kicad18.png)
 
 Then click previously edge, zone setting dialog will pop-up.
 
-![images](images/kicad19.png?raw=true)
+![images](images/kicad19.png)
 
 For now, leave all as is and just click _OK_.
 Then you can draw zone area (click to switch from line to area).
 
-![images](images/kicad20.png?raw=true)
+![images](images/kicad20.png)
 
 After all area covered, double click to finish
 
-![images](images/kicad21.png?raw=true)
+![images](images/kicad21.png)
 
 ### View 3D
 
@@ -235,4 +235,4 @@ At this point, the PCB design already usable.
 
 To check 3D preview, click _View_ -> _3D Viewer_.
 
-![images](images/kicad22.png?raw=true)
+![images](images/kicad22.png)

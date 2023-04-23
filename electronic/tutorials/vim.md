@@ -7,7 +7,7 @@
 	- [Short Version](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#short-version)
 	- [Detailed Version](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#detailed-version)
 - [Vim Enhancement](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#vim-enchancement)
-- [Vim Coc](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#vim-coc)	
+- [Vim Coc](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md#vim-coc)
 
 ## Introduction
 
@@ -44,7 +44,7 @@ To start vim from terminal, type command:
 vim
 ```
 
-![images](images/vimubuntu.png?raw=true)
+![images](images/vimubuntu.png)
 
 ### Windows
 
@@ -52,7 +52,7 @@ You can download gvim (Vim with GUI) installer [here](https://github.com/vim/vim
 
 You can start _gVim_ from start-menu.
 
-![images](images/gvim.JPG?raw=true)
+![images](images/gvim.JPG)
 
 ## Exit Vim
 
@@ -69,7 +69,7 @@ In bottom-left of program will show currently active mode.
 
 Here's some popular of Vim modes:
 - **NORMAL**. This is default mode and activated when Vim started.
-To switch into this mode from other modes, press **Esc** or **CTRL+c**.	
+To switch into this mode from other modes, press **Esc** or **CTRL+c**.
 
 - **INSERT**. This is editing mode like you would find in other text editor.
 To switch into this mode from NORMAL mode, press **i** (stand for insert).
@@ -96,7 +96,7 @@ Here we will show just some very good plugins to make Vim more enjoyable.
 sudo apt-get install vim-airline vim-ultisnips
 ```
 
-![images](images/vimmore.png?raw=true)
+![images](images/vimmore.png)
 
 ### ArchLinux/Manjaro
 
@@ -104,7 +104,7 @@ sudo apt-get install vim-airline vim-ultisnips
 sudo pacman -S vim-nerdtree vim-airline vim-ultisnips
 ```
 
-![images](images/vimarch.png?raw=true)
+![images](images/vimarch.png)
 
 ### Windows
 
@@ -128,4 +128,4 @@ Here some tested AUR packages:
 - [CoC highlight](https://aur.archlinux.org/packages/vim-coc-highlight-git/)
 - [CoC clangd](https://aur.archlinux.org/packages/vim-coc-clangd-git/)
 
-![images](images/vimcoc.png?raw=true)
+![images](images/vimcoc.png)

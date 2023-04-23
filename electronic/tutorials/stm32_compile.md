@@ -57,9 +57,9 @@ CHIBIOS = ../ChibiOS_STM32
 To edit/modify source, just open files in your source directory.
 Most of the time, you just need open the **Makefile** and you considered opening the project.
 
-![images](images/prjpn.png?raw=true)
+![images](images/prjpn.png)
 
-![images](images/prjvim.png?raw=true)
+![images](images/prjvim.png)
 
 ## Compiling Source
 
@@ -71,7 +71,7 @@ After opening the the **Makefile** you can compile the source from _Tools_ -> _[
 
 Also to clean up generated files, _Tools_ -> _[winAVR] Make Clean_.
 
-![images](images/compilepn.png?raw=true)
+![images](images/compilepn.png)
 
 ### Command line
 
@@ -96,11 +96,11 @@ or to clean up generated files
 make clean
 ~~~
 
-![images](images/compilecmd.png?raw=true)
+![images](images/compilecmd.png)
 
 For GNU/Linux, just open terminal in source path then issue command **make** or **make clean** like previously.
 
-![images](images/compilesh.png?raw=true)
+![images](images/compilesh.png)
 
 ## Binary result.
 

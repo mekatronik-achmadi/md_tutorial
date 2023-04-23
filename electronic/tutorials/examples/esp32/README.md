@@ -1,6 +1,6 @@
 ## ESP32 Example
 
-![images](../../images/esp-nodemcu-32.jpg?raw=true)
+![images](../../images/esp-nodemcu-32.jpg)
 
 An example ESP32 programming using ESP-IDF for LED Blink and UART Shell
 

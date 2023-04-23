@@ -14,11 +14,11 @@
 
 For this tutorial, we use NodeMCU ESP8266 or similar ESP-12x boards.
 
-![images](images/esp8266nodemcu.jpg?raw=true)
+![images](images/esp8266nodemcu.jpg)
 
 It's cheap but packed with enough features, good for project starter.
 
-![images](images/esp8266nodepin.jpg?raw=true)
+![images](images/esp8266nodepin.jpg)
 
 ## Changing Mode
 
@@ -46,7 +46,7 @@ Simple command to flashing:
 make app-flash
 ```
 
-![images](images/esp8266flash.png?raw=true)
+![images](images/esp8266flash.png)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 
@@ -72,7 +72,7 @@ Then simple command to flashing:
 make app-flash
 ```
 
-![images](images/esp8266flashwin.PNG?raw=true)
+![images](images/esp8266flashwin.PNG)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 

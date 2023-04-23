@@ -28,15 +28,15 @@ Then open Additional Board Manager URLs dialog and add URL below:
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json
 ```
 
-![images](images/arduino_board.png?raw=true)
+![images](images/arduino_board.png)
 
 Next, open *Tools* -> *Board* -> *Board Manager*.
 
-![images](images/board_manager.png?raw=true)
+![images](images/board_manager.png)
 
 On Search Filter, type ESP32, choose **2.0.0** version (as it based on ESP-IDF 4.4), then press *Install* button.
 
-![images](images/esp32_install.png?raw=true)
+![images](images/esp32_install.png)
 
 Wait until finished and done.
 
@@ -48,16 +48,16 @@ Next, open *Tools* -> *Board* -> *ESP32 Arduino* -> *ESP32 Dev Module*.
 
 The board setting should became looks like this:
 
-![images](images/esp32_board.png?raw=true)
- 
+![images](images/esp32_board.png)
+
 To compile, click *Sketch* -> *Verify/Compile*
- 
+
 To Upload, click *Sketch* -> *Upload*
- 
+
 **NOTES:** Make sure the **Port** (either **/dev/ttyUSBx** in Linux or **COMx** in Windows) is correct.
- 
+
  **NOTES:** As some NodeMCU board had problem with RTS/CTS logic, you may need to hold down Flash or IO0 button to enter flashing mode when the **esptool.py** try to reset the board.
- 
+
 **NOTES:**  Arduino will override the board's bootloader and partition table automatically when flashing. No need to do it manually.
 
 **NOTES:** Arduino's bootloader both checking RTS/CTS and IO15 logic state to start the app. You may need to power-on reset the NodeMCU board. No need to worry this workaround if you use custom ESP32 board without RTS/CTS.

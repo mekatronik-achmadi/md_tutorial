@@ -40,23 +40,23 @@ This tutorial taken from this Github official [page](https://docs.github.com/en/
 
 First, in the upper-right corner of any page, use the drop-down menu, and select New repository.
 
-![images](images/githubreponew0.png?raw=true)
+![images](images/githubreponew0.png)
 
 Type a short, memorable name for your repository.
 
-![images](images/githubreponew1.png?raw=true)
+![images](images/githubreponew1.png)
 
 Add a description of your repository
 
-![images](images/githubreponew2.png?raw=true)
+![images](images/githubreponew2.png)
 
 Choose a repository visibility. Public Repository is most preferable
 
-![images](images/githubreponew3.png?raw=true)
+![images](images/githubreponew3.png)
 
 Last, click Create repository.
 
-![images](images/githubreponew4.png?raw=true)
+![images](images/githubreponew4.png)
 
 ## Add Github Repository to Local Git
 
@@ -76,7 +76,7 @@ git push -u origin master
 
 You will need to input your Github username (not email) and ~password~ token into terminal or a pop-up dialog box when asked.
 
-![images](images/gitpush.JPG?raw=true)
+![images](images/gitpush.JPG)
 
 ## Push Commit
 
@@ -131,7 +131,7 @@ Then type command like this:
 git clone https://github.com/mekatronik-achmadi/RepoTest.git
 ```
 
-![images](images/gitclone.JPG?raw=true)
+![images](images/gitclone.JPG)
 
 Then you can change directory into cloned repository and work cycle stage-commit-push as previosly.
 
@@ -152,7 +152,7 @@ To pull from github, use command like this:
 git pull origin master
 ```
 
-![images](images/gitpull.JPG?raw=true)
+![images](images/gitpull.JPG)
 
 ## Git Fork
 
@@ -160,9 +160,9 @@ A Fork basically a copy of a repository in your own Github account.
 
 To fork a repository, click the Fork button
 
-![images](images/githubpr_0.png?raw=true)
+![images](images/githubpr_0.png)
 
 After forking done, you will have your own copy of that repository in your own Github account,
 with the repository's name indicate its a forked repository from someone else
 
-![images](images/githubpr_1.png?raw=true)
+![images](images/githubpr_1.png)

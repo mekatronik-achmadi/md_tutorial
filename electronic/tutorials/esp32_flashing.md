@@ -14,11 +14,11 @@
 
 For this tutorial, we use NodeMCU ESP32 or similar ESP32-DevKit boards.
 
-![images](images/esp32devkit.png?raw=true)
+![images](images/esp32devkit.png)
 
 It's cheap but packed with many features, good for project starter.
 
-![images](images/esp32pinout.jpg?raw=true)
+![images](images/esp32pinout.jpg)
 
 ## Changing Mode
 
@@ -54,7 +54,7 @@ Simple command to flashing:
 make app-flash
 ```
 
-![images](images/esp32flash.png?raw=true)
+![images](images/esp32flash.png)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 
@@ -80,7 +80,7 @@ Then simple command to flashing:
 make app-flash
 ```
 
-![images](images/esp32win4.PNG?raw=true)
+![images](images/esp32win4.PNG)
 
 If the process ended successfully, ESP32 will reset into Running Mode automatically
 
@@ -100,7 +100,7 @@ Next make sure target is appropriate in *sdkconfig* file:
 
 ```
 CONFIG_IDF_TARGET="esp32"
-`````` 
+``````
 
 Then, write ESP-IDF's bootloader (address 0x1000) using command:
 

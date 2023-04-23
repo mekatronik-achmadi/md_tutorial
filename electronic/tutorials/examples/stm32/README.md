@@ -1,6 +1,6 @@
 ## STM32 Example
 
-![images](../../images/stm32demo.jpg?raw=true)
+![images](../../images/stm32demo.jpg)
 
 An example STM32 programming using ChibiOS/RT for LED Blink and UART Shell.
 

@@ -33,11 +33,11 @@ Most of the time, you just need open the **Makefile** or any file you need to ed
 
 Example opening Makefile in VSCodium:
 
-![images](images/esp32codemk.png?raw=true)
+![images](images/esp32codemk.png)
 
 Example opening Makefile in Vim:
 
-![images](images/esp32vim.png?raw=true)
+![images](images/esp32vim.png)
 
 ## Compiling Source
 
@@ -72,7 +72,7 @@ make -j$(nproc) app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-![images](images/esp32build.png?raw=true)
+![images](images/esp32build.png)
 
 ---
 
@@ -104,4 +104,4 @@ make -j$(nproc) app
 
 When compiling finish, we get finally binary name (*.bin) ready to upload
 
-![images](images/esp32win3.PNG?raw=true)
+![images](images/esp32win3.PNG)

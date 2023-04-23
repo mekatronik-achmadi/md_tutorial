@@ -44,7 +44,7 @@ Download this MSYS2 components package [here](https://dl.espressif.com/dl/esp32_
 
 Unzip the zip file to *C:*  and it will create an msys32 directory with a pre-prepared environment.
 
-![images](images/esp32win.PNG?raw=true)
+![images](images/esp32win.PNG)
 
 The result should a folder named *C:\msys32*
 
@@ -52,13 +52,13 @@ The result should a folder named *C:\msys32*
 
 Next, download the spesific ESP8266 compiler in this [package](https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip)
 
-![images](images/esp8266win.PNG?raw=true)
+![images](images/esp8266win.PNG)
 
-Unzip this package into *C:\msys32\opt*: 
+Unzip this package into *C:\msys32\opt*:
 
 Then run program *C:\msys32\mingw32.exe*
 
-![images](images/esp32win0.PNG?raw=true)
+![images](images/esp32win0.PNG)
 
 **Notes**: All shell activity will be done in this terminal window.
 
@@ -74,7 +74,7 @@ re-run the program *C:\msys32\mingw32.exe*, then check compiler version using co
 xtensa-lx106-elf.gcc -v
 ```
 
-![images](images/esp8266winchk.PNG?raw=true)
+![images](images/esp8266winchk.PNG)
 
 ## USB-TTL Driver
 
@@ -188,7 +188,7 @@ Then, all you have to do is install required all Python modules:
 python3 -m pip install --user -r $IDF_PATH/requirements.txt
 ```
 
-![images](images/esp32win2.PNG?raw=true)
+![images](images/esp32win2.PNG)
 
 ## Uploader
 
@@ -219,7 +219,7 @@ Has good syntax highlighting.
 The downside is since written in electron, it would probably take a lot of memory.
 Especially in Windows with a lot extension.
 
-![images](images/esp32codium.png?raw=true)
+![images](images/esp32codium.png)
 
 #### ArchLinux/Manjaro
 Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
@@ -237,7 +237,7 @@ I mention it here only because it is an awesome editor.
 
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
-![images](images/esp32code.png?raw=true)
+![images](images/esp32code.png)
 
 ## Serial Terminal
 
@@ -246,7 +246,7 @@ If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/
 You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
 It's a portable standalone program, no need to install it.
 
-![images](images/esp32winhercules.PNG?raw=true)
+![images](images/esp32winhercules.PNG)
 
 ### MoSerial (GNU/Linux)
 
@@ -258,4 +258,4 @@ To install in ArchLinux/Manjaro:
 sudo pacman -S moserial
 ```
 
-![images](images/esp32moserial.png?raw=true)
+![images](images/esp32moserial.png)

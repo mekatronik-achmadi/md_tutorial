@@ -24,27 +24,27 @@ Download the **Windows setup** (not the portable package).
 
 Run the installer program
 
-![images](images/gitwin0.PNG?raw=true)
+![images](images/gitwin0.PNG)
 
 Make sure you check both **Git Bash** and **Git GUI**.
 
-![images](images/gitwin1.PNG?raw=true)
+![images](images/gitwin1.PNG)
 
 For default text editor, you can choose **Notepad++**.
 
-![images](images/gitwin2.PNG?raw=true)
+![images](images/gitwin2.PNG)
 
 For Bash to used even in Windows PowerShell, choose to write complete PATH.
 
-![images](images/gitwin3.PNG?raw=true)
+![images](images/gitwin3.PNG)
 
 The rest option you can just leave it default
 
-![images](images/gitwin4.PNG?raw=true)
+![images](images/gitwin4.PNG)
 
 After installation, you can right-click on empty space at explorer, then click _Git Bash Here_.
 
-![images](images/gitwin5.PNG?raw=true)
+![images](images/gitwin5.PNG)
 
 To test installation, type command:
 
@@ -52,7 +52,7 @@ To test installation, type command:
 git --version
 ```
 
-![images](images/gitbash.JPG?raw=true)
+![images](images/gitbash.JPG)
 
 For Debian/Ubuntu installation:
 
@@ -83,11 +83,11 @@ Then open Git Bash there and type command:
 
 ```
 git init
-``` 
+```
 
 It will create a hidden _.git_ folder and initialize a new empty git repository in that folder.
 
-![images](images/gitinit.png?raw=true)
+![images](images/gitinit.png)
 
 For whatever reason, dont touch the hidden _.git_ folder.
 
@@ -95,7 +95,7 @@ For whatever reason, dont touch the hidden _.git_ folder.
 
 After initiating a Git directory, general your Git workflow will be look like this
 
-![images](images/githubworkflow.jpg?raw=true)
+![images](images/githubworkflow.jpg)
 
 ## Add Untracked Files
 
@@ -116,9 +116,9 @@ Now, when you issus this command:
 
 ```
 git status
-``` 
+```
 
-![images](images/gitsttuntracked.JPG?raw=true)
+![images](images/gitsttuntracked.JPG)
 
 You will see information that there some untracked file (red colored).
 
@@ -137,7 +137,7 @@ git add *
 then you can check using status command.
 
 
-![images](images/gitadduntracked.JPG?raw=true)
+![images](images/gitadduntracked.JPG)
 
 As you can see, the main.c become staged (green-colored) as a new file.
 
@@ -150,7 +150,7 @@ git commit -m "add main.c"
 The word after -m is known as commit-message, work as a short description of commit.
 You free to choose any commit-message, but please keep short and clear.
 
-![images](images/gitcommitnew.JPG?raw=true)
+![images](images/gitcommitnew.JPG)
 
 ## Add Modified Files
 
@@ -163,9 +163,9 @@ For example, now add some modification to previous main.c.
 
 int main(void){
 	uint8 result;
-	
-	result = 10 + 20; 
-	
+
+	result = 10 + 20;
+
 	return result;
 }
 ```
@@ -176,7 +176,7 @@ Now, issue status command:
 git status
 ```
 
-![images](images/gitmod.JPG?raw=true)
+![images](images/gitmod.JPG)
 
 As you can see, main.c now become red colored as a modified file.
 
@@ -186,7 +186,7 @@ To see modification or what changes on that file, type command:
 git diff main.c
 ```
 
-![images](images/gitmoddiff.JPG?raw=true)
+![images](images/gitmoddiff.JPG)
 
 What you see is an example of code _patch_.
 Most important of a patch are:
@@ -208,7 +208,7 @@ git add *
 
 then you can check using status command.
 
-![images](images/gitaddmod.JPG?raw=true)
+![images](images/gitaddmod.JPG)
 
 As you can see, the main.c become staged (green-colored) as a modified file.
 
@@ -218,7 +218,7 @@ Next, to commit the modification/changes, using command as before:
 git commit -m "modify main.c"
 ```
 
-![images](images/gitmodcommit.JPG?raw=true)
+![images](images/gitmodcommit.JPG)
 
 ## Commit History
 
@@ -230,10 +230,10 @@ Now to see commit history, use command:
 tig
 ```
 
-![images](images/tig.JPG?raw=true)
+![images](images/tig.JPG)
 
 To see code patch in a commit, select a commit entry and press enter:
 
-![images](images/tigpatch.JPG?raw=true)
+![images](images/tigpatch.JPG)
 
 To exit from tig page, press **q** or **CTRL+c**.

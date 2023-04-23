@@ -65,11 +65,11 @@ From there, make sure:
 - _Mode_ is set to _Connect Under Reset_
 - _Reset Mode_ is set to _Hardware Reset_
 
-![images](images/st-link0.png?raw=true)
+![images](images/st-link0.png)
 
 Click _OK_ and ST-Link Utility will show the Flash Memory map contents.
 
-![images](images/st-link1.png?raw=true)
+![images](images/st-link1.png)
 
 **Notes**: It is possible to connect STM32 without putting the chip under reset.
 But it will not give STLink full control of STM32 chip.
@@ -82,7 +82,7 @@ To test connection, you can test reset STM32 Chip using command:
 sudo st-flash reset 0x8000000
 ```
 
-![images](images/stflash0.png?raw=true)
+![images](images/stflash0.png)
 
 ### Erasing
 
@@ -96,7 +96,7 @@ To erase chip, go to _Target_ -> _Erase Chip_, then click _OK_ on confirmation d
 
 STLink Utility then will show all program memory section (0x8000000 and above) become their default value (0xFFFFFFFF).
 
-![images](images/st-link2.png?raw=true)
+![images](images/st-link2.png)
 
 #### GNU/Linux
 
@@ -106,7 +106,7 @@ To mass erase, use command:
 sudo st-flash erase
 ```
 
-![images](images/stflash1.png?raw=true)
+![images](images/stflash1.png)
 
 ### Writing
 
@@ -117,15 +117,15 @@ Go to _File_ -> _Open file_, then navigate to intended file.
 
 Now STLink Utility will show memory value map of that file in a tab on the right of Devices Memory map tab.
 
-![images](images/st-link3.png?raw=true)
+![images](images/st-link3.png)
 
 Now, to start program, go to _Target_ -> _Program & Verify_, then Click _Start_ to write to STM32 chip
 
-![images](images/st-link4.png?raw=true)
+![images](images/st-link4.png)
 
 After that, make sure you see "Verification...OK" on STLink Utility log.
 
-![images](images/st-link5.png?raw=true)
+![images](images/st-link5.png)
 
 Now you can disconnect the chip using menu _Target_ -> _Disconnect_
 
@@ -138,7 +138,7 @@ Then use command:
 sudo st-flash write ./build/*.bin 0x8000000
 ```
 
-![images](images/stflash2.png?raw=true)
+![images](images/stflash2.png)
 
 then reset it using previously command:
 
@@ -148,7 +148,7 @@ sudo st-flash erase
 
 **Note**: If you get verification failure the this,
 
-![images](images/stflash3.png?raw=true)
+![images](images/stflash3.png)
 
 then you just need to repeat previously write command once again.
 
@@ -194,7 +194,7 @@ So, to change boot modes, just set STM32 BOOT pins according table above and the
 
 In BluePill board, it to boot pinout is like this:
 
-![images](images/bluepill.png?raw=true)
+![images](images/bluepill.png)
 
 ### Connect
 
@@ -205,22 +205,22 @@ Devices like electric motors or it's drivers should turn it off first before put
 
 First, Open Windows _Device Manager_ to check on which number COM Port registered.
 
-![images](images/stboot0.png?raw=true)
+![images](images/stboot0.png)
 
 Now, open _Demonstrator GUI_ from Windows menu, then make sure the _Port Name_ is match.
 
-![images](images/stboot1.png?raw=true)
+![images](images/stboot1.png)
 
 Before click _Next_, make sure the STM32 chip **already** booted into bootloader.
 Otherwise, it will make this program freeze.
 
 After click _Next_, you will see message that chip is readable
 
-![images](images/stboot2.png?raw=true)
+![images](images/stboot2.png)
 
 Then just click _Next_ a couple time, until you this main page:
 
-![images](images/stboot3.png?raw=true)
+![images](images/stboot3.png)
 
 #### GNU/Linux
 
@@ -238,7 +238,7 @@ Now to test connection, you can test getting STM32 Chip using command:
 sudo stm32flash /dev/ttyUSB0
 ```
 
-![images](images/stuart0.png?raw=true)
+![images](images/stuart0.png)
 
 ### Erasing
 
@@ -250,11 +250,11 @@ Futhermore, if you use STM32 Flash as EEPROM, this will reset value of all it's 
 
 To perform Mass/Full Erase, choose _Erase_ and _All_,
 
-![images](images/stboot3b.png?raw=true)
+![images](images/stboot3b.png)
 
 Then click _Next_ and wait until you see this page.
 
-![images](images/stboot4.png?raw=true)
+![images](images/stboot4.png)
 
 **Warning**: if your next action is to write program, dont click _Back_.
 But Click _Close_ and start the connecting process from start (including resetting STM32 chip).
@@ -267,7 +267,7 @@ To mass erase, use command:
 sudo stm32flash -o /dev/ttyUSB0
 ```
 
-![images](images/stuart1.png?raw=true)
+![images](images/stuart1.png)
 
 ### Writing
 
@@ -282,15 +282,15 @@ For erase option, werecommend _Global Erase_
 
 Lastly, dont forget to check _Verify after download_
 
-![images](images/stboot5.png?raw=true)
+![images](images/stboot5.png)
 
 Now, you can click _Next_ and chip programming will started.
 
-![images](images/stboot6.png?raw=true)
+![images](images/stboot6.png)
 
 Make sure verification is success in the end.
 
-![images](images/stboot7.png?raw=true)
+![images](images/stboot7.png)
 
 Now you can _Close_ and change the chip STM32 to boot into Running mode.
 
@@ -303,7 +303,7 @@ Then use command:
 sudo stm32flash -w ./build/*.bin -v /dev/ttyUSB0
 ```
 
-![images](images/stuart2.png?raw=true)
+![images](images/stuart2.png)
 
 Make sure writing and verification is success at 100%.
 Then you change the chip STM32 to boot into Running mode.

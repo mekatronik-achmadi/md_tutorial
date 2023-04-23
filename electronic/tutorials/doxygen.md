@@ -226,8 +226,8 @@ firefox coba_doc/html/index.html
 
 Here some preview of result:
 - on a file
-![images](images/doxy0.JPG?raw=true)
+![images](images/doxy0.JPG)
 - on function
-![images](images/doxy1.JPG?raw=true)
+![images](images/doxy1.JPG)
 - on variable
-![images](images/doxy2.JPG?raw=true)
+![images](images/doxy2.JPG)

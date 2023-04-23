@@ -32,7 +32,7 @@ For Windows-7, right-click _Computer_ on menu -> _Properties_ -> _Advanced Syste
 On _System Variables_, double-click _Path_, the on variable value add ";C:\gcc-arm-suite\bin" (without quotes and semicolon work as value separator).
 Click _OK_ in the end.
 
-![images](images/gccenvar.png?raw=true)
+![images](images/gccenvar.png)
 
 #### For ArchLinux/Manjaro
 
@@ -46,7 +46,7 @@ you can test this installation from CMD using:
 arm-none-eabi-gcc --version
 ~~~
 
-![images](images/gccver.JPG?raw=true)
+![images](images/gccver.JPG)
 
 ---
 
@@ -85,7 +85,7 @@ Install STSW to use ST-Link, you can download from ST's Official Web or get our 
 
 **Note**: To run STLinkUtility, you may need Visual C++ Redistributable 32bit (x86). You can get [here](https://aka.ms/vs/16/release/vc_redist.x86.exe).
 
-![images](images/stlink.png?raw=true)
+![images](images/stlink.png)
 
 #### For ArchLinux/Manjaro
 
@@ -93,7 +93,7 @@ Install STSW to use ST-Link, you can download from ST's Official Web or get our 
 sudo pacman -S stlink
 ```
 
-![images](images/stlinkgui.png?raw=true)
+![images](images/stlinkgui.png)
 
 ### UART Bootloader
 
@@ -106,7 +106,7 @@ Install USB/TTL driver and Flashloader to use this methode.
 
 You can download Flashloader from web or get our package [here](https://drive.google.com/file/d/16X2A41JwBmAY4dVMn1nfmbGJTxy3zclD/view?usp=sharing).
 
-![images](images/stflash.png?raw=true)
+![images](images/stflash.png)
 
 #### For ArchLinux/Manjaro
 
@@ -147,7 +147,7 @@ Only downside is this editor actually from winAVR project, so it still has winAV
 You can get our package [here](https://drive.google.com/file/d/1nmF6X_4iJKNP1QdEUqnjhlbvPfEOGUQz/view?usp=sharing).
 Extract it to C:\ (C:\programmer-notepad\) then right-click _programmer-notepad.exe_, choose _Pin to Start Menu_
 
-![images](images/pn.png?raw=true)
+![images](images/pn.png)
 
 For GNU/Linux, you can use desktop native source editor, like Pluma (Mate), GEdit (Gnome), Kate (KDE), etc.
 
@@ -169,7 +169,7 @@ You can download for Windows 64-bit [here](https://github.com/VSCodium/vscodium/
 
 Install VSCodium binary from this [AUR](https://aur.archlinux.org/packages/vscodium-bin/).
 
-![images](images/stm32codium.png?raw=true)
+![images](images/stm32codium.png)
 
 ### Vim
 
@@ -178,7 +178,7 @@ We mention it here only because it is an awesome editor.
 
 If you interested, see it yourself [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/vim.md)
 
-![images](images/myvim.png?raw=true)
+![images](images/myvim.png)
 
 ---
 
@@ -200,7 +200,7 @@ Alternatively, if you dont like to register yourself, you can download an older 
 Lastly, if you using Windows and dont have a working JRE installed,
 you can download offline JRE installer for Windows [here](https://www.java.com/en/download/manual.jsp).
 
-![images](images/stm32cubemx.PNG?raw=true)
+![images](images/stm32cubemx.PNG)
 
 ---
 
@@ -214,7 +214,7 @@ You free to choose any Serial Terminal you like, I'm here just giving recommenda
 You can get [here](https://www.hw-group.com/files/download/sw/version/hercules_3-2-8.exe).
 It's a portable standalone program, no need to install it.
 
-![images](images/serterm.png?raw=true)
+![images](images/serterm.png)
 
 ### MoSerial (GNU/Linux)
 
@@ -226,4 +226,4 @@ For ArchLinux/Manjaro:
 sudo pacman -S moserial
 ```
 
-![images](images/moserial.png?raw=true)
+![images](images/moserial.png)

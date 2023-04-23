@@ -24,7 +24,7 @@ It should able receive commands:
 - **info** with respon of some chip info
 - **calc number number** with respon result of addition both number
 
-![images](images/tugas_serial.JPG?raw=true)
+![images](images/tugas_serial.JPG)
 
 **Hint**: Use libraries and examples available [here](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/stm32_install.md#libraries)
 
@@ -32,11 +32,11 @@ It should able receive commands:
 
 Build a PCB with schematic like this:
 
-![images](images/tugas_pcb1.png?raw=true)
+![images](images/tugas_pcb1.png)
 
 and will result like this:
 
-![images](images/tugas_pcb0.png?raw=true)
+![images](images/tugas_pcb0.png)
 
 ## Fifth
 

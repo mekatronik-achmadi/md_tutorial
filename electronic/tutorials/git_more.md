@@ -68,7 +68,7 @@ it will produce output like this:
  #include <stdio.h>
 -#include <stdarg.h>
 +#include <stdlib.h>
- 
+
  int main(void){
 +    printf("hello\r\n");
      return 0;
@@ -114,7 +114,7 @@ patch -R < main_c.patch
 After you understand the concept of patch, you dont need worry about using diff and patch command,
 because Git program will handle it automatically.
 
-But its recommended to review patches so you know how you programming progress going. 
+But its recommended to review patches so you know how you programming progress going.
 To see files that changes, use command:
 
 ```sh
@@ -154,7 +154,7 @@ The interface maybe a bit outdated (its Tk interface, what you expect?), but it 
 
 To access this program in a Windows computer, you can right-click on empty space at explorer in a Git folder, then click *Git GUI Here*.
 
-![images](images/gitguiwin.PNG?raw=true)
+![images](images/gitguiwin.PNG)
 
 In Linux, you may install Tk library first.
 For Debian/Ubuntu:
@@ -175,13 +175,13 @@ Then, you can use same command:
 git gui
 ```
 
-![images](images/gitguilinux.png?raw=true)
+![images](images/gitguilinux.png)
 
 The interface between Windows and Linux are mostly same.
 
 For regular Git workflow (Stage->Commit->Push), its done mostly in these button group:
 
-![images](images/gitguibutton.PNG?raw=true)
+![images](images/gitguibutton.PNG)
 
 ### Cola PyQt5
 
@@ -202,7 +202,7 @@ git cola
 
 It will open Cola interface like this
 
-![images](images/gitcolawin.PNG?raw=true)
+![images](images/gitcolawin.PNG)
 
 For Debian/Ubuntu:
 
@@ -218,13 +218,13 @@ Then you can open terminal in a Git directory path and use same command:
 git cola
 ```
 
-![images](images/gitcolalinux.png?raw=true)
+![images](images/gitcolalinux.png)
 
 For regular Git workflow (Stage->Commit->Push), its done mostly in these menu:
 
-![images](images/gitcolacommit.png?raw=true)
+![images](images/gitcolacommit.png)
 
-![images](images/gitcolapush.png?raw=true)
+![images](images/gitcolapush.png)
 
 ## Collaborative Git and Github
 
@@ -245,20 +245,20 @@ You give permission to other Github Account to push into your repository.
 
 To invite some as contributor in one of your repository, go to **Settings** in a repository
 
-![images](images/githubcollab_0.png?raw=true)
+![images](images/githubcollab_0.png)
 
 Then go to tab **Collaborators and Teams**
 
-![images](images/githubcollab_1.png?raw=true)
+![images](images/githubcollab_1.png)
 
 Here you can see a manager page to help you manage collaborators.
 You can invite people using button **Add People** and give them **Role** at least **Write**.
 
-![images](images/githubcollab_2.png?raw=true)
+![images](images/githubcollab_2.png)
 
 If they accept your invitation, they will able to push directly into your repository.
 
-**CAUTION:** If you are invited and has access to someone else repository, make sure you doing **git pull** 
+**CAUTION:** If you are invited and has access to someone else repository, make sure you doing **git pull**
 before doing modification to avoid conflicts with other people changes.
 
 ### Pull-Request Method
@@ -276,7 +276,7 @@ While **maintainer** as repository owner who decide to accept the patch or not.
 
 In a nutshell, the workflow will look like this
 
-![images](images/github-workflow.avif?raw=true)
+![images](images/github-workflow.avif)
 
 #### Contributor Forking
 
@@ -285,12 +285,12 @@ A Fork basically a copy of a repository in your own Github account.
 
 To fork a repository, click the Fork button
 
-![images](images/githubpr_0.png?raw=true)
+![images](images/githubpr_0.png)
 
 After forking done, you will have your own copy of that repository in your own Github account,
 with the repository's name indicate its a forked repository from someone else
 
-![images](images/githubpr_1.png?raw=true)
+![images](images/githubpr_1.png)
 
 #### Contributor Working
 
@@ -309,13 +309,13 @@ After push to your fork done, you can ask the maintainer to merge your modificat
 
 Click **Contibute** menu and click **Open Pull Request**
 
-![images](images/githubpr_2.png?raw=true)
+![images](images/githubpr_2.png)
 
 #### Maintainer Review and Merge Pull-Request
 
 If you happen the maintainer, you can see pull requests in the tab **Pull requests**
 
-![images](images/githubpr_3.png?raw=true)
+![images](images/githubpr_3.png)
 
 Here you can review and merge patch from contrbutors.
 Merged pull request will recorded as new commit into repository.
@@ -326,11 +326,11 @@ If you dont really fancy do programming, you still can contribute by reporting p
 
 Use **Issues** tab to open new thread and report your found problems and bugs
 
-![images](images/githubpr_4.png?raw=true)
+![images](images/githubpr_4.png)
 
 Also you can suggest or ask new features or improvements using **Discussions** tab
 
-![images](images/githubpr_5.png?raw=true)
+![images](images/githubpr_5.png)
 
 At this point, you use Github just like other social media platform to improves a project repository.
 This absolutely still counted as contribution.

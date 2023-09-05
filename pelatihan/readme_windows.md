@@ -38,7 +38,6 @@ Minimal required modules:
 - matplotlib
 
 Interface options to install:
-- ipython
 - spyder
 - notebook
 
@@ -46,7 +45,7 @@ Open command prompt using Win+R, type **cmd**, then Enter.
 Then type this to install recommended modules:
 
 ```sh
-pip install numpy scipy matplotlib spyder
+pip install numpy scipy matplotlib spyder notebook
 ```
 
 then type on **cmd**:

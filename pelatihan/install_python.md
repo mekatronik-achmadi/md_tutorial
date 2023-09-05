@@ -165,10 +165,8 @@ Some common scientific modules:
 - scikit-learn
 
 Some advance Python interfaces:
-- ipython
 - spyder
 - notebook
-- jupyterlab
 
 In case you need GUI toolkits:
 - pyqt5 or pyqt6

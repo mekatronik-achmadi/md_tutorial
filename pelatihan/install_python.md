@@ -166,6 +166,7 @@ Some common scientific modules:
 
 Some advance Python interfaces:
 - ipython
+- spyder
 - notebook
 - jupyterlab
 

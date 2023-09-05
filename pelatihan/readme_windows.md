@@ -15,14 +15,20 @@ Git For Windows: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/bl
 
 Github Registration: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/github_signup.md)
 
-Classic Token Setup: [Github Token](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github_token.md)
+Classic Token Setup: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/electronic/tutorials/github_token.md)
 
 ### Python
 
-Windows Installer: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_python.md)
+Windows Installer: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_python.md#python-installer)
 
-- [Bash Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_bash.md)
-- [Text Editor Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_editor.md)
-- [More Contents](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/more_contents.md)
-- [WSL Installation](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_wsl.md)
+PIP Module Install: [Tutorial](https://github.com/mekatronik-achmadi/md_tutorial/blob/master/pelatihan/install_python.md#pip)
 
+Minimal required modules:
+- numpy
+- scipy
+- matplotlib
+
+Interface options to install:
+- ipython
+- spyder
+- notebook

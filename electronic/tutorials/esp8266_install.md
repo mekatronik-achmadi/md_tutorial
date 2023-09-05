@@ -102,7 +102,7 @@ You can download those drivers here:
 Best library to use is Espressif's ESP-RTOS that compatible API with ESP-IDF.
 It included all essential IoT protocol implementations with multithreading provided by FreeRTOS.
 
-You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp8266-rtos/PKGBUILD)
+You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/optional/esp8266-rtos/PKGBUILD)
 
 ---
 

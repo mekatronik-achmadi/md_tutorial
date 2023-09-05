@@ -88,7 +88,7 @@ It included all essential IoT protocol implementations with multithreading provi
 
 #### ArchLinux/Manjaro
 
-You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/esp32-idf/PKGBUILD)
+You can use this [PKGBUILD](https://github.com/mekatronik-achmadi/archmate/blob/master/packages/pkgbuild/optional/esp32-idf/PKGBUILD)
 
 ---
 

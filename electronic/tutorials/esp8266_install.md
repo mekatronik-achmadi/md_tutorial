@@ -141,25 +141,18 @@ In the binary compiling process, ESP-IDF/RTOS utilize some Python modules to par
 #### ArchLinux/Manjaro
 
 GNU/Linux generally already had good installation of Python environment.
-However, we need KConfigLib and PyParsing in a bit older version since latest version break the ESP-IDF API.
+However, we need additional Python modules for ESP-IDF enviroment works well.
 
-Follow these commands to install KConfigLib and PyParsing 2.2.0 in a virtual enviroment:
+First, install Python 3.9 from this [AUR](https://aur.archlinux.org/packages/python39).
+
+Then follow these commands to install in a virtual enviroment:
 
 ```sh
 cd $HOME
-virtualenv esp8266 --system-site-packages
+virtualenv --python=/usr/bin/python3.9 esp8266 --system-site-packages
 
 source $HOME/esp8266/bin/activate
-pip install --no-deps kconfiglib
-pip install --no-deps pyparsing==2.2.0
-deactivate
-```
-
-to test installation
-
-```sh
-source ~/esp8266/bin/activate
-python -c "import pyparsing;print(pyparsing.__version__)"
+pip install kconfiglib future cryptography pyserial pyparsing==2.2.0
 deactivate
 ```
 

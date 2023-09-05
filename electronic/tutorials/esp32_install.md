@@ -132,23 +132,19 @@ In the binary compiling process, ESP-IDF utilize some Python modules to parse an
 #### ArchLinux/Manjaro
 
 GNU/Linux generally already had good installation of Python environment.
+However, we need additional Python modules for ESP-IDF enviroment works well.
 
-First, set IDF path to environment using command:
+First, install Python 3.9 from this [AUR](https://aur.archlinux.org/packages/python39).
 
-```sh
-export IDF_PATH=/opt/esp-idf/
-```
-
-Next, disable Windows NCurses environment
+Then follow these commands to install in a virtual enviroment:
 
 ```sh
-sudo sed -i '/esp-windows-curses/d' /opt/esp-idf/requirements.txt
-```
+cd $HOME
+virtualenv --python=/usr/bin/python3.9 esp32 --system-site-packages
 
-Then, all you have to do is install required all Python modules:
-
-```sh
-python3 -m pip install --user -r $IDF_PATH/requirements.txt
+source $HOME/esp32/bin/activate
+pip install kconfiglib future cryptography pyserial pyparsing==2.2.0
+deactivate
 ```
 
 ---

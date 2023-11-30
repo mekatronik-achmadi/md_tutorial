@@ -83,7 +83,7 @@ Using SWD, you need ST-Link device (preferrably not Chinese clone) connected to 
 
 Install STSW to use ST-Link, you can download from ST's Official Web or get our package [here](https://drive.google.com/file/d/17PP_mZ2qHATJZAJOSbEJMLryBORNO2R2/view?usp=sharing)
 
-**Note**: To run STLinkUtility, you may need Visual C++ Redistributable 32bit (x86). You can get [here](https://aka.ms/vs/16/release/vc_redist.x86.exe).
+**Note**: To run STLinkUtility, you may need Visual C++ Redistributable 32bit (x86) [here](https://aka.ms/vs/16/release/vc_redist.x86.exe) or 64bit (x64) [here](https://aka.ms/vs/16/release/vc_redist.x64.exe)..
 
 ![images](images/stlink.png)
 
